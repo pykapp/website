@@ -246,10 +246,11 @@ suivant.
   commentaires sont la liste, et leur nombre est celui qu'il y a à l'écran. Le
   seul nombre au sujet des réponses est dans la question posée avant de
   supprimer un commentaire qui en a, et il compte ce que ce geste va emporter.
-- *signaler* se trouve à côté du commentaire de quelqu'un d'autre et jamais à
-  côté du vôtre, que vous pouvez simplement supprimer. Ce que nous recevons est
-  un pointeur et ce que vous tapez&#160;; voir la [politique de
-  modération](/moderation/).
+- Un commentaire n'a pas de *signaler* à lui. Signalez la publication sous
+  laquelle il se trouve, depuis *options*, ou la personne qui l'a écrit, depuis
+  *options* sur son profil. Un commentaire sous votre propre publication, vous
+  pouvez simplement le supprimer. Ce que nous recevons est un pointeur et ce que
+  vous tapez&#160;; voir la [politique de modération](/moderation/).
 
 ## Les réactions
 

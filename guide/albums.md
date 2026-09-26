@@ -144,8 +144,9 @@ audience, so the remedy is the album itself: leave it, or do not put the
 photograph in there.
 
 You can report a contribution the way you would report any post, under *more →
-report*. The member list itself has no report control, so a co-member you have
-no connection to is reported for what they contributed. The
+report*. The member list itself has no report control, and a comment has none
+either, so a co-member you have no connection to is reported for what they
+contributed, and for what they said only through the post it sits under. The
 [moderation policy](/moderation/) says what happens next.
 
 ## In an album, everybody hears every comment
@@ -261,8 +262,8 @@ and whether each recipient has seen a contribution and when they first did.
 Nobody is ever told that last one. The [privacy policy](/privacy/) says the
 same for the rest of the app.
 
-Two smaller consequences. A report is about a post, a comment or a person, and
-never about an album, because we can act on a post or an account and not on a
+Two smaller consequences. A report is about a post or a person, and never
+about an album, because we can act on a post or an account and not on a
 room. And
 if you export your data, your own contributions are in it, because they are
 posts you made; other members' contributions are not, even though your phone

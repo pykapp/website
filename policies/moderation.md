@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 24 September 2026.
+**Last updated:** 26 September 2026.
 
 ## What we cannot do
 
@@ -19,7 +19,7 @@ the photo.
 
 ## What a report contains
 
-When you report a post, a comment or a person, we receive:
+When you report a post or a person, we receive:
 
 - who filed the report;
 - what it points at, and which account that thing belongs to;

@@ -8,7 +8,7 @@ against child sexual abuse and exploitation, which Google Play requires every
 app in its social category to publish. Ours is short, because most of what
 such a standard usually has to describe cannot happen here by construction.
 
-**Last updated:** 22 September 2026.
+**Last updated:** 26 September 2026.
 
 ## The rule
 
@@ -54,8 +54,9 @@ on accounts, and prevention by design, rather than detection in content.
 
 ## Reporting
 
-**In the app.** Every post, every comment and every person carries **report**.
-The report says what it points at and which account that belongs to, and what
+**In the app.** **report** is under **more** on a post, on a person's profile,
+and on a request somebody sends you. A comment has no **report** of its own, so
+report the post it is under or the person who wrote it. The report says what it points at and which account that belongs to, and what
 you write in the box reaches us in the clear, unlike everything else. The
 person reported is never told that a report exists, or who filed it.
 

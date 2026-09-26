@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 22 septembre 2026.**
+**Dernière mise à jour&#160;: 26 septembre 2026.**
 
 ## La règle
 
@@ -62,8 +62,10 @@ plutôt qu'à détecter dans les contenus.
 
 ## Signaler
 
-**Dans l'application.** Chaque publication, chaque commentaire et chaque
-personne porte **signaler**. Le signalement indique ce qu'il vise et à quel
+**Dans l'application.** **signaler** se trouve sous **options** sur une
+publication, sur le profil d'une personne et sur une demande qu'on vous envoie.
+Un commentaire n'a pas de **signaler** à lui, alors signalez la publication sous
+laquelle il se trouve ou la personne qui l'a écrit. Le signalement indique ce qu'il vise et à quel
 compte cela appartient, et ce que vous écrivez dans la boîte nous parvient en
 clair, contrairement à tout le reste. La personne signalée n'apprend jamais
 qu'un signalement existe, ni qui l'a déposé.

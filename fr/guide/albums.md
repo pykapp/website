@@ -154,8 +154,9 @@ y mettre la photo.
 
 Vous pouvez signaler une contribution comme vous signaleriez n'importe quelle
 publication, sous *options → signaler*. La liste des membres elle-même n'a pas
-de commande de signalement, donc un co-membre avec qui vous n'avez aucune
-relation est signalé pour ce qu'il a versé. La [politique de
+de commande de signalement, et un commentaire non plus, donc un co-membre avec
+qui vous n'avez aucune relation est signalé pour ce qu'il a versé, et pour ce
+qu'il a dit seulement par la publication sous laquelle il l'a dit. La [politique de
 modération](/moderation/) dit ce qui se passe ensuite.
 
 ## Dans un album, tout le monde entend chaque commentaire
@@ -284,8 +285,8 @@ contribution et quand il l'a vue pour la première fois. Personne n'est jamais
 informé de ce dernier point. La [politique de
 confidentialité](/privacy/) dit la même chose pour le reste de l'application.
 
-Deux conséquences plus petites. Un signalement porte sur une publication, un
-commentaire ou une personne, et jamais sur un album, parce que nous pouvons
+Deux conséquences plus petites. Un signalement porte sur une publication ou une
+personne, et jamais sur un album, parce que nous pouvons
 agir sur une publication ou un compte et pas sur une pièce. Et si vous exportez vos données, vos
 propres contributions y sont, parce que ce sont des publications que vous avez
 faites&#160;; celles des autres membres n'y sont pas, même si votre téléphone

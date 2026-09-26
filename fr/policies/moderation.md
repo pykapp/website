@@ -11,7 +11,7 @@ permalink: /fr/politique-de-moderation/
 dire pour la modération, franchement, parce que ce n'est pas ce que la plupart
 des applications entendent par là.
 
-**Dernière mise à jour&#160;:** 24 septembre 2026.
+**Dernière mise à jour&#160;:** 26 septembre 2026.
 
 ## Ce que nous ne pouvons pas faire
 
@@ -25,8 +25,7 @@ recevons pas la photo.
 
 ## Ce que contient un signalement
 
-Quand vous signalez une publication, un commentaire ou une personne, nous
-recevons&#160;:
+Quand vous signalez une publication ou une personne, nous recevons&#160;:
 
 - qui a déposé le signalement&#160;;
 - ce qu'il vise, et à quel compte cette chose appartient&#160;;

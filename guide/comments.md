@@ -216,9 +216,10 @@ the next one.
   number is however many are on the screen. The one number about replies is in
   the question the app asks before you delete a comment that has some, and it
   counts what that tap is about to take.
-- *report* sits beside somebody else's comment and never beside your own,
-  which you can simply delete. What we receive is a pointer and what you type;
-  see the [moderation policy](/moderation/).
+- A comment has no *report* of its own. Report the post it sits under, from
+  *more*, or the person who wrote it, from *more* on their profile. A comment
+  under your own post you can simply delete. What we receive is a pointer and
+  what you type; see the [moderation policy](/moderation/).
 
 ## Reactions
 
