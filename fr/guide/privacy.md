@@ -239,8 +239,11 @@ historique est prévenu de ce qu'il détient. Rien ne l'efface au bout d'un
 délai, parce que l'application ne peut pas savoir quand vous avez collé.
 
 Copier ne rend pas la phrase récupérable ensuite. Dans les *paramètres*, la
-ligne *phrase de récupération* dit *notée* ou *pas encore notée*, et jamais les
-mots.
+ligne *phrase de récupération* dit *sauvegardée* ou *pas sauvegardée*, et
+jamais les mots. La toucher crée six nouveaux mots et les montre une fois. Si
+une phrase était sauvegardée, les six anciens mots ne fonctionnent plus, et un
+compte qui a une adresse e-mail reçoit un message disant que la phrase a
+changé.
 
 ### Ce que sa perte coûte
 
@@ -249,6 +252,10 @@ les photos sont perdues, et il n'y a ni procédure ni recours. Soyez précis sur
 la paire, cependant&#160;: perdre la phrase seule ne coûte rien tant qu'un
 téléphone détient encore la clé, et perdre tous les téléphones ne coûte rien
 tant que la phrase survit. C'est les deux ensemble.
+
+Donc si vous perdez la phrase, créez-en une nouvelle tant qu'un téléphone a
+encore l'application connectée&#160;: touchez *phrase de récupération* dans les
+*paramètres*.
 
 Ce que nous pouvons faire à la sauvegarde scellée, c'est refuser de la rendre,
 ou en rendre une plus ancienne. Les deux vous coûtent une restauration. Aucun

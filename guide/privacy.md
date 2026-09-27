@@ -218,6 +218,9 @@ pasted it.
 
 Copying does not make the phrase retrievable later. In *settings* the
 *recovery phrase* row says *saved* or *not saved*, and never the words.
+Tapping it makes six new words and shows them once. If a phrase was saved, the
+old six words stop working, and an account with an email address gets a
+message saying the phrase changed.
 
 ### What losing it costs
 
@@ -226,6 +229,9 @@ are gone, and there is no procedure and no appeal. Be precise about the pair,
 though: losing the phrase alone costs nothing while a phone still holds the
 key, and losing every phone costs nothing while the phrase survives. It is
 both together.
+
+So if you lose the phrase, make a new one while a phone still has the app
+signed in: tap *recovery phrase* in *settings*.
 
 What we can do to the sealed backup is refuse to hand it back, or hand back an
 older one. Both cost you a restore. Neither reads a photograph.
