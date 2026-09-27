@@ -27,8 +27,10 @@ Scellé sur votre téléphone, avec des clés que nous ne voyons jamais&#160;:
 
 En clair, parce que livrer quoi que ce soit l'exige&#160;:
 
-- votre pseudo et l'adresse de courriel avec laquelle vous vous êtes
-  inscrit&#160;;
+- votre pseudo, et les moyens d'entrer que le compte détient&#160;: une adresse
+  de courriel, un mot de passe, ou les deux. Pour un mot de passe, nous
+  détenons une clé publique que votre téléphone en a tirée, et jamais le mot de
+  passe lui-même&#160;;
 - avec qui vous êtes en relation et depuis quand, ainsi que les demandes
   d'ajout que vous envoyez et recevez et les blocages que vous posez&#160;;
 - les noms de vos groupes, et dans lesquels de vos groupes une personne se
@@ -263,8 +265,9 @@ des deux ne lit une photo.
 
 ## Se connecter sur un nouveau téléphone
 
-Le code envoyé par courriel prouve que vous contrôlez l'adresse. Savoir si ce
-téléphone peut *être* ce compte est une question distincte, et la clé en est la
+Le code prouve que vous contrôlez l'adresse à laquelle il a été envoyé, et un
+mot de passe prouve que vous connaissez le mot de passe. Savoir si ce téléphone
+peut *être* ce compte est une question distincte, et la clé en est la
 réponse. Trois choses peuvent arriver&#160;: la clé déjà sur le téléphone
 correspond au compte, et vous entrez&#160;; le téléphone avait gardé la clé de
 ce compte d'une connexion antérieure, il l'adopte, et vous entrez&#160;; ou
@@ -671,6 +674,13 @@ bords.
 - **La rétention.** Nous pouvons refuser de rendre la sauvegarde scellée de
   votre clé, ou en rendre une plus ancienne. Les deux vous coûtent une
   restauration&#160;; aucun ne lit une photo.
+- **Un mot de passe qu'on peut deviner.** La clé que nous détenons pour un mot
+  de passe permet de vérifier si un essai est le bon, comme tout mot de passe
+  enregistré. Nous pourrions le faire, et quiconque prendrait une copie de
+  notre base de données aussi, sans limite sur le nombre d'essais. Chaque essai
+  coûte le même calcul délibérément lent que fait votre téléphone, et un long
+  mot de passe met cela hors de portée. Un mot de passe deviné ouvre le compte
+  et jamais les photos&#160;: seuls vos six mots le font.
 - **La longueur.** Le chiffré fait à peu près la longueur de ce qui y est
   entré, donc nous pouvons dire approximativement la longueur d'une légende.
   Rien ne la rembourre.

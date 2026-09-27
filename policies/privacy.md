@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 25 September 2026. This policy covers the closed beta.
+**Last updated:** 27 September 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
@@ -77,13 +77,15 @@ number, and when each was last saved.
 
 To deliver a photo to the right people we hold, in the clear:
 
-- your handle, and your email address if you gave us one. An account without
-  one is opened with a password, and what we hold for it is not the password
-  but a public key your phone made from it, which we cannot turn back into the
-  password. If we were full when
-  you tried to join and you asked to be told when there is room, we hold that
-  address and when you asked, and nothing else, until we have written to it
-  about a place;
+- your handle, and your email address if you gave us one;
+- if you set a password, a public key your phone made from it and the settings
+  your phone needs to make that key again. We never receive the password
+  itself. The key cannot be turned back into it, though it can be used to test
+  guesses at it, as any stored password can. An account keeps at least one of
+  the two, an email address or a password, and may have both;
+- if we were full when you tried to join and you asked to be told when there
+  is room, the address you gave and when you asked, and nothing else, until we
+  have written to it about a place;
 - who you are connected to, and when you connected;
 - add requests you send and receive, blocks you place, and anybody whose
   posts you have muted (a mute is yours alone; the other person is never
@@ -146,8 +148,9 @@ We use what we hold for these things and nothing else:
   the bug reports you choose to send;
 - to do what the law requires of us.
 
-An email address, a handle and your date of birth are what an account needs:
-without them we cannot make one. Everything else is yours to give or not.
+A handle, your date of birth, and an email address or a password are what an
+account needs: without them we cannot make one. Everything else is yours to
+give or not.
 
 ## Where it is held, and for how long
 
@@ -193,9 +196,11 @@ We keep what is above for as long as your account exists, and then:
   or the email address an error was about;
 - the counts your phone sends are added to a total on arrival and are never
   stored against your account, so there is nothing to keep;
-- the record of a search is swept after the hour it is rate-limited over, and
-  one-time sign-in codes, with the address they were sent to, after two days,
-  which is what the limit on wrong guesses needs to read;
+- the record of a search is swept after the hour it is rate-limited over;
+- one-time sign-in codes, with the address they were sent to, and the record
+  of each password sign-in, with the handle it was for and how many wrong
+  guesses it drew, are swept after two days, which is what the limits on wrong
+  guesses need to read;
 - after deletion we keep only the record described under *Deleting your
   account* below.
 
@@ -237,8 +242,10 @@ We keep what is above for as long as your account exists, and then:
   - in the United States, your state attorney general.
 
 To ask for any of this, write to pykapp+privacy@proton.me from the address on
-your account. We do not charge for any of it, we will not make you justify
-asking, and we answer as soon as we can and within four weeks at the latest.
+your account. If your account has no address, write from any address and give
+your handle, and we will ask you for something only the account's owner could
+know. We do not charge for any of it, we will not make you justify asking, and
+we answer as soon as we can and within four weeks at the latest.
 
 ## If something goes wrong
 
@@ -342,7 +349,8 @@ to ask without it:
 - albums you made are closed, and the people in them keep what they already
   had from each other;
 - every phone you were signed in on is signed out;
-- your handle and your email address are freed.
+- your handle and any email address are freed, and any key made from a
+  password is deleted.
 
 Eight days later the encrypted files are removed from storage. Those eight
 days are not an undo: the keys were destroyed at the tap and nothing in the
@@ -371,10 +379,10 @@ handles of the people you were connected to. It is decrypted on your phone,
 because we could not produce it: we hold nothing readable to give you.
 
 If you no longer have the phone, write to pykapp+privacy@proton.me from the
-address on your account and we will send what we hold within four weeks: your
-account record, the handles of your connections, and the encrypted files and
-the locked keys if you want them. We cannot send readable photographs, because
-we cannot read them.
+address on your account, or with your handle if it has no address, and we will
+send what we hold within four weeks: your account record, the handles of your
+connections, and the encrypted files and the locked keys if you want them. We
+cannot send readable photographs, because we cannot read them.
 
 ## Children
 

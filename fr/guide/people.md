@@ -111,13 +111,17 @@ question.
 qui le connaissaient ne vous trouveront plus ensuite, et quelqu'un d'autre peut
 le prendre.
 
-Les codes de connexion vont à une adresse de courriel pour l'instant, parce que
-nous savons envoyer un courriel et pas encore un message texte. La recherche a
-perdu cette adresse au même moment, et pour une raison plutôt que deux&#160;:
-un compte n'en venait à détenir un numéro qu'en en vérifiant un à
-l'inscription, et une inscription ne peut plus en atteindre un. Aucune ligne
-n'en détient, donc le champ offrait une clé qui ne pouvait jamais correspondre
-et facturait un essai de recherche pour rien.
+Un code de connexion va à une adresse de courriel et nulle part
+ailleurs&#160;: l'application n'envoie pas de messages texte. La recherche ne
+prend pas de numéro non plus, et pour la même raison. Un compte ne peut en
+venir à détenir un numéro qu'en y recevant un code, donc le champ offrirait une
+clé qui ne peut jamais correspondre, et facturerait un essai de recherche pour
+rien.
+
+Un compte peut aussi ne détenir **aucune adresse**, et s'ouvrir avec un mot de
+passe à la place. Quelqu'un qui s'est inscrit ainsi se trouve par son pseudo et
+par rien d'autre, ce qui est le compromis qu'il a choisi&#160;: nous ne détenons
+aucune adresse pour lui.
 
 ## Demander à ajouter quelqu'un
 

@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 25 septembre 2026. Cette politique couvre la
+**Dernière mise à jour&#160;:** 27 septembre 2026. Cette politique couvre la
 bêta fermée.
 
 ## Qui est responsable, et où ceci s'applique
@@ -94,11 +94,18 @@ enregistrée pour la dernière fois.
 
 Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 
-- votre pseudo, et l'adresse de courriel avec laquelle vous vous êtes inscrit.
-  Si nous étions complets quand vous avez essayé de vous inscrire et que vous
-  avez demandé à être prévenu quand il y aurait de la place, nous détenons cette
-  adresse et le moment de la demande, et rien d'autre, jusqu'à ce que nous lui
-  ayons écrit au sujet d'une place&#160;;
+- votre pseudo, et votre adresse de courriel si vous nous en avez donné
+  une&#160;;
+- si vous avez défini un mot de passe, une clé publique que votre téléphone en
+  a tirée et les réglages dont votre téléphone a besoin pour refaire cette clé.
+  Nous ne recevons jamais le mot de passe lui-même. On ne peut pas le retrouver
+  à partir de la clé, mais la clé permet de vérifier si un essai est le bon,
+  comme tout mot de passe enregistré. Un compte garde au moins l'un des deux,
+  une adresse de courriel ou un mot de passe, et peut avoir les deux&#160;;
+- si nous étions complets quand vous avez essayé de vous inscrire et que vous
+  avez demandé à être prévenu quand il y aurait de la place, l'adresse que vous
+  avez donnée et le moment de la demande, et rien d'autre, jusqu'à ce que nous
+  lui ayons écrit au sujet d'une place&#160;;
 - avec qui vous êtes en relation, et depuis quand&#160;;
 - les demandes d'ajout que vous envoyez et recevez, les blocages que vous
   posez, et toute personne dont vous avez masqué les publications (un masquage
@@ -172,9 +179,9 @@ d'autre&#160;:
   envoie et aux rapports de problème que vous choisissez d'envoyer&#160;;
 - faire ce que la loi exige de nous.
 
-Une adresse de courriel, un pseudo et votre date de naissance sont ce dont un
-compte a besoin&#160;: sans eux, nous ne pouvons pas en créer un. Tout le reste,
-vous le donnez ou non.
+Un pseudo, votre date de naissance, et une adresse de courriel ou un mot de
+passe sont ce dont un compte a besoin&#160;: sans eux, nous ne pouvons pas en
+créer un. Tout le reste, vous le donnez ou non.
 
 ## Où c'est détenu, et pour combien de temps
 
@@ -229,9 +236,12 @@ puis&#160;:
   ne sont jamais stockés à côté de votre compte, donc il n'y a rien à
   garder&#160;;
 - la trace d'une recherche est balayée après l'heure sur laquelle elle est
-  limitée, et les codes de connexion à usage unique, avec l'adresse à laquelle
-  ils ont été envoyés, après deux jours, ce dont la limite sur les mauvais
-  essais a besoin pour compter&#160;;
+  limitée&#160;;
+- les codes de connexion à usage unique, avec l'adresse à laquelle ils ont été
+  envoyés, et la trace de chaque connexion par mot de passe, avec le pseudo
+  qu'elle visait et le nombre de mauvais essais qu'elle a reçus, sont balayés
+  après deux jours, ce dont les limites sur les mauvais essais ont besoin pour
+  compter&#160;;
 - après la suppression, nous ne gardons que ce qui est décrit sous *Supprimer
   votre compte* plus bas.
 
@@ -278,9 +288,12 @@ puis&#160;:
   - aux États-Unis, le procureur général de votre État.
 
 Pour demander quoi que ce soit de cela, écrivez à pykapp+privacy@proton.me
-depuis l'adresse de votre compte. Nous ne facturons rien de tout cela, nous ne
-vous ferons pas justifier votre demande, et nous répondons dès que nous le
-pouvons et sous quatre semaines au plus tard.
+depuis l'adresse de votre compte. Si votre compte n'a pas d'adresse, écrivez
+depuis n'importe quelle adresse en donnant votre pseudo, et nous vous
+demanderons quelque chose que seul le propriétaire du compte pourrait savoir.
+Nous ne facturons rien de tout cela, nous ne vous ferons pas justifier votre
+demande, et nous répondons dès que nous le pouvons et sous quatre semaines au
+plus tard.
 
 ## Si quelque chose tourne mal
 
@@ -401,7 +414,8 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
 - les albums que vous avez faits sont fermés, et les gens qui y sont gardent ce
   qu'ils avaient déjà les uns des autres&#160;;
 - chaque téléphone où vous étiez connecté est déconnecté&#160;;
-- votre pseudo et votre adresse de courriel sont libérés.
+- votre pseudo et toute adresse de courriel sont libérés, et toute clé tirée
+  d'un mot de passe est supprimée.
 
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
@@ -436,11 +450,11 @@ C'est déchiffré sur votre téléphone, parce que nous ne pourrions pas le
 produire&#160;: nous ne détenons rien de lisible à vous donner.
 
 Si vous n'avez plus le téléphone, écrivez à pykapp+privacy@proton.me depuis
-l'adresse du compte et nous enverrons ce que nous détenons sous quatre
-semaines&#160;:
-votre fiche de compte, les pseudos de vos relations, et les fichiers chiffrés
-et les clés verrouillées si vous les voulez. Nous ne pouvons pas envoyer de
-photos lisibles, parce que nous ne pouvons pas les lire.
+l'adresse du compte, ou avec votre pseudo s'il n'a pas d'adresse, et nous
+enverrons ce que nous détenons sous quatre semaines&#160;: votre fiche de
+compte, les pseudos de vos relations, et les fichiers chiffrés et les clés
+verrouillées si vous les voulez. Nous ne pouvons pas envoyer de photos lisibles,
+parce que nous ne pouvons pas les lire.
 
 ## Les enfants
 

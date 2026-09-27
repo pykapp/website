@@ -8,7 +8,7 @@ than only a screen in the app because you may not have the app any more: an
 uninstalled app, a lost phone or an address you can no longer read are all
 reasons to be asking, and none of them should stand in the way.
 
-**Last updated:** 13 September 2026. This page covers the closed beta.
+**Last updated:** 27 September 2026. This page covers the closed beta.
 
 If you only want to delete one photograph, or one comment, [that is further
 down](#deleting-a-post-a-comment-or-a-picture) and it does not need us at all.
@@ -25,10 +25,10 @@ say that you want it deleted. That address is the one your sign-in codes go to,
 so a message from it shows what signing in would have shown. We delete the
 account within 30 days and write back when it is done.
 
-If you have lost that address as well, write from any address and give the
-handle you used. We will ask you for something only that account's owner could
-know, and we will refuse if it does not come: an account that anybody can
-delete by naming it is worse for you than a wait of a day or two.
+If the account has no address, or you have lost it, write from any address and
+give the handle you used. We will ask you for something only that account's
+owner could know, and we will refuse if it does not come: an account that
+anybody can delete by naming it is worse for you than a wait of a day or two.
 
 ## What deleting does
 
@@ -39,7 +39,8 @@ delete by naming it is worse for you than a wait of a day or two.
 - Albums you made are closed, and the people in them keep what they already had
   from each other.
 - Every phone you were signed in on is signed out.
-- Your handle and your email address are freed.
+- Your handle and any email address are freed, and any key made from a
+  password is deleted.
 
 Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product

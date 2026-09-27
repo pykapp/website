@@ -432,28 +432,41 @@ lisible par les gens à qui vous l'avez envoyée et pas par nous.
 ## Six mots, et personne ne peut vous les rendre
 
 Votre compte est une clé, et la clé vit sur votre téléphone. Un deuxième
-téléphone se connecte avec un code envoyé à votre adresse de courriel, découvre
-qu'il ne détient aucune clé, et demande les six mots qu'on vous a montrés à
+téléphone se connecte avec un code envoyé à votre adresse de courriel, ou avec
+votre mot de passe si c'est ce que le compte détient. Il découvre alors qu'il ne
+détient aucune clé, et demande les six mots qu'on vous a montrés à
 l'inscription. Il n'y a pas de code QR pour lier un appareil, parce qu'il y a
 une clé par personne plutôt qu'une par appareil.
 
-Si vous perdez les six mots et tous les téléphones qui détiennent la clé, le
-compte est perdu, y compris tout moyen d'y entrer et de le supprimer. Écrivez-
-nous depuis l'adresse du compte et nous le [supprimerons pour
-vous](/delete-account/), mais nous ne pouvons pas vous y laisser entrer et nous
-ne pouvons pas récupérer vos photos. Il n'existe pas de copie qui soit à nous
-pour vous la rendre, ce qui est la même phrase que «&#160;nous ne pouvons pas
-les lire&#160;» dite de l'autre côté. [Comment marche la
-confidentialité](/how-it-works/privacy/).
+Un mot de passe et les six mots ne sont pas interchangeables, et aucun des deux
+ne permet d'obtenir l'autre. Le mot de passe ouvre le compte&#160;; les six
+mots ouvrent les photos. Un nouveau téléphone a besoin des deux.
 
-Les six mots sont la clé, et l'adresse de courriel est la porte. Ce sont deux
-choses différentes à perdre, et pendant longtemps une seule des deux était
-écrite ici. Un code part vers cette adresse chaque fois que vous vous connectez
-sur un téléphone qui ne l'est pas déjà&#160;: une adresse que vous ne pouvez
-plus lire est donc un compte que vous ne pouvez plus ouvrir, quoi que vous ayez
-noté à l'inscription. Cela arrive bien plus couramment que de perdre un bout de
-papier&#160;: on quitte un emploi, on change de fournisseur, un vieux compte
-gratuit se verrouille tout seul.
+Si vous perdez les six mots et tous les téléphones qui détiennent la clé, le
+compte est perdu, y compris tout moyen d'y entrer et de le supprimer.
+Écrivez-nous depuis l'adresse du compte, ou avec votre pseudo s'il n'en a pas,
+et nous le [supprimerons pour vous](/fr/supprimer-votre-compte/), mais nous ne
+pouvons pas vous y laisser entrer et nous ne pouvons pas récupérer vos photos.
+Il n'existe pas de copie qui soit à nous pour vous la rendre, ce qui est la
+même phrase que «&#160;nous ne pouvons pas les lire&#160;» dite de l'autre
+côté. [Comment marche la confidentialité](/fr/confidentialite/).
+
+Les six mots sont la clé, et la porte est ce que le compte détient&#160;: une
+adresse de courriel ou un mot de passe. Ce sont deux choses différentes à
+perdre, et pendant longtemps une seule des deux était écrite ici. Un code part
+vers cette adresse chaque fois que vous vous connectez sur un téléphone qui ne
+l'est pas déjà&#160;: une adresse que vous ne pouvez plus lire est donc un
+compte que vous ne pouvez plus ouvrir, quoi que vous ayez noté à l'inscription.
+Cela arrive bien plus couramment que de perdre un bout de papier&#160;: on
+quitte un emploi, on change de fournisseur, un vieux compte gratuit se
+verrouille tout seul.
+
+Un compte qui n'a qu'un mot de passe connaît la forme la plus dure de ce
+problème&#160;: nous n'avons nulle part où envoyer quoi que ce soit, donc
+oublier le mot de passe, c'est perdre le compte, et personne ne peut vous
+laisser revenir. C'est le prix de ne nous laisser aucune adresse, et c'est
+pourquoi vous pouvez en ajouter une plus tard depuis les paramètres, le jour où
+vous le voulez.
 
 L'adresse peut donc être changée, depuis *paramètres → votre e-mail*, tant que
 vous êtes encore connecté. Vous tapez la nouvelle, nous y envoyons un code, et
@@ -481,11 +494,12 @@ décider de ce que cette personne en fait ensuite. Les
 L'application est sur Android seulement&#160;: pas d'application iPhone, pas de
 version web et pas de version bureau, donc il n'y a rien où se connecter dans
 un navigateur. Elle prend des photos, et des vidéos d'environ une minute. La
-connexion se fait par adresse de courriel, et les codes y vont&#160;; la
-recherche ne prend plus de numéro non plus, parce qu'un compte ne peut plus
-venir à en détenir un pour qu'elle corresponde. Les invitations sont délivrées
-à la main pendant la bêta fermée, donc il n'y a pas de lien d'invitation à
-envoyer à qui que ce soit.
+connexion se fait par un code envoyé à une adresse de courriel, ou par un mot de
+passe si le compte en a un. Il n'y a pas de messages texte, donc la recherche ne
+prend pas de numéro non plus&#160;: aucun compte ne peut en détenir un qu'elle
+trouverait. Les invitations sont délivrées à la main pendant
+la bêta fermée, donc il n'y a pas de lien d'invitation à envoyer à qui que ce
+soit.
 
 Si quelque chose ici n'est pas ce que vous attendiez, [comment ça
 marche](/fr/comment-ca-marche/) a la version longue de chacun de ces points.

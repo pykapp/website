@@ -25,9 +25,9 @@ Sealed on your phone, with keys we never see:
 
 In the clear, because delivering anything at all needs it:
 
-- your handle, and whichever way in the account holds: an email address,
-  or—for an account that gave us none—a public key your phone made from your
-  password, which we cannot turn back into the password;
+- your handle, and whichever ways in the account holds: an email address, a
+  password, or both. For a password we hold a public key your phone made from
+  it, and never the password itself;
 - who you are connected to and when you connected, along with the add
   requests you send and receive and the blocks you place;
 - the names of your groups, and which of your groups a person is in;
@@ -595,6 +595,12 @@ The claim above is narrower than "private", and these are its edges.
   Reactions are not sealed at all, so those are ours to write.
 - **Withholding.** We can refuse to hand back your sealed key backup, or hand
   back an older one. Both cost you a restore; neither reads a photograph.
+- **A password somebody can guess.** The key we hold for a password can be
+  used to test guesses at it, as any stored password can. We could do that,
+  and so could anybody who took a copy of our database, with no limit on how
+  many guesses. Each guess costs the same deliberately slow calculation your
+  phone does, and a long password puts it out of reach. A guessed password
+  opens the account and never the photographs: only your six words do that.
 - **Length.** Ciphertext is about as long as what went into it, so we can tell
   roughly how long a caption is. Nothing pads it.
 - **Things that are deliberately in the clear.** Reactions, group names and

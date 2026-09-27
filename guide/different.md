@@ -397,8 +397,8 @@ photographs. A new phone needs both.
 
 If you lose the six words and every phone that holds the key, the account is
 gone, including any way to get into it and delete it. Write to us from the
-address on the account and we will [delete it for you](/delete-account/), but
-we cannot let you back in and we cannot recover your photographs. There is no
+address on the account, or with your handle if it has none, and we will
+[delete it for you](/delete-account/), but we cannot let you back in and we cannot recover your photographs. There is no
 copy that is ours to hand back, which is the same sentence as "we cannot read
 them" said from the other side.
 [How the privacy works](/how-it-works/privacy/).
@@ -440,10 +440,10 @@ say the same thing in fewer words.
 The app is Android only: there is no iPhone app, no web version and no desktop
 version, so there is nothing to sign into in a browser. It takes photographs,
 and videos of about a minute. Signing in is by a code sent to an email address,
-or by a password on an account that holds none. There are no text messages, so
-search does not take a number either: an account cannot come to hold one for it
-to match. Invitations are issued by hand during the closed beta, so there is no invite
-link to send anybody.
+or by a password if the account has one. There are no text messages, so search
+does not take a number either: an account cannot come to hold one for it to
+match. Invitations are issued by hand during the closed beta, so there is no
+invite link to send anybody.
 
 If something here is not what you expected, [how it works](/how-it-works/) has
 the longer version of each of these.

@@ -13,7 +13,7 @@ peut-être plus l'application&#160;: une application désinstallée, un téléph
 perdu ou une adresse que vous ne pouvez plus lire sont autant de raisons de
 poser la question, et aucune ne doit y faire obstacle.
 
-**Dernière mise à jour&#160;:** 13 septembre 2026. Cette page décrit la bêta
+**Dernière mise à jour&#160;:** 27 septembre 2026. Cette page décrit la bêta
 fermée.
 
 Si vous voulez seulement supprimer une photo, ou un commentaire, [c'est plus
@@ -33,11 +33,12 @@ codes de connexion, donc un message venant d'elle montre ce que se connecter
 aurait montré. Nous supprimons le compte sous 30 jours et vous répondons quand
 c'est fait.
 
-Si vous avez perdu cette adresse aussi, écrivez depuis n'importe quelle adresse
-et donnez le pseudo que vous utilisiez. Nous vous demanderons quelque chose que
-seul le propriétaire de ce compte pourrait savoir, et nous refuserons si cela
-ne vient pas&#160;: un compte que n'importe qui peut supprimer en le nommant
-est pire pour vous qu'une attente d'un jour ou deux.
+Si le compte n'a pas d'adresse, ou si vous l'avez perdue, écrivez depuis
+n'importe quelle adresse et donnez le pseudo que vous utilisiez. Nous vous
+demanderons quelque chose que seul le propriétaire de ce compte pourrait
+savoir, et nous refuserons si cela ne vient pas&#160;: un compte que n'importe
+qui peut supprimer en le nommant est pire pour vous qu'une attente d'un jour ou
+deux.
 
 ## Ce que la suppression fait
 
@@ -49,7 +50,8 @@ est pire pour vous qu'une attente d'un jour ou deux.
 - Les albums que vous avez faits sont fermés, et les gens qui y sont gardent ce
   qu'ils avaient déjà les uns des autres.
 - Chaque téléphone où vous étiez connecté est déconnecté.
-- Votre pseudo et votre adresse de courriel sont libérés.
+- Votre pseudo et toute adresse de courriel sont libérés, et toute clé tirée
+  d'un mot de passe est supprimée.
 
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au

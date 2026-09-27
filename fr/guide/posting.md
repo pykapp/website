@@ -73,10 +73,13 @@ Une vidéo peut durer environ une minute. Une plus longue n'est pas refusée. Sa
 ligne porte *choisir quelle minute*, qui ouvre une image fixe de la vidéo avec
 un curseur dessous. Déplacer le curseur déplace le début de la minute gardée,
 et l'image suit, pour que vous trouviez le passage voulu en le regardant plutôt
-qu'en lisant des temps. Il n'y a de temps nulle part, et pas de seconde
-poignée, parce que la durée est toujours la même minute&#160;; aller jusqu'au
-bout garde la dernière. Si vous ne choisissez rien, la première minute est
-gardée.
+qu'en lisant des temps. La poignée du curseur occupe la même part de la ligne
+que la minute dans la vidéo entière&#160;: un tiers de la ligne pour une vidéo
+de trois minutes, presque toute la ligne pour une vidéo de soixante-dix
+secondes. Vous voyez ainsi combien vous gardez et où cela s'arrête. Il n'y a de
+temps nulle part, et pas de seconde poignée, parce que la durée est toujours la
+même minute&#160;; aller jusqu'au bout garde la dernière. Si vous ne choisissez
+rien, la première minute est gardée.
 
 ### Ce qui arrive à une vidéo
 
