@@ -459,6 +459,17 @@ il se trouvait soit retirée, et nous ne le servons à personne. Les entrées su
 ce que vous avez fait dans les listes d'activité des autres disparaissent sous
 128 jours.
 
+Une exception. Quand nous supprimons un compte parce qu'il participait à
+l'exploitation ou aux abus sexuels concernant des enfants, nous mettons d'abord
+de côté son adresse de courriel, son numéro de téléphone et son pseudo, quand
+il a été créé et a confirmé son âge, chaque téléphone qu'il a utilisé avec son
+jeton d'envoi, quand il s'est connecté, les personnes avec qui il était en
+relation, et quand il a publié et pour qui. Nous gardons cela pour le
+signalement que nous faisons au National Center for Missing & Exploited
+Children, un an à compter du signalement, comme l'exige la loi des États-Unis,
+puis nous le supprimons. Les [normes de protection des
+enfants](/fr/protection-des-enfants/) en disent plus.
+
 ## Exporter vos données
 
 *paramètres → exporter mes données* écrit sur votre téléphone un dossier

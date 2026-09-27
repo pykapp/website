@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 26 September 2026.
+**Last updated:** 27 September 2026.
 
 ## What we cannot do
 
@@ -62,8 +62,9 @@ what the reporter wrote. We can:
 - **A second removal from the same account within 90 days suspends that
   account as well.** Once is a mistake anybody can make. Twice is a pattern.
 - **A report of threats against somebody suspends the account at once.**
-- **Anything that sexualises a child is reported** as the [child safety
-  standards](/child-safety/) describe, and then the account is deleted.
+- **Anything that sexualises a child is reported**, and the account is
+  deleted with what we hold about it set aside for that report, as the [child
+  safety standards](/child-safety/) describe.
 - **Somebody whose reports keep being dismissed may be suspended themselves**,
   because filing a report you know to be untrue is against the terms.
 

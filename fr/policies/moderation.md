@@ -11,7 +11,7 @@ permalink: /fr/politique-de-moderation/
 dire pour la modération, franchement, parce que ce n'est pas ce que la plupart
 des applications entendent par là.
 
-**Dernière mise à jour&#160;:** 26 septembre 2026.
+**Dernière mise à jour&#160;:** 27 septembre 2026.
 
 ## Ce que nous ne pouvons pas faire
 
@@ -77,9 +77,10 @@ pouvons&#160;:
   c'est une habitude.
 - **Un signalement de menaces envers quelqu'un suspend le compte tout de
   suite.**
-- **Tout ce qui sexualise un enfant est signalé** comme le décrivent les
-  [normes de protection des enfants](/fr/protection-des-enfants/), puis le
-  compte est supprimé.
+- **Tout ce qui sexualise un enfant est signalé**, et le compte est supprimé
+  après que nous avons mis de côté ce que nous détenons à son sujet pour ce
+  signalement, comme le décrivent les [normes de protection des
+  enfants](/fr/protection-des-enfants/).
 - **Une personne dont les signalements sont sans cesse écartés peut être
   suspendue elle-même**, parce que déposer un signalement que l'on sait
   mensonger est contraire aux conditions.

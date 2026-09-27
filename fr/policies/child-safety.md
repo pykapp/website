@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 26 septembre 2026.**
+**Dernière mise à jour&#160;: 27 septembre 2026.**
 
 ## La règle
 
@@ -81,10 +81,15 @@ pas. C'est la seule partie d'un signalement que nous pouvons lire.
 Un compte dont nous constatons qu'il participe à l'exploitation ou aux abus
 sexuels concernant des enfants est supprimé, ce qui rompt chacune de ses
 relations et retire ses publications et ses commentaires pour tout le monde à
-la fois. Nous conservons alors les registres de compte que nous détenons, et
-nous signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
-qu'aux forces de l'ordre des juridictions qui s'appliquent à nous. Nous donnons
-suite aux demandes légales de ces autorités.
+la fois. Avant de le supprimer, nous mettons de côté les registres que nous
+détenons à son sujet&#160;: son adresse de courriel, son numéro de téléphone et
+son pseudo, la date de son inscription, les téléphones qu'il a utilisés, les
+personnes avec qui il était en relation, et quand il a publié et pour qui. Nous
+le signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
+qu'aux forces de l'ordre des juridictions qui s'appliquent à nous, et nous
+gardons ces registres un an à compter de notre signalement, comme l'exige la
+loi des États-Unis, puis nous les supprimons. Nous donnons suite aux demandes
+légales de ces autorités.
 
 ## Nous joindre
 

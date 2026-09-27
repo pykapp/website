@@ -384,6 +384,15 @@ post, who it was addressed to. A deleted comment's sealed text stays in its row
 until the post it was on is removed, and we serve it to nobody. Entries about
 what you did in other people's activity lists go within 128 days.
 
+One exception. When we delete an account because it was engaged in child
+sexual abuse or exploitation, we first set aside its email address, phone
+number and handle, when it joined and confirmed its age, each phone it used
+with that phone's push token, when it signed in, who it was connected to, and
+when it posted and to whom. We keep that for the report we make to the
+National Center for Missing & Exploited Children, for a year from the report,
+as United States law requires, and then delete it. The [child safety
+standards](/child-safety/) say more.
+
 ## Exporting your data
 
 *settings → export my data* writes a folder to your phone containing your
