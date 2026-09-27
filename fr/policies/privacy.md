@@ -111,6 +111,13 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   posez, et toute personne dont vous avez masqué les publications (un masquage
   n'appartient qu'à vous&#160;; la personne n'en est jamais informée)&#160;;
 - qui vous a invité, et qui vous avez invité&#160;;
+- le pays auquel votre téléphone était réglé quand vous vous êtes inscrit,
+  écrit une fois sur l'invitation que vous avez utilisée et jamais mis à jour.
+  Si votre téléphone ne l'a pas dit, l'invitation garde le pays de la personne
+  qui l'a partagée avec vous. Nous nous en servons seulement pour compter
+  combien de personnes nous servons dans chaque pays, parce que les lois de
+  certains pays commencent à s'appliquer quand un service y a assez
+  d'utilisateurs&#160;;
 - les noms de vos groupes, et dans lesquels de vos groupes une personne se
   trouve (jamais montré à cette personne)&#160;;
 - qui est dans chaque album où vous êtes&#160;;
@@ -224,6 +231,11 @@ puis&#160;:
 - quand vous supprimez votre compte, les clés partent aussitôt, la copie scellée
   de votre propre clé comprise, et les fichiers chiffrés quittent le stockage
   huit jours plus tard&#160;;
+- la deuxième copie des fichiers chiffrés suit le stockage en moins d'un jour,
+  et garde un fichier que le stockage a supprimé 30 jours de plus, au cas où il
+  aurait été supprimé par erreur. Un fichier que vous supprimez en est donc
+  parti en moins de six semaines, et d'ici là c'est du chiffré dont les clés
+  ont été détruites au moment où vous l'avez supprimé&#160;;
 - les sauvegardes de notre base de données sont gardées 35 jours, et la sortie
   de tout ce que nous lançons à la main sur la base est gardée 90 jours, donc
   une ligne supprimée aujourd'hui, celle d'un compte supprimé comprise, peut y
@@ -316,7 +328,10 @@ servir, et les métadonnées que cette page énumère.
 
 Personne, sauf si vous le partagez avec lui. Seules les personnes avec qui vous
 avez toutes deux accepté d'être en relation peuvent voir ce que vous publiez,
-et seuls les destinataires d'une publication la reçoivent. Il n'y a pas de
+et seuls les destinataires d'une publication la reçoivent. L'exception est un
+album&#160;: ce que vous y mettez est vu par tous ceux qui s'y trouvent, y
+compris des personnes avec qui vous n'êtes pas en relation, et l'album en donne
+la liste. Il n'y a pas de
 profil public, pas de recherche par nom, pas de suggestions, et aucun moyen
 pour un inconnu de vous trouver s'il ne connaît pas déjà votre pseudo ou votre
 adresse exacte, et si vous n'avez pas autorisé les demandes venant de personnes
@@ -422,24 +437,27 @@ jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
 moment de la touche et rien dans le produit ne peut les restaurer. Une ligne
 supprimée peut survivre à la touche dans une sauvegarde de notre base de données
 ou dans la sortie de quelque chose que nous avons lancé à la main, pendant les
-35 et les 90 jours où celles-ci sont gardées. Se connecter pendant ce temps avec
-la même adresse crée un nouveau compte, vide.
+35 et les 90 jours où celles-ci sont gardées. La deuxième copie des fichiers
+chiffrés garde chaque fichier 30 jours après qu'il a quitté le stockage, donc le
+dernier en est parti moins de six semaines après la touche. Se connecter pendant
+ce temps avec la même adresse crée un nouveau compte, vide.
 
 Ce que nous gardons ensuite l'est sous un identifiant qui ne porte plus votre
 nom, votre pseudo, votre adresse ni votre clé&#160;: le fait que le compte a
 existé, quand il a été créé, quand il a confirmé son âge et quand il a été
 supprimé&#160;; les blocages que vous avez posés ou qui ont été posés contre
 vous&#160;; les signalements que vous avez déposés ou qui ont été déposés à
-votre sujet, et les rapports de problème que vous avez envoyés&#160;; qui vous a
-invité et qui vous avez invité&#160;; les demandes d'ajout que vous avez
-envoyées et reçues, marquées annulées&#160;; quand vous vous êtes connecté sur
-chaque téléphone et l'avez utilisé pour la dernière fois&#160;; et les lignes de
-vos publications et de vos commentaires, marquées supprimées, qui disent encore
-quand chacun a été fait et, pour une publication, à qui elle était adressée. Le
-texte scellé d'un commentaire supprimé reste dans sa ligne jusqu'à ce que la
-publication où il se trouvait soit retirée, et nous ne le servons à personne.
-Les entrées sur ce que vous avez fait dans les listes d'activité des autres
-disparaissent sous 128 jours.
+votre sujet, et les rapports de problème que vous avez envoyés&#160;; qui vous
+a invité et qui vous avez invité, et le pays inscrit sur l'invitation que vous
+avez utilisée&#160;; les demandes d'ajout que vous avez envoyées et reçues,
+marquées annulées&#160;; quand vous vous êtes connecté sur chaque téléphone et
+l'avez utilisé pour la dernière fois&#160;; et les lignes de vos publications
+et de vos commentaires, marquées supprimées, qui disent encore quand chacun a
+été fait et, pour une publication, à qui elle était adressée. Le texte scellé
+d'un commentaire supprimé reste dans sa ligne jusqu'à ce que la publication où
+il se trouvait soit retirée, et nous ne le servons à personne. Les entrées sur
+ce que vous avez fait dans les listes d'activité des autres disparaissent sous
+128 jours.
 
 ## Exporter vos données
 

@@ -31,6 +31,8 @@ En clair, parce que livrer quoi que ce soit l'exige&#160;:
   de courriel, un mot de passe, ou les deux. Pour un mot de passe, nous
   détenons une clé publique que votre téléphone en a tirée, et jamais le mot de
   passe lui-même&#160;;
+- le pays auquel votre téléphone était réglé quand vous vous êtes inscrit,
+  écrit une fois et jamais mis à jour&#160;;
 - avec qui vous êtes en relation et depuis quand, ainsi que les demandes
   d'ajout que vous envoyez et recevez et les blocages que vous posez&#160;;
 - les noms de vos groupes, et dans lesquels de vos groupes une personne se
@@ -444,9 +446,10 @@ La même forme, partout où elle apparaît&#160;:
 
 - Supprimer une publication pour tout le monde détruit deux sortes de clé
   enveloppée, celles des destinataires et celle de l'auteur, au moment où vous
-  touchez. Les fichiers chiffrés quittent le stockage huit jours plus tard, ce
-  qui est du jeu opérationnel et pas un retour en arrière&#160;: huit jours
-  plus tard le chiffré est exactement aussi illisible qu'au premier jour.
+  touchez. Les fichiers chiffrés quittent le stockage huit jours plus tard, et
+  la deuxième copie que nous en gardons est partie en moins de six semaines.
+  Aucune de ces attentes n'est un retour en arrière&#160;: à la fin, le chiffré
+  est exactement aussi illisible qu'au premier jour.
 - [Sortir quelqu'un d'un album](/fr/albums/) supprime son appartenance et
   chaque clé enveloppée qu'il détenait pour les photos de cet album en une
   seule instruction, et tout ce qui est versé ensuite n'est enveloppé que pour

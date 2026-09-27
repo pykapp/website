@@ -46,12 +46,14 @@ Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product
 can restore them. A deleted row can outlive the tap in a backup of our database
 or in the output of something we ran by hand, for the 35 and 90 days those are
-kept. Signing in during that time with the same address starts a new, empty
-account.
+kept. The second copy of the encrypted files keeps each file for 30 days after
+it leaves storage, so the last of them is gone within six weeks of the tap.
+Signing in during that time with the same address starts a new, empty account.
 
 What we keep afterwards carries your name, handle, address and keys on none of
 it, and the [privacy policy](/privacy/) lists all of it: that the account
-existed, blocks, reports, who invited whom, the add requests you sent and
+existed, blocks, reports, who invited whom and the country on your invitation,
+the add requests you sent and
 received, when you signed in, and the rows of your posts and comments marked
 deleted.
 
@@ -62,7 +64,8 @@ everybody at once, and none of it can be undone.
 
 - A post: *more → delete for everyone*. Every key that let anybody open it is
   destroyed at that moment, yours and every recipient's. The encrypted files
-  are removed from storage eight days later, as they are when an account goes.
+  are removed from storage eight days later and from the second copy within six
+  weeks, as they are when an account goes.
 - A comment: *delete*, beside your own words. It stops being shown to anyone on
   that post. The sealed text stays until the post itself goes, unreadable to us
   the whole time.
@@ -70,7 +73,8 @@ everybody at once, and none of it can be undone.
 - Your name on somebody else's post: *more → remove my tag*. That also takes
   back the name and picture the tag let them see.
 - Your profile picture: *remove*, on your own profile. Nobody can fetch it from
-  that moment, and the file itself goes on the next sweep, within the hour.
+  that moment, and the file itself goes on the next sweep, within the hour,
+  and from the second copy within five weeks.
 - Everything you have shared with one person: remove them, or block them, and
   every key between the two of you is destroyed in both directions.
 

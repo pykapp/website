@@ -248,8 +248,9 @@ tierce personne&#160;; bloquer atteint aussi cette pièce, ce qui est une des
 différences décrites plus bas.
 
 Supprimer une publication est immédiat pour tout le monde. Les fichiers
-chiffrés quittent le stockage huit jours plus tard, et ces huit jours ne sont
-pas un retour en arrière&#160;: les clés sont parties au moment de la touche et
+chiffrés quittent le stockage huit jours plus tard, et la deuxième copie que
+nous en gardons en moins de six semaines. Aucune de ces attentes n'est un
+retour en arrière&#160;: les clés sont parties au moment de la touche et
 rien dans le produit ne peut les restaurer. La [politique de
 confidentialité](/privacy/) dit combien de temps une ligne supprimée peut
 survivre dans une sauvegarde de notre base de données.

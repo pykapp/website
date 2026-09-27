@@ -10,7 +10,7 @@ know* is delivered to people, not published to a place. There is no page it
 sits on for somebody to come across, no web address for it, and no setting
 that would make one. There is no such thing as a public post here.
 
-**Last updated:** 18 September 2026. This page covers the closed beta.
+**Last updated:** 27 September 2026. This page covers the closed beta.
 
 ## Choosing the photos and videos
 
@@ -53,9 +53,9 @@ file. Nothing is filtered, so nothing can be missed by a filter.
 The one thing kept is the moment the picture was taken, and it rides inside
 the sealed metadata rather than on the file, because writing a tag back onto a
 JPEG would mean putting a decrypted photograph on disk for the length of the
-write. Nothing in this pipeline writes a readable photograph anywhere but
-memory. The one deliberate exception is *save photo*, further down, which is
-the entire point of saving.
+write. The decoding and re-encoding happen in memory. What the app does write
+to your phone unencrypted, and for how long, is
+[listed further down](#what-is-written-to-your-phone-unencrypted).
 
 ## Posting a video
 
@@ -87,12 +87,12 @@ inside the sealed metadata, as a photograph's does. What you see on the row is
 a still of the converted video, and so is what everybody else sees before they
 tap it.
 
-The conversion is the one moment this app writes something you are posting to
-your phone's storage in the clear. A converter writes a file, so the converted
-copy sits in the app's own cache, which nothing backs up, for as long as it
-takes to seal, and it is deleted the moment it is sealed. It is a smaller copy
-of a video that is already in your library. Everything that leaves the phone is
-sealed under the post's key, a piece at a time.
+A converter writes a file, so the converted copy sits unencrypted in the app's
+own cache, which nothing backs up, for as long as it takes to seal, and it is
+deleted the moment it is sealed. It is one of
+[four things](#what-is-written-to-your-phone-unencrypted) the app writes to
+your phone unencrypted. Everything that leaves the phone is sealed under the
+post's key, a piece at a time.
 
 ### How a video plays
 
@@ -313,9 +313,8 @@ promise something we do not keep.
 
 ## There are no drafts
 
-Nothing about a post you have not sent is written to your phone. The
-photographs you picked, the caption you typed and the boxes you ticked live in
-the screen and go with it.
+A post you have not sent is not saved. The photographs you picked, the caption
+you typed and the boxes you ticked live in the screen and go with it.
 
 So leaving asks, once, if you have chosen or typed anything. The dialog is
 titled *discard* and says: *Nothing will be posted, and what you have chosen
@@ -341,6 +340,29 @@ was posted.* Under it are the same two things any post that stopped carries:
 *discard*, which throws it away and deletes the copies with it. Nothing is
 ever sent again on its own. A post you composed on Tuesday does not go out on
 Thursday because you happened to open the app.
+
+## What is written to your phone unencrypted
+
+Everything that leaves your phone is sealed. Before that, four things are
+written to your phone's storage unencrypted. All four are in the app's own
+storage, which no backup copies and no other app can read.
+
+- **A photograph you take with *take a photo*.** It goes into the app's own
+  folder and not your library, so until you post it, that file is the only
+  copy. It is deleted the next time you open the app and take a photograph, if
+  it has not been cleared before then, and at once if you back out.
+- **On an iPhone, a copy of every photograph and video you choose.** The
+  iPhone's picker lends the app a file and takes it back straight away, so the
+  app keeps a copy of its own. It is deleted the next time you open the app and
+  choose or take something, if it has not been cleared before then.
+- **A copy of each photograph and video in a post you have sent**, until the
+  post goes out or you discard it, as the section above says.
+- **A converted video**, while it is being sealed. It is deleted the moment it
+  is sealed.
+
+*save photo*, *save video* and *export my data* write decrypted copies too,
+because that is what you asked for. Those land where you can find them, and
+each is described where it happens.
 
 ## Sharing a post with more people afterwards
 
@@ -414,7 +436,7 @@ same as with any other way of sending a photograph.
 
 *more → delete for everyone*, on your own post. The confirmation is a sentence
 rather than "are you sure": *Everyone loses this photo straight away, and it
-cannot be brought back. The files come off our servers on 20 september.*
+cannot be brought back. The files are gone from our servers by 23 october.*
 
 At the tap, every wrapped copy of the post key is destroyed: the recipients'
 copies and your own. The comments were sealed under that same key, so they
@@ -423,10 +445,14 @@ reactions go with them: a reaction is a single emoji and was never encrypted.
 What stays is the post's row, marked deleted, which still says when it was made
 and who it was addressed to; the [privacy policy](/privacy/) lists it.
 
-Those eight days are not a grace period and not an undo. Eight days on, the
-ciphertext is exactly as unreadable as it was on the first day; there is
-nothing an undo could restore. The confirmation names the date rather than
-counting down to it, which is the habit throughout the app.
+We also keep a second copy of the encrypted files, in case storage ever loses
+them. It lets go of a deleted file 30 days after storage does, and the date in
+the confirmation is the day the files are gone from there too.
+
+None of that waiting is a grace period or an undo. The ciphertext is exactly
+as unreadable at the end of it as it was on the first day; there is nothing an
+undo could restore. The confirmation names the date rather than counting down
+to it, which is the habit throughout the app.
 
 Deleting is never gated. A suspended account can still delete its own posts,
 because this is the act that narrows rather than adds, and what stays

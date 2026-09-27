@@ -11,7 +11,7 @@ généralement derrière&#160;: dans *people you know*, une publication est livr
 que quelqu'un tombe dessus, pas d'adresse web pour elle, et aucun réglage qui
 en créerait une. La publication publique n'existe pas ici.
 
-**Dernière mise à jour&#160;:** 18 septembre 2026. Cette page décrit la bêta
+**Dernière mise à jour&#160;:** 27 septembre 2026. Cette page décrit la bêta
 fermée.
 
 ## Choisir les photos et les vidéos
@@ -57,9 +57,10 @@ peut échapper à un filtre.
 La seule chose gardée est le moment où l'image a été prise, et elle voyage à
 l'intérieur des données scellées plutôt que sur le fichier, parce que réécrire
 une donnée sur un JPEG voudrait dire poser une photo déchiffrée sur le disque
-le temps de l'écriture. Rien dans cette chaîne n'écrit de photo lisible
-ailleurs que dans la mémoire. La seule exception délibérée est *enregistrer la
-photo*, plus bas, qui est tout l'intérêt d'enregistrer.
+le temps de l'écriture. Le décodage et le réencodage se font en mémoire. Ce que
+l'application écrit bel et bien en clair sur votre téléphone, et pour combien
+de temps, est
+[énuméré plus bas](#ce-qui-est-écrit-en-clair-sur-votre-téléphone).
 
 ## Publier une vidéo
 
@@ -92,13 +93,12 @@ moment où elle a été filmée voyage à l'intérieur des données scellées, c
 celui d'une photo. Ce que vous voyez sur la ligne est une image fixe de la
 vidéo convertie, et c'est aussi ce que tout le monde voit avant de la toucher.
 
-La conversion est le seul moment où cette application écrit en clair, sur le
-stockage de votre téléphone, quelque chose que vous publiez. Un convertisseur
-écrit un fichier, donc la copie convertie reste dans le cache de l'application,
-que rien ne sauvegarde, le temps de la sceller, et elle est supprimée dès
-qu'elle est scellée. C'est une copie plus petite d'une vidéo qui est déjà dans
-votre photothèque. Tout ce qui quitte le téléphone est scellé sous la clé de la
-publication, un morceau à la fois.
+Un convertisseur écrit un fichier, donc la copie convertie reste en clair dans
+le cache de l'application, que rien ne sauvegarde, le temps de la sceller, et
+elle est supprimée dès qu'elle est scellée. C'est une des
+[quatre choses](#ce-qui-est-écrit-en-clair-sur-votre-téléphone) que
+l'application écrit en clair sur votre téléphone. Tout ce qui quitte le
+téléphone est scellé sous la clé de la publication, un morceau à la fois.
 
 ### Comment une vidéo se lit
 
@@ -353,9 +353,9 @@ l'original&#160;»&#160;: il ne promettra pas une chose que nous ne gardons pas.
 
 ## Il n'y a pas de brouillons
 
-Rien d'une publication que vous n'avez pas envoyée n'est écrit sur votre
-téléphone. Les photos que vous avez choisies, la légende que vous avez tapée et
-les cases que vous avez cochées vivent dans l'écran et partent avec lui.
+Une publication que vous n'avez pas envoyée n'est pas gardée. Les photos que
+vous avez choisies, la légende que vous avez tapée et les cases que vous avez
+cochées vivent dans l'écran et partent avec lui.
 
 Quitter demande donc, une fois, si vous avez choisi ou tapé quelque chose. Le
 dialogue s'intitule *abandonner* et dit&#160;: *Rien ne sera publié, et ce que
@@ -383,6 +383,34 @@ arrêtée&#160;: *réessayer*, qui envoie cette même publication et non une
 seconde copie, et *abandonner*, qui la jette et supprime les copies avec elle.
 Rien n'est jamais renvoyé tout seul. Une publication composée mardi ne part pas
 jeudi parce que vous avez ouvert l'application.
+
+## Ce qui est écrit en clair sur votre téléphone
+
+Tout ce qui quitte votre téléphone est scellé. Avant cela, quatre choses sont
+écrites en clair sur le stockage de votre téléphone. Toutes les quatre sont
+dans l'espace propre à l'application, qu'aucune sauvegarde ne copie et
+qu'aucune autre application ne peut lire.
+
+- **Une photo que vous prenez avec *prendre une photo*.** Elle va dans un
+  dossier de l'application et non dans votre photothèque, donc jusqu'à ce que
+  vous la publiiez, ce fichier est la seule copie. Il est supprimé la prochaine
+  fois que vous ouvrez l'application et prenez une photo, s'il n'a pas été
+  effacé avant, et tout de suite si vous revenez en arrière.
+- **Sur un iPhone, une copie de chaque photo et de chaque vidéo que vous
+  choisissez.** Le sélecteur de l'iPhone prête un fichier à l'application et
+  le reprend aussitôt, donc l'application en garde sa propre copie. Elle est
+  supprimée la prochaine fois que vous ouvrez l'application et choisissez ou
+  prenez quelque chose, si elle n'a pas été effacée avant.
+- **Une copie de chaque photo et de chaque vidéo d'une publication
+  envoyée**, jusqu'à ce que la publication parte ou que vous l'abandonniez,
+  comme le dit la section précédente.
+- **Une vidéo convertie**, le temps de la sceller. Elle est supprimée dès
+  qu'elle est scellée.
+
+*enregistrer la photo*, *enregistrer la vidéo* et *exporter mes données*
+écrivent aussi des copies déchiffrées, parce que c'est ce que vous avez
+demandé. Elles arrivent là où vous pouvez les trouver, et chacune est décrite
+là où elle se produit.
 
 ## Partager une publication à plus de gens ensuite
 
@@ -466,7 +494,8 @@ photo.
 *options → supprimer pour tout le monde*, sur votre propre publication. La
 confirmation est une phrase plutôt qu'un «&#160;êtes-vous sûr&#160;»&#160;:
 *Tout le monde perd cette photo immédiatement, et elle ne peut pas être
-récupérée.*, suivie de la date à laquelle les fichiers quittent nos serveurs.
+récupérée.*, suivie de la date à laquelle les fichiers auront quitté nos
+serveurs.
 
 À la touche, chaque copie enveloppée de la clé de la publication est
 détruite&#160;: celles des destinataires et la vôtre. Les commentaires étaient
@@ -477,8 +506,13 @@ reste est la ligne de la publication, marquée supprimée, qui dit encore quand
 elle a été faite et à qui elle était adressée&#160;; la [politique de
 confidentialité](/privacy/) l'énumère.
 
-Ces huit jours ne sont ni un délai de grâce ni un retour en arrière. Huit jours
-après, le chiffré est exactement aussi illisible qu'au premier jour&#160;; il
+Nous gardons aussi une deuxième copie des fichiers chiffrés, au cas où le
+stockage les perdrait un jour. Elle lâche un fichier supprimé 30 jours après le
+stockage, et la date de la confirmation est le jour où les fichiers en sont
+partis aussi.
+
+Rien de cette attente n'est un délai de grâce ni un retour en arrière. À la
+fin, le chiffré est exactement aussi illisible qu'au premier jour&#160;; il
 n'y a rien qu'un retour en arrière pourrait restaurer. La confirmation nomme la
 date plutôt que d'en faire le compte à rebours, ce qui est l'habitude dans
 toute l'application.

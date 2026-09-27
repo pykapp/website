@@ -91,6 +91,11 @@ To deliver a photo to the right people we hold, in the clear:
   posts you have muted (a mute is yours alone; the other person is never
   told);
 - who invited you, and who you invited;
+- the country your phone was set to when you joined, written once on the
+  invitation you used and never updated. If your phone did not say, the
+  invitation keeps the country of whoever shared it with you. We use it only
+  to count how many people we serve in each country, because some countries'
+  laws start to apply once a service has enough users there;
 - the names of your groups, and which of your groups a person is in (never
   shown to that person);
 - who is in each album you are in;
@@ -187,6 +192,10 @@ We keep what is above for as long as your account exists, and then:
 
 - when you delete your account, the keys go at once, the sealed copy of your
   own key among them, and the encrypted files leave storage eight days later;
+- the second copy of the encrypted files follows storage within a day, and
+  keeps a file storage deleted for 30 days more, in case it was deleted by
+  mistake. So a file you delete is gone from it within six weeks, and until
+  then it is ciphertext whose keys were destroyed when you deleted it;
 - backups of our database are kept 35 days, and the output of anything we run
   by hand against the database is kept 90 days, so a row deleted today, a
   deleted account's included, can survive in those for that long and no
@@ -266,7 +275,9 @@ lists.
 
 Nobody, unless you share it with them. Only people you have both agreed to
 connect with can see what you post, and only the people you address a post
-to receive it. There is no public profile, no search by name, no
+to receive it. The exception is an album: what you put in one is seen by
+everybody in it, including people you are not connected to, and the album
+lists who they are. There is no public profile, no search by name, no
 suggestions, and no way for a stranger to find you unless they already know
 your exact handle or email address, and you have allowed requests from
 people with no mutual in common.
@@ -356,20 +367,22 @@ Eight days later the encrypted files are removed from storage. Those eight
 days are not an undo: the keys were destroyed at the tap and nothing in the
 product can restore them. A deleted row can outlive the tap in a backup of our
 database or in the output of something we ran by hand, for the 35 and 90 days
-those are kept. Signing in during that time with the same address starts a new,
-empty account.
+those are kept. The second copy of the encrypted files keeps each file for 30
+days after it leaves storage, so the last of them is gone within six weeks of
+the tap. Signing in during that time with the same address starts a new, empty
+account.
 
-What we keep afterwards is kept under an identifier that no longer carries
-your name, handle, address or key: that the account existed, when it was made,
-when it confirmed its age and when it was deleted; blocks you placed or that
-were placed against you; reports you filed or that were filed about you, and
-bug reports you sent; who invited you and who you invited; the add requests
-you sent and received, marked cancelled; when you signed in on each phone and
-last used it; and the rows of your posts and comments, marked deleted, which
-still say when each was made and, for a post, who it was addressed to. A
-deleted comment's sealed text stays in its row until the post it was on is
-removed, and we serve it to nobody. Entries about what you did in other
-people's activity lists go within 128 days.
+What we keep afterwards is kept under an identifier that no longer carries your
+name, handle, address or key: that the account existed, when it was made, when
+it confirmed its age and when it was deleted; blocks you placed or that were
+placed against you; reports you filed or that were filed about you, and bug
+reports you sent; who invited you and who you invited, and the country on the
+invitation you used; the add requests you sent and received, marked cancelled;
+when you signed in on each phone and last used it; and the rows of your posts
+and comments, marked deleted, which still say when each was made and, for a
+post, who it was addressed to. A deleted comment's sealed text stays in its row
+until the post it was on is removed, and we serve it to nobody. Entries about
+what you did in other people's activity lists go within 128 days.
 
 ## Exporting your data
 

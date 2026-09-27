@@ -224,8 +224,9 @@ a third person made alone; blocking reaches into that room too, which is one
 of the differences described further down.
 
 Deleting a post is immediate for everybody. The encrypted files come off
-storage eight days later, and those eight days are not an undo: the keys went
-at the tap and nothing in the product can restore them. The
+storage eight days later, and out of the second copy we keep of them within six
+weeks. Neither wait is an undo: the keys went at the tap and nothing in the
+product can restore them. The
 [privacy policy](/privacy/) says how long a deleted row can survive in a backup
 of our database.
 

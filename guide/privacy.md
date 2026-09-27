@@ -28,6 +28,8 @@ In the clear, because delivering anything at all needs it:
 - your handle, and whichever ways in the account holds: an email address, a
   password, or both. For a password we hold a public key your phone made from
   it, and never the password itself;
+- the country your phone was set to when you joined, written once and never
+  updated;
 - who you are connected to and when you connected, along with the add
   requests you send and receive and the blocks you place;
 - the names of your groups, and which of your groups a person is in;
@@ -394,9 +396,9 @@ The same shape, everywhere it appears:
 
 - Deleting a post for everyone destroys two kinds of wrapped key, the
   recipients' and the author's own, at the moment you tap it. The encrypted
-  files leave storage eight days later, which is operational slack and not an
-  undo: eight days later the ciphertext is exactly as unreadable as it was on
-  the first day.
+  files leave storage eight days later, and the second copy we keep of them is
+  gone within six weeks. Neither wait is an undo: the ciphertext is exactly as
+  unreadable at the end of it as it was on the first day.
 - [Taking somebody out of an album](/how-it-works/albums/) deletes their
   membership and every wrapped key they held for that album's photographs in
   one statement, and anything contributed afterwards is wrapped only for the

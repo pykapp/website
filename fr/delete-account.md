@@ -58,14 +58,16 @@ jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
 moment de la touche et rien dans le produit ne peut les restaurer. Une ligne
 supprimée peut survivre à la touche dans une sauvegarde de notre base de données
 ou dans la sortie de quelque chose que nous avons lancé à la main, pendant les
-35 et les 90 jours où celles-ci sont gardées. Se connecter pendant ce temps avec
-la même adresse crée un nouveau compte, vide.
+35 et les 90 jours où celles-ci sont gardées. La deuxième copie des fichiers
+chiffrés garde chaque fichier 30 jours après qu'il a quitté le stockage, donc le
+dernier en est parti moins de six semaines après la touche. Se connecter pendant
+ce temps avec la même adresse crée un nouveau compte, vide.
 
 Ce que nous gardons ensuite ne porte ni votre nom, ni votre pseudo, ni votre
 adresse, ni vos clés, et la [politique de
 confidentialité](/fr/politique-de-confidentialite/) l'énumère en entier&#160;:
 le fait que le compte a existé, les blocages, les signalements, qui a invité
-qui, les demandes d'ajout que vous avez envoyées et reçues, quand vous vous êtes
+qui et le pays inscrit sur votre invitation, les demandes d'ajout que vous avez envoyées et reçues, quand vous vous êtes
 connecté, et les lignes de vos publications et de vos commentaires marquées
 supprimées.
 
@@ -78,7 +80,8 @@ annulée.
 - Une publication&#160;: *options → supprimer pour tout le monde*. Chaque clé
   qui permettait à quiconque de l'ouvrir est détruite à ce moment-là, la vôtre
   et celle de chaque destinataire. Les fichiers chiffrés sont retirés du
-  stockage huit jours plus tard, comme lorsqu'un compte s'en va.
+  stockage huit jours plus tard et de la deuxième copie en moins de six
+  semaines, comme lorsqu'un compte s'en va.
 - Un commentaire&#160;: *supprimer*, à côté de vos propres mots. Il cesse
   d'être montré à qui que ce soit sous cette publication. Le texte scellé reste
   jusqu'à ce que la publication elle-même s'en aille, illisible pour nous
@@ -90,7 +93,8 @@ annulée.
   identification lui laissait voir.
 - Votre photo de profil&#160;: *retirer*, sur votre propre profil. Personne ne
   peut plus la récupérer à partir de ce moment, et le fichier lui-même s'en va
-  au prochain balayage, dans l'heure.
+  au prochain balayage, dans l'heure, et de la deuxième copie en moins de cinq
+  semaines.
 - Tout ce que vous avez partagé avec une personne&#160;: retirez-la, ou
   bloquez-la, et chaque clé entre vous deux est détruite dans les deux sens.
 
