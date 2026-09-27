@@ -464,8 +464,10 @@ ne gardons que le fait que vous avez passé.
 
 ## Changements
 
-Si cette politique change, nous le dirons dans l'application et ici, avec la
-date, avant que le changement prenne effet. Un changement ne permet jamais à
+Si cette politique change, la date en haut de cette page change avec elle. Si
+un changement nous fait garder plus de renseignements à votre sujet, les garder
+plus longtemps ou nous en servir à une nouvelle fin, nous vous le dirons aussi
+dans l'application avant qu'il prenne effet. Un changement ne permet jamais à
 quiconque de se servir de ce que nous détenons déjà d'une façon que cette page
 ne permettait pas quand nous l'avons recueilli, à moins que vous n'y
 consentiez.

@@ -391,10 +391,11 @@ birth once, at signup, compare it, and keep only the fact that you passed.
 
 ## Changes
 
-If this policy changes we will say so in the app and here, with the date,
-before the change takes effect. A change never lets anybody use what we
-already hold in a way this page did not allow when we collected it, unless you
-agree to that.
+If this policy changes, the date at the top of this page changes with it. If
+a change means we keep more about you, keep it longer, or use it for something
+new, we will also tell you in the app before it takes effect. A change never
+lets anybody use what we already hold in a way this page did not allow when we
+collected it, unless you agree to that.
 
 ## Contact
 
