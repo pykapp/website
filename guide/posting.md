@@ -97,9 +97,9 @@ sealed under the post's key, a piece at a time.
 ### How a video plays
 
 Nothing plays until you ask it to. In the feed a video is a still with the
-mark over it, and tapping it opens the post and plays it. On the post and in
-the full-screen viewer, a tap plays it, a second tap pauses it, and at the end
-it goes back to its still. It plays with its sound, at your phone's volume.
+mark over it, and tapping it opens the post, as tapping a photograph does. On
+the post, tapping it plays it full screen. There, a tap pauses it, another
+plays it again, and at the end it goes back to its still. It plays with its sound, at your phone's volume.
 There is no sound switch in the app, because nothing plays that you did not
 tap. Swiping to another photograph stops it.
 

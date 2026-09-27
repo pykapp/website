@@ -103,12 +103,12 @@ publication, un morceau à la fois.
 ### Comment une vidéo se lit
 
 Rien ne se lit tant que vous ne le demandez pas. Dans l'accueil, une vidéo est
-une image fixe avec la marque par-dessus, et la toucher ouvre la publication et
-la lit. Sur la publication et dans la visionneuse plein écran, un toucher la
-lit, un second la met en pause, et à la fin elle revient à son image fixe. Elle
-se lit avec son son, au volume de votre téléphone. Il n'y a pas de réglage du
-son dans l'application, parce que rien ne s'y lit sans que vous l'ayez touché.
-Passer à une autre photo l'arrête.
+une image fixe avec la marque par-dessus, et la toucher ouvre la publication,
+comme toucher une photo. Sur la publication, la toucher la lit en plein écran.
+Là, un toucher la met en pause, un autre la relance, et à la fin elle revient à
+son image fixe. Elle se lit avec son son, au volume de votre téléphone. Il n'y a
+pas de réglage du son dans l'application, parce que rien ne s'y lit sans que
+vous l'ayez touché. Passer à une autre photo l'arrête.
 
 Une vidéo que vous recevez n'est jamais écrite sur votre téléphone, sauf si
 vous l'enregistrez&#160;: elle se lit directement depuis sa copie scellée, un
