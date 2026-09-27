@@ -194,15 +194,19 @@ sa moitié privée.
 Un compte créé avec une version actuelle de l'application a donc deux clés là
 où il n'en avait qu'une. La deuxième est X-Wing, une méthode conçue pour
 résister à un ordinateur quantique, jointe à l'ancien type pour tenir tant que
-l'une ou l'autre tient. Chaque clé enveloppée pour un tel compte l'est sous
-deux verrous, l'un dans l'autre&#160;: l'ancien à l'intérieur, le nouveau
-autour, et il faut vos deux clés privées pour l'ouvrir. Une copie prise
-aujourd'hui reste fermée, et un serveur qui tenterait de glisser une nouvelle
-clé à lui trouverait l'ancien verrou toujours en travers de son chemin.
+l'une ou l'autre tient. Une version actuelle de l'application, quand elle
+envoie à un tel compte, met la clé sous deux verrous, l'un dans l'autre&#160;:
+l'ancien à l'intérieur, le nouveau autour, et il faut vos deux clés privées
+pour l'ouvrir. Une copie prise aujourd'hui reste fermée, et un serveur qui
+tenterait de glisser une nouvelle clé à lui trouverait l'ancien verrou toujours
+en travers de son chemin.
 
-Le nom court de votre clé couvre les deux, et votre phrase de récupération
-ramène les deux. Un compte créé avant cela n'a que l'ancienne clé&#160;; ce que
-cela laisse ouvert est dans la dernière section.
+Le nom court de votre clé couvre les deux clés, et votre phrase de récupération
+ramène les deux. Le deuxième verrou est posé par le téléphone de la personne
+qui vous envoie quelque chose, donc il n'y est que si ce téléphone a une
+version actuelle de l'application et que nous lui avons remis vos deux clés.
+Un compte créé avant cela n'a que l'ancienne clé. La dernière section dit ce
+que chacun de ces cas laisse ouvert.
 
 ## La phrase de récupération
 
@@ -648,6 +652,21 @@ bords.
   la sauvegarde qu'ouvrent vos six mots, et que le téléphone ne garde pas vos
   six mots. Ce qui a déjà été copié avant qu'une clé soit ajoutée reste tel
   quel.
+- **Un envoi sous un seul verrou.** Le deuxième verrou est posé par le
+  téléphone de l'expéditeur, et il peut manquer de deux façons sur un compte
+  qui a les deux clés. Un téléphone qui a une version de l'application d'avant
+  la deuxième clé scelle sous l'ancien verrou seul, parce qu'il ne sait pas
+  qu'il y en a un deuxième&#160;; cela cesse quand tout le monde a mis à jour.
+  Et un serveur malhonnête pourrait ne remettre à quelqu'un que votre ancienne
+  clé au premier bonjour entre vous&#160;: son téléphone vous enverrait alors
+  tout sous un seul verrou tant que le serveur continuerait, et le vôtre
+  l'ouvrirait sans rien dire. Personne ne peut lire ni l'un ni l'autre
+  aujourd'hui&#160;; ce qui est en jeu, c'est une copie gardée pour un
+  ordinateur quantique. Le deuxième cas se découvre comme le premier bonjour,
+  en vous lisant les noms courts de vos clés. Votre téléphone ne refuse pas
+  encore un envoi sous un seul verrou, parce qu'une personne restée sur une
+  version plus ancienne vous enverrait alors des publications que vous ne
+  pourriez pas ouvrir.
 - **Pour qui une publication est scellée.** La liste des personnes pour qui
   votre téléphone scelle une publication vient de nous, redemandée au moment où
   vous publiez, et votre téléphone ne tient aucune liste à lui pour la vérifier.

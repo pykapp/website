@@ -173,14 +173,17 @@ private half.
 So an account made with a current version of the app has two keys where it
 used to have one. The second is X-Wing, a method built to survive a quantum
 computer, joined to the older kind so that it holds as long as either does.
-Every key wrapped to such an account is in two locks, one inside the other:
-the older one inside, the new one around it, and opening it takes both of your
-private keys. A copy taken today stays closed, and a server that tried to slip
-in a new key of its own would find the older lock still in its way.
+A current version of the app, sending to such an account, puts the key in two
+locks, one inside the other: the older one inside, the new one around it, and
+opening it takes both of your private keys. A copy taken today stays closed,
+and a server that tried to slip in a new key of its own would find the older
+lock still in its way.
 
-Your key's short name covers both, and your recovery phrase brings both back.
-An account made before this has the older key alone; what that leaves open is
-in the last section.
+Your key's short name covers both keys, and your recovery phrase brings both
+back. The second lock is put on by the phone of whoever is sending to you, so
+it is there only when that phone runs a current version of the app and we
+handed it both of your keys. An account made before this has the older key
+alone. The last section says what each of these leaves open.
 
 ## The recovery phrase
 
@@ -574,6 +577,19 @@ The claim above is narrower than "private", and these are its edges.
   key has to go into the backup your six words open, and the phone does not
   keep your six words. Anything already copied before a key is added stays as
   it was.
+- **Something sent to you under one lock.** The second lock is put on by the
+  sender's phone, and there are two ways it can be missing on an account that
+  has both keys. A phone running a version of the app from before the second
+  key seals with the older lock alone, because it does not know there is a
+  second one; that stops once everybody has updated. And a dishonest server
+  could hand somebody only your older key at the first hello between you:
+  their phone would then seal everything to you under one lock for as long as
+  the server kept it up, and yours would open it without a word. Nobody can
+  read either today; what is at stake is a copy kept for a quantum computer.
+  The second case is caught the way the first hello is, by reading your keys'
+  short names to each other. Your phone does not refuse something sent under
+  one lock yet, because somebody still on an older version would then send you
+  posts you could not open.
 - **Who a post is sealed to.** The list of people your phone seals a post to
   comes from us, asked for again at the moment you post, and your phone keeps
   no list of its own to check it against. A dishonest server could add an
