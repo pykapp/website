@@ -223,10 +223,10 @@ screenshotted.
 
 ## Privacy and your recovery phrase
 
-Your photos, videos, captions, comments, your name and profile picture, and
-your album names are encrypted on your phone before they are sent. We can't
-open them. We can see your handle and email address, who you are connected to,
-who each post went to and when, your group names, and reactions. The [privacy
+Your photos, videos, captions, comments, your name and profile picture, your
+album names and your group names are encrypted on your phone before they are
+sent. We can't open them. We can see your handle and email address, who you are
+connected to, who each post went to and when, and reactions. The [privacy
 policy](/privacy/) lists everything we keep.
 
 **Your recovery phrase is six words**, shown to you when you sign up. Write

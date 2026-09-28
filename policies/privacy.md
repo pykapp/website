@@ -50,7 +50,10 @@ only your phone and the phones of the people you share with can use:
 - captions;
 - comments;
 - your display name, your bio and your profile picture;
-- the names of your albums.
+- the names of your albums;
+- the names of your groups. A name given to a group before this version of the
+  policy stays readable to us until you open the app after updating it; the
+  app then seals the name.
 
 We store these as ciphertext. We cannot open them, and neither can anybody
 who obtains a copy of our servers. If you lose your recovery phrase and every
@@ -96,8 +99,7 @@ To deliver a photo to the right people we hold, in the clear:
   invitation keeps the country of whoever shared it with you. We use it only
   to count how many people we serve in each country, because some countries'
   laws start to apply once a service has enough users there;
-- the names of your groups, and which of your groups a person is in (never
-  shown to that person);
+- which of your groups a person is in (never shown to that person);
 - who is in each album you are in;
 - for every post: who made it, when, whether and when it was edited, who it
   was addressed to or which album it is in, who is named on it, whether it

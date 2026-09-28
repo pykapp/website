@@ -61,7 +61,10 @@ se servir&#160;:
 - les légendes&#160;;
 - les commentaires&#160;;
 - votre nom affiché, votre bio et votre photo de profil&#160;;
-- les noms de vos albums.
+- les noms de vos albums&#160;;
+- les noms de vos groupes. Un nom donné à un groupe avant cette version de la
+  politique reste lisible pour nous jusqu'à ce que vous ouvriez l'application
+  après l'avoir mise à jour&#160;; l'application scelle alors ce nom.
 
 Nous les stockons chiffrés. Nous ne pouvons pas les ouvrir, et personne qui
 obtiendrait une copie de nos serveurs ne le pourrait non plus. Si vous perdez
@@ -118,8 +121,8 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   combien de personnes nous servons dans chaque pays, parce que les lois de
   certains pays commencent à s'appliquer quand un service y a assez
   d'utilisateurs&#160;;
-- les noms de vos groupes, et dans lesquels de vos groupes une personne se
-  trouve (jamais montré à cette personne)&#160;;
+- dans lesquels de vos groupes une personne se trouve (jamais montré à cette
+  personne)&#160;;
 - qui est dans chaque album où vous êtes&#160;;
 - pour chaque publication&#160;: qui l'a faite, quand, si elle a été modifiée et
   quand, à qui elle a été adressée ou dans quel album elle se trouve, qui y est

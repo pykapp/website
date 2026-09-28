@@ -251,10 +251,10 @@ capturé à l'écran.
 ## Confidentialité et phrase de récupération
 
 Vos photos, vos vidéos, vos légendes, vos commentaires, votre nom et votre
-photo de profil, et les noms de vos albums sont chiffrés sur votre téléphone
-avant d'être envoyés. Nous ne pouvons pas les ouvrir. Nous voyons votre pseudo
-et votre adresse e-mail, avec qui vous êtes en lien, à qui chaque publication
-a été envoyée et quand, les noms de vos groupes, et les réactions. La
+photo de profil, les noms de vos albums et les noms de vos groupes sont
+chiffrés sur votre téléphone avant d'être envoyés. Nous ne pouvons pas les
+ouvrir. Nous voyons votre pseudo et votre adresse e-mail, avec qui vous êtes en
+lien, à qui chaque publication a été envoyée et quand, et les réactions. La
 [politique de confidentialité](/fr/politique-de-confidentialite/) liste tout
 ce que nous gardons.
 
