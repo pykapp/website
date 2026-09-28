@@ -300,20 +300,24 @@ suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
 - **Un serveur malhonnête.** L'application compte sur notre serveur pour lui
   dire qui sont vos relations et quelles sont leurs clés de chiffrement. Votre
   téléphone retient la clé de chaque personne et vous arrête si elle change.
-  Mais si notre serveur était piraté ou forcé de tricher, il pourrait&#160;:
+  Il garde aussi sa propre liste des personnes que vous avez ajoutées. Avant
+  que quoi que ce soit parte vers quelqu'un d'autre, il vous le demande, dans
+  *des personnes que vous n'avez pas ajoutées*, en montrant chaque
+  identifiant et le nom court de la clé de la personne. Touchez *ajouter*
+  pour les personnes que vous connaissez. Si vous ne reconnaissez pas
+  quelqu'un, touchez *les laisser de côté*. Et il garde sa propre liste des
+  personnes de chacun de vos groupes, donc une publication à un groupe ne va
+  qu'aux personnes que vous y avez mises. Mais si notre serveur était piraté
+  ou forcé de tricher, il pourrait&#160;:
   - donner à votre téléphone une fausse clé la toute première fois que vous
     vous ajoutez avec quelqu'un. Pour l'exclure, lisez à votre relation le code
     de *paramètres → nom court de votre clé*. Il doit correspondre au code
     qu'elle voit sur votre profil. Si c'est le cas, personne n'est entre vous.
-  - placer une de vos relations dans un de vos groupes, pour qu'une publication
-    destinée à ce groupe lui parvienne aussi. Il ne peut pas ajouter quelqu'un
-    avec qui vous n'êtes jamais entré en lien. Votre téléphone garde sa propre
-    liste des personnes que vous avez ajoutées. Avant que quoi que ce soit
-    parte vers quelqu'un d'autre, il vous le demande, dans *des personnes que
-    vous n'avez pas ajoutées*, en montrant chaque identifiant et le nom court
-    de la clé de la personne. Touchez *ajouter* pour les personnes que vous
-    connaissez. Si vous ne reconnaissez pas quelqu'un, touchez *les laisser de
-    côté*.
+  - montrer à un téléphone que vous venez d'installer avec vos six mots une
+    ancienne copie de ces listes, d'avant que vous retiriez quelqu'un ou que
+    vous le sortiez d'un groupe. Une publication pourrait alors lui parvenir
+    de nouveau. C'est tout de même quelqu'un que vous aviez ajouté, et un
+    téléphone que vous utilisez depuis le début ne s'y laisse pas prendre.
   - inventer une publication et la présenter comme venant d'une de vos
     relations. Le téléphone qui fait une publication la signe, et votre
     téléphone refuse une publication dont la signature est fausse. Mais les

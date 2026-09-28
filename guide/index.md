@@ -262,18 +262,21 @@ account](/delete-account/) has its own page.
   posts to and when, and whether they have seen them.
 - **A dishonest server.** The app relies on our server to tell it who your
   mutuals are and what their encryption keys are. Your phone remembers each
-  person's key and stops you if it ever changes. But if our server were broken
-  into or forced to cheat, it could:
+  person's key and stops you if it ever changes. It also keeps its own list of
+  the people you added. Before anything goes to anybody else, it asks, in
+  *people you haven't added*, showing each handle and the short name of that
+  person's key. Tap *add* for the people you know. If you don't recognise
+  somebody, tap *leave them out*. And it keeps its own list of who is in each
+  of your groups, so a post to a group goes only to the people you put in it.
+  But if our server were broken into or forced to cheat, it could:
   - give your phone a fake key the very first time you connect with somebody.
     To rule this out, read the code in *settings → your key's short name* to
     your mutual. It should match the code they see on your profile. If it
     does, nobody is in between.
-  - move one of your mutuals into one of your groups, so a post meant for that
-    group reaches them too. It cannot add somebody you never connected with.
-    Your phone keeps its own list of the people you added. Before anything goes
-    to anybody else, it asks, in *people you haven't added*, showing each
-    handle and the short name of that person's key. Tap *add* for the people
-    you know. If you don't recognise somebody, tap *leave them out*.
+  - show a phone you have just set up with your six words an old copy of
+    those lists, from before you removed somebody or took them out of a group.
+    A post could then reach that person again. It is still somebody you once
+    added, and a phone you have been using all along is not fooled by this.
   - make up a post and show it as one of your mutuals'. The phone that makes a
     post signs it, and your phone refuses a post whose signature is wrong. But
     posts made before the app started signing, and posts from a phone running
