@@ -1,6 +1,9 @@
-# This folder is the site at https://pykapp.github.io/. It is not built from
-# here: .github/workflows/pages.yml copies it into pykapp/pykapp.github.io on
-# every merge to main, and GitHub Pages builds that repository's root. The
+# This folder is the site at https://peopleyouk.now/. It is not built from
+# here: .github/workflows/pages.yml copies it into pykapp/website on every
+# merge to main, and GitHub Pages builds that repository's root. CNAME beside
+# this file is what keeps the domain there: the copy deletes whatever is not in
+# docs/, so a CNAME that GitHub wrote into that repository itself would be
+# gone at the next merge, and the site with it. The
 # three policy documents and the guide under guide/ are the site; the store copy
 # beside them is not published. Adding a page here publishes it, which is what
 # scripts/site-links-resolve.sh is for.
@@ -28,7 +31,7 @@ theme: minima
 # nobody's choice. `url` and `baseurl` are here because hreflang needs absolute
 # addresses and `absolute_url` reads them; nothing else on the site did.
 lang: en
-url: https://pykapp.github.io
+url: https://peopleyouk.now
 baseurl: ""
 
 # One entry adds a language, and nothing else on the site is edited to add one.
