@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 27 septembre 2026. Cette politique couvre la
+**Dernière mise à jour&#160;:** 28 septembre 2026. Cette politique couvre la
 bêta fermée.
 
 ## Qui est responsable, et où ceci s'applique
@@ -125,8 +125,10 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   quand, à qui elle a été adressée ou dans quel album elle se trouve, qui y est
   identifié, si elle repartage la publication de quelqu'un d'autre, combien
   d'images elle contient, si chacune est une photo ou une vidéo et la durée
-  qu'une vidéo déclare, quelle est la taille des fichiers chiffrés, et si chaque
-  destinataire l'a vue et quand il l'a vue pour la première fois. C'est un seul
+  qu'une vidéo déclare, quelle est la taille des fichiers chiffrés, la signature
+  que le téléphone de l'auteur y a mise (elle montre qui l'a faite et ne dit
+  rien de son contenu), et si chaque destinataire l'a vue et quand il l'a vue
+  pour la première fois. C'est un seul
   moment par personne et par publication&#160;; rien n'enregistre quelles
   photos quelqu'un a regardées, et ce moment n'est jamais montré à
   personne&#160;;
@@ -153,8 +155,9 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   d'envoi, s'il s'agit d'un téléphone Android ou d'un iPhone, quelle version
   compilée de l'application il fait tourner, et quand vous vous y êtes connecté
   et l'avez utilisé pour la dernière fois&#160;;
-- votre clé publique, qui est la moitié faite pour être distribuée, et le moment
-  où elle a été publiée&#160;;
+- vos deux clés publiques, celle qui verrouille vos photos et celle qui signe
+  vos publications. Ce sont les moitiés faites pour être distribuées. Nous
+  gardons aussi le moment où la première a été publiée&#160;;
 - le moment où vous avez confirmé avoir 18 ans ou plus (jamais votre date de
   naissance)&#160;;
 - des comptes de ce que votre téléphone a pu et n'a pas pu ouvrir, ajoutés à un

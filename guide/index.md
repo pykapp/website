@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works, and especially the
 parts that work differently from other apps.
 
-**Last updated:** 27 September 2026. This page covers the beta, on Android and
+**Last updated:** 28 September 2026. This page covers the beta, on Android and
 iPhone.
 
 - [Connecting with people](#connecting-with-people)
@@ -264,8 +264,10 @@ account](/delete-account/) has its own page.
     does, nobody is in between.
   - secretly add an extra person to the list your phone sends a post to. Your
     phone would not notice.
-  - make a post look like it came from a different mutual. Posts are not
-    signed.
+  - make up a post and show it as one of your mutuals'. The phone that makes a
+    post signs it, and your phone refuses a post whose signature is wrong. But
+    posts from before September 2026 have no signature, so your phone still
+    shows posts without one, and a made-up post could be sent that way.
 - **A password that can be guessed.** Somebody with a copy of our database
   could try to guess your password. A long password makes that impossible. A
   password only opens your account, never your photos.

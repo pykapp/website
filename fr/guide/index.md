@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne, et surtout ce qui fonctionne autrement que dans les
 autres applications.
 
-**Dernière mise à jour&#160;:** 27 septembre 2026. Cette page décrit la bêta,
+**Dernière mise à jour&#160;:** 28 septembre 2026. Cette page décrit la bêta,
 sur Android et sur iPhone.
 
 - [Ajouter des relations](#ajouter-des-relations)
@@ -298,8 +298,12 @@ suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
     qu'elle voit sur votre profil. Si c'est le cas, personne n'est entre vous.
   - ajouter en secret une personne de plus à la liste des destinataires d'une
     publication. Votre téléphone ne le remarquerait pas.
-  - faire croire qu'une publication vient d'une autre de vos relations. Les
-    publications ne sont pas signées.
+  - inventer une publication et la présenter comme venant d'une de vos
+    relations. Le téléphone qui fait une publication la signe, et votre
+    téléphone refuse une publication dont la signature est fausse. Mais les
+    publications d'avant septembre 2026 n'ont pas de signature, donc votre
+    téléphone affiche encore celles qui n'en ont pas, et une publication
+    inventée pourrait arriver ainsi.
 - **Un mot de passe qu'on peut deviner.** Quelqu'un qui aurait une copie de
   notre base de données pourrait essayer de deviner votre mot de passe. Un mot
   de passe long rend ça impossible. Un mot de passe ouvre seulement votre

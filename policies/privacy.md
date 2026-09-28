@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 27 September 2026. This policy covers the closed beta.
+**Last updated:** 28 September 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
@@ -103,9 +103,11 @@ To deliver a photo to the right people we hold, in the clear:
   was addressed to or which album it is in, who is named on it, whether it
   shares somebody else's post again, how many frames it has, whether each is
   a photograph or a video and how long a video says it runs, how large the
-  encrypted files are, and whether each recipient has seen it and when they
-  first did. That is one moment per person per post; nothing records which
-  photographs anybody looked at, and nobody is ever shown it;
+  encrypted files are, the signature the author's phone put on it (which shows
+  who made it and says nothing about what is in it), and whether each
+  recipient has seen it and when they first did. That is one moment per person
+  per post; nothing records which photographs anybody looked at, and nobody is
+  ever shown it;
 - for every comment: who wrote it, on which post, when, and which comment it
   answers;
 - reactions, which are one emoji each and are stored in the clear because a
@@ -125,8 +127,9 @@ To deliver a photo to the right people we hold, in the clear:
 - for each phone you have signed in on: its push token, whether it is an
   Android phone or an iPhone, which build of the app it runs, and when you
   signed in there and last used it;
-- your public key, which is the half that is meant to be handed out, and when
-  it was published;
+- your two public keys, the one your photos are locked to and the one your
+  posts are signed with. Both are the halves that are meant to be handed out.
+  We also keep when the first was published;
 - the moment you confirmed you were 18 or older (never your date of birth);
 - counts of what your phone could and could not open, added to a total the
   moment they arrive and not kept against your account.
