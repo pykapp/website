@@ -262,8 +262,11 @@ account](/delete-account/) has its own page.
     To rule this out, read the code in *settings → your key's short name* to
     your mutual. It should match the code they see on your profile. If it
     does, nobody is in between.
-  - secretly add an extra person to the list your phone sends a post to. Your
-    phone would not notice.
+  - move one of your mutuals into one of your groups, so a post meant for that
+    group reaches them too. It cannot add somebody you never connected with:
+    your phone keeps its own list of the people you added, and asks you before
+    anything goes to anyone else. If it ever asks about somebody you don't
+    know, choose *leave them out*.
   - make up a post and show it as one of your mutuals'. The phone that makes a
     post signs it, and your phone refuses a post whose signature is wrong. But
     posts from before September 2026 have no signature, so your phone still

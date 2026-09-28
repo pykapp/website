@@ -296,8 +296,13 @@ suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
     vous ajoutez avec quelqu'un. Pour l'exclure, lisez à votre relation le code
     de *paramètres → nom court de votre clé*. Il doit correspondre au code
     qu'elle voit sur votre profil. Si c'est le cas, personne n'est entre vous.
-  - ajouter en secret une personne de plus à la liste des destinataires d'une
-    publication. Votre téléphone ne le remarquerait pas.
+  - placer une de vos relations dans un de vos groupes, pour qu'une publication
+    destinée à ce groupe lui parvienne aussi. Il ne peut pas ajouter quelqu'un
+    avec qui vous n'êtes jamais entré en lien&#160;: votre téléphone garde sa
+    propre liste des personnes que vous avez ajoutées et vous demande avant
+    d'envoyer quoi que ce soit à quelqu'un d'autre. S'il vous demande un jour
+    pour une personne que vous ne connaissez pas, choisissez *les laisser de
+    côté*.
   - inventer une publication et la présenter comme venant d'une de vos
     relations. Le téléphone qui fait une publication la signe, et votre
     téléphone refuse une publication dont la signature est fausse. Mais les

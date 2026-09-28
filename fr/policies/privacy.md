@@ -81,9 +81,10 @@ Nous détenons aussi des clés, chacune verrouillée avant de nous parvenir&#160
   pourrait, et c'est pourquoi il n'appartient qu'à vous de garder ces
   mots&#160;;
 - une liste des clés que votre téléphone a reçues pour les personnes que vous
-  avez rencontrées ici, scellée sous votre propre clé, pour qu'un nouveau
-  téléphone puisse remarquer si l'une d'elles est un jour remplacée. Nous ne
-  pouvons pas l'ouvrir non plus&#160;;
+  avez rencontrées ici, et de celles de ces personnes que vous avez ajoutées,
+  scellée sous votre propre clé, pour qu'un nouveau téléphone puisse remarquer
+  si une clé est un jour remplacée et sache avec qui vous avez choisi de
+  partager. Nous ne pouvons pas l'ouvrir non plus&#160;;
 - pour chaque publication, chaque album et chaque profil que vous pouvez ouvrir,
   une copie de sa clé verrouillée pour votre clé publique, que seule la clé sur
   votre téléphone ouvre.

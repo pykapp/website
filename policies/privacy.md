@@ -67,8 +67,9 @@ We also hold keys, every one of them locked before it reached us:
   six words, so we cannot open it; anybody who had both our copy and your six
   words could, which is why the words are yours alone to keep;
 - a list of the keys your phone has been given for the people you have met
-  here, sealed under your own key, so that a new phone can notice if one of
-  them is ever swapped. We cannot open that either;
+  here, and of which of those people you added, sealed under your own key, so
+  that a new phone can notice if a key is ever swapped and knows who you chose
+  to share with. We cannot open that either;
 - for each post, album and profile you can open, a copy of its key locked to
   your public key, which only the key on your phone opens.
 
