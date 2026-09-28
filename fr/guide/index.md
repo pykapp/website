@@ -62,7 +62,7 @@ ajouter.
 
 ## Publier
 
-Touchez *publier* dans la barre du bas.
+Touchez le plus à droite de la barre du bas.
 
 1. Choisissez jusqu'à 32 photos et vidéos. Une vidéo peut durer environ une
    minute. Pour une vidéo plus longue, touchez *choisir quelle minute* pour
@@ -78,8 +78,7 @@ accueil, parce que l'accueil ne montre que ce que les autres vous envoient.
 
 Bon à savoir&#160;:
 
-- **Rien n'est recadré ni retouché.** Il n'y a pas de filtres, ni d'outil pour
-  recadrer ou pivoter.
+- **Rien n'est recadré ni retouché.**
 - **Votre position est retirée.** La position et les détails de l'appareil
   sont retirés des photos et des vidéos avant qu'elles quittent votre
   téléphone. La date de la prise de vue est gardée, chiffrée.
@@ -87,8 +86,6 @@ Bon à savoir&#160;:
   avez choisi est perdu. L'application vous le demande d'abord. Si
   l'application se ferme pendant l'envoi, la publication vous attend sur votre
   profil avec *réessayer*.
-- **Il n'y a pas de compteurs.** Ni mentions j'aime, ni vues, ni abonnés. Rien
-  ne vous dit combien de personnes ont vu votre publication.
 - **Les destinataires voient qui d'autre l'a reçue.** Sous la date, une
   publication qu'on vous a envoyée indique *seulement vous* ou *vous et 3
   autres*. Une publication envoyée à tout le monde n'indique rien.
@@ -98,11 +95,17 @@ Bon à savoir&#160;:
   le monde, utilisez *options → supprimer pour tout le monde*.
 - **Vous pouvez modifier la légende** avec *options → modifier la légende*.
   Vous ne pouvez pas changer les photos.
-- **Identifier des gens.** Dans la liste *qui voit ça*, touchez *identifier*
-  à côté d'une relation pour la nommer sur la photo. Tous ceux qui voient la publication voient les noms.
-  Chacun peut retirer son propre nom avec *options → retirer mon
-  identification*, et empêcher qu'on l'identifie avec *paramètres → autoriser
-  mes relations à m'identifier*.
+- **Identifier des gens.** Sous *qui voit ça* se trouve *qui est identifié*.
+  Touchez cette ligne, cochez les personnes à nommer, puis touchez *terminé*.
+  Seules les relations qui acceptent d'être identifiées y figurent, et s'il n'y
+  en a aucune, la ligne n'apparaît pas. Une personne que vous nommez est
+  ajoutée à qui voit la publication, et vous ne pouvez plus la décocher tant
+  que son nom y est. Tous ceux qui voient la publication voient les noms.
+- **Identifier quelqu'un après coup.** Sur votre publication, *options → qui
+  est identifié*, puis *identifier*. Identifier une personne qui n'a pas la
+  publication la lui envoie. Chacun peut retirer son propre nom avec *options →
+  retirer mon identification*, et empêcher qu'on l'identifie avec *paramètres →
+  autoriser mes relations à m'identifier*.
 - **Le repartage est désactivé sauf si vous l'autorisez.** Une fois quelqu'un
   identifié, vous pouvez cocher *les personnes identifiées peuvent
   repartager*. Les personnes identifiées peuvent alors partager la publication
@@ -194,8 +197,9 @@ le monde voit tous les commentaires.
   réponses.
 - **Mentions.** Tapez *@* pour nommer quelqu'un dans un commentaire.
 - **Réactions.** Réagissez à une publication ou à un commentaire avec
-  n'importe quel emoji. Appuyez longuement sur une réaction pour voir qui l'a
-  choisie.
+  n'importe quel emoji. Touchez deux fois une photo pour réagir avec ❤️.
+  Appuyez longuement sur une réaction pour voir qui l'a choisie. Les réactions
+  que vous avez envoyées sont entourées d'un contour.
 - **Les réactions n'envoient jamais de notification**, et aucun réglage ne
   permet de changer ça.
 - **Retirer quelqu'un cache ses commentaires.** Si vous retirez une relation,
@@ -264,6 +268,11 @@ Notez-les et gardez-les en lieu sûr.
 - Pour utiliser votre compte sur un nouveau téléphone, il vous faut deux
   choses&#160;: votre code e-mail ou votre mot de passe, qui ouvre le compte,
   et les six mots, qui déverrouillent vos photos.
+- Sur un nouveau téléphone, votre liste des personnes que vous avez ajoutées
+  revient avec votre clé. Si cette liste manque ou n'est plus à jour,
+  l'application vous interroge sur les personnes dont elle n'a pas de trace,
+  dans *des personnes que vous n'avez pas ajoutées*, avant que quoi que ce soit
+  leur parte.
 - Si vous perdez les six mots et tous les téléphones connectés à votre compte,
   vos photos sont perdues pour de bon. Nous ne pouvons pas les récupérer, parce
   que nous ne les avons jamais eues.
@@ -298,17 +307,20 @@ suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
     qu'elle voit sur votre profil. Si c'est le cas, personne n'est entre vous.
   - placer une de vos relations dans un de vos groupes, pour qu'une publication
     destinée à ce groupe lui parvienne aussi. Il ne peut pas ajouter quelqu'un
-    avec qui vous n'êtes jamais entré en lien&#160;: votre téléphone garde sa
-    propre liste des personnes que vous avez ajoutées et vous demande avant
-    d'envoyer quoi que ce soit à quelqu'un d'autre. S'il vous demande un jour
-    pour une personne que vous ne connaissez pas, choisissez *les laisser de
+    avec qui vous n'êtes jamais entré en lien. Votre téléphone garde sa propre
+    liste des personnes que vous avez ajoutées. Avant que quoi que ce soit
+    parte vers quelqu'un d'autre, il vous le demande, dans *des personnes que
+    vous n'avez pas ajoutées*, en montrant chaque identifiant et le nom court
+    de la clé de la personne. Touchez *ajouter* pour les personnes que vous
+    connaissez. Si vous ne reconnaissez pas quelqu'un, touchez *les laisser de
     côté*.
   - inventer une publication et la présenter comme venant d'une de vos
     relations. Le téléphone qui fait une publication la signe, et votre
     téléphone refuse une publication dont la signature est fausse. Mais les
-    publications d'avant septembre 2026 n'ont pas de signature, donc votre
-    téléphone affiche encore celles qui n'en ont pas, et une publication
-    inventée pourrait arriver ainsi.
+    publications faites avant que l'application ne signe, et celles qui
+    viennent d'un téléphone avec une version plus ancienne, n'ont pas de
+    signature&#160;: votre téléphone affiche encore celles qui n'en ont pas, et
+    une publication inventée pourrait arriver ainsi.
 - **Un mot de passe qu'on peut deviner.** Quelqu'un qui aurait une copie de
   notre base de données pourrait essayer de deviner votre mot de passe. Un mot
   de passe long rend ça impossible. Un mot de passe ouvre seulement votre

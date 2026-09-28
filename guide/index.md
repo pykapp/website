@@ -57,7 +57,7 @@ them.
 
 ## Posting
 
-Tap *post* on the bar at the bottom.
+Tap the plus at the right of the bar at the bottom.
 
 1. Choose up to 32 photos and videos. A video can be about a minute long. For
    a longer one, tap *choose which minute* to pick the part to keep.
@@ -72,15 +72,13 @@ feed only shows posts other people sent you.
 
 Good to know:
 
-- **Nothing is cropped or edited.** There are no filters, crop or rotate tools.
+- **Nothing is cropped or edited.**
 - **Your location is removed.** Location and camera details are removed from
   photos and videos before they leave your phone. The date a photo was taken
   is kept, encrypted.
 - **There are no drafts.** If you leave before posting, what you chose is lost.
   The app asks first. If the app closes while a post is sending, the post waits
   on your profile with *try again*.
-- **There are no counts.** No likes, no views and no followers. Nothing tells
-  you how many people saw your post.
 - **Recipients see who else got it.** Under the date, a post someone sent you
   says *just you* or *you and 3 others*. A post sent to everybody says nothing.
 - **You can add people later, but not remove them.** On your post, *more → add
@@ -88,11 +86,15 @@ Good to know:
   To take a post back from everyone, use *more → delete for everyone*.
 - **You can edit the caption** with *more → edit caption*. You can't change the
   photos.
-- **Naming people.** In the *who sees this* list, tap *tag* next to a mutual
-  to name them in the photo.
-  Everyone who sees the post sees the names. A person can remove their own
-  name with *more → remove my tag*, and can stop anyone naming them with
-  *settings → let mutuals tag me*.
+- **Naming people.** Under *who sees this* is *who's tagged*. Tap it, tick the
+  people to name, then tap *done*. Only mutuals who allow names are listed, and
+  if none of them does there is no row. Somebody you name is added to who sees
+  the post, and you can't untick them while the name is on it. Everyone who
+  sees the post sees the names.
+- **Naming somebody later.** On your post, *more → who's tagged*, then *tag*.
+  Naming somebody who doesn't have the post sends it to them. A person can
+  remove their own name with *more → remove my tag*, and can stop anyone naming
+  them with *settings → let mutuals tag me*.
 - **Resharing is off unless you allow it.** Once you've named somebody, you can
   tick *tagged people may reshare this*. Then the people you named can share
   the post with their own mutuals. Nobody else can reshare it.
@@ -173,8 +175,9 @@ every comment.
 - **Replies.** Tap *reply* to answer a comment. You can't reply to a reply.
   Deleting a comment also deletes the replies to it.
 - **Mentions.** Type *@* to name somebody in a comment.
-- **Reactions.** React to a post or a comment with any emoji. Press and hold a
-  reaction to see who chose it.
+- **Reactions.** React to a post or a comment with any emoji. Double-tap a
+  photo to react with ❤️. Press and hold a reaction to see who chose it. The
+  reactions you sent have an outline round them.
 - **Reactions never send a notification**, and there is no setting to turn that
   on.
 - **Removing somebody hides their comments.** If you remove a mutual, their
@@ -235,6 +238,9 @@ them down and keep them safe.
 - To use your account on a new phone, you need two things: your email code or
   password, which gets you into the account, and the six words, which unlock
   your photos.
+- On a new phone, your list of the people you added comes back with your key.
+  If that list is missing or out of date, the app asks about the people it has
+  no record of, in *people you haven't added*, before anything goes to them.
 - If you lose the six words and every phone signed in to your account, your
   photos are gone for good. We can't recover them, because we never had them.
 - If you lose the six words but a phone is still signed in, make new ones
@@ -263,14 +269,16 @@ account](/delete-account/) has its own page.
     your mutual. It should match the code they see on your profile. If it
     does, nobody is in between.
   - move one of your mutuals into one of your groups, so a post meant for that
-    group reaches them too. It cannot add somebody you never connected with:
-    your phone keeps its own list of the people you added, and asks you before
-    anything goes to anyone else. If it ever asks about somebody you don't
-    know, choose *leave them out*.
+    group reaches them too. It cannot add somebody you never connected with.
+    Your phone keeps its own list of the people you added. Before anything goes
+    to anybody else, it asks, in *people you haven't added*, showing each
+    handle and the short name of that person's key. Tap *add* for the people
+    you know. If you don't recognise somebody, tap *leave them out*.
   - make up a post and show it as one of your mutuals'. The phone that makes a
     post signs it, and your phone refuses a post whose signature is wrong. But
-    posts from before September 2026 have no signature, so your phone still
-    shows posts without one, and a made-up post could be sent that way.
+    posts made before the app started signing, and posts from a phone running
+    an older version, have no signature, so your phone still shows posts
+    without one, and a made-up post could be sent that way.
 - **A password that can be guessed.** Somebody with a copy of our database
   could try to guess your password. A long password makes that impossible. A
   password only opens your account, never your photos.
