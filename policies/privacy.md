@@ -175,8 +175,8 @@ encrypted files and the locked keys, neither of which we can open, and the
 metadata. There is no key here that we can use, and so none that anybody can
 compel us to hand over or to use, which is the point of the whole arrangement
 rather than a happy accident. What a server made to act dishonestly from then on
-could do is a different question, and [how the privacy works](/how-it-works/privacy/)
-answers it under what this does not protect you from.
+could do is a different question, and [how it works](/how-it-works/#what-the-encryption-does-not-protect)
+answers it.
 
 The United States has no single national privacy law of the kind Canada, New
 Zealand, Singapore and Japan have, and no national privacy regulator like

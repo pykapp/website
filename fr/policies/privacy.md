@@ -211,8 +211,8 @@ aucune clé dont nous puissions nous servir, et donc aucune que quiconque
 pourrait nous contraindre à remettre ou à utiliser, ce qui est le but de tout
 l'arrangement et non un heureux hasard. Ce qu'un serveur forcé d'agir
 malhonnêtement à partir de là pourrait faire est une autre question, et
-[comment marche la confidentialité](/fr/confidentialite/) y répond sous ce dont
-cela ne vous protège pas.
+[comment ça marche](/fr/comment-ca-marche/#ce-que-le-chiffrement-ne-protège-pas)
+y répond.
 
 Les États-Unis n'ont pas de loi nationale unique sur la protection des
 renseignements personnels comme celles du Canada, de la Nouvelle-Zélande, de
