@@ -177,7 +177,7 @@ every comment.
 - **Mentions.** Type *@* to name somebody in a comment.
 - **Reactions.** React to a post or a comment with any emoji. Double-tap a
   photo to react with ❤️. Press and hold a reaction to see who chose it. The
-  reactions you sent have an outline round them.
+  reactions you sent have a shape behind them.
 - **Reactions never send a notification**, and there is no setting to turn that
   on.
 - **Removing somebody hides their comments.** If you remove a mutual, their

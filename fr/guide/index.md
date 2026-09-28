@@ -199,7 +199,7 @@ le monde voit tous les commentaires.
 - **Réactions.** Réagissez à une publication ou à un commentaire avec
   n'importe quel emoji. Touchez deux fois une photo pour réagir avec ❤️.
   Appuyez longuement sur une réaction pour voir qui l'a choisie. Les réactions
-  que vous avez envoyées sont entourées d'un contour.
+  que vous avez envoyées ont une forme derrière elles.
 - **Les réactions n'envoient jamais de notification**, et aucun réglage ne
   permet de changer ça.
 - **Retirer quelqu'un cache ses commentaires.** Si vous retirez une relation,
