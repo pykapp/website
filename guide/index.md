@@ -126,6 +126,11 @@ under *profile → albums*. Tap *new album* to make one.
 
 - The person who makes an album can add their mutuals to it. Everybody in it
   can add photos with *add photos*, and everybody in it sees everything in it.
+- The person who makes an album can also invite somebody by email, under *add
+  people*. If they already use people you know, they join right away. If they
+  don't, they get an email, and they join the album when they install the app.
+  You'll see the album on their list once your phone has added them, which
+  happens the next time you open the app.
 - Everybody in an album can see who else is in it. Some of them may be people
   you aren't connected to.
 - In an album, everybody sees every comment.

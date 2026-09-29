@@ -141,6 +141,12 @@ albums sont sous *profil → albums*. Touchez *nouvel album* pour en créer un.
 - La personne qui crée un album peut y ajouter ses relations. Tous les
   membres peuvent ajouter des photos avec *ajouter des photos*, et tous voient
   tout ce qu'il contient.
+- La personne qui crée un album peut aussi inviter quelqu'un par courriel, sous
+  *ajouter des gens*. Si cette personne utilise déjà people you know, elle
+  rejoint l'album tout de suite. Sinon, elle reçoit un courriel et rejoint
+  l'album en installant l'application. L'album apparaîtra sur sa liste dès que
+  votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
+  de l'application.
 - Tous les membres d'un album voient qui d'autre en fait partie. Certains
   peuvent être des gens avec qui vous n'êtes pas en lien.
 - Dans un album, tout le monde voit tous les commentaires.
