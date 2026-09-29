@@ -140,18 +140,21 @@ under *profile → albums*. Tap *new album* to make one.
 
 ## The feed
 
-The feed shows the posts people sent you that you haven't seen yet.
+The feed shows every post people have sent you, newest first.
 
-- **Oldest first.** The top post is the oldest one you haven't seen, so nothing
-  gets buried.
-- **It ends.** When you've seen everything, it says *all caught up*. Nothing is
-  ranked, suggested or added to keep you scrolling.
-- **Seen posts leave the feed.** A post counts as seen once its first photo has
-  been fully on screen for a second and a half. To see it again, tap *posts
-  you've seen* under *all caught up*.
+- **New posts are at the top.** Below them is a line that says *all caught up*.
+  Everything above it arrived since you last caught up; everything below it you
+  have already been through.
+- **The line moves as you read.** A post counts as read once its first photo has
+  been fully on screen for a second and a half. Nothing moves on the screen when
+  that happens; the next time you open the app the line has moved down past it.
+- **Older posts stay.** Keep scrolling past the line and you can go back through
+  everything you have been sent, including the photos your friends had already
+  posted when you connected. Nothing is ranked, suggested or added to keep you
+  scrolling.
 - **Refreshing.** Pull the feed down to check for new posts.
 - **Tabs.** *everybody*, then one tab per group. The number on a tab is how
-  many posts in it you haven't seen.
+  many new posts it has.
 - **Nobody knows you looked.** There are no read receipts and no list of who
   viewed a post.
 

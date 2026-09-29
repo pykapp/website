@@ -157,19 +157,23 @@ albums sont sous *profil → albums*. Touchez *nouvel album* pour en créer un.
 
 ## L'accueil
 
-L'accueil montre les publications qu'on vous a envoyées et que vous n'avez pas
-encore vues.
+L'accueil montre toutes les publications qu'on vous a envoyées, les plus
+récentes d'abord.
 
-- **Les plus anciennes d'abord.** La première publication est la plus
-  ancienne que vous n'avez pas vue, pour que rien ne se perde.
-- **Il a une fin.** Quand vous avez tout vu, il affiche *vous êtes à jour*.
-  Rien n'est classé, suggéré ou ajouté pour vous faire défiler plus longtemps.
-- **Ce que vous avez vu en sort.** Une publication compte comme vue quand sa
-  première photo est restée entièrement à l'écran une seconde et demie. Pour
-  la revoir, touchez *publications déjà vues* sous *vous êtes à jour*.
+- **Les nouvelles publications sont en haut.** En dessous, une ligne affiche
+  *vous êtes à jour*. Tout ce qui est au-dessus est arrivé depuis votre
+  dernière visite&#160;; tout ce qui est en dessous, vous l'avez déjà parcouru.
+- **La ligne descend à mesure que vous lisez.** Une publication compte comme lue
+  quand sa première photo est restée entièrement à l'écran une seconde et demie.
+  Rien ne bouge à l'écran à ce moment-là&#160;; à votre prochaine visite, la
+  ligne est passée en dessous.
+- **Les publications plus anciennes restent.** Continuez à faire défiler sous la
+  ligne pour revoir tout ce qu'on vous a envoyé, y compris les photos que vos
+  amis avaient déjà publiées quand vous vous êtes connectés. Rien n'est classé,
+  suggéré ou ajouté pour vous faire défiler plus longtemps.
 - **Actualiser.** Tirez l'accueil vers le bas pour voir s'il y a du nouveau.
 - **Les onglets.** *tout le monde*, puis un onglet par groupe. Le nombre sur un
-  onglet est le nombre de publications que vous n'y avez pas encore vues.
+  onglet est le nombre de nouvelles publications qu'il contient.
 - **Personne ne sait que vous avez regardé.** Il n'y a pas d'accusé de lecture
   ni de liste de qui a vu une publication.
 
