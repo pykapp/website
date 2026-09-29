@@ -8,7 +8,7 @@
   ic_launcher_background.xml f5136ac48fc6795a2419f86c1f51841088ccabb0bc353ec2d98266d4b77594b7
   ic_launcher_foreground.xml d1fc52a280807e05301c62a1b73ed2398d7cd68212866ce26b7690cf91abc15d
   colors.xml 6f66460eb5e211da0b1e493610d2b9c70035bcaf8f483b507f886923edf8b97d
-  Theme.kt bbca2a59a072b960d8b159cb86d5f10ef67a3680853b02cb5bf514178fc1a93d
+  Theme.kt bf70f72cf65b3ae6d0d6773d16033c6384ac707c1befe72d115a5003bebea180
   victor_mono_italic.ttf 44e41f0cae54e700410276a0501a3153254ee5aa843d6035f7fe057cf36964e8
 -->
 <defs><clipPath id="disc"><circle cx="50" cy="50" r="50"/></clipPath></defs>
