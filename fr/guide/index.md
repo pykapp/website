@@ -8,8 +8,12 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne, et surtout ce qui fonctionne autrement que dans les
 autres applications.
 
-**Dernière mise à jour&#160;:** 28 septembre 2026. Cette page décrit la bêta,
+**Dernière mise à jour&#160;:** 30 septembre 2026. Cette page décrit la bêta,
 sur Android et sur iPhone.
+
+La barre en bas de l'application contient *accueil*, *activité*, *albums*, votre
+*profil*, et le plus qui sert à publier. Les paramètres sont sous la roue dentée
+en haut de votre profil.
 
 - [Ajouter des relations](#ajouter-des-relations)
 - [Publier](#publier)
@@ -136,7 +140,15 @@ groupes*.
 ## Albums
 
 Un album est un espace partagé où plusieurs personnes ajoutent des photos. Vos
-albums sont sous *profil → albums*. Touchez *nouvel album* pour en créer un.
+albums sont sous *albums*, dans la barre en bas. Touchez *nouvel album* pour en
+créer un.
+
+- Les nouvelles publications de vos albums apparaissent aussi dans l'accueil.
+  Pour garder celles d'un album hors de l'accueil, désactivez *afficher dans
+  l'accueil* sur l'écran de cet album. Elles restent dans l'album.
+- *albums* dans la barre affiche un point tant qu'un album contient une
+  publication que vous n'avez pas vue. Il disparaît une fois que vous l'avez
+  vue, dans l'accueil ou dans l'album.
 
 - La personne qui crée un album peut y ajouter ses relations. Tous les
   membres peuvent ajouter des photos avec *ajouter des photos*, et tous voient
@@ -148,8 +160,8 @@ albums sont sous *profil → albums*. Touchez *nouvel album* pour en créer un.
   votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
   de l'application.
 - Si vous utilisez déjà people you know et que quelqu'un vous invite par
-  courriel, vous n'avez pas à vous réinscrire : ouvrez *profil → albums* et
-  touchez *rejoindre avec un code*, puis saisissez le code reçu.
+  courriel, vous n'avez pas à vous réinscrire : ouvrez *albums* et touchez
+  *rejoindre avec un code*, puis saisissez le code reçu.
 - Tous les membres d'un album voient qui d'autre en fait partie. Certains
   peuvent être des gens avec qui vous n'êtes pas en lien.
 - Dans un album, tout le monde voit tous les commentaires.

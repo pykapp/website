@@ -7,8 +7,12 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works, and especially the
 parts that work differently from other apps.
 
-**Last updated:** 28 September 2026. This page covers the beta, on Android and
+**Last updated:** 30 September 2026. This page covers the beta, on Android and
 iPhone.
+
+The bar at the bottom of the app has *home*, *activity*, *albums*, your
+*profile*, and the plus that makes a post. Settings is the gear at the top of
+your profile.
 
 - [Connecting with people](#connecting-with-people)
 - [Posting](#posting)
@@ -122,7 +126,13 @@ Your groups are under *profile → groups*.
 ## Albums
 
 An album is a shared place that several people add photos to. Your albums are
-under *profile → albums*. Tap *new album* to make one.
+under *albums* in the bar at the bottom. Tap *new album* to make one.
+
+- New posts in your albums also show on home. To keep one album's posts off
+  home, turn off *show on home* on that album's screen. They still show in the
+  album.
+- *albums* in the bar shows a dot while an album has a post you haven't seen.
+  It goes away once you've seen it, on home or in the album.
 
 - The person who makes an album can add their mutuals to it. Everybody in it
   can add photos with *add photos*, and everybody in it sees everything in it.
@@ -132,8 +142,8 @@ under *profile → albums*. Tap *new album* to make one.
   You'll see the album on their list once your phone has added them, which
   happens the next time you open the app.
 - If you already use people you know and somebody invites you by email, you
-  don't have to sign up again: open *profile → albums* and tap *join with a
-  code*, then type the code from the email.
+  don't have to sign up again: open *albums* and tap *join with a code*, then
+  type the code from the email.
 - Everybody in an album can see who else is in it. Some of them may be people
   you aren't connected to.
 - In an album, everybody sees every comment.
