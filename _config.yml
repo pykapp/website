@@ -135,6 +135,14 @@ defaults:
 # by somebody without a licence. One review before release covers both
 # languages, which is why it sits with the LLC rather than after launch.
 drafted_not_translated:
+# The two files that say the apps may use passkeys for this website (DESIGN.md
+# §6): `assetlinks.json` names the Android app and the certificates it is
+# signed with, and `apple-app-site-association` names the iPhone app. Jekyll
+# leaves out every folder whose name starts with a dot unless it is named here.
+# The server holds the same names and certificates, and `PasskeyHomeTest` holds
+# the two to each other.
+include:
+  - .well-known
 exclude:
   - store
   - README.md
