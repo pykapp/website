@@ -131,6 +131,9 @@ under *profile → albums*. Tap *new album* to make one.
   don't, they get an email, and they join the album when they install the app.
   You'll see the album on their list once your phone has added them, which
   happens the next time you open the app.
+- If you already use people you know and somebody invites you by email, you
+  don't have to sign up again: open *profile → albums* and tap *join with a
+  code*, then type the code from the email.
 - Everybody in an album can see who else is in it. Some of them may be people
   you aren't connected to.
 - In an album, everybody sees every comment.

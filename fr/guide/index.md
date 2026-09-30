@@ -147,6 +147,9 @@ albums sont sous *profil → albums*. Touchez *nouvel album* pour en créer un.
   l'album en installant l'application. L'album apparaîtra sur sa liste dès que
   votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
   de l'application.
+- Si vous utilisez déjà people you know et que quelqu'un vous invite par
+  courriel, vous n'avez pas à vous réinscrire : ouvrez *profil → albums* et
+  touchez *rejoindre avec un code*, puis saisissez le code reçu.
 - Tous les membres d'un album voient qui d'autre en fait partie. Certains
   peuvent être des gens avec qui vous n'êtes pas en lien.
 - Dans un album, tout le monde voit tous les commentaires.
