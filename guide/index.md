@@ -256,9 +256,9 @@ policy](/privacy/) lists everything we keep.
 **Your recovery phrase is six words**, shown to you when you sign up. Write
 them down and keep them safe.
 
-- To use your account on a new phone, you need two things: your email code or
-  password, which gets you into the account, and the six words, which unlock
-  your photos.
+- To use your account on a new phone, you need two things: your email code,
+  password or passkey, which gets you into the account, and the six words,
+  which unlock your photos.
 - On a new phone, your list of the people you added comes back with your key.
   If that list is missing or out of date, the app asks about the people it has
   no record of, in *people you haven't added*, before anything goes to them.
@@ -270,6 +270,13 @@ them down and keep them safe.
   → your email*. If you lose that inbox, you can't sign in on a new phone.
 - If your account has a password and no email, nobody can reset the password
   for you. You can add an email in *settings*.
+- A passkey signs you in with your face, fingerprint or screen lock instead of
+  a code. Add one with *settings → your passkeys → add a passkey*, then use
+  *sign in with a passkey* on a new phone. Your phone's password manager keeps
+  it and copies it to your other phones. It gets you into your account and
+  never opens your photos.
+- Removing a passkey in *settings → your passkeys* takes it off your account.
+  It stays in your password manager until you delete it there too.
 
 When you delete a post, it's gone for everyone at once, and its files are
 erased from our servers within six weeks. [Deleting your

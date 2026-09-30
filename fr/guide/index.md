@@ -291,8 +291,8 @@ ce que nous gardons.
 Notez-les et gardez-les en lieu sûr.
 
 - Pour utiliser votre compte sur un nouveau téléphone, il vous faut deux
-  choses&#160;: votre code e-mail ou votre mot de passe, qui ouvre le compte,
-  et les six mots, qui déverrouillent vos photos.
+  choses&#160;: votre code e-mail, votre mot de passe ou votre clé d'accès, qui
+  ouvre le compte, et les six mots, qui déverrouillent vos photos.
 - Sur un nouveau téléphone, votre liste des personnes que vous avez ajoutées
   revient avec votre clé. Si cette liste manque ou n'est plus à jour,
   l'application vous interroge sur les personnes dont elle n'a pas de trace,
@@ -310,6 +310,15 @@ Notez-les et gardez-les en lieu sûr.
 - Si votre compte a un mot de passe et pas d'e-mail, personne ne peut
   réinitialiser le mot de passe pour vous. Vous pouvez ajouter un e-mail dans
   les *paramètres*.
+- Une clé d'accès vous connecte avec votre visage, votre empreinte ou le
+  verrouillage de l'écran, sans code. Ajoutez-en une avec *paramètres → vos
+  clés d'accès → ajouter une clé d'accès*, puis touchez *se connecter avec une
+  clé d'accès* sur un nouveau téléphone. Le gestionnaire de mots de passe de
+  votre téléphone la conserve et la copie sur vos autres téléphones. Elle ouvre
+  votre compte et n'ouvre jamais vos photos.
+- Retirer une clé d'accès dans *paramètres → vos clés d'accès* l'enlève de
+  votre compte. Elle reste dans votre gestionnaire de mots de passe jusqu'à ce
+  que vous l'y supprimiez aussi.
 
 Quand vous supprimez une publication, elle disparaît pour tout le monde tout de
 suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
