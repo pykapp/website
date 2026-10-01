@@ -114,20 +114,17 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 - les demandes d'ajout que vous envoyez et recevez, les blocages que vous
   posez, et toute personne dont vous avez masqué les publications (un masquage
   n'appartient qu'à vous&#160;; la personne n'en est jamais informée)&#160;;
-- qui vous a invité, et qui vous avez invité&#160;;
 - une adresse de courriel que quelqu'un a saisie pour inviter une personne dans
   un album, et quand, jusqu'à ce que cette personne s'inscrive ou que
   l'invitation expire. Si la personne à cette adresse nous demande d'arrêter de
   lui envoyer des invitations, nous gardons une empreinte de l'adresse (un
   hachage à sens unique, pas l'adresse elle-même), pour ne plus jamais lui en
   envoyer&#160;;
-- le pays auquel votre téléphone était réglé quand vous vous êtes inscrit,
-  écrit une fois sur l'invitation que vous avez utilisée et jamais mis à jour.
-  Si votre téléphone ne l'a pas dit, l'invitation garde le pays de la personne
-  qui l'a partagée avec vous. Nous nous en servons seulement pour compter
-  combien de personnes nous servons dans chaque pays, parce que les lois de
-  certains pays commencent à s'appliquer quand un service y a assez
-  d'utilisateurs&#160;;
+- le pays auquel votre téléphone était réglé quand vous avez créé votre
+  compte, écrit une fois et jamais mis à jour. Nous nous en servons seulement
+  pour compter combien de personnes nous servons dans chaque pays, parce que
+  les lois de certains pays commencent à s'appliquer quand un service y a
+  assez d'utilisateurs&#160;;
 - dans lesquels de vos groupes une personne se trouve (jamais montré à cette
   personne)&#160;;
 - qui est dans chaque album où vous êtes&#160;;
@@ -349,8 +346,9 @@ compris des personnes avec qui vous n'êtes pas en relation, et l'album en donne
 la liste. Il n'y a pas de
 profil public, pas de recherche par nom, pas de suggestions, et aucun moyen
 pour un inconnu de vous trouver s'il ne connaît pas déjà votre pseudo ou votre
-adresse exacte, et si vous n'avez pas autorisé les demandes venant de personnes
-sans relation en commun.
+adresse exacte. Quelqu'un qui connaît l'un des deux peut demander à se connecter, sauf
+si vous avez limité les demandes aux personnes ayant une relation en commun, et
+ne voit rien de ce qui est à vous avant que vous acceptiez.
 
 Ce que vous partagez avec quelqu'un, cette personne peut le garder.
 L'application n'empêche pas les captures d'écran et ne peut pas rappeler une
@@ -463,9 +461,9 @@ nom, votre pseudo, votre adresse ni votre clé&#160;: le fait que le compte a
 existé, quand il a été créé, quand il a confirmé son âge et quand il a été
 supprimé&#160;; les blocages que vous avez posés ou qui ont été posés contre
 vous&#160;; les signalements que vous avez déposés ou qui ont été déposés à
-votre sujet, et les rapports de problème que vous avez envoyés&#160;; qui vous
-a invité et qui vous avez invité, et le pays inscrit sur l'invitation que vous
-avez utilisée&#160;; les demandes d'ajout que vous avez envoyées et reçues,
+votre sujet, et les rapports de problème que vous avez envoyés&#160;; le pays
+auquel votre téléphone était réglé quand vous avez créé votre compte&#160;; les
+demandes d'ajout que vous avez envoyées et reçues,
 marquées annulées&#160;; quand vous vous êtes connecté sur chaque téléphone et
 l'avez utilisé pour la dernière fois&#160;; et les lignes de vos publications
 et de vos commentaires, marquées supprimées, qui disent encore quand chacun a

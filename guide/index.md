@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works, and especially the
 parts that work differently from other apps.
 
-**Last updated:** 30 September 2026. This page covers the beta, on Android and
+**Last updated:** 1 October 2026. This page covers the beta, on Android and
 iPhone.
 
 The bar at the bottom of the app has *home*, *activity*, *albums*, your
@@ -32,18 +32,14 @@ There are no followers. You connect with someone only when you both agree: one
 of you asks and the other accepts. The app calls the people you are connected
 to your *mutuals*.
 
-- **Joining.** You need an invite code from somebody who already uses the app.
-  When you sign up with their code, the app sends them a request from you, so
-  they can accept you as your first mutual.
-- **Inviting.** Every account gets 4 invites. On your profile, tap your
-  mutuals count to open the *people* screen, then tap *invites*. If nobody uses
-  an invite by the date on it, you get it back.
+- **Joining.** Install the app and tap *create an account*. You can sign up
+  with your email address, or with a password and no email address.
 - **Finding someone.** Search by their exact handle or email address. Part of a
   name finds nobody, and the app never suggests people. You can search 32
   times an hour.
-- **Asking.** Tap *add*. By default, only people who have a mutual in common
-  with you can ask to add you. To let anyone ask, turn on *settings → requests
-  from anyone*.
+- **Asking.** Tap *add*. By default, anybody who knows your handle or email
+  address can ask to add you. To limit requests to people who have a mutual in
+  common with you, turn off *settings → requests from anyone*.
 - **Answering.** Requests to you appear at the top of your profile, with the
   person's name, photo and the people you both know. Tap *accept* or
   *decline*. If you decline, they are not told. A request you don't answer
@@ -140,7 +136,8 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
 - The person who makes an album can also invite somebody by email: tap the row
   with the members' names, then *invite by email*. If they already use people
   you know, they join right away. If they
-  don't, they get an email, and they join the album when they install the app.
+  don't, they get an email, and they join the album when they install the app
+  and sign up with that email address.
   You'll see the album on their list once your phone has added them, which
   happens the next time you open the app.
 - If you already use people you know and somebody invites you by email, you

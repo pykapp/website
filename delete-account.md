@@ -8,7 +8,7 @@ than only a screen in the app because you may not have the app any more: an
 uninstalled app, a lost phone or an address you can no longer read are all
 reasons to be asking, and none of them should stand in the way.
 
-**Last updated:** 27 September 2026. This page covers the closed beta.
+**Last updated:** 1 October 2026. This page covers the closed beta.
 
 If you only want to delete one photograph, or one comment, [that is further
 down](#deleting-a-post-a-comment-or-a-picture) and it does not need us at all.
@@ -52,10 +52,9 @@ Signing in during that time with the same address starts a new, empty account.
 
 What we keep afterwards carries your name, handle, address and keys on none of
 it, and the [privacy policy](/privacy/) lists all of it: that the account
-existed, blocks, reports, who invited whom and the country on your invitation,
-the add requests you sent and
-received, when you signed in, and the rows of your posts and comments marked
-deleted.
+existed, blocks, reports, the country your phone was set to when you made the
+account, the add requests you sent and received, when you signed in, and the
+rows of your posts and comments marked deleted.
 
 ## Deleting a post, a comment or a picture
 

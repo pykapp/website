@@ -7,7 +7,7 @@ permalink: /terms/
 using it during the closed beta. They are short on purpose, and they are a
 contract: using the app means agreeing to them.
 
-**Last updated:** 25 September 2026.
+**Last updated:** 1 October 2026.
 
 ## Who we are
 
@@ -34,8 +34,7 @@ ours rather than a choice, and we will correct it.
 
 ## Who may use it
 
-You must be 18 or older. You need an invitation; during the beta they are
-issued by hand. One person, one account.
+You must be 18 or older. One person, one account.
 
 ## What it costs
 

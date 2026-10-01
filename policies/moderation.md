@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 27 September 2026.
+**Last updated:** 1 October 2026.
 
 ## What we cannot do
 
@@ -81,9 +81,9 @@ The strongest tools are yours, and they do not wait for us:
 - **Delete** a post of yours for everyone.
 - **Delete** a comment somebody left on your post.
 
-Because there are no strangers, no public profiles and no discovery, the
-people who can reach you are people you chose, and the way to stop somebody
-is to unchoose them.
+Because there are no public profiles and no discovery, somebody can reach you
+only by typing your exact handle or email address, and the way to stop
+somebody is to remove or block them.
 
 ## Limits
 

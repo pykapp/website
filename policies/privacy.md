@@ -94,17 +94,15 @@ To deliver a photo to the right people we hold, in the clear:
 - add requests you send and receive, blocks you place, and anybody whose
   posts you have muted (a mute is yours alone; the other person is never
   told);
-- who invited you, and who you invited;
 - an email address somebody typed to invite a person into an album, and when,
   until that person joins or the invitation lapses. If the person at that
   address asks us to stop sending invitations, we keep a fingerprint of the
   address (a one-way hash of it, not the address), so that we never email it
   an invitation again;
-- the country your phone was set to when you joined, written once on the
-  invitation you used and never updated. If your phone did not say, the
-  invitation keeps the country of whoever shared it with you. We use it only
-  to count how many people we serve in each country, because some countries'
-  laws start to apply once a service has enough users there;
+- the country your phone was set to when you made your account, written once
+  and never updated. We use it only to count how many people we serve in each
+  country, because some countries' laws start to apply once a service has
+  enough users there;
 - which of your groups a person is in (never shown to that person);
 - who is in each album you are in;
 - for every post: who made it, when, whether and when it was edited, who it
@@ -292,8 +290,9 @@ to receive it. The exception is an album: what you put in one is seen by
 everybody in it, including people you are not connected to, and the album
 lists who they are. There is no public profile, no search by name, no
 suggestions, and no way for a stranger to find you unless they already know
-your exact handle or email address, and you have allowed requests from
-people with no mutual in common.
+your exact handle or email address. Somebody who knows one can ask to connect,
+unless you have limited requests to people with a mutual in common, and sees
+nothing of yours until you accept.
 
 What you share with someone, they can keep. The app does not stop screenshots
 and cannot recall a photo from a phone that has already downloaded it, any
@@ -389,8 +388,8 @@ What we keep afterwards is kept under an identifier that no longer carries your
 name, handle, address or key: that the account existed, when it was made, when
 it confirmed its age and when it was deleted; blocks you placed or that were
 placed against you; reports you filed or that were filed about you, and bug
-reports you sent; who invited you and who you invited, and the country on the
-invitation you used; the add requests you sent and received, marked cancelled;
+reports you sent; the country your phone was set to when you made your
+account; the add requests you sent and received, marked cancelled;
 when you signed in on each phone and last used it; and the rows of your posts
 and comments, marked deleted, which still say when each was made and, for a
 post, who it was addressed to. A deleted comment's sealed text stays in its row

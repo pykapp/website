@@ -13,7 +13,7 @@ peut-être plus l'application&#160;: une application désinstallée, un téléph
 perdu ou une adresse que vous ne pouvez plus lire sont autant de raisons de
 poser la question, et aucune ne doit y faire obstacle.
 
-**Dernière mise à jour&#160;:** 27 septembre 2026. Cette page décrit la bêta
+**Dernière mise à jour&#160;:** 1er octobre 2026. Cette page décrit la bêta
 fermée.
 
 Si vous voulez seulement supprimer une photo, ou un commentaire, [c'est plus
@@ -66,10 +66,10 @@ ce temps avec la même adresse crée un nouveau compte, vide.
 Ce que nous gardons ensuite ne porte ni votre nom, ni votre pseudo, ni votre
 adresse, ni vos clés, et la [politique de
 confidentialité](/fr/politique-de-confidentialite/) l'énumère en entier&#160;:
-le fait que le compte a existé, les blocages, les signalements, qui a invité
-qui et le pays inscrit sur votre invitation, les demandes d'ajout que vous avez envoyées et reçues, quand vous vous êtes
-connecté, et les lignes de vos publications et de vos commentaires marquées
-supprimées.
+le fait que le compte a existé, les blocages, les signalements, le pays auquel
+votre téléphone était réglé quand vous avez créé le compte, les demandes
+d'ajout que vous avez envoyées et reçues, quand vous vous êtes connecté, et les
+lignes de vos publications et de vos commentaires marquées supprimées.
 
 ## Supprimer une publication, un commentaire ou une photo
 

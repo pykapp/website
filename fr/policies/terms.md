@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser pendant la bêta fermée. Elles sont courtes exprès,
 et ce sont un contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 25 septembre 2026.
+**Dernière mise à jour&#160;:** 1er octobre 2026.
 
 ## Qui nous sommes
 
@@ -40,8 +40,7 @@ choix, et nous la corrigerons.
 
 ## Qui peut l'utiliser
 
-Vous devez avoir 18 ans ou plus. Il vous faut une invitation&#160;; pendant la
-bêta elles sont délivrées à la main. Une personne, un compte.
+Vous devez avoir 18 ans ou plus. Une personne, un compte.
 
 ## Ce que cela coûte
 

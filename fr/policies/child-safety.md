@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 27 septembre 2026.**
+**Dernière mise à jour&#160;: 1er octobre 2026.**
 
 ## La règle
 
@@ -31,14 +31,16 @@ date saisie.
 ## Il n'y a aucune entrée depuis l'extérieur
 
 L'essentiel du travail de protection de l'enfance sur une application sociale
-concerne des inconnus qui atteignent des enfants. Cette application n'offre
-aucun mécanisme par lequel un inconnu atteint qui que ce soit&#160;:
+concerne des inconnus qui atteignent des enfants. Cette application ne donne
+presque rien à un inconnu pour atteindre qui que ce soit&#160;:
 
 - Il n'y a pas de profils publics, pas d'annuaire et pas de recherche par nom.
   On ne peut vous trouver qu'en tapant votre pseudonyme exact ou votre adresse
   courriel exacte.
-- Par défaut, seule une personne qui a déjà une relation en commun avec vous
-  peut demander à se connecter, et vous devez tout de même accepter.
+- Une personne qui vous trouve ainsi peut demander à se connecter, et c'est
+  tout. Une demande ne contient aucun message, et rien n'est partagé avant que
+  vous acceptiez. Dans les paramètres, vous pouvez limiter les demandes aux
+  personnes qui ont une relation en commun avec vous.
 - Chaque relation est mutuelle, les deux personnes y consentent, et vous pouvez
   en avoir cent vingt-huit au plus. Il n'y a pas d'abonnés et aucune audience à
   bâtir.

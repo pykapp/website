@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne, et surtout ce qui fonctionne autrement que dans les
 autres applications.
 
-**Dernière mise à jour&#160;:** 30 septembre 2026. Cette page décrit la bêta,
+**Dernière mise à jour&#160;:** 1er octobre 2026. Cette page décrit la bêta,
 sur Android et sur iPhone.
 
 La barre en bas de l'application contient *accueil*, *activité*, *albums*, votre
@@ -33,20 +33,16 @@ Il n'y a pas d'abonnés. Vous n'êtes en lien avec quelqu'un que si vous êtes
 tous les deux d'accord&#160;: l'un demande, l'autre accepte. L'application
 appelle ces personnes vos *relations*.
 
-- **S'inscrire.** Il faut un code d'invitation donné par quelqu'un qui utilise
-  déjà l'application. Quand vous vous inscrivez avec son code, l'application
-  envoie une demande de votre part à cette personne, qui peut ainsi vous
-  accepter comme première relation.
-- **Inviter.** Chaque compte a droit à 4 invitations. Sur votre profil,
-  touchez le nombre de vos relations pour ouvrir l'écran *personnes*, puis
-  touchez *invitations*. Si personne n'utilise une invitation avant la date
-  indiquée, elle vous revient.
+- **S'inscrire.** Installez l'application et touchez *créer un compte*. Vous
+  pouvez vous inscrire avec votre adresse e-mail, ou avec un mot de passe et
+  sans adresse e-mail.
 - **Trouver quelqu'un.** Cherchez son pseudo exact ou son adresse e-mail
   exacte. Une partie de nom ne trouve personne, et l'application ne suggère
   jamais personne. Vous pouvez faire 32 recherches par heure.
-- **Demander.** Touchez *ajouter*. Par défaut, seules les personnes qui ont une
-  relation en commun avec vous peuvent vous demander. Pour que tout le monde
-  le puisse, activez *paramètres → demandes de tout le monde*.
+- **Demander.** Touchez *ajouter*. Par défaut, toute personne qui connaît votre
+  pseudo ou votre adresse e-mail peut vous demander. Pour limiter les demandes
+  aux personnes qui ont une relation en commun avec vous, désactivez
+  *paramètres → demandes de tout le monde*.
 - **Répondre.** Les demandes que vous recevez s'affichent en haut de votre
   profil, avec le nom, la photo de la personne et les relations que vous avez
   en commun. Touchez *accepter* ou *refuser*. Si vous refusez, la personne
@@ -158,7 +154,8 @@ créer un.
   touchez la rangée qui affiche les noms des membres, puis *inviter par
   courriel*. Si cette personne utilise déjà people you know, elle
   rejoint l'album tout de suite. Sinon, elle reçoit un courriel et rejoint
-  l'album en installant l'application. L'album apparaîtra sur sa liste dès que
+  l'album en installant l'application et en s'inscrivant avec cette adresse.
+  L'album apparaîtra sur sa liste dès que
   votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
   de l'application.
 - Si vous utilisez déjà people you know et que quelqu'un vous invite par
