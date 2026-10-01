@@ -5,6 +5,8 @@
       "namespace": "android_app",
       "package_name": "app.pyk.android",
       "sha256_cert_fingerprints": [
+        "B1:A2:66:92:99:EF:C1:4D:8D:6C:A7:0B:1C:BB:D3:7D:A0:81:69:E3:66:BF:BC:7A:1A:F4:A7:03:88:AE:F1:D2",
+        "48:CB:29:F9:79:AA:90:02:3A:44:5F:54:72:F2:A0:25:D8:A1:16:C9:03:DB:B0:E7:7E:15:59:ED:EA:32:8E:98",
         "32:BB:93:75:C7:C6:B3:9A:18:7D:FA:DD:A9:AF:8C:5F:F3:07:D2:A0:15:43:A6:F6:1C:78:87:B4:47:17:7B:B0",
         "7C:6E:84:B1:C3:05:63:2F:4D:49:EA:47:CA:F9:D9:B7:77:A2:F3:F0:87:48:99:26:D8:01:80:E4:1C:25:44:FB"
       ]
