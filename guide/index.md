@@ -129,23 +129,26 @@ An album is a shared place that several people add photos to. Your albums are
 under *albums* in the bar at the bottom. Tap *new album* to make one.
 
 - New posts in your albums also show on home. To keep one album's posts off
-  home, turn off *show on home* on that album's screen. They still show in the
-  album.
+  home, open the album, tap the row with the members' names, and turn off
+  *show on home*. They still show in the album.
 - *albums* in the bar shows a dot while an album has a post you haven't seen.
   It goes away once you've seen it, on home or in the album.
 
 - The person who makes an album can add their mutuals to it. Everybody in it
-  can add photos with *add photos*, and everybody in it sees everything in it.
-- The person who makes an album can also invite somebody by email, under *add
-  people*. If they already use people you know, they join right away. If they
+  can add photos with *add photos*, at the top of the album, and everybody in
+  it sees everything in it.
+- The person who makes an album can also invite somebody by email: tap the row
+  with the members' names, then *invite by email*. If they already use people
+  you know, they join right away. If they
   don't, they get an email, and they join the album when they install the app.
   You'll see the album on their list once your phone has added them, which
   happens the next time you open the app.
 - If you already use people you know and somebody invites you by email, you
   don't have to sign up again: open *albums* and tap *join with a code*, then
   type the code from the email.
-- Everybody in an album can see who else is in it. Some of them may be people
-  you aren't connected to.
+- Everybody in an album can see who else is in it. Their names are on the
+  first row of the album, and tapping that row shows the whole list. Some of
+  them may be people you aren't connected to.
 - In an album, everybody sees every comment.
 - Photos in an album can't be reshared.
 - When you join an album, you can see the photos that were already in it. They

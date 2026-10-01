@@ -144,17 +144,19 @@ albums sont sous *albums*, dans la barre en bas. Touchez *nouvel album* pour en
 créer un.
 
 - Les nouvelles publications de vos albums apparaissent aussi dans l'accueil.
-  Pour garder celles d'un album hors de l'accueil, désactivez *afficher dans
-  l'accueil* sur l'écran de cet album. Elles restent dans l'album.
+  Pour garder celles d'un album hors de l'accueil, ouvrez l'album, touchez la
+  rangée qui affiche les noms des membres, puis désactivez *afficher dans
+  l'accueil*. Elles restent dans l'album.
 - *albums* dans la barre affiche un point tant qu'un album contient une
   publication que vous n'avez pas vue. Il disparaît une fois que vous l'avez
   vue, dans l'accueil ou dans l'album.
 
 - La personne qui crée un album peut y ajouter ses relations. Tous les
-  membres peuvent ajouter des photos avec *ajouter des photos*, et tous voient
-  tout ce qu'il contient.
-- La personne qui crée un album peut aussi inviter quelqu'un par courriel, sous
-  *ajouter des gens*. Si cette personne utilise déjà people you know, elle
+  membres peuvent ajouter des photos avec *ajouter des photos*, en haut de
+  l'album, et tous voient tout ce qu'il contient.
+- La personne qui crée un album peut aussi inviter quelqu'un par courriel :
+  touchez la rangée qui affiche les noms des membres, puis *inviter par
+  courriel*. Si cette personne utilise déjà people you know, elle
   rejoint l'album tout de suite. Sinon, elle reçoit un courriel et rejoint
   l'album en installant l'application. L'album apparaîtra sur sa liste dès que
   votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
@@ -162,8 +164,10 @@ créer un.
 - Si vous utilisez déjà people you know et que quelqu'un vous invite par
   courriel, vous n'avez pas à vous réinscrire : ouvrez *albums* et touchez
   *rejoindre avec un code*, puis saisissez le code reçu.
-- Tous les membres d'un album voient qui d'autre en fait partie. Certains
-  peuvent être des gens avec qui vous n'êtes pas en lien.
+- Tous les membres d'un album voient qui d'autre en fait partie. Leurs noms
+  sont sur la première rangée de l'album, et toucher cette rangée affiche la
+  liste complète. Certains peuvent être des gens avec qui vous n'êtes pas en
+  lien.
 - Dans un album, tout le monde voit tous les commentaires.
 - Les photos d'un album ne peuvent pas être repartagées.
 - Quand vous rejoignez un album, vous voyez les photos qui y étaient déjà.
