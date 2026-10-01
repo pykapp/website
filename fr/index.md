@@ -13,6 +13,7 @@ chiffrés sur votre téléphone avec des clés que nous ne voyons jamais.
 - [Conditions d'utilisation](/fr/conditions/)
 - [Politique de confidentialité](/fr/politique-de-confidentialite/)
 - [Politique de modération](/fr/politique-de-moderation/)
+- [Retrait d'images intimes](/fr/images-intimes/)
 - [Normes de protection des enfants](/fr/protection-des-enfants/)
 - [Supprimer votre compte](/fr/supprimer-votre-compte/)
 

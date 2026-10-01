@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 28 September 2026. This policy covers the closed beta.
+**Last updated:** 1 October 2026. This policy covers the closed beta.
 
 ## Who is responsible, and where this applies
 
@@ -95,6 +95,11 @@ To deliver a photo to the right people we hold, in the clear:
   posts you have muted (a mute is yours alone; the other person is never
   told);
 - who invited you, and who you invited;
+- an email address somebody typed to invite a person into an album, and when,
+  until that person joins or the invitation lapses. If the person at that
+  address asks us to stop sending invitations, we keep a fingerprint of the
+  address (a one-way hash of it, not the address), so that we never email it
+  an invitation again;
 - the country your phone was set to when you joined, written once on the
   invitation you used and never updated. If your phone did not say, the
   invitation keeps the country of whoever shared it with you. We use it only
@@ -152,6 +157,8 @@ We use what we hold for these things and nothing else:
 - to deliver what you post to the people you chose, and what they post to you;
 - to send you the notifications you allowed;
 - to write to you once there is room, if we were full and you asked us to;
+- to send one email to an address somebody typed to invite a person into an
+  album, and to stop when that person asks us to;
 - to act on reports and keep people safe, as the [moderation
   policy](/moderation/) and the [child safety standards](/child-safety/)
   describe;
@@ -322,8 +329,8 @@ more than any other way of sending a photo can.
   Android and Apple's Push Notification service on iPhone, when you allow
   them. A push carries a type and nothing else: no names, no captions, no
   post identifiers; the words you see are written by your phone.
-- **Email** to send you a one-time sign-in code. The provider sees the
-  address and the code, and nothing else about you.
+- **Email**, to send one-time sign-in codes and album invitations. The
+  provider sees the address and the message, and nothing else about you.
 
 Each of them is a company based in the United States. Each receives only what
 its part of the service needs, and uses it only to provide that part to us.

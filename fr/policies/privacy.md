@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 28 septembre 2026. Cette politique couvre la
+**Dernière mise à jour&#160;:** 1er octobre 2026. Cette politique couvre la
 bêta fermée.
 
 ## Qui est responsable, et où ceci s'applique
@@ -115,6 +115,12 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   posez, et toute personne dont vous avez masqué les publications (un masquage
   n'appartient qu'à vous&#160;; la personne n'en est jamais informée)&#160;;
 - qui vous a invité, et qui vous avez invité&#160;;
+- une adresse de courriel que quelqu'un a saisie pour inviter une personne dans
+  un album, et quand, jusqu'à ce que cette personne s'inscrive ou que
+  l'invitation expire. Si la personne à cette adresse nous demande d'arrêter de
+  lui envoyer des invitations, nous gardons une empreinte de l'adresse (un
+  hachage à sens unique, pas l'adresse elle-même), pour ne plus jamais lui en
+  envoyer&#160;;
 - le pays auquel votre téléphone était réglé quand vous vous êtes inscrit,
   écrit une fois sur l'invitation que vous avez utilisée et jamais mis à jour.
   Si votre téléphone ne l'a pas dit, l'invitation garde le pays de la personne
@@ -186,6 +192,8 @@ d'autre&#160;:
 - vous envoyer les notifications que vous avez autorisées&#160;;
 - vous écrire quand il y a de la place, si nous étions complets et que vous
   nous l'avez demandé&#160;;
+- envoyer un courriel à une adresse que quelqu'un a saisie pour inviter une
+  personne dans un album, et arrêter quand cette personne nous le demande&#160;;
 - donner suite aux signalements et protéger les gens, comme le décrivent la
   [politique de modération](/fr/politique-de-moderation/) et les [normes de
   protection des enfants](/fr/protection-des-enfants/)&#160;;
@@ -384,8 +392,9 @@ autre façon d'envoyer une photo.
   envoi porte un type et rien d'autre&#160;: pas de noms, pas de légendes, pas
   d'identifiants de publication&#160;; les mots que vous voyez sont écrits par
   votre téléphone.
-- **Le courriel**, pour vous envoyer un code de connexion à usage unique. Le
-  prestataire voit l'adresse et le code, et rien d'autre à votre sujet.
+- **Le courriel**, pour envoyer les codes de connexion à usage unique et les
+  invitations à un album. Le prestataire voit l'adresse et le message, et rien
+  d'autre à votre sujet.
 
 Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
 dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette

@@ -12,5 +12,6 @@ names are encrypted on your phone with keys we never see.
 - [Terms of use](terms/)
 - [Privacy policy](privacy/)
 - [Moderation policy](moderation/)
+- [Removing intimate images](intimate-images/)
 - [Child safety standards](child-safety/)
 - [Deleting your account](delete-account/)
