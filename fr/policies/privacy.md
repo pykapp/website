@@ -121,7 +121,9 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   hachage à sens unique, pas l'adresse elle-même), pour ne plus jamais lui en
   envoyer&#160;;
 - le pays auquel votre téléphone était réglé quand vous avez créé votre
-  compte, écrit une fois et jamais mis à jour. Nous nous en servons seulement
+  compte ou, si vous l'avez créé avant le 22 septembre 2026, la première fois
+  que vous avez ouvert l'application après l'avoir mise à jour. Il est écrit une
+  fois et jamais mis à jour. Nous nous en servons seulement
   pour compter combien de personnes nous servons dans chaque pays, parce que
   les lois de certains pays commencent à s'appliquer quand un service y a
   assez d'utilisateurs&#160;;
@@ -462,7 +464,7 @@ existé, quand il a été créé, quand il a confirmé son âge et quand il a é
 supprimé&#160;; les blocages que vous avez posés ou qui ont été posés contre
 vous&#160;; les signalements que vous avez déposés ou qui ont été déposés à
 votre sujet, et les rapports de problème que vous avez envoyés&#160;; le pays
-auquel votre téléphone était réglé quand vous avez créé votre compte&#160;; les
+écrit pour votre compte&#160;; les
 demandes d'ajout que vous avez envoyées et reçues,
 marquées annulées&#160;; quand vous vous êtes connecté sur chaque téléphone et
 l'avez utilisé pour la dernière fois&#160;; et les lignes de vos publications

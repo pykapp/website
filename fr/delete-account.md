@@ -66,8 +66,8 @@ ce temps avec la même adresse crée un nouveau compte, vide.
 Ce que nous gardons ensuite ne porte ni votre nom, ni votre pseudo, ni votre
 adresse, ni vos clés, et la [politique de
 confidentialité](/fr/politique-de-confidentialite/) l'énumère en entier&#160;:
-le fait que le compte a existé, les blocages, les signalements, le pays auquel
-votre téléphone était réglé quand vous avez créé le compte, les demandes
+le fait que le compte a existé, les blocages, les signalements, le pays écrit
+pour le compte, les demandes
 d'ajout que vous avez envoyées et reçues, quand vous vous êtes connecté, et les
 lignes de vos publications et de vos commentaires marquées supprimées.
 

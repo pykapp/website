@@ -99,10 +99,11 @@ To deliver a photo to the right people we hold, in the clear:
   address asks us to stop sending invitations, we keep a fingerprint of the
   address (a one-way hash of it, not the address), so that we never email it
   an invitation again;
-- the country your phone was set to when you made your account, written once
-  and never updated. We use it only to count how many people we serve in each
-  country, because some countries' laws start to apply once a service has
-  enough users there;
+- the country your phone was set to when you made your account or, if you made
+  it before 22 September 2026, the first time you opened the app after updating
+  it. It is written once and never updated. We use it only to count how many
+  people we serve in each country, because some countries' laws start to apply
+  once a service has enough users there;
 - which of your groups a person is in (never shown to that person);
 - who is in each album you are in;
 - for every post: who made it, when, whether and when it was edited, who it
@@ -388,8 +389,7 @@ What we keep afterwards is kept under an identifier that no longer carries your
 name, handle, address or key: that the account existed, when it was made, when
 it confirmed its age and when it was deleted; blocks you placed or that were
 placed against you; reports you filed or that were filed about you, and bug
-reports you sent; the country your phone was set to when you made your
-account; the add requests you sent and received, marked cancelled;
+reports you sent; the country written for your account; the add requests you sent and received, marked cancelled;
 when you signed in on each phone and last used it; and the rows of your posts
 and comments, marked deleted, which still say when each was made and, for a
 post, who it was addressed to. A deleted comment's sealed text stays in its row

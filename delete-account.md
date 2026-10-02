@@ -52,8 +52,7 @@ Signing in during that time with the same address starts a new, empty account.
 
 What we keep afterwards carries your name, handle, address and keys on none of
 it, and the [privacy policy](/privacy/) lists all of it: that the account
-existed, blocks, reports, the country your phone was set to when you made the
-account, the add requests you sent and received, when you signed in, and the
+existed, blocks, reports, the country written for the account, the add requests you sent and received, when you signed in, and the
 rows of your posts and comments marked deleted.
 
 ## Deleting a post, a comment or a picture
