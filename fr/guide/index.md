@@ -34,8 +34,7 @@ tous les deux d'accord&#160;: l'un demande, l'autre accepte. L'application
 appelle ces personnes vos *relations*.
 
 - **S'inscrire.** Installez l'application et touchez *créer un compte*. Vous
-  pouvez vous inscrire avec votre adresse e-mail, ou avec un mot de passe et
-  sans adresse e-mail.
+  vous inscrivez avec votre adresse e-mail.
 - **Trouver quelqu'un.** Cherchez son pseudo exact ou son adresse e-mail
   exacte. Une partie de nom ne trouve personne, et l'application ne suggère
   jamais personne. Vous pouvez faire 32 recherches par heure.

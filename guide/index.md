@@ -32,8 +32,8 @@ There are no followers. You connect with someone only when you both agree: one
 of you asks and the other accepts. The app calls the people you are connected
 to your *mutuals*.
 
-- **Joining.** Install the app and tap *create an account*. You can sign up
-  with your email address, or with a password and no email address.
+- **Joining.** Install the app and tap *create an account*. You sign up with
+  your email address.
 - **Finding someone.** Search by their exact handle or email address. Part of a
   name finds nobody, and the app never suggests people. You can search 32
   times an hour.
