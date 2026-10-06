@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 1 October 2026. This policy covers the closed beta.
+**Last updated:** 6 October 2026.
 
 ## Who is responsible, and where this applies
 

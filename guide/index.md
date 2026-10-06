@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works, and especially the
 parts that work differently from other apps.
 
-**Last updated:** 1 October 2026. This page covers the beta, on Android and
+**Last updated:** 6 October 2026. This page covers the app on Android and
 iPhone.
 
 The bar at the bottom of the app has *home*, *activity*, *albums*, your

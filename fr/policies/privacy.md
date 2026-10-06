@@ -13,8 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 1er octobre 2026. Cette politique couvre la
-bêta fermée.
+**Dernière mise à jour&#160;:** 6 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 

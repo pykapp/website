@@ -8,10 +8,10 @@ permalink: /fr/conditions/
 > erreur de notre part.
 
 *people you know* est une application de partage de photos en privé. Voici les
-conditions pour l'utiliser pendant la bêta fermée. Elles sont courtes exprès,
-et ce sont un contrat&#160;: utiliser l'application, c'est les accepter.
+conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
+contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 1er octobre 2026.
+**Dernière mise à jour&#160;:** 6 octobre 2026.
 
 ## Qui nous sommes
 
@@ -44,8 +44,8 @@ Vous devez avoir 18 ans ou plus. Une personne, un compte.
 
 ## Ce que cela coûte
 
-La bêta est gratuite. Il n'y a rien à acheter dans l'application et aucun moyen
-de paiement enregistré.
+L'application est gratuite. Il n'y a rien à y acheter et aucun moyen de
+paiement enregistré.
 
 Si nous commençons à faire payer, nous le dirons dans l'application avant que
 quoi que ce soit soit facturé, et nous ne transformerons pas un compte que vous
@@ -82,10 +82,9 @@ retirer la publication ou le commentaire qu'il vise, ou suspendre ou supprimer
 le compte qui est derrière. La [politique de
 modération](/fr/politique-de-moderation/) dit comment nous décidons.
 
-Nous pouvons arrêter le service, le changer, ou mettre fin à la bêta. Si nous
-arrêtons le service, nous donnerons au moins 30 jours de préavis et le temps
-d'exporter vos données, sauf si quelque chose hors de notre contrôle nous
-empêche de prévenir.
+Nous pouvons arrêter le service ou le changer. Si nous arrêtons le service,
+nous donnerons au moins 30 jours de préavis et le temps d'exporter vos données,
+sauf si quelque chose hors de notre contrôle nous empêche de prévenir.
 
 ## Modifier ces conditions
 
@@ -126,14 +125,14 @@ n'importe quelle autre façon d'envoyer une photo.
 
 ## Ce que nous ne promettons pas
 
-**La bêta est fournie en l'état et selon disponibilité.** Nous ne promettons ni
-qu'elle sera ininterrompue, ni qu'elle ne perdra pas de données, ni qu'elle
-convient à un usage particulier, et nous excluons les garanties implicites de
-qualité marchande, d'adéquation à un usage particulier et d'absence de
-contrefaçon, dans la mesure où la loi le permet. C'est une bêta d'un produit
-chiffré où nous ne détenons aucune clé dont nous puissions nous servir&#160;:
-ce n'est pas le bon endroit pour l'unique exemplaire d'une photo qui compte pour
-vous.
+**L'application est fournie en l'état et selon disponibilité.** Nous ne
+promettons ni qu'elle sera ininterrompue, ni qu'elle ne perdra pas de données,
+ni qu'elle convient à un usage particulier, et nous excluons les garanties
+implicites de qualité marchande, d'adéquation à un usage particulier et
+d'absence de contrefaçon, dans la mesure où la loi le permet. C'est un produit
+nouveau, chiffré, et nous ne détenons aucune clé dont nous puissions nous
+servir&#160;: ce n'est pas le bon endroit pour l'unique exemplaire d'une photo
+qui compte pour vous.
 
 ## Responsabilité
 
@@ -145,8 +144,8 @@ indirects ou accessoires.
 Là où nous sommes responsables, et sauf pour un préjudice que nous aurions
 causé intentionnellement ou par faute lourde, notre responsabilité totale envers
 vous est limitée au plus élevé des deux montants suivants&#160;: ce que vous
-nous avez payé dans les douze mois précédant la demande – ce qui, pendant la
-bêta, est zéro – ou cent dollars des États-Unis.
+nous avez payé dans les douze mois précédant la demande – ce qui, tant que
+l'application est gratuite, est zéro – ou cent dollars des États-Unis.
 
 Deux choses que cela ne fait pas, parce que la loi ne le permet pas et parce
 que prétendre le contraire rendrait le reste inapplicable. **Rien ici ne limite

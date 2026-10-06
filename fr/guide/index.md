@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne, et surtout ce qui fonctionne autrement que dans les
 autres applications.
 
-**Dernière mise à jour&#160;:** 1er octobre 2026. Cette page décrit la bêta,
+**Dernière mise à jour&#160;:** 6 octobre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 La barre en bas de l'application contient *accueil*, *activité*, *albums*, votre

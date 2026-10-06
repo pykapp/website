@@ -13,8 +13,7 @@ peut-être plus l'application&#160;: une application désinstallée, un téléph
 perdu ou une adresse que vous ne pouvez plus lire sont autant de raisons de
 poser la question, et aucune ne doit y faire obstacle.
 
-**Dernière mise à jour&#160;:** 1er octobre 2026. Cette page décrit la bêta
-fermée.
+**Dernière mise à jour&#160;:** 6 octobre 2026.
 
 Si vous voulez seulement supprimer une photo, ou un commentaire, [c'est plus
 bas](#supprimer-une-publication-un-commentaire-ou-une-photo) et cela ne passe

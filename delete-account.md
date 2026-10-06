@@ -8,7 +8,7 @@ than only a screen in the app because you may not have the app any more: an
 uninstalled app, a lost phone or an address you can no longer read are all
 reasons to be asking, and none of them should stand in the way.
 
-**Last updated:** 1 October 2026. This page covers the closed beta.
+**Last updated:** 6 October 2026.
 
 If you only want to delete one photograph, or one comment, [that is further
 down](#deleting-a-post-a-comment-or-a-picture) and it does not need us at all.

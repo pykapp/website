@@ -4,10 +4,10 @@ permalink: /terms/
 ---
 
 *people you know* is a private photo-sharing app. These are the terms for
-using it during the closed beta. They are short on purpose, and they are a
-contract: using the app means agreeing to them.
+using it. They are short on purpose, and they are a contract: using the app
+means agreeing to them.
 
-**Last updated:** 1 October 2026.
+**Last updated:** 6 October 2026.
 
 ## Who we are
 
@@ -38,8 +38,7 @@ You must be 18 or older. One person, one account.
 
 ## What it costs
 
-The beta is free. There is nothing to buy in the app and no payment method on
-file.
+The app is free. There is nothing to buy in it and no payment method on file.
 
 If we start charging, we will say so in the app before anything is charged, and
 we will not turn an account you already have into one you have to pay for
@@ -72,9 +71,9 @@ it is anything in particular. What we can do is act on what a report tells us:
 we may remove the post or comment it is about, or suspend or delete the account
 behind it. The [moderation policy](/moderation/) says how we decide.
 
-We can stop the service, change it, or end the beta. If we end the service we
-will give you at least 30 days' notice and time to export your data, unless we
-are stopped from giving notice by something outside our control.
+We can stop the service or change it. If we end the service we will give you at
+least 30 days' notice and time to export your data, unless we are stopped from
+giving notice by something outside our control.
 
 ## Changing these terms
 
@@ -110,12 +109,12 @@ sending a photo.
 
 ## What we do not promise
 
-**The beta is provided as is and as available.** We do not promise that it will
+**The app is provided as is and as available.** We do not promise that it will
 be uninterrupted, that it will not lose data, or that it is fit for any
 particular purpose, and we disclaim the implied warranties of merchantability,
 fitness for a particular purpose and non-infringement, so far as the law allows.
-This is a beta of an encrypted product where we hold no key we can use: it is
-the wrong place for the only copy of a photograph that matters to you.
+It is a new, encrypted product, and we hold no key we can use: it is the wrong
+place for the only copy of a photograph that matters to you.
 
 ## Liability
 
@@ -125,8 +124,8 @@ for indirect, incidental or consequential loss.
 
 Where we are liable, and except for harm we caused intentionally or through
 gross negligence, our total liability to you is limited to the greater of the
-amount you paid us in the twelve months before the claim, which during the beta
-is nothing, or one hundred United States dollars.
+amount you paid us in the twelve months before the claim, which is nothing
+while the app is free, or one hundred United States dollars.
 
 Two things this does not do, because the law does not allow it and because
 pretending otherwise would make the rest unenforceable. **Nothing here limits
