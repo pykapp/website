@@ -140,6 +140,10 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
   and sign up with that email address.
   You'll see the album on their list once your phone has added them, which
   happens the next time you open the app.
+- The addresses you've invited are listed under *invited* until the person
+  joins. To take an invitation back, tap *remove* beside the address. The code
+  in their email stops working, and they won't be added to the album. If you
+  invite the same address again, they get a new email with a new code.
 - If you already use people you know and somebody invites you by email, you
   don't have to sign up again: open *albums* and tap *join with a code*, then
   type the code from the email.

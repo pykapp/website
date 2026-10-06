@@ -157,6 +157,12 @@ créer un.
   L'album apparaîtra sur sa liste dès que
   votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
   de l'application.
+- Les adresses que vous avez invitées sont affichées sous *invitées* jusqu'à
+  ce que la personne rejoigne l'album. Pour retirer une invitation, touchez
+  *retirer* à côté de l'adresse. Le code reçu par courriel cesse de
+  fonctionner, et la personne ne sera pas ajoutée à l'album. Si vous invitez
+  la même adresse de nouveau, elle reçoit un nouveau courriel avec un nouveau
+  code.
 - Si vous utilisez déjà people you know et que quelqu'un vous invite par
   courriel, vous n'avez pas à vous réinscrire : ouvrez *albums* et touchez
   *rejoindre avec un code*, puis saisissez le code reçu.
