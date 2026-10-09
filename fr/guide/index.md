@@ -5,11 +5,31 @@ permalink: /fr/comment-ca-marche/
 
 *people you know* sert à partager des photos et de courtes vidéos avec les gens
 que vous connaissez dans la vraie vie. Cette page explique comment
-l'application fonctionne, et surtout ce qui fonctionne autrement que dans les
-autres applications.
+l'application fonctionne. Elle commence par les cinq choses qui fonctionnent
+autrement que dans les autres applications.
 
 **Dernière mise à jour&#160;:** 9 octobre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
+
+## Ce qui fonctionne autrement
+
+- **Il n'y a pas d'abonnés.** Vous n'êtes en lien avec quelqu'un que si vous
+  êtes tous les deux d'accord. Personne ne peut vous trouver avec une partie de
+  votre nom, et l'application ne suggère jamais personne.
+- **Vous ne voyez que les commentaires des gens que vous connaissez.** Sur la
+  publication de quelqu'un d'autre, vous voyez un commentaire seulement si vous
+  et la personne qui a publié êtes tous les deux en lien avec son auteur.
+  Personne n'est prévenu quand un commentaire lui est caché.
+- **Vous pouvez ajouter des gens à une publication, mais pas en retirer.** Pour
+  reprendre une publication, supprimez-la pour tout le monde.
+- **Personne n'est prévenu quand vous dites non.** Refuser une demande,
+  masquer, retirer ou bloquer quelqu'un n'est jamais annoncé à l'autre
+  personne.
+- **Vos six mots sont le seul moyen de retrouver vos photos.** Si vous les
+  perdez, ainsi que tous les téléphones connectés à votre compte, vos photos
+  sont perdues pour de bon. Nous ne pouvons pas les récupérer.
+
+## Se repérer
 
 La barre en bas de l'application contient *accueil*, *activité*, *albums*, votre
 *profil*, et le plus qui sert à publier. Les paramètres sont sous la roue dentée
@@ -41,7 +61,7 @@ appelle ces personnes vos *relations*.
 - **Demander.** Touchez *ajouter*. Par défaut, toute personne qui connaît votre
   pseudo ou votre adresse de courriel peut vous envoyer une demande. Pour
   limiter les demandes aux personnes qui ont une relation en commun avec vous,
-  désactivez *paramètres → demandes de tout le monde*.
+  désactivez *paramètres → demandes de n'importe qui*.
 - **Répondre.** Les demandes que vous recevez s'affichent en haut de votre
   profil, avec le nom, la photo de la personne et les relations que vous avez
   en commun. Touchez *accepter* ou *refuser*. Si vous refusez, la personne
@@ -223,9 +243,9 @@ l'un l'autre.
 Personne n'est prévenu quand un commentaire lui est caché. Dans un album, tout
 le monde voit tous les commentaires.
 
-- **Réponses.** Touchez *répondre* pour répondre à un commentaire. On ne peut
-  pas répondre à une réponse. Supprimer un commentaire supprime aussi ses
-  réponses.
+- **Réponses.** Touchez *répondre* sous un commentaire, ou sous une réponse,
+  pour y répondre. Chaque réponse se place sous le commentaire qui a lancé la
+  conversation. Supprimer un commentaire supprime aussi ses réponses.
 - **Mentions.** Tapez *@* pour nommer quelqu'un dans un commentaire.
 - **Réactions.** Réagissez à une publication ou à un commentaire avec
   n'importe quel emoji. Touchez deux fois une photo pour réagir avec ❤️.

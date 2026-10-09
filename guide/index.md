@@ -4,11 +4,29 @@ permalink: /how-it-works/
 ---
 
 *people you know* is for sharing photos and short videos with the people you
-know in real life. This page explains how the app works, and especially the
-parts that work differently from other apps.
+know in real life. This page explains how the app works. It starts with the
+five things that work differently from other apps.
 
 **Last updated:** 9 October 2026. This page covers the app on Android and
 iPhone.
+
+## What works differently
+
+- **There are no followers.** You connect with somebody only when you both
+  agree. Nobody can find you by part of your name, and the app never suggests
+  people.
+- **You only see comments from people you know.** On somebody else's post, you
+  see a comment only if you and the person who posted are both connected to
+  whoever wrote it. Nobody is told when a comment is hidden from them.
+- **You can add people to a post, but not take them off.** To take a post back,
+  delete it for everyone.
+- **Nobody is told when you say no.** Declining a request, muting, removing and
+  blocking are never announced to the other person.
+- **Your six words are the only way back to your photos.** If you lose them and
+  every phone signed in to your account, your photos are gone for good. We
+  can't recover them.
+
+## Finding your way around
 
 The bar at the bottom of the app has *home*, *activity*, *albums*, your
 *profile*, and the plus that makes a post. Settings is the gear at the top of
@@ -197,8 +215,9 @@ seeing each other's comments.
 Nobody is told when a comment is hidden from them. In an album, everybody sees
 every comment.
 
-- **Replies.** Tap *reply* to answer a comment. You can't reply to a reply.
-  Deleting a comment also deletes the replies to it.
+- **Replies.** Tap *reply* under a comment, or under a reply, to answer it.
+  Every reply goes under the comment that started the conversation. Deleting
+  a comment also deletes the replies to it.
 - **Mentions.** Type *@* to name somebody in a comment.
 - **Reactions.** React to a post or a comment with any emoji. Double-tap a
   photo to react with ❤️. Press and hold a reaction to see who chose it. The
