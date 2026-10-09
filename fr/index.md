@@ -5,9 +5,9 @@ layout: home-doc
 ---
 
 *people you know* est une application de partage de photos en privé, pour les
-gens que vous connaissez vraiment. Nous ne pouvons rien lire de ce que vous
-partagez&#160;: vos photos, vos légendes, vos commentaires et vos noms sont
-chiffrés sur votre téléphone avec des clés que nous ne voyons jamais.
+gens que vous connaissez vraiment. Vos photos, vos légendes, vos commentaires
+et vos noms sont chiffrés sur votre téléphone avec des clés que nous ne voyons
+jamais, si bien que nous ne pouvons pas les lire.
 
 - [Comment ça marche](/fr/comment-ca-marche/)
 - [Conditions d'utilisation](/fr/conditions/)

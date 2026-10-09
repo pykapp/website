@@ -5,8 +5,8 @@ layout: home-doc
 ---
 
 *people you know* is a private photo-sharing app for the people you actually
-know. We can't read anything you share: your photos, captions, comments and
-names are encrypted on your phone with keys we never see.
+know. Your photos, captions, comments and names are encrypted on your phone
+with keys we never see, so we can't read them.
 
 - [How it works](how-it-works/)
 - [Terms of use](terms/)
