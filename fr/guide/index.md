@@ -34,14 +34,14 @@ tous les deux d'accord&#160;: l'un demande, l'autre accepte. L'application
 appelle ces personnes vos *relations*.
 
 - **S'inscrire.** Installez l'application et touchez *créer un compte*. Vous
-  vous inscrivez avec votre adresse e-mail.
-- **Trouver quelqu'un.** Cherchez son pseudo exact ou son adresse e-mail
+  vous inscrivez avec votre adresse de courriel.
+- **Trouver quelqu'un.** Cherchez son pseudo exact ou son adresse de courriel
   exacte. Une partie de nom ne trouve personne, et l'application ne suggère
   jamais personne. Vous pouvez faire 32 recherches par heure.
 - **Demander.** Touchez *ajouter*. Par défaut, toute personne qui connaît votre
-  pseudo ou votre adresse e-mail peut vous demander. Pour limiter les demandes
-  aux personnes qui ont une relation en commun avec vous, désactivez
-  *paramètres → demandes de tout le monde*.
+  pseudo ou votre adresse de courriel peut vous envoyer une demande. Pour
+  limiter les demandes aux personnes qui ont une relation en commun avec vous,
+  désactivez *paramètres → demandes de tout le monde*.
 - **Répondre.** Les demandes que vous recevez s'affichent en haut de votre
   profil, avec le nom, la photo de la personne et les relations que vous avez
   en commun. Touchez *accepter* ou *refuser*. Si vous refusez, la personne
@@ -180,7 +180,7 @@ créer un.
   *fermer*&#160;: on ne peut plus rien y ajouter, et chacun garde ce qui s'y
   trouve.
 - Pour recevoir une notification quand il y a de nouvelles photos, activez *me
-  prévenir quand quelqu'un ajoute à…* sur l'écran de l'album.
+  prévenir quand quelqu'un publie dans…* sur l'écran de l'album.
 
 ## L'accueil
 
@@ -288,17 +288,17 @@ capturé à l'écran.
 Vos photos, vos vidéos, vos légendes, vos commentaires, votre nom et votre
 photo de profil, les noms de vos albums et les noms de vos groupes sont
 chiffrés sur votre téléphone avant d'être envoyés. Nous ne pouvons pas les
-ouvrir. Nous voyons votre pseudo et votre adresse e-mail, avec qui vous êtes en
-lien, à qui chaque publication a été envoyée et quand, et les réactions. La
-[politique de confidentialité](/fr/politique-de-confidentialite/) liste tout
-ce que nous gardons.
+ouvrir. Nous voyons votre pseudo et votre adresse de courriel, avec qui vous
+êtes en lien, à qui chaque publication a été envoyée et quand, et les
+réactions. La [politique de confidentialité](/fr/politique-de-confidentialite/)
+liste tout ce que nous gardons.
 
 **Votre phrase de récupération fait six mots**, montrés à l'inscription.
 Notez-les et gardez-les en lieu sûr.
 
 - Pour utiliser votre compte sur un nouveau téléphone, il vous faut deux
-  choses&#160;: votre code e-mail, votre mot de passe ou votre clé d'accès, qui
-  ouvre le compte, et les six mots, qui déverrouillent vos photos.
+  choses&#160;: un code reçu par courriel, votre mot de passe ou votre clé
+  d'accès, qui ouvre le compte, et les six mots, qui déverrouillent vos photos.
 - Sur un nouveau téléphone, votre liste des personnes que vous avez ajoutées
   revient avec votre clé. Si cette liste manque ou n'est plus à jour,
   l'application vous interroge sur les personnes dont elle n'a pas de trace,
@@ -310,11 +310,11 @@ Notez-les et gardez-les en lieu sûr.
 - Si vous perdez les six mots mais qu'un téléphone est encore connecté,
   créez-en de nouveaux tout de suite avec *paramètres → phrase de
   récupération*.
-- Si vous vous connectez avec des codes par e-mail, gardez votre adresse à jour
-  avec *paramètres → votre e-mail*. Si vous perdez l'accès à cette boîte, vous
-  ne pourrez pas vous connecter sur un nouveau téléphone.
-- Si votre compte a un mot de passe et pas d'e-mail, personne ne peut
-  réinitialiser le mot de passe pour vous. Vous pouvez ajouter un e-mail dans
+- Si vous vous connectez avec des codes par courriel, gardez votre adresse à
+  jour avec *paramètres → votre courriel*. Si vous perdez l'accès à cette boîte,
+  vous ne pourrez pas vous connecter sur un nouveau téléphone.
+- Si votre compte a un mot de passe et pas d'adresse de courriel, personne ne
+  peut réinitialiser le mot de passe pour vous. Vous pouvez en ajouter une dans
   les *paramètres*.
 - Une clé d'accès vous connecte avec votre visage, votre empreinte ou le
   verrouillage de l'écran, sans code. Ajoutez-en une avec *paramètres → vos
