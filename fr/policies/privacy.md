@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 6 octobre 2026.
+**Dernière mise à jour&#160;:** 9 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -168,8 +168,9 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   gardons aussi le moment où la première a été publiée&#160;;
 - le moment où vous avez confirmé avoir 18 ans ou plus (jamais votre date de
   naissance)&#160;;
-- des comptes de ce que votre téléphone a pu et n'a pas pu ouvrir, ajoutés à un
-  total dès leur arrivée et non conservés à côté de votre compte.
+- des comptes de ce que votre téléphone a pu et n'a pas pu ouvrir, et de s'il a
+  affiché chaque notification que nous lui avons envoyée, ajoutés à un total
+  dès leur arrivée et non conservés à côté de votre compte.
 
 C'est la limite honnête de ce que nous affirmons. Ce sont des métadonnées, et
 les métadonnées révèlent qui parle à qui. Nous les gardons parce que

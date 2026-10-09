@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 6 October 2026.
+**Last updated:** 9 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -138,8 +138,9 @@ To deliver a photo to the right people we hold, in the clear:
   posts are signed with. Both are the halves that are meant to be handed out.
   We also keep when the first was published;
 - the moment you confirmed you were 18 or older (never your date of birth);
-- counts of what your phone could and could not open, added to a total the
-  moment they arrive and not kept against your account.
+- counts of what your phone could and could not open, and of whether it
+  showed each notification we sent it, added to a total the moment they
+  arrive and not kept against your account.
 
 This is the honest boundary of the claim. It is metadata, and metadata
 reveals who talks to whom. We keep it because the app cannot work without it,
