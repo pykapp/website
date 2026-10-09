@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works, and especially the
 parts that work differently from other apps.
 
-**Last updated:** 6 October 2026. This page covers the app on Android and
+**Last updated:** 9 October 2026. This page covers the app on Android and
 iPhone.
 
 The bar at the bottom of the app has *home*, *activity*, *albums*, your
@@ -310,10 +310,11 @@ account](/delete-account/) has its own page.
     A post could then reach that person again. It is still somebody you once
     added, and a phone you have been using all along is not fooled by this.
   - make up a post and show it as one of your mutuals'. The phone that makes a
-    post signs it, and your phone refuses a post whose signature is wrong. But
-    posts made before the app started signing, and posts from a phone running
-    an older version, have no signature, so your phone still shows posts
-    without one, and a made-up post could be sent that way.
+    post signs it, and your phone refuses a post whose signature is wrong. It
+    also notes the day it learns that a mutual signs their posts, and refuses
+    a post of theirs with no signature dated after that day. Posts made before
+    the app started signing have no signature, so your phone still shows
+    those, and a made-up post given an earlier date would be shown too.
 - **A password that can be guessed.** Somebody with a copy of our database
   could try to guess your password. A long password makes that impossible. A
   password only opens your account, never your photos.

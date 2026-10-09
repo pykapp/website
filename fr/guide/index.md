@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne, et surtout ce qui fonctionne autrement que dans les
 autres applications.
 
-**Dernière mise à jour&#160;:** 6 octobre 2026. Cette page décrit l'application
+**Dernière mise à jour&#160;:** 9 octobre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 La barre en bas de l'application contient *accueil*, *activité*, *albums*, votre
@@ -360,11 +360,13 @@ suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
     téléphone que vous utilisez depuis le début ne s'y laisse pas prendre.
   - inventer une publication et la présenter comme venant d'une de vos
     relations. Le téléphone qui fait une publication la signe, et votre
-    téléphone refuse une publication dont la signature est fausse. Mais les
-    publications faites avant que l'application ne signe, et celles qui
-    viennent d'un téléphone avec une version plus ancienne, n'ont pas de
-    signature&#160;: votre téléphone affiche encore celles qui n'en ont pas, et
-    une publication inventée pourrait arriver ainsi.
+    téléphone refuse une publication dont la signature est fausse. Il note
+    aussi le jour où il apprend qu'une relation signe ses publications, et
+    refuse toute publication de sa part sans signature et datée d'après ce
+    jour. Les publications faites avant que l'application ne signe n'ont pas
+    de signature&#160;: votre téléphone affiche encore celles-là, et une
+    publication inventée qui porterait une date plus ancienne s'afficherait
+    aussi.
 - **Un mot de passe qu'on peut deviner.** Quelqu'un qui aurait une copie de
   notre base de données pourrait essayer de deviner votre mot de passe. Un mot
   de passe long rend ça impossible. Un mot de passe ouvre seulement votre
