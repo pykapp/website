@@ -91,6 +91,22 @@ $lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
 }
 
 // ---------------------------------------------------------------------------
+// The language row
+//
+// `_includes/languages.html` trims every tag, so the names reach the page with
+// nothing between them and would read `Englishfrançais`. The space is drawn
+// here rather than typed there: the row has no separator glyph, and a typed
+// space would depend on the whitespace control of a dozen Liquid tags. 20px is
+// minima's own gap between the masthead's page links, and the margin below is
+// the one minima gives a paragraph, so the row does not sit on the prose.
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+// ---------------------------------------------------------------------------
 // After dark
 //
 // minima 2.5.1 has no dark scheme, and a phone that has been dark since the app
