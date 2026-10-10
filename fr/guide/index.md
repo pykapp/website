@@ -338,8 +338,8 @@ Notez-les et gardez-les en lieu sûr.
   les *paramètres*.
 - Une clé d'accès vous connecte avec votre visage, votre empreinte ou le
   verrouillage de l'écran, sans code. Ajoutez-en une avec *paramètres → vos
-  clés d'accès → ajouter une clé d'accès*, puis touchez *se connecter avec une
-  clé d'accès* sur un nouveau téléphone. Le gestionnaire de mots de passe de
+  clés d'accès → ajouter une clé d'accès*, puis touchez *se connecter par clé
+  d'accès* sur un nouveau téléphone. Le gestionnaire de mots de passe de
   votre téléphone la conserve et la copie sur vos autres téléphones. Elle ouvre
   votre compte et n'ouvre jamais vos photos.
 - Retirer une clé d'accès dans *paramètres → vos clés d'accès* l'enlève de
