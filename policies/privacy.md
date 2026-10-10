@@ -175,7 +175,8 @@ give or not.
 Our servers, our database and the second copy of the encrypted files are in
 data centres in the United States. The encrypted files themselves are in object
 storage run by a company based in the United States, in its North American
-region; it holds ciphertext and never a key.
+region; it holds ciphertext and never a key. An encrypted copy of our database,
+made every night, is kept there too, and only we can open it.
 
 **If you live outside the United States, your information is held outside your
 country**, and while it is there it is subject to United States law, including
@@ -213,6 +214,9 @@ We keep what is above for as long as your account exists, and then:
   by hand against the database is kept 90 days, so a row deleted today, a
   deleted account's included, can survive in those for that long and no
   longer;
+- each encrypted copy of our database at the storage company is deleted
+  within 35 days of being made, and kept longer only while we are using it to
+  recover from losing the database;
 - access logs are kept 30 days;
 - the database's own log of errors is kept 30 days, and it can name the handle
   or the email address an error was about;
@@ -324,8 +328,8 @@ more than any other way of sending a photo can.
 - **Hosting** for our servers, our database and the second copy of the
   encrypted files. The provider runs the machines and does not use what is on
   them.
-- **Object storage** for the encrypted files. The provider holds ciphertext
-  and never a key.
+- **Object storage** for the encrypted files and an encrypted copy of our
+  database. The provider holds ciphertext and never a key.
 - **Push notifications**, through Google's Firebase Cloud Messaging on
   Android and Apple's Push Notification service on iPhone, when you allow
   them. A push carries a type and nothing else: no names, no captions, no

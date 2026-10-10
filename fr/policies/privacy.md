@@ -210,7 +210,8 @@ Nos serveurs, notre base de données et la deuxième copie des fichiers chiffré
 sont dans des centres de données aux États-Unis. Les fichiers chiffrés
 eux-mêmes sont dans un stockage d'objets tenu par une société établie aux
 États-Unis, dans sa région nord-américaine&#160;; elle détient du chiffré et
-jamais une clé.
+jamais une clé. Une copie chiffrée de notre base de données, faite chaque nuit,
+y est gardée aussi, et nous seuls pouvons l'ouvrir.
 
 **Si vous vivez hors des États-Unis, vos renseignements sont détenus à
 l'extérieur de votre pays**, et tant qu'ils y sont ils relèvent du droit des
@@ -254,6 +255,10 @@ puis&#160;:
   de tout ce que nous lançons à la main sur la base est gardée 90 jours, donc
   une ligne supprimée aujourd'hui, celle d'un compte supprimé comprise, peut y
   survivre aussi longtemps et pas plus&#160;;
+- chaque copie chiffrée de notre base de données chez la société de stockage
+  est supprimée au plus tard 35 jours après avoir été faite, et n'est gardée
+  plus longtemps que pendant que nous nous en servons pour rétablir la base
+  après l'avoir perdue&#160;;
 - les journaux d'accès sont gardés 30 jours&#160;;
 - le journal d'erreurs de la base de données est gardé 30 jours, et il peut
   nommer le pseudo ou l'adresse de courriel sur lesquels portait une
@@ -385,8 +390,8 @@ autre façon d'envoyer une photo.
 - **L'hébergement** de nos serveurs, de notre base de données et de la
   deuxième copie des fichiers chiffrés. Le prestataire fait tourner les
   machines et ne se sert pas de ce qu'elles contiennent.
-- **Le stockage d'objets** pour les fichiers chiffrés. Le prestataire détient du
-  chiffré et jamais une clé.
+- **Le stockage d'objets** pour les fichiers chiffrés et une copie chiffrée de
+  notre base de données. Le prestataire détient du chiffré et jamais une clé.
 - **Les notifications**, par Firebase Cloud Messaging de Google sur Android et
   le service de notifications d'Apple sur iPhone, quand vous les autorisez. Un
   envoi porte un type et rien d'autre&#160;: pas de noms, pas de légendes, pas
