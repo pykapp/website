@@ -8,6 +8,10 @@ layout: home-doc
 know. Your photos, captions, comments and names are encrypted on your phone
 with keys we never see, so we can't read them.
 
+[Get it on Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
+
+The iPhone app is not on the App Store yet.
+
 - [How it works](how-it-works/)
 - [Terms of use](terms/)
 - [Privacy policy](privacy/)

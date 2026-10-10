@@ -9,6 +9,10 @@ gens que vous connaissez vraiment. Vos photos, vos légendes, vos commentaires
 et vos noms sont chiffrés sur votre téléphone avec des clés que nous ne voyons
 jamais, si bien que nous ne pouvons pas les lire.
 
+[Disponible sur Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
+
+L'application iPhone n'est pas encore sur l'App Store.
+
 - [Comment ça marche](/fr/comment-ca-marche/)
 - [Conditions d'utilisation](/fr/conditions/)
 - [Politique de confidentialité](/fr/politique-de-confidentialite/)
