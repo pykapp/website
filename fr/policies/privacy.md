@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 9 octobre 2026.
+**Dernière mise à jour&#160;:** 10 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -260,9 +260,9 @@ puis&#160;:
   plus longtemps que pendant que nous nous en servons pour rétablir la base
   après l'avoir perdue&#160;;
 - les journaux d'accès sont gardés 30 jours&#160;;
-- le journal d'erreurs de la base de données est gardé 30 jours, et il peut
-  nommer le pseudo ou l'adresse de courriel sur lesquels portait une
-  erreur&#160;;
+- le journal d'erreurs et de requêtes lentes de la base de données est gardé
+  30 jours, et il peut nommer le pseudo ou l'adresse de courriel sur lesquels
+  portait l'une d'elles&#160;;
 - les comptes que votre téléphone envoie sont ajoutés à un total à l'arrivée et
   ne sont jamais stockés à côté de votre compte, donc il n'y a rien à
   garder&#160;;

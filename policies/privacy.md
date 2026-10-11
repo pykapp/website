@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 9 October 2026.
+**Last updated:** 10 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -218,8 +218,8 @@ We keep what is above for as long as your account exists, and then:
   within 35 days of being made, and kept longer only while we are using it to
   recover from losing the database;
 - access logs are kept 30 days;
-- the database's own log of errors is kept 30 days, and it can name the handle
-  or the email address an error was about;
+- the database's own log of errors and of slow queries is kept 30 days, and
+  it can name the handle or the email address one was about;
 - the counts your phone sends are added to a total on arrival and are never
   stored against your account, so there is nothing to keep;
 - the record of a search is swept after the hour it is rate-limited over;
