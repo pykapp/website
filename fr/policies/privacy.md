@@ -252,9 +252,13 @@ puis&#160;:
   parti en moins de six semaines, et d'ici là c'est du chiffré dont les clés
   ont été détruites au moment où vous l'avez supprimé&#160;;
 - les sauvegardes de notre base de données sont gardées 35 jours, et la sortie
-  de tout ce que nous lançons à la main sur la base est gardée 90 jours, donc
-  une ligne supprimée aujourd'hui, celle d'un compte supprimé comprise, peut y
-  survivre aussi longtemps et pas plus&#160;;
+  de tout ce que nous lançons à la main sur la base est supprimée en moins
+  d'une semaine, donc une ligne supprimée aujourd'hui, celle d'un compte
+  supprimé comprise, peut y survivre aussi longtemps et pas plus&#160;;
+- ce que nous tapons pour lancer quelque chose à la main sur la base, qui peut
+  nommer un compte, reste 90 jours dans le registre que notre hébergeur tient
+  de ce qui se fait sur notre compte, et nous ne pouvons pas raccourcir ce
+  délai&#160;;
 - chaque copie chiffrée de notre base de données chez la société de stockage
   est supprimée au plus tard 35 jours après avoir été faite, et n'est gardée
   plus longtemps que pendant que nous nous en servons pour rétablir la base
@@ -456,12 +460,12 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
 moment de la touche et rien dans le produit ne peut les restaurer. Une ligne
-supprimée peut survivre à la touche dans une sauvegarde de notre base de données
-ou dans la sortie de quelque chose que nous avons lancé à la main, pendant les
-35 et les 90 jours où celles-ci sont gardées. La deuxième copie des fichiers
-chiffrés garde chaque fichier 30 jours après qu'il a quitté le stockage, donc le
-dernier en est parti moins de six semaines après la touche. Se connecter pendant
-ce temps avec la même adresse crée un nouveau compte, vide.
+supprimée peut survivre à la touche jusqu'à 35 jours dans une sauvegarde de
+notre base de données, et jusqu'à une semaine dans la sortie de quelque chose
+que nous avons lancé à la main. La deuxième copie des fichiers chiffrés garde
+chaque fichier 30 jours après qu'il a quitté le stockage, donc le dernier en
+est parti moins de six semaines après la touche. Se connecter pendant ce temps
+avec la même adresse crée un nouveau compte, vide.
 
 Ce que nous gardons ensuite l'est sous un identifiant qui ne porte plus votre
 nom, votre pseudo, votre adresse ni votre clé&#160;: le fait que le compte a

@@ -211,9 +211,12 @@ We keep what is above for as long as your account exists, and then:
   mistake. So a file you delete is gone from it within six weeks, and until
   then it is ciphertext whose keys were destroyed when you deleted it;
 - backups of our database are kept 35 days, and the output of anything we run
-  by hand against the database is kept 90 days, so a row deleted today, a
-  deleted account's included, can survive in those for that long and no
-  longer;
+  by hand against the database is deleted within a week, so a row deleted
+  today, a deleted account's included, can survive in those for that long and
+  no longer;
+- what we type to run something by hand against the database, which can name an
+  account, stays for 90 days in our hosting provider's record of what is done
+  in our account, and we cannot shorten that;
 - each encrypted copy of our database at the storage company is deleted
   within 35 days of being made, and kept longer only while we are using it to
   recover from losing the database;
@@ -381,13 +384,13 @@ to ask without it:
 - your handle and any email address are freed, and any key made from a
   password is deleted.
 
-Eight days later the encrypted files are removed from storage. Those eight
-days are not an undo: the keys were destroyed at the tap and nothing in the
-product can restore them. A deleted row can outlive the tap in a backup of our
-database or in the output of something we ran by hand, for the 35 and 90 days
-those are kept. The second copy of the encrypted files keeps each file for 30
-days after it leaves storage, so the last of them is gone within six weeks of
-the tap. Signing in during that time with the same address starts a new, empty
+Eight days later the encrypted files are removed from storage. Those eight days
+are not an undo: the keys were destroyed at the tap and nothing in the product
+can restore them. A deleted row can outlive the tap for up to 35 days in a
+backup of our database, and for up to a week in the output of something we ran
+by hand. The second copy of the encrypted files keeps each file for 30 days
+after it leaves storage, so the last of them is gone within six weeks of the
+tap. Signing in during that time with the same address starts a new, empty
 account.
 
 What we keep afterwards is kept under an identifier that no longer carries your

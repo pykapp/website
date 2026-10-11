@@ -8,7 +8,7 @@ than only a screen in the app because you may not have the app any more: an
 uninstalled app, a lost phone or an address you can no longer read are all
 reasons to be asking, and none of them should stand in the way.
 
-**Last updated:** 6 October 2026.
+**Last updated:** 10 October 2026.
 
 If you only want to delete one photograph, or one comment, [that is further
 down](#deleting-a-post-a-comment-or-a-picture) and it does not need us at all.
@@ -44,11 +44,12 @@ anybody can delete by naming it is worse for you than a wait of a day or two.
 
 Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product
-can restore them. A deleted row can outlive the tap in a backup of our database
-or in the output of something we ran by hand, for the 35 and 90 days those are
-kept. The second copy of the encrypted files keeps each file for 30 days after
-it leaves storage, so the last of them is gone within six weeks of the tap.
-Signing in during that time with the same address starts a new, empty account.
+can restore them. A deleted row can outlive the tap for up to 35 days in a
+backup of our database, and for up to a week in the output of something we ran
+by hand. The second copy of the encrypted files keeps each file for 30 days
+after it leaves storage, so the last of them is gone within six weeks of the
+tap. Signing in during that time with the same address starts a new, empty
+account.
 
 What we keep afterwards carries your name, handle, address and keys on none of
 it, and the [privacy policy](/privacy/) lists all of it: that the account

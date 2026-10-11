@@ -13,7 +13,7 @@ peut-être plus l'application&#160;: une application désinstallée, un téléph
 perdu ou une adresse que vous ne pouvez plus lire sont autant de raisons de
 poser la question, et aucune ne doit y faire obstacle.
 
-**Dernière mise à jour&#160;:** 6 octobre 2026.
+**Dernière mise à jour&#160;:** 10 octobre 2026.
 
 Si vous voulez seulement supprimer une photo, ou un commentaire, [c'est plus
 bas](#supprimer-une-publication-un-commentaire-ou-une-photo) et cela ne passe
@@ -55,12 +55,12 @@ deux.
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
 moment de la touche et rien dans le produit ne peut les restaurer. Une ligne
-supprimée peut survivre à la touche dans une sauvegarde de notre base de données
-ou dans la sortie de quelque chose que nous avons lancé à la main, pendant les
-35 et les 90 jours où celles-ci sont gardées. La deuxième copie des fichiers
-chiffrés garde chaque fichier 30 jours après qu'il a quitté le stockage, donc le
-dernier en est parti moins de six semaines après la touche. Se connecter pendant
-ce temps avec la même adresse crée un nouveau compte, vide.
+supprimée peut survivre à la touche jusqu'à 35 jours dans une sauvegarde de
+notre base de données, et jusqu'à une semaine dans la sortie de quelque chose
+que nous avons lancé à la main. La deuxième copie des fichiers chiffrés garde
+chaque fichier 30 jours après qu'il a quitté le stockage, donc le dernier en
+est parti moins de six semaines après la touche. Se connecter pendant ce temps
+avec la même adresse crée un nouveau compte, vide.
 
 Ce que nous gardons ensuite ne porte ni votre nom, ni votre pseudo, ni votre
 adresse, ni vos clés, et la [politique de
