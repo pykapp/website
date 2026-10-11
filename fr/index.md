@@ -12,7 +12,7 @@ Vos photos, vos légendes, vos commentaires et vos noms sont chiffrés sur votre
 téléphone avec des clés que nous ne voyons jamais, si bien que nous ne pouvons
 pas les lire.
 
-![Le fil, avec la photo du chat d'un ami](/screens/feed.jpg)
+![Le fil, avec une photo qu'un ami a partagée avec vous et deux autres personnes](/screens/feed.jpg)
 ![Choisir qui voit une nouvelle publication, tout le monde ou seulement les personnes choisies](/screens/who.jpg)
 ![Des albums partagés, avec une photo de chacun](/screens/albums.jpg)
 {: .screens}

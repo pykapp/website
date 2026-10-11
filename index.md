@@ -10,7 +10,7 @@ and short videos you wouldn't post publicly but still want certain people to
 see. Your photos, captions, comments and names are encrypted on your phone
 with keys we never see, so we can't read them.
 
-![The feed, with a friend's photo of their cat](/screens/feed.jpg)
+![The feed, with a photo a friend shared with you and two others](/screens/feed.jpg)
 ![Choosing who sees a new post: everybody, or only the people you pick](/screens/who.jpg)
 ![Shared albums, with a photo from each](/screens/albums.jpg)
 {: .screens}
