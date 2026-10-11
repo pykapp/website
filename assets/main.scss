@@ -91,6 +91,31 @@ $lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
 }
 
 // ---------------------------------------------------------------------------
+// The home page's screenshots
+//
+// Three phone screens in a row under the opening paragraph, and one above the
+// other on a phone, where three abreast would each be too small to read. The
+// border draws the edge of each screen, whose ground is the page's own and
+// would otherwise run into it.
+.screens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+
+  img {
+    width: calc((100% - 32px) / 3);
+    max-width: 270px;
+    border: 1px solid $grey-color-light;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: #{$on-palm}) {
+  .screens img { width: 100%; }
+}
+
+// ---------------------------------------------------------------------------
 // The language row
 //
 // `_includes/languages.html` trims every tag, so the names reach the page with
@@ -160,6 +185,8 @@ $dark-rule: #333333;
     color: $dark-grey;
     border-left-color: $dark-rule;
   }
+
+  .screens img { border-color: $dark-rule; }
 
   pre,
   code {

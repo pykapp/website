@@ -12,7 +12,8 @@
 # app's own drawables, palette and font by scripts/render-site-assets.sh and
 # held to them by scripts/the-site-wears-the-mark.py. assets/main.scss is
 # minima's own documented override point and is compiled to assets/main.css by
-# the front matter at the top of it; nothing else here is Sass.
+# the front matter at the top of it; nothing else here is Sass. screens/ holds
+# the home page's screenshots, copied from the store set and not generated.
 #
 # It speaks the languages the app speaks, which is not a courtesy: the app has
 # had a language row since the seventh interlude after M12, and a French phone
