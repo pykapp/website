@@ -41,7 +41,11 @@ with keys we never see, so we can't read them.
 
 [Get it on Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
 
-The iPhone app is not on the App Store yet.
+[Get it on iPhone with TestFlight](https://testflight.apple.com/join/HH6j77nu)
+
+The iPhone app is a beta on TestFlight until it is on the App Store. Install
+Apple's TestFlight app from the App Store first, then open the link on your
+iPhone.
 
 Install it and tap *create an account*. You sign up with your email address.
 You must be 18 or older. If the app is full, it lets you
