@@ -248,9 +248,9 @@ le monde voit tous les commentaires.
   conversation. Supprimer un commentaire supprime aussi ses réponses.
 - **Mentions.** Tapez *@* pour nommer quelqu'un dans un commentaire.
 - **Réactions.** Réagissez à une publication ou à un commentaire avec
-  n'importe quel emoji. Touchez deux fois une photo pour réagir avec ❤️.
-  Appuyez longuement sur une réaction pour voir qui l'a choisie. Les réactions
-  que vous avez envoyées ont une forme derrière elles.
+  n'importe quel emoji. Appuyez longuement sur une photo ou un commentaire
+  pour en choisir un. Appuyez longuement sur une réaction pour voir qui l'a
+  choisie. Les réactions que vous avez envoyées ont une forme derrière elles.
 - **Les réactions n'envoient jamais de notification**, et aucun réglage ne
   permet de changer ça.
 - **Retirer quelqu'un cache ses commentaires.** Si vous retirez une relation,

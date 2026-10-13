@@ -219,9 +219,9 @@ every comment.
   Every reply goes under the comment that started the conversation. Deleting
   a comment also deletes the replies to it.
 - **Mentions.** Type *@* to name somebody in a comment.
-- **Reactions.** React to a post or a comment with any emoji. Double-tap a
-  photo to react with ❤️. Press and hold a reaction to see who chose it. The
-  reactions you sent have a shape behind them.
+- **Reactions.** React to a post or a comment with any emoji. Press and hold
+  a photo or a comment to choose one. Press and hold a reaction to see who
+  chose it. The reactions you sent have a shape behind them.
 - **Reactions never send a notification**, and there is no setting to turn that
   on.
 - **Removing somebody hides their comments.** If you remove a mutual, their
