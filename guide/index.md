@@ -67,7 +67,8 @@ to your *mutuals*.
   expires after 16 days.
 - **Old posts.** Connecting doesn't share anything you posted before. The app
   asks if you want to share your past posts with the new mutual. If you do,
-  they see those posts on your profile, not in their feed.
+  they see those posts in their feed, dated when you posted them, and on your
+  profile. They don't count as new.
 - **The limit.** You can have up to 128 mutuals. Your profile shows how many
   you have, like *mutuals 12 of 128*.
 

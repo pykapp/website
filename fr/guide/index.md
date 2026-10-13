@@ -72,8 +72,9 @@ appelle ces personnes vos *relations*.
   n'est pas prévenue. Une demande sans réponse expire au bout de 16 jours.
 - **Vos anciennes publications.** Ajouter une relation ne lui montre rien de
   ce que vous avez publié avant. L'application vous demande si vous voulez lui
-  partager vos anciennes publications. Si oui, elle les voit sur votre profil,
-  pas dans son accueil.
+  partager vos anciennes publications. Si oui, elle les voit dans son accueil,
+  datées du jour où vous les avez publiées, et sur votre profil. Elles ne
+  comptent pas comme nouvelles.
 - **La limite.** Vous pouvez avoir jusqu'à 128 relations. Votre profil affiche
   combien vous en avez, par exemple *12 sur 128*.
 
