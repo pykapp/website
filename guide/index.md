@@ -51,12 +51,15 @@ of you asks and the other accepts. The app calls the people you are connected
 to your *mutuals*.
 
 - **Joining.** Install the app and tap *create an account*. You sign up with
-  your email address.
-- **Finding someone.** Search by their exact handle or email address. Part of a
+  your email address. When the field says *email or phone*, you can use a
+  mobile phone number from the United States or Canada instead, and your code
+  comes by text message.
+- **Finding someone.** Search by their exact handle, email address or phone
+  number. Type a number the way it is saved in your contacts. Part of a
   name finds nobody, and the app never suggests people. You can search 32
   times an hour.
-- **Asking.** Tap *add*. By default, anybody who knows your handle or email
-  address can ask to add you. To limit requests to people who have a mutual in
+- **Asking.** Tap *add*. By default, anybody who knows your handle, email
+  address or phone number can ask to add you. To limit requests to people who have a mutual in
   common with you, turn off *settings → requests from anyone*.
 - **Answering.** Requests to you appear at the top of your profile, with the
   person's name, photo and the people you both know. Tap *accept* or
@@ -272,15 +275,15 @@ screenshotted.
 
 Your photos, videos, captions, comments, your name and profile picture, your
 album names and your group names are encrypted on your phone before they are
-sent. We can't open them. We can see your handle and email address, who you are
+sent. We can't open them. We can see your handle, email address and phone number, who you are
 connected to, who each post went to and when, and reactions. The [privacy
 policy](/privacy/) lists everything we keep.
 
 **Your recovery phrase is six words**, shown to you when you sign up. Write
 them down and keep them safe.
 
-- To use your account on a new phone, you need two things: your email code,
-  password or passkey, which gets you into the account, and the six words,
+- To use your account on a new phone, you need two things: a code by email or
+  text message, your password or a passkey, which gets you into the account, and the six words,
   which unlock your photos.
 - On a new phone, your list of the people you added comes back with your key.
   If that list is missing or out of date, the app asks about the people it has
@@ -291,6 +294,9 @@ them down and keep them safe.
   right away with *settings → recovery phrase*.
 - If you sign in with email codes, keep your address up to date with *settings
   → your email*. If you lose that inbox, you can't sign in on a new phone.
+- If you sign in with text-message codes, keep your number up to date with
+  *settings → your phone*. If you lose that number, you can't sign in on a new
+  phone. A passkey saves you a code each time you sign in.
 - If your account has a password and no email, nobody can reset the password
   for you. You can add an email in *settings*.
 - A passkey signs you in with your face, fingerprint or screen lock instead of

@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 10 octobre 2026.
+**Dernière mise à jour&#160;:** 12 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -97,14 +97,15 @@ enregistrée pour la dernière fois.
 
 Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 
-- votre pseudo, et votre adresse de courriel si vous nous en avez donné
-  une&#160;;
+- votre pseudo, et votre adresse de courriel et votre numéro de téléphone si
+  vous nous en avez donné&#160;;
 - si vous avez défini un mot de passe, une clé publique que votre téléphone en
   a tirée et les réglages dont votre téléphone a besoin pour refaire cette clé.
   Nous ne recevons jamais le mot de passe lui-même. On ne peut pas le retrouver
   à partir de la clé, mais la clé permet de vérifier si un essai est le bon,
-  comme tout mot de passe enregistré. Un compte garde au moins l'un des deux,
-  une adresse de courriel ou un mot de passe, et peut avoir les deux&#160;;
+  comme tout mot de passe enregistré. Un compte garde au moins l'un des trois,
+  une adresse de courriel, un numéro de téléphone ou un mot de passe, et peut
+  en avoir plusieurs&#160;;
 - si nous étions complets quand vous avez essayé de vous inscrire et que vous
   avez demandé à être prévenu quand il y aurait de la place, l'adresse que vous
   avez donnée et le moment de la demande, et rien d'autre, jusqu'à ce que nous
@@ -184,8 +185,9 @@ adresse à vous, aucun identifiant, aucune page que vous auriez demandée.
 Nous nous servons de ce que nous détenons pour ces choses-là et rien
 d'autre&#160;:
 
-- créer votre compte, vous connecter, et envoyer à votre adresse de courriel
-  les codes à usage unique dont la connexion se sert&#160;;
+- créer votre compte, vous connecter, et envoyer à votre adresse de courriel,
+  ou par texto à votre numéro de téléphone, les codes à usage unique dont la
+  connexion se sert&#160;;
 - livrer ce que vous publiez aux gens que vous avez choisis, et vous livrer ce
   qu'ils publient&#160;;
 - vous envoyer les notifications que vous avez autorisées&#160;;
@@ -200,8 +202,8 @@ d'autre&#160;:
   envoie et aux rapports de problème que vous choisissez d'envoyer&#160;;
 - faire ce que la loi exige de nous.
 
-Un pseudo, votre date de naissance, et une adresse de courriel ou un mot de
-passe sont ce dont un compte a besoin&#160;: sans eux, nous ne pouvons pas en
+Un pseudo, votre date de naissance, et une adresse de courriel, un numéro de
+téléphone ou un mot de passe sont ce dont un compte a besoin&#160;: sans eux, nous ne pouvons pas en
 créer un. Tout le reste, vous le donnez ou non.
 
 ## Où c'est détenu, et pour combien de temps
@@ -272,8 +274,8 @@ puis&#160;:
   garder&#160;;
 - la trace d'une recherche est balayée après l'heure sur laquelle elle est
   limitée&#160;;
-- les codes de connexion à usage unique, avec l'adresse à laquelle ils ont été
-  envoyés, et la trace de chaque connexion par mot de passe, avec le pseudo
+- les codes de connexion à usage unique, avec l'adresse ou le numéro auxquels ils
+  ont été envoyés, et la trace de chaque connexion par mot de passe, avec le pseudo
   qu'elle visait et le nombre de mauvais essais qu'elle a reçus, sont balayés
   après deux jours, ce dont les limites sur les mauvais essais ont besoin pour
   compter&#160;;
@@ -356,8 +358,8 @@ album&#160;: ce que vous y mettez est vu par tous ceux qui s'y trouvent, y
 compris des personnes avec qui vous n'êtes pas en relation, et l'album en donne
 la liste. Il n'y a pas de
 profil public, pas de recherche par nom, pas de suggestions, et aucun moyen
-pour un inconnu de vous trouver s'il ne connaît pas déjà votre pseudo ou votre
-adresse exacte. Quelqu'un qui connaît l'un des deux peut demander à se connecter, sauf
+pour un inconnu de vous trouver s'il ne connaît pas déjà votre pseudo, votre
+adresse ou votre numéro de téléphone exact. Quelqu'un qui connaît l'un d'eux peut demander à se connecter, sauf
 si vous avez limité les demandes aux personnes ayant une relation en commun, et
 ne voit rien de ce qui est à vous avant que vous acceptiez.
 
@@ -404,6 +406,9 @@ autre façon d'envoyer une photo.
 - **Le courriel**, pour envoyer les codes de connexion à usage unique et les
   invitations à un album. Le prestataire voit l'adresse et le message, et rien
   d'autre à votre sujet.
+- **Les textos**, par Amazon Web Services, pour envoyer les codes de connexion
+  à usage unique à un numéro de téléphone. Le prestataire voit le numéro et le
+  message, et rien d'autre à votre sujet.
 
 Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
 dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette
@@ -454,8 +459,8 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
 - les albums que vous avez faits sont fermés, et les gens qui y sont gardent ce
   qu'ils avaient déjà les uns des autres&#160;;
 - chaque téléphone où vous étiez connecté est déconnecté&#160;;
-- votre pseudo et toute adresse de courriel sont libérés, et toute clé tirée
-  d'un mot de passe est supprimée.
+- votre pseudo, toute adresse de courriel et tout numéro de téléphone sont
+  libérés, et toute clé tirée d'un mot de passe est supprimée.
 
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au

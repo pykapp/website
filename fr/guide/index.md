@@ -54,12 +54,16 @@ tous les deux d'accord&#160;: l'un demande, l'autre accepte. L'application
 appelle ces personnes vos *relations*.
 
 - **S'inscrire.** Installez l'application et touchez *créer un compte*. Vous
-  vous inscrivez avec votre adresse de courriel.
-- **Trouver quelqu'un.** Cherchez son pseudo exact ou son adresse de courriel
-  exacte. Une partie de nom ne trouve personne, et l'application ne suggère
+  vous inscrivez avec votre adresse de courriel. Quand le champ indique
+  *courriel ou téléphone*, vous pouvez plutôt utiliser un numéro de cellulaire
+  des États-Unis ou du Canada, et votre code arrive par texto.
+- **Trouver quelqu'un.** Cherchez son pseudo exact, son adresse de courriel ou
+  son numéro de téléphone exact. Tapez un numéro comme il est enregistré dans
+  vos contacts. Une partie de nom ne trouve personne, et l'application ne suggère
   jamais personne. Vous pouvez faire 32 recherches par heure.
 - **Demander.** Touchez *ajouter*. Par défaut, toute personne qui connaît votre
-  pseudo ou votre adresse de courriel peut vous envoyer une demande. Pour
+  pseudo, votre adresse de courriel ou votre numéro de téléphone peut vous
+  envoyer une demande. Pour
   limiter les demandes aux personnes qui ont une relation en commun avec vous,
   désactivez *paramètres → demandes de n'importe qui*.
 - **Répondre.** Les demandes que vous recevez s'affichent en haut de votre
@@ -308,7 +312,7 @@ capturé à l'écran.
 Vos photos, vos vidéos, vos légendes, vos commentaires, votre nom et votre
 photo de profil, les noms de vos albums et les noms de vos groupes sont
 chiffrés sur votre téléphone avant d'être envoyés. Nous ne pouvons pas les
-ouvrir. Nous voyons votre pseudo et votre adresse de courriel, avec qui vous
+ouvrir. Nous voyons votre pseudo, votre adresse de courriel et votre numéro de téléphone, avec qui vous
 êtes en lien, à qui chaque publication a été envoyée et quand, et les
 réactions. La [politique de confidentialité](/fr/politique-de-confidentialite/)
 liste tout ce que nous gardons.
@@ -317,8 +321,8 @@ liste tout ce que nous gardons.
 Notez-les et gardez-les en lieu sûr.
 
 - Pour utiliser votre compte sur un nouveau téléphone, il vous faut deux
-  choses&#160;: un code reçu par courriel, votre mot de passe ou votre clé
-  d'accès, qui ouvre le compte, et les six mots, qui déverrouillent vos photos.
+  choses&#160;: un code reçu par courriel ou par texto, votre mot de passe ou
+  votre clé d'accès, qui ouvre le compte, et les six mots, qui déverrouillent vos photos.
 - Sur un nouveau téléphone, votre liste des personnes que vous avez ajoutées
   revient avec votre clé. Si cette liste manque ou n'est plus à jour,
   l'application vous interroge sur les personnes dont elle n'a pas de trace,
@@ -333,6 +337,10 @@ Notez-les et gardez-les en lieu sûr.
 - Si vous vous connectez avec des codes par courriel, gardez votre adresse à
   jour avec *paramètres → votre courriel*. Si vous perdez l'accès à cette boîte,
   vous ne pourrez pas vous connecter sur un nouveau téléphone.
+- Si vous vous connectez avec des codes par texto, gardez votre numéro à jour
+  avec *paramètres → votre téléphone*. Si vous perdez ce numéro, vous ne pourrez
+  pas vous connecter sur un nouveau téléphone. Une clé d'accès vous évite un
+  code à chaque connexion.
 - Si votre compte a un mot de passe et pas d'adresse de courriel, personne ne
   peut réinitialiser le mot de passe pour vous. Vous pouvez en ajouter une dans
   les *paramètres*.

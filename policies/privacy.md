@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 10 October 2026.
+**Last updated:** 12 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -81,12 +81,13 @@ number, and when each was last saved.
 
 To deliver a photo to the right people we hold, in the clear:
 
-- your handle, and your email address if you gave us one;
+- your handle, and your email address and phone number if you gave us either;
 - if you set a password, a public key your phone made from it and the settings
   your phone needs to make that key again. We never receive the password
   itself. The key cannot be turned back into it, though it can be used to test
   guesses at it, as any stored password can. An account keeps at least one of
-  the two, an email address or a password, and may have both;
+  the three, an email address, a phone number or a password, and may have more
+  than one;
 - if we were full when you tried to join and you asked to be told when there
   is room, the address you gave and when you asked, and nothing else, until we
   have written to it about a place;
@@ -153,7 +154,7 @@ not who made it: no address of yours, no identifier, no page you asked for.
 We use what we hold for these things and nothing else:
 
 - to make your account, sign you in, and send the one-time codes that sign-in
-  uses to your email address;
+  uses to your email address or, by text message, to your phone number;
 - to deliver what you post to the people you chose, and what they post to you;
 - to send you the notifications you allowed;
 - to write to you once there is room, if we were full and you asked us to;
@@ -166,8 +167,8 @@ We use what we hold for these things and nothing else:
   the bug reports you choose to send;
 - to do what the law requires of us.
 
-A handle, your date of birth, and an email address or a password are what an
-account needs: without them we cannot make one. Everything else is yours to
+A handle, your date of birth, and an email address, a phone number or a
+password are what an account needs: without them we cannot make one. Everything else is yours to
 give or not.
 
 ## Where it is held, and for how long
@@ -226,7 +227,7 @@ We keep what is above for as long as your account exists, and then:
 - the counts your phone sends are added to a total on arrival and are never
   stored against your account, so there is nothing to keep;
 - the record of a search is swept after the hour it is rate-limited over;
-- one-time sign-in codes, with the address they were sent to, and the record
+- one-time sign-in codes, with the address or number they were sent to, and the record
   of each password sign-in, with the handle it was for and how many wrong
   guesses it drew, are swept after two days, which is what the limits on wrong
   guesses need to read;
@@ -299,7 +300,7 @@ to receive it. The exception is an album: what you put in one is seen by
 everybody in it, including people you are not connected to, and the album
 lists who they are. There is no public profile, no search by name, no
 suggestions, and no way for a stranger to find you unless they already know
-your exact handle or email address. Somebody who knows one can ask to connect,
+your exact handle, email address or phone number. Somebody who knows one can ask to connect,
 unless you have limited requests to people with a mutual in common, and sees
 nothing of yours until you accept.
 
@@ -339,6 +340,9 @@ more than any other way of sending a photo can.
   post identifiers; the words you see are written by your phone.
 - **Email**, to send one-time sign-in codes and album invitations. The
   provider sees the address and the message, and nothing else about you.
+- **Text messages**, through Amazon Web Services, to send one-time sign-in
+  codes to a phone number. The provider sees the number and the message, and
+  nothing else about you.
 
 Each of them is a company based in the United States. Each receives only what
 its part of the service needs, and uses it only to provide that part to us.
@@ -381,8 +385,8 @@ to ask without it:
 - albums you made are closed, and the people in them keep what they already
   had from each other;
 - every phone you were signed in on is signed out;
-- your handle and any email address are freed, and any key made from a
-  password is deleted.
+- your handle and any email address and phone number are freed, and any key
+  made from a password is deleted.
 
 Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product
