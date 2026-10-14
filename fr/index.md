@@ -46,13 +46,9 @@ l'application.
 
 ## Obtenir l'application
 
+[Télécharger dans l'App Store](https://apps.apple.com/app/id6812890714)
+
 [Disponible sur Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
-
-[Disponible sur iPhone avec TestFlight](https://testflight.apple.com/join/HH6j77nu)
-
-L'application iPhone est une version bêta sur TestFlight jusqu'à son arrivée
-sur l'App Store. Installez d'abord l'application TestFlight d'Apple depuis
-l'App Store, puis ouvrez le lien sur votre iPhone.
 
 Installez-la et touchez *créer un compte*. Vous vous inscrivez avec votre
 adresse de courriel. Vous devez avoir 18 ans ou plus. Si l'application est
