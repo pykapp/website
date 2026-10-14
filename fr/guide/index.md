@@ -56,7 +56,11 @@ appelle ces personnes vos *relations*.
 - **S'inscrire.** Installez l'application et touchez *créer un compte*. Vous
   vous inscrivez avec votre adresse de courriel. Quand le champ indique
   *courriel ou téléphone*, vous pouvez plutôt utiliser un numéro de cellulaire
-  des États-Unis ou du Canada, et votre code arrive par texto.
+  des États-Unis ou du Canada, et votre code arrive par texto. Si vous y avez
+  utilisé une adresse de courriel, l'application vous demande ensuite votre
+  numéro de téléphone, pour que les personnes qui l'ont puissent vous
+  trouver. Personne d'autre ne le voit. Vous pouvez toucher *passer* et
+  l'ajouter plus tard dans *paramètres → votre téléphone*.
 - **Trouver quelqu'un.** Cherchez son pseudo exact, son adresse de courriel ou
   son numéro de téléphone exact. Tapez un numéro comme il est enregistré dans
   vos contacts. Une partie de nom ne trouve personne, et l'application ne suggère

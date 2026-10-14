@@ -53,7 +53,10 @@ to your *mutuals*.
 - **Joining.** Install the app and tap *create an account*. You sign up with
   your email address. When the field says *email or phone*, you can use a
   mobile phone number from the United States or Canada instead, and your code
-  comes by text message.
+  comes by text message. If you signed up with an email address there, the
+  app then asks for your phone number, so people who have it can find you.
+  Nobody else sees it. You can tap *skip* and add it later in
+  *settings → your phone*.
 - **Finding someone.** Search by their exact handle, email address or phone
   number. Type a number the way it is saved in your contacts. Part of a
   name finds nobody, and the app never suggests people. You can search 32
