@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 12 October 2026.
+**Last updated:** 13 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -95,9 +95,10 @@ To deliver a photo to the right people we hold, in the clear:
 - add requests you send and receive, blocks you place, and anybody whose
   posts you have muted (a mute is yours alone; the other person is never
   told);
-- an email address somebody typed to invite a person into an album, and when,
-  until that person joins or the invitation lapses. If the person at that
-  address asks us to stop sending invitations, we keep a fingerprint of the
+- an email address somebody typed to invite a person into an album, or an
+  email address or phone number somebody typed to invite a person to the app,
+  and when, until that person joins or the invitation lapses. If the person at
+  an address asks us to stop sending invitations, we keep a fingerprint of the
   address (a one-way hash of it, not the address), so that we never email it
   an invitation again;
 - the country your phone was set to when you made your account or, if you made
@@ -159,7 +160,10 @@ We use what we hold for these things and nothing else:
 - to send you the notifications you allowed;
 - to write to you once there is room, if we were full and you asked us to;
 - to send one email to an address somebody typed to invite a person into an
-  album, and to stop when that person asks us to;
+  album or to the app, and to stop when that person asks us to. We send nothing
+  to a phone number typed to invite somebody: the person inviting texts it from
+  their own phone, and we keep the number only so that an account made with it
+  can be connected to them;
 - to act on reports and keep people safe, as the [moderation
   policy](/moderation/) and the [child safety standards](/child-safety/)
   describe;
@@ -338,7 +342,7 @@ more than any other way of sending a photo can.
   Android and Apple's Push Notification service on iPhone, when you allow
   them. A push carries a type and nothing else: no names, no captions, no
   post identifiers; the words you see are written by your phone.
-- **Email**, to send one-time sign-in codes and album invitations. The
+- **Email**, to send one-time sign-in codes and invitations. The
   provider sees the address and the message, and nothing else about you.
 - **Text messages**, through Amazon Web Services, to send one-time sign-in
   codes to a phone number. The provider sees the number and the message, and

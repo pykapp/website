@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 12 octobre 2026.
+**Dernière mise à jour&#160;:** 13 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -115,11 +115,12 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   posez, et toute personne dont vous avez masqué les publications (un masquage
   n'appartient qu'à vous&#160;; la personne n'en est jamais informée)&#160;;
 - une adresse de courriel que quelqu'un a saisie pour inviter une personne dans
-  un album, et quand, jusqu'à ce que cette personne s'inscrive ou que
-  l'invitation expire. Si la personne à cette adresse nous demande d'arrêter de
-  lui envoyer des invitations, nous gardons une empreinte de l'adresse (un
-  hachage à sens unique, pas l'adresse elle-même), pour ne plus jamais lui en
-  envoyer&#160;;
+  un album, ou une adresse de courriel ou un numéro de téléphone que quelqu'un a
+  saisi pour inviter une personne dans l'application, et quand, jusqu'à ce que
+  cette personne s'inscrive ou que l'invitation expire. Si la personne à une
+  adresse nous demande d'arrêter de lui envoyer des invitations, nous gardons
+  une empreinte de l'adresse (un hachage à sens unique, pas l'adresse
+  elle-même), pour ne plus jamais lui en envoyer&#160;;
 - le pays auquel votre téléphone était réglé quand vous avez créé votre
   compte ou, si vous l'avez créé avant le 22 septembre 2026, la première fois
   que vous avez ouvert l'application après l'avoir mise à jour. Il est écrit une
@@ -194,7 +195,11 @@ d'autre&#160;:
 - vous écrire quand il y a de la place, si nous étions complets et que vous
   nous l'avez demandé&#160;;
 - envoyer un courriel à une adresse que quelqu'un a saisie pour inviter une
-  personne dans un album, et arrêter quand cette personne nous le demande&#160;;
+  personne dans un album ou dans l'application, et arrêter quand cette personne
+  nous le demande. Nous n'envoyons rien à un numéro de téléphone saisi pour
+  inviter quelqu'un&#160;: la personne qui invite l'envoie par texto depuis son
+  propre téléphone, et nous gardons le numéro seulement pour qu'un compte créé
+  avec ce numéro puisse être mis en relation avec elle&#160;;
 - donner suite aux signalements et protéger les gens, comme le décrivent la
   [politique de modération](/fr/politique-de-moderation/) et les [normes de
   protection des enfants](/fr/protection-des-enfants/)&#160;;
@@ -404,7 +409,7 @@ autre façon d'envoyer une photo.
   d'identifiants de publication&#160;; les mots que vous voyez sont écrits par
   votre téléphone.
 - **Le courriel**, pour envoyer les codes de connexion à usage unique et les
-  invitations à un album. Le prestataire voit l'adresse et le message, et rien
+  invitations. Le prestataire voit l'adresse et le message, et rien
   d'autre à votre sujet.
 - **Les textos**, par Amazon Web Services, pour envoyer les codes de connexion
   à usage unique à un numéro de téléphone. Le prestataire voit le numéro et le
