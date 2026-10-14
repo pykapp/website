@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne. Elle commence par les cinq choses qui fonctionnent
 autrement que dans les autres applications.
 
-**Dernière mise à jour&#160;:** 9 octobre 2026. Cette page décrit l'application
+**Dernière mise à jour&#160;:** 14 octobre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 ## Ce qui fonctionne autrement
@@ -73,8 +73,8 @@ appelle ces personnes vos *relations*.
 - **Vos anciennes publications.** Ajouter une relation ne lui montre rien de
   ce que vous avez publié avant. L'application vous demande si vous voulez lui
   partager vos anciennes publications. Si oui, elle les voit dans son accueil,
-  datées du jour où vous les avez publiées, et sur votre profil. Elles ne
-  comptent pas comme nouvelles.
+  datées du jour où vous les avez publiées, et sur votre profil. Celles des 16
+  derniers jours comptent comme nouvelles, les plus anciennes non.
 - **La limite.** Vous pouvez avoir jusqu'à 128 relations. Votre profil affiche
   combien vous en avez, par exemple *12 sur 128*.
 
@@ -209,20 +209,20 @@ créer un.
 
 ## L'accueil
 
-L'accueil montre toutes les publications qu'on vous a envoyées, les plus
-récentes d'abord.
+L'accueil montre toutes les publications qu'on vous a envoyées.
 
-- **Les nouvelles publications sont en haut.** En dessous, une ligne affiche
-  *vous êtes à jour*. Tout ce qui est au-dessus est arrivé depuis votre
-  dernière visite&#160;; tout ce qui est en dessous, vous l'avez déjà parcouru.
-- **La ligne descend à mesure que vous lisez.** Une publication compte comme lue
-  quand sa première photo est restée entièrement à l'écran une seconde et demie.
-  Rien ne bouge à l'écran à ce moment-là&#160;; à votre prochaine visite, la
-  ligne est passée en dessous.
-- **Les publications plus anciennes restent.** Continuez à faire défiler sous la
-  ligne pour revoir tout ce qu'on vous a envoyé, y compris les photos que vos
-  amis avaient déjà publiées quand vous vous êtes connectés. Rien n'est classé,
-  suggéré ou ajouté pour vous faire défiler plus longtemps.
+- **Les publications que vous n'avez pas vues sont en haut**, les plus récentes
+  d'abord. En dessous, une ligne affiche *vous êtes à jour*, et sous elle *tout
+  le reste*&#160;: les publications que vous avez vues, les plus récentes
+  d'abord, et les anciennes publications qu'on vous a partagées quand vous vous
+  êtes connectés.
+- **La ligne bouge à mesure que vous lisez.** Une publication compte comme lue
+  quand sa première photo est restée entièrement à l'écran une seconde et
+  demie, ou quand vous l'ouvrez. Rien ne bouge à l'écran à ce moment-là. À
+  votre prochaine visite, elle est sous la ligne.
+- **Tout reste.** Continuez à faire défiler sous la ligne pour revoir tout ce
+  qu'on vous a envoyé. Rien n'est classé, suggéré ou ajouté pour vous faire
+  défiler plus longtemps.
 - **Actualiser.** Tirez l'accueil vers le bas pour voir s'il y a du nouveau.
 - **Les onglets.** *tout le monde*, puis un onglet par groupe. Le nombre sur un
   onglet est le nombre de nouvelles publications qu'il contient.

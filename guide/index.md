@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works. It starts with the
 five things that work differently from other apps.
 
-**Last updated:** 9 October 2026. This page covers the app on Android and
+**Last updated:** 14 October 2026. This page covers the app on Android and
 iPhone.
 
 ## What works differently
@@ -68,7 +68,7 @@ to your *mutuals*.
 - **Old posts.** Connecting doesn't share anything you posted before. The app
   asks if you want to share your past posts with the new mutual. If you do,
   they see those posts in their feed, dated when you posted them, and on your
-  profile. They don't count as new.
+  profile. Posts from the last 16 days count as new; older ones don't.
 - **The limit.** You can have up to 128 mutuals. Your profile shows how many
   you have, like *mutuals 12 of 128*.
 
@@ -184,18 +184,19 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
 
 ## The feed
 
-The feed shows every post people have sent you, newest first.
+The feed shows every post people have sent you.
 
-- **New posts are at the top.** Below them is a line that says *all caught up*.
-  Everything above it arrived since you last caught up; everything below it you
-  have already been through.
+- **Posts you haven't seen are at the top**, newest first. Below them is a line
+  that says *all caught up*, and under it *everything else*: the posts you have
+  seen, newest first, and older posts people shared with you when you
+  connected.
 - **The line moves as you read.** A post counts as read once its first photo has
-  been fully on screen for a second and a half. Nothing moves on the screen when
-  that happens; the next time you open the app the line has moved down past it.
-- **Older posts stay.** Keep scrolling past the line and you can go back through
-  everything you have been sent, including the photos your friends had already
-  posted when you connected. Nothing is ranked, suggested or added to keep you
-  scrolling.
+  been fully on screen for a second and a half, or once you open it. Nothing
+  moves on the screen when that happens. The next time you open the app, the
+  post is below the line.
+- **Everything stays.** Keep scrolling past the line and you can go back through
+  everything you have been sent. Nothing is ranked, suggested or added to keep
+  you scrolling.
 - **Refreshing.** Pull the feed down to check for new posts.
 - **Tabs.** *everybody*, then one tab per group. The number on a tab is how
   many new posts it has.
