@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
 contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 6 octobre 2026.
+**Dernière mise à jour&#160;:** 13 octobre 2026.
 
 ## Qui nous sommes
 
@@ -85,6 +85,18 @@ modération](/fr/politique-de-moderation/) dit comment nous décidons.
 Nous pouvons arrêter le service ou le changer. Si nous arrêtons le service,
 nous donnerons au moins 30 jours de préavis et le temps d'exporter vos données,
 sauf si quelque chose hors de notre contrôle nous empêche de prévenir.
+
+## Les textos
+
+Si vous vous inscrivez ou vous connectez avec un numéro de téléphone, nous
+envoyons à ce numéro un code de connexion à usage unique par texto chaque fois
+que vous en demandez un, et rien d'autre&#160;: ni publicité ni notification.
+Vous recevez un message par code demandé. Des frais de messagerie et de données
+peuvent s'appliquer. Répondez STOP pour ne plus recevoir de textos à ce
+numéro&#160;; vous pouvez toujours vous connecter avec une adresse de courriel,
+un mot de passe ou une clé d'accès. Pour de l'aide, écrivez à l'adresse
+indiquée sous *Contact*. Nous ne communiquons jamais votre numéro de téléphone
+à des tiers ou à des sociétés affiliées à des fins publicitaires.
 
 ## Modifier ces conditions
 

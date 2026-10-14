@@ -346,7 +346,8 @@ more than any other way of sending a photo can.
   provider sees the address and the message, and nothing else about you.
 - **Text messages**, through Amazon Web Services, to send one-time sign-in
   codes to a phone number. The provider sees the number and the message, and
-  nothing else about you.
+  nothing else about you. We never share your phone number with third parties
+  or affiliates for marketing.
 
 Each of them is a company based in the United States. Each receives only what
 its part of the service needs, and uses it only to provide that part to us.

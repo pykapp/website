@@ -413,7 +413,9 @@ autre façon d'envoyer une photo.
   d'autre à votre sujet.
 - **Les textos**, par Amazon Web Services, pour envoyer les codes de connexion
   à usage unique à un numéro de téléphone. Le prestataire voit le numéro et le
-  message, et rien d'autre à votre sujet.
+  message, et rien d'autre à votre sujet. Nous ne communiquons jamais votre
+  numéro de téléphone à des tiers ou à des sociétés affiliées à des fins
+  publicitaires.
 
 Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
 dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette
