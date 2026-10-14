@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 13 October 2026.
+**Last updated:** 14 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -59,6 +59,10 @@ We store these as ciphertext. We cannot open them, and neither can anybody
 who obtains a copy of our servers. If you lose your recovery phrase and every
 phone that holds your key, your photos are gone. We cannot recover them, and
 this is deliberate: there is no copy that is ours to hand back.
+
+When you invite somebody by email, your phone also sends us your display
+name, so that the email can say it is from you. We put it in that email and
+keep it nowhere.
 
 We also hold keys, every one of them locked before it reached us:
 

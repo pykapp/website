@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 13 octobre 2026.
+**Dernière mise à jour&#160;:** 14 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -70,6 +70,10 @@ obtiendrait une copie de nos serveurs ne le pourrait non plus. Si vous perdez
 votre phrase de récupération et tous les téléphones qui détiennent votre clé,
 vos photos sont perdues. Nous ne pouvons pas les récupérer, et c'est
 délibéré&#160;: il n'existe pas de copie qui soit à nous pour vous la rendre.
+
+Quand vous invitez quelqu'un par courriel, votre téléphone nous envoie aussi
+votre nom affiché, pour que le courriel dise qu'il vient de vous. Nous le
+mettons dans ce courriel et ne le gardons nulle part.
 
 Nous détenons aussi des clés, chacune verrouillée avant de nous parvenir&#160;:
 
