@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 14 octobre 2026.
+**Dernière mise à jour&#160;:** 18 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -400,6 +400,18 @@ autre façon d'envoyer une photo.
   et c'est actif pour tout le monde parce que cela ne porte rien qui pourrait
   être désactivé.
 
+## Les textos
+
+Nous envoyons un texto à un numéro de téléphone seulement quand quelqu'un le
+tape dans l'application et demande un code de connexion. Chaque texto contient
+ce code et rien d'autre.
+
+Votre numéro de téléphone et votre accord pour recevoir nos textos ne sont
+jamais vendus, loués ni communiqués à un tiers ou à une société affiliée, à
+des fins publicitaires ou à toute autre fin, sauf quand la loi l'exige. Cela
+vaut quoi que cette page dise ailleurs sur le partage. Amazon Web Services
+envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
+
 ## Les tiers que nous utilisons
 
 - **L'hébergement** de nos serveurs, de notre base de données et de la
@@ -416,10 +428,9 @@ autre façon d'envoyer une photo.
   invitations. Le prestataire voit l'adresse et le message, et rien
   d'autre à votre sujet.
 - **Les textos**, par Amazon Web Services, pour envoyer les codes de connexion
-  à usage unique à un numéro de téléphone. Le prestataire voit le numéro et le
-  message, et rien d'autre à votre sujet. Nous ne communiquons jamais votre
-  numéro de téléphone à des tiers ou à des sociétés affiliées à des fins
-  publicitaires.
+  à usage unique à un numéro de téléphone. Le prestataire ne se sert du numéro
+  et du message que pour livrer le texto. *Les textos* plus haut dit qui
+  d'autre reçoit votre numéro&#160;: personne.
 
 Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
 dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette

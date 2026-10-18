@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
 contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 13 octobre 2026.
+**Dernière mise à jour&#160;:** 18 octobre 2026.
 
 ## Qui nous sommes
 
@@ -95,8 +95,10 @@ Vous recevez un message par code demandé. Des frais de messagerie et de donnée
 peuvent s'appliquer. Répondez STOP pour ne plus recevoir de textos à ce
 numéro&#160;; vous pouvez toujours vous connecter avec une adresse de courriel,
 un mot de passe ou une clé d'accès. Pour de l'aide, écrivez à l'adresse
-indiquée sous *Contact*. Nous ne communiquons jamais votre numéro de téléphone
-à des tiers ou à des sociétés affiliées à des fins publicitaires.
+indiquée sous *Contact*. Votre numéro de téléphone et votre accord pour
+recevoir nos textos ne sont jamais vendus, loués ni communiqués à un tiers ou à
+une société affiliée, à des fins publicitaires ou à toute autre fin, sauf quand
+la loi l'exige.
 
 ## Modifier ces conditions
 

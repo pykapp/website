@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 14 October 2026.
+**Last updated:** 18 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -335,6 +335,17 @@ more than any other way of sending a photo can.
   write to us, and it is on for everybody because it carries nothing that
   could be turned off.
 
+## Text messages
+
+We text a phone number only when somebody types it into the app and asks for
+a sign-in code. Each text holds that code and nothing else.
+
+Your phone number and your agreement to receive our texts are never sold,
+rented or shared with any third party or affiliate, for marketing or for any
+other purpose, except where the law requires it. This holds whatever else this
+page says about sharing. Amazon Web Services sends each text for us and uses
+the number only to deliver it.
+
 ## Third parties we use
 
 - **Hosting** for our servers, our database and the second copy of the
@@ -349,9 +360,9 @@ more than any other way of sending a photo can.
 - **Email**, to send one-time sign-in codes and invitations. The
   provider sees the address and the message, and nothing else about you.
 - **Text messages**, through Amazon Web Services, to send one-time sign-in
-  codes to a phone number. The provider sees the number and the message, and
-  nothing else about you. We never share your phone number with third parties
-  or affiliates for marketing.
+  codes to a phone number. The provider uses the number and the message only
+  to deliver the text. *Text messages* above says who else gets your number:
+  nobody.
 
 Each of them is a company based in the United States. Each receives only what
 its part of the service needs, and uses it only to provide that part to us.

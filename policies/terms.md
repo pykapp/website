@@ -7,7 +7,7 @@ permalink: /terms/
 using it. They are short on purpose, and they are a contract: using the app
 means agreeing to them.
 
-**Last updated:** 13 October 2026.
+**Last updated:** 18 October 2026.
 
 ## Who we are
 
@@ -82,8 +82,9 @@ sign-in code each time you ask for one, and nothing else: no marketing and no
 notifications. You get one message for each code you ask for. Message and data
 rates may apply. Reply STOP to stop all texts to that number; you can still
 sign in with an email address, a password or a passkey. For help, write to the
-address under *Contact*. We never share your phone number with third parties
-or affiliates for marketing.
+address under *Contact*. Your phone number and your agreement to receive our
+texts are never sold, rented or shared with any third party or affiliate, for
+marketing or for any other purpose, except where the law requires it.
 
 ## Changing these terms
 
