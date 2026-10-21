@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 20 October 2026.
+**Last updated:** 21 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -61,8 +61,10 @@ phone that holds your key, your photos are gone. We cannot recover them, and
 this is deliberate: there is no copy that is ours to hand back.
 
 When you invite somebody by email, your phone also sends us your display
-name, so that the email can say it is from you. We put it in that email and
-keep it nowhere.
+name, so that the email can say it is from you. When you invite them into an
+album, it sends the album's name too, so that the email can say which album,
+and the app tells you so before you send the invitation. We put them in that
+email and keep them nowhere.
 
 We also hold keys, every one of them locked before it reached us:
 
