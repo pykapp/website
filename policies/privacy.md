@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 18 October 2026.
+**Last updated:** 20 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -137,6 +137,9 @@ To deliver a photo to the right people we hold, in the clear:
   when you read it. An entry is kept for 128 days;
 - whose posts you have asked to be told about, and the other switches in your
   settings;
+- if you subscribe, which store you paid through, the store's reference for the
+  purchase, and when the period you paid for ends. The store holds who paid and
+  how; we never see a card or a bank account. It is deleted with your account;
 - for each phone you have signed in on: its push token, whether it is an
   Android phone or an iPhone, which build of the app it runs, and when you
   signed in there and last used it;
@@ -363,6 +366,9 @@ the number only to deliver it.
   codes to a phone number. The provider uses the number and the message only
   to deliver the text. *Text messages* above says who else gets your number:
   nobody.
+- **Google Play and the App Store**, if you subscribe. Each takes the payment,
+  and tells us whether the subscription you bought for this account is paid up
+  and until when.
 
 Each of them is a company based in the United States. Each receives only what
 its part of the service needs, and uses it only to provide that part to us.

@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
 contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 18 octobre 2026.
+**Dernière mise à jour&#160;:** 20 octobre 2026.
 
 ## Qui nous sommes
 
@@ -44,15 +44,21 @@ Vous devez avoir 18 ans ou plus. Une personne, un compte.
 
 ## Ce que cela coûte
 
-L'application est gratuite. Il n'y a rien à y acheter et aucun moyen de
-paiement enregistré.
+Les premiers comptes créés sont gratuits pour toujours, et nous ne leur
+demanderons jamais de payer.
 
-Si nous commençons à faire payer, nous le dirons dans l'application avant que
-quoi que ce soit soit facturé, et nous ne transformerons pas un compte que vous
-avez déjà en un compte payant sans vous prévenir d'abord et sans vous laisser
-le choix de partir avec vos données. Les conditions d'une formule payante
-seront écrites quand il y en aura une&#160;; il ne sert à rien d'accepter
-aujourd'hui une chose dont personne n'a fixé le prix.
+Un compte créé après eux peut publier gratuitement pendant 30 jours, comptés à
+partir de sa première relation ou de sa première publication. Ensuite, publier
+nécessite un abonnement. Le reste est gratuit&#160;: regarder ce que les gens
+partagent avec vous, commenter, réagir, ajouter des personnes, les albums,
+exporter vos données et supprimer votre compte.
+
+Un abonnement est vendu par Google Play ou par l'App Store, au prix que cette
+boutique vous montre avant que vous payiez. Il se renouvelle tout seul jusqu'à
+ce que vous l'annuliez, ce qui se fait dans cette boutique, et ce sont les
+conditions de la boutique qui décident des remboursements. S'il prend fin, vous
+gardez tout ce que vous avez publié et tout ce que fait l'application&#160;;
+vous ne pouvez simplement plus publier avant de vous abonner de nouveau.
 
 ## Ce que vous acceptez
 

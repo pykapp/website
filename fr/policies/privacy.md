@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 18 octobre 2026.
+**Dernière mise à jour&#160;:** 20 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -165,6 +165,10 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   jours&#160;;
 - les personnes pour lesquelles vous avez demandé à être prévenu quand elles
   publient, et les autres interrupteurs de vos paramètres&#160;;
+- si vous vous abonnez, la boutique par laquelle vous avez payé, la référence
+  de cet achat chez elle, et la date à laquelle la période payée prend fin.
+  C'est la boutique qui sait qui a payé et comment&#160;; nous ne voyons jamais
+  une carte ni un compte bancaire. C'est supprimé avec votre compte&#160;;
 - pour chaque téléphone sur lequel vous vous êtes connecté&#160;: son jeton
   d'envoi, s'il s'agit d'un téléphone Android ou d'un iPhone, quelle version
   compilée de l'application il fait tourner, et quand vous vous y êtes connecté
@@ -431,6 +435,9 @@ envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
   à usage unique à un numéro de téléphone. Le prestataire ne se sert du numéro
   et du message que pour livrer le texto. *Les textos* plus haut dit qui
   d'autre reçoit votre numéro&#160;: personne.
+- **Google Play et l'App Store**, si vous vous abonnez. Chacun prend le
+  paiement, et nous dit si l'abonnement que vous avez acheté pour ce compte est
+  payé et jusqu'à quand.
 
 Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
 dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette

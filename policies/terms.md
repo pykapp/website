@@ -7,7 +7,7 @@ permalink: /terms/
 using it. They are short on purpose, and they are a contract: using the app
 means agreeing to them.
 
-**Last updated:** 18 October 2026.
+**Last updated:** 20 October 2026.
 
 ## Who we are
 
@@ -38,13 +38,18 @@ You must be 18 or older. One person, one account.
 
 ## What it costs
 
-The app is free. There is nothing to buy in it and no payment method on file.
+The first accounts made are free for ever, and we will never ask them to pay.
 
-If we start charging, we will say so in the app before anything is charged, and
-we will not turn an account you already have into one you have to pay for
-without telling you first and giving you the choice of leaving with your data.
-Terms for a paid plan will be written when there is one; there is no point
-agreeing now to something nobody has priced.
+An account made after them can post for free for 30 days, counted from its
+first mutual or its first post. After that, posting needs a subscription.
+Everything else stays free: looking at what people share with you, commenting,
+reacting, adding people, albums, exporting your data and deleting your account.
+
+A subscription is sold through Google Play or the App Store, at the price that
+store shows you before you pay. It renews by itself until you cancel it, which
+you do in that store, and the store's own terms decide refunds. If it ends, you
+keep everything you posted and everything else the app does; you just cannot
+post until you subscribe again.
 
 ## What you agree to
 
