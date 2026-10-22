@@ -75,10 +75,12 @@ to your *mutuals*.
 - **The limit.** You can have up to 128 mutuals. Your profile shows how many
   you have, like *mutuals 12 of 128*.
 
-You can come across somebody you don't know through a photo: a name a mutual
-put on it, or the person who first posted a photo that was shared with you.
-Tap the name to see who they are and who you both know, and to ask to add
-them.
+You can tap any name in the app. A mutual's name opens their profile, and
+yours opens your own. Anybody else's name asks whether you want to add them:
+a name a mutual put on a photo, the person who first posted a photo that was
+shared with you, somebody in an album with you, or somebody who reacted to
+something you can see. For a name on a photo, it also shows who you both
+know.
 
 ## Posting
 

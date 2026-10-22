@@ -82,11 +82,13 @@ appelle ces personnes vos *relations*.
 - **La limite.** Vous pouvez avoir jusqu'à 128 relations. Votre profil affiche
   combien vous en avez, par exemple *12 sur 128*.
 
-Vous pouvez croiser quelqu'un que vous ne connaissez pas grâce à une
-photo&#160;: un nom qu'une de vos relations y a mis, ou la personne qui a
-publié à l'origine une photo repartagée avec vous. Touchez le nom pour voir qui
-c'est, quelles relations vous avez en commun, et pour lui demander de vous
-ajouter.
+Vous pouvez toucher n'importe quel nom dans l'application. Le nom d'une
+relation ouvre son profil, et le vôtre ouvre le vôtre. Le nom de toute autre
+personne vous demande si vous voulez l'ajouter&#160;: un nom qu'une de vos
+relations a mis sur une photo, la personne qui a publié à l'origine une photo
+repartagée avec vous, quelqu'un qui est dans un album avec vous, ou quelqu'un
+qui a réagi à quelque chose que vous voyez. Pour un nom sur une photo, on voit
+aussi les relations que vous avez en commun.
 
 ## Publier
 
