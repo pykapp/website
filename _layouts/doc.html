@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: default
 ---
 {%- comment -%}
-  Every page but the two homes, with the language row above the prose.
-
-  A NEW NAME, so no minima file is shadowed. Jekyll consults the site's own
-  `_layouts` before the theme's, and `docs/_layouts/` holds no `page.html`, so
-  `layout: page` here resolves to minima's and a theme bump flows straight
-  through. Shadowing a theme file is a frozen copy of somebody else's work with
-  no test against the original, which is what this site refuses to do for
-  `head.html` and refuses here for the same reason.
-
-  Pinned to minima 2.5.1, which is what github-pages ships.
+  Every page but the two homes: the guide, the policies and the deletion page.
+  A reading column with the page's title above it.
 {%- endcomment -%}
-{% include languages.html %}
-{{ content }}
+<article class="doc">
+  <h1 class="doc-title">{{ page.title }}</h1>
+  <div class="prose">
+    {{ content }}
+  </div>
+</article>

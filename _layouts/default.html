@@ -1,0 +1,68 @@
+{%- comment -%}
+  Every page's frame: the head, the masthead and the footer.
+
+  The links in the masthead and the footer are the pages _config.yml names,
+  each looked up in this page's language and shown under that version's own
+  title. A page with no version in this language falls back to the default
+  language's, so a link never disappears.
+
+  Every variable here is prefixed `frame_`, because a Liquid `assign` inside an
+  include writes to the page's one scope: languages.html assigns `home`,
+  `want` and `stem` for itself, and would overwrite ours mid-page.
+{%- endcomment -%}
+{%- assign frame_lang = site.languages | where: "code", page.lang | first -%}
+{%- unless frame_lang -%}{%- assign frame_lang = site.languages | first -%}{%- endunless -%}
+{%- if frame_lang.dir == "" -%}
+  {%- assign frame_prefix = "" -%}
+{%- else -%}
+  {%- assign frame_prefix = frame_lang.dir | append: "/" -%}
+{%- endif -%}
+{%- assign frame_home_path = frame_prefix | append: "index.md" -%}
+{%- assign frame_home = site.pages | where: "path", frame_home_path | first -%}
+<!DOCTYPE html>
+<html lang="{{ frame_lang.code }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="site-title" href="{{ frame_home.url | relative_url }}">{{ site.title }}</a>
+      <div class="masthead-links">
+        {%- for frame_entry in site.header_pages -%}
+          {%- assign frame_path = frame_prefix | append: frame_entry -%}
+          {%- assign frame_page = site.pages | where: "path", frame_path | first -%}
+          {%- unless frame_page -%}{%- assign frame_page = site.pages | where: "path", frame_entry | first -%}{%- endunless -%}
+          <a class="masthead-link" href="{{ frame_page.url | relative_url }}"{% if frame_page.url == page.url %} aria-current="page"{% endif %}>{{ frame_page.title }}</a>
+        {%- endfor -%}
+        {% include languages.html %}
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-about">
+        <a class="site-title" href="{{ frame_home.url | relative_url }}">{{ site.title }}</a>
+        <p>{{ site.company }}<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+      <ul class="footer-links">
+        {%- for frame_entry in site.footer_pages -%}
+          {%- assign frame_path = frame_prefix | append: frame_entry -%}
+          {%- assign frame_page = site.pages | where: "path", frame_path | first -%}
+          {%- unless frame_page -%}{%- assign frame_page = site.pages | where: "path", frame_entry | first -%}{%- endunless -%}
+          <li><a href="{{ frame_page.url | relative_url }}"{% if frame_page.url == page.url %} aria-current="page"{% endif %}>{{ frame_page.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

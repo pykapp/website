@@ -10,10 +10,11 @@
 #
 # What is not a page: assets/ and favicon.ico, which are generated from the
 # app's own drawables, palette and font by scripts/render-site-assets.sh and
-# held to them by scripts/the-site-wears-the-mark.py. assets/main.scss is
-# minima's own documented override point and is compiled to assets/main.css by
-# the front matter at the top of it; nothing else here is Sass. screens/ holds
-# the home page's screenshots, copied from the store set and not generated.
+# held to them by scripts/the-site-wears-the-mark.py. assets/main.scss is the
+# site's whole stylesheet and is compiled to assets/main.css by the front matter
+# at the top of it. screens/ holds the home page's screenshots, copied from the
+# store set and not generated. `scripts/site.sh` serves the site locally, built
+# by the same gem GitHub Pages builds it with.
 #
 # It speaks the languages the app speaks, which is not a courtesy: the app has
 # had a language row since the seventh interlude after M12, and a French phone
@@ -22,15 +23,21 @@
 # lists of languages in two trees drift the first time one of them grows.
 title: people you know
 description: Private photo sharing with the people you actually know.
-theme: minima
+company: people you know llc
+email: pykapp+hello@proton.me
 
-# English by a decision of this repository rather than by minima's last resort.
-# There was no `lang` key here until the site learned a second language, so all
-# fourteen pages were served `lang="en"` out of the theme's own default
-# (`_layouts/default.html`: `page.lang | default: site.lang | default: "en"`),
-# which is the feed tabs being Material's purple one surface over—correct, and
-# nobody's choice. `url` and `baseurl` are here because hreflang needs absolute
-# addresses and `absolute_url` reads them; nothing else on the site did.
+# No theme. The layouts in _layouts/ are the site's own, written for it, so
+# nothing here is borrowed and nothing changes when GitHub bumps a theme.
+# `theme: null` rather than no key, because the github-pages gem fills in
+# jekyll-theme-primer when the key is missing, and its stylesheet would be
+# published beside ours. jekyll-seo-tag writes the title, description and Open
+# Graph tags into the head; a theme used to load it, so it is named here.
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+# `url` and `baseurl` are here because hreflang needs absolute addresses and
+# `absolute_url` reads them.
 lang: en
 url: https://peopleyouk.now
 baseurl: ""
@@ -103,9 +110,8 @@ languages:
 # French ones: the stanza below overrides `lang` and nothing else. It is the
 # mark and the wordmark and no words, so it needs no translation.
 #
-# This is also why there is no `<link rel="icon">` anywhere: seo-tag emits
-# `og:image` into a head we do not write, and it emits no favicon. The site's
-# icon is docs/favicon.ico at the root, which every browser asks for unprompted.
+# The site's icon is docs/favicon.ico at the root, which every browser asks for
+# unprompted, so the head names none.
 defaults:
   - scope:
       path: ""
@@ -147,26 +153,18 @@ include:
 exclude:
   - store
   - README.md
-# Inert at minima 2.5.1, which is what github-pages 232 ships and what this
-# site is built against: skins arrived in minima 3, and 2.5.1's `_sass/minima.scss`
-# imports `minima/base`, `minima/layout` and `minima/syntax-highlighting` with no
-# skin in the path at all. It is kept rather than deleted because `classic` is
-# what the site looks like today, so a Pages bump to minima 3 changes the theme
-# under us in every other respect but not this one. The site's own colours are
-# not here: they are in assets/main.scss, out of the app's sources.
-minima:
-  skin: classic
-# Minima renders ONE masthead for the whole site, so these five English entries
-# are the nav on a French page too. That is a real cost and it is the least bad
-# of three: `[]` makes minima list every page on the site in every language,
-# because Liquid's `default` filter fires on anything answering `empty?` and
-# header.html falls back to `site.pages | map: "path"`; and the only clean fix
-# is shadowing `_includes/header.html`, a frozen copy of somebody else's file
-# with no test, which is refused here for the reason head.html is. Named in
-# design/90-decisions-on-record/1670 rather than hidden.
+# The pages the masthead and the footer link to on every page, named by their
+# source in the default language. Each page links to its own language's
+# version of them, under that version's own title, so a French page's footer
+# is French with nothing translated here. scripts/site-links-resolve.sh
+# checks each exists and counts them as linked from every page.
 header_pages:
+  - guide/index.md
+footer_pages:
   - guide/index.md
   - policies/terms.md
   - policies/privacy.md
   - policies/moderation.md
+  - policies/intimate-images.md
+  - policies/child-safety.md
   - delete-account.md

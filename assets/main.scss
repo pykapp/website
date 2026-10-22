@@ -1,80 +1,202 @@
 ---
 # Front matter, empty, because Jekyll only compiles a Sass file that has it.
-# This is minima's own documented override point and NOT a shadowed include:
-# the theme's copy of this file is the two dashes above and one `@import`, with
-# no logic in it to go stale on a theme bump. That is the whole difference from
-# `_includes/head.html`, which `_config.yml` refuses to shadow and which carries
-# `seo`, `feed_meta` and an analytics branch none of which this repository wrote.
 ---
 
-// The site wears the app's face (DESIGN.md §14).
-//
-// Until this file the site was stock minima on a stock sans: no mark, no
-// wordmark, Jekyll's blue links and minima's near-white. Somebody arriving from
-// a store listing met a page with nothing on it that the app has, which is the
-// review of 19 September 2026's finding—the identity stopping at the app's
-// edge, at exactly the surface where a stranger decides.
-//
-// Four things, and no more than four. The mark and the cursive wordmark in the
-// masthead; the app's ground; the app's ink; the violet on a word that does
-// something. The prose keeps minima's system sans, deliberately: §14 gives the
-// cursive to the app's own short words, and a privacy policy set in a coding
-// face is harder to read for no gain.
+// The website's whole stylesheet. The layouts in _layouts/ are the site's own,
+// so nothing here overrides a theme.
 //
 // ### The colours are the app's, and a script holds them to it
 //
-// Every hex below is copied from a named line in the app's own sources, and
-// `scripts/the-site-wears-the-mark.py` compares them against those lines on
-// every CI run. Two palettes in two trees drift the first time one of them
-// moves, and nothing about a website goes red on its own.
+// Every hex in the two blocks below is copied from a named line in the app's
+// own sources, and `scripts/the-site-wears-the-mark.py` compares them against
+// those lines on every CI run. Two palettes in two trees drift the first time
+// one of them moves, and nothing about a website goes red on its own.
 //
 //   ground   #FCFCFC / #121212   `background` in ui/Theme.kt
 //   ink      #1B1B1B / #E6E6E6   `onBackground` in ui/Theme.kt
-//   violet   #6750A4 / #A287E1   `violet` in LightQuadrants / DarkQuadrants,
-//                                ui/Palette.kt
+//   quiet    #474747 / #C9C9C9   `onSurfaceVariant` in ui/Theme.kt
+//   violet   #6750A4 / #A287E1   `violet` in LightQuadrants / DarkQuadrants
+//   brick, olive, teal           the mark's other three quadrants, same place
 //
-// The dark violet is the one number here that is a decision rather than a copy,
-// and it is argued in design/90-decisions-on-record rather than left to be
-// noticed. Palette.kt derives it from the link violet by holding hue and chroma
-// and raising L* to 62, for a dark ground—which is the problem a dark page has;
-// its own comment says it is the quadrant and that nothing draws it yet, and
-// this is the first thing that does.
+// The dark violet is the one number here that is a decision rather than a
+// copy, argued in design/90-decisions-on-record. The surface under a card and
+// the hairline rules are the site's own: they are the ground moved a few steps
+// toward the ink, and nothing in the app draws them.
 
-// Set before the import, because minima declares its own with `!default`.
 $brand-color: #6750A4;
 $text-color: #1B1B1B;
 $background-color: #FCFCFC;
+$quiet-color: #474747;
+$brick: #A43C31;
+$olive: #40690E;
+$teal: #096875;
 
-@import "minima";
+$dark-violet: #A287E1;
+$dark-ink: #E6E6E6;
+$dark-ground: #121212;
+$dark-quiet: #C9C9C9;
+$dark-brick: #E77665;
+$dark-olive: #7AA349;
+$dark-teal: #55A1AE;
+
+// The masthead's lockup, which is the app's mark and its name in the app's
+// cursive, drawn by scripts/render-site-lockup.swift. The box is stated in two
+// numbers because CSS cannot size a box from an image's aspect; the check
+// script reads `viewBox` out of lockup.svg and holds this ratio to it.
+$lockup-height: 40px;
+$lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
+
+$wide: 1120px;
+$palm: 600px;
+$lap: 900px;
+
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+:root {
+  --ground: #{$background-color};
+  --ink: #{$text-color};
+  --quiet: #{$quiet-color};
+  --violet: #{$brand-color};
+  --brick: #{$brick};
+  --olive: #{$olive};
+  --teal: #{$teal};
+  --surface: #F2F2F2;
+  --rule: #E3E3E3;
+  --glass: #{rgba($background-color, 0.82)};
+  --phone-shadow: 0 40px 80px -30px rgba(27, 20, 48, 0.45), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  --glow-a: #{rgba($brand-color, 0.5)};
+  --glow-b: #{rgba($teal, 0.4)};
+  --glow-c: #{rgba($brick, 0.28)};
+  // The band that asks you to get the app is the one dark block on a light page.
+  --band: #{$text-color};
+  --on-band: #{$background-color};
+  --band-quiet: #{rgba($background-color, 0.72)};
+  --band-glow-a: #{rgba($dark-violet, 0.38)};
+  --band-glow-b: #{rgba($dark-teal, 0.26)};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #{$dark-ground};
+    --ink: #{$dark-ink};
+    --quiet: #{$dark-quiet};
+    --violet: #{$dark-violet};
+    --brick: #{$dark-brick};
+    --olive: #{$dark-olive};
+    --teal: #{$dark-teal};
+    --surface: #1B1B1B;
+    --rule: #2B2B2B;
+    --glass: #{rgba($dark-ground, 0.82)};
+    --phone-shadow: 0 40px 80px -30px rgba(0, 0, 0, 0.8);
+    --glow-a: #{rgba($dark-violet, 0.30)};
+    --glow-b: #{rgba($dark-teal, 0.22)};
+    --glow-c: #{rgba($dark-brick, 0.14)};
+    --band: #1B1B1B;
+    --on-band: #{$dark-ink};
+    --band-quiet: #{$dark-quiet};
+    --band-glow-a: #{rgba($dark-violet, 0.22)};
+    --band-glow-b: #{rgba($dark-teal, 0.16)};
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Ground
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: 88px;
+}
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: $sans;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+a {
+  color: var(--violet);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+a:focus-visible {
+  outline: 2px solid var(--violet);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: #{rgba($brand-color, 0.22)};
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap {
+  max-width: $wide;
+  margin: 0 auto;
+  padding: 0 24px;
+}
 
 // ---------------------------------------------------------------------------
 // The masthead
 //
-// minima renders one `<a class="site-title">people you know</a>` and this
-// replaces what it looks like without touching what it is: the text stays in
-// the DOM, so the accessible name and the link are the ones the theme wrote,
-// and it is pushed out of the box and clipped rather than hidden—`display:none`
-// and `visibility:hidden` would take it out of the accessibility tree with it.
-//
-// The box is stated in two numbers because CSS has no way to ask an image its
-// aspect and size the box from it. They are not left to rot: the check script
-// reads `viewBox` out of lockup.svg and holds this ratio to it.
-//
-// 40 and 7 make 54, which is minima's own masthead line-height and what
-// `.site-nav` beside it is set to, so the two sides of the header sit on one
-// baseline without the header being given a height of its own.
-$lockup-height: 40px;
-$lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
+// The lockup's text stays in the DOM, so the link's accessible name is the
+// app's name, and is pushed out of the box and clipped rather than hidden.
 
-// No `:visited` arm, unlike the rule this replaces. A browser applies only
-// colour properties to `:visited`—it has done since the history-sniffing leak
-// was closed—so a background image declared there is dropped on the floor, and
-// the plain selector already covers a visited link.
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--glass);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.masthead-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 68px;
+}
+
 .site-title {
   display: block;
+  flex: none;
   width: $lockup-width;
   height: $lockup-height;
-  margin: 7px 0;
   background: url("/assets/lockup.svg") no-repeat left center;
   background-size: contain;
   text-indent: 100%;
@@ -82,147 +204,611 @@ $lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
   overflow: hidden;
 }
 
-// The 5px rule minima puts across the top of every page, in the app's ink
-// rather than in the theme's grey: it is the one piece of chrome above the
-// mark, and a grey bar over the app's own colours read as somebody else's
-// furniture left behind.
-.site-header {
-  border-top-color: $text-color;
-}
-
-// ---------------------------------------------------------------------------
-// The home page's screenshots
-//
-// Three phone screens in a row under the opening paragraph, and one above the
-// other on a phone, where three abreast would each be too small to read. The
-// border draws the edge of each screen, whose ground is the page's own and
-// would otherwise run into it.
-.screens {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
-
-  img {
-    width: calc((100% - 32px) / 3);
-    max-width: 270px;
-    border: 1px solid $grey-color-light;
-    border-radius: 8px;
+@media (prefers-color-scheme: dark) {
+  .site-title {
+    background-image: url("/assets/lockup-dark.svg");
   }
 }
 
-@media screen and (max-width: #{$on-palm}) {
-  .screens img { width: 100%; }
+.masthead-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 15px;
 }
 
-// ---------------------------------------------------------------------------
-// The language row
-//
-// `_includes/languages.html` trims every tag, so the names reach the page with
-// nothing between them and would read `Englishfrançais`. The space is drawn
-// here rather than typed there: the row has no separator glyph, and a typed
-// space would depend on the whitespace control of a dozen Liquid tags. 20px is
-// minima's own gap between the masthead's page links, and the margin below is
-// the one minima gives a paragraph, so the row does not sit on the prose.
+.masthead-link {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--violet);
+  }
+
+  &[aria-current] {
+    color: var(--violet);
+  }
+}
+
+// The language row: each language's own name, the current one filled in.
 .languages {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 20px;
-  margin-bottom: $spacing-unit / 2;
-}
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: 14px;
+  line-height: 1;
 
-// ---------------------------------------------------------------------------
-// After dark
-//
-// minima 2.5.1 has no dark scheme, and a phone that has been dark since the app
-// was installed should not be handed a white page by the same product's own
-// terms link. The app has had both grounds since its first screen; this is that
-// pair, and nothing else changes—the mark keeps the icon's frozen quadrants, for
-// the reason the launcher's entry gives about a drawing that cannot follow the
-// theme, and only the wordmark's ink moves.
-//
-// minima derives its greys from `$grey-color` at compile time, so by the time
-// they are in the stylesheet they are literals and have to be restated rather
-// than re-derived. These are one step lighter than the light scheme's, for the
-// same distance from their ground.
-$dark-ground: #121212;
-$dark-ink: #E6E6E6;
-$dark-violet: #A287E1;
-$dark-grey: #9A9A9A;
-$dark-rule: #333333;
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: $dark-ink;
-    background-color: $dark-ground;
+  > * {
+    padding: 7px 12px;
+    border-radius: 999px;
   }
 
   a {
-    color: $dark-violet;
-    &:visited { color: lighten($dark-violet, 8%); }
-    &:hover { color: $dark-ink; }
-  }
+    color: var(--quiet);
+    text-decoration: none;
 
-  .site-title { background-image: url("/assets/lockup-dark.svg"); }
-
-  // The rule and not the ink, which is the one place the dark scheme is NOT
-  // the light one's mirror. minima's masthead rule is 5px, and 5px of near-white
-  // across the top of a dark page is a band that pulls the eye before the mark
-  // does—the same contrast as the light scheme's near-black on near-white, and
-  // nothing like the same weight. Looked at in a browser in both schemes before
-  // it was changed.
-  .site-header {
-    border-top-color: $dark-rule;
-    border-bottom-color: $dark-rule;
-  }
-  .site-nav .page-link { color: $dark-ink; }
-  .site-footer { border-top-color: $dark-rule; }
-  .footer-col-wrapper,
-  .post-meta { color: $dark-grey; }
-  .svg-icon { fill: $dark-grey; }
-
-  blockquote {
-    color: $dark-grey;
-    border-left-color: $dark-rule;
-  }
-
-  .screens img { border-color: $dark-rule; }
-
-  pre,
-  code {
-    background-color: #1C1C1C;
-    border-color: $dark-rule;
-  }
-
-  table {
-    color: $dark-ink;
-    border-color: $dark-rule;
-
-    th,
-    td { border-color: $dark-rule; }
-    th {
-      background-color: #1F1F1F;
-      border-bottom-color: #3A3A3A;
+    &:hover {
+      color: var(--ink);
     }
-    tr:nth-child(even) { background-color: #171717; }
+  }
+
+  [aria-current] {
+    background: var(--ink);
+    color: var(--ground);
+    font-weight: 600;
   }
 }
 
-// The masthead's own drop-down on a narrow screen, which minima draws as a
-// white card with a grey edge and which would otherwise be the one thing on the
-// page still in the light scheme.
-//
-// Written as one flat query with `$on-palm` interpolated rather than as
-// `@include media-query($on-palm)` inside the block above. Nesting two media
-// queries leaves the merge to the Sass implementation, and what has to come out
-// is `screen and (…) and (prefers-color-scheme: dark)`—a media TYPE first, or
-// the whole query is invalid and silently does nothing. The flat form says it
-// rather than trusting it.
-@media screen and (max-width: #{$on-palm}) and (prefers-color-scheme: dark) {
-  .site-nav {
-    background-color: $dark-ground;
-    border-color: $dark-rule;
+@media screen and (max-width: #{$palm}) {
+  .masthead-row {
+    height: 60px;
+  }
 
-    .menu-icon > svg { fill: $dark-ink; }
+  .masthead-link {
+    display: none;
+  }
+}
+
+// On a phone the lockup and every language's name do not fit on one line, so
+// the row keeps only the languages you are not reading in. Somebody who reads
+// only French still finds `français` at the top of an English page.
+@media screen and (max-width: 440px) {
+  .languages [aria-current] {
+    display: none;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// The home page
+
+.home > section {
+  max-width: $wide;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hero {
+  padding-top: 80px;
+  padding-bottom: 24px;
+  text-align: center;
+
+  > div {
+    max-width: 860px;
+    margin: 0 auto 64px;
+  }
+
+  h1 {
+    margin: 0 0 24px;
+    font-size: clamp(36px, 5.2vw, 62px);
+    line-height: 1.04;
+    letter-spacing: -0.032em;
+  }
+
+  p {
+    max-width: 640px;
+    margin: 0 auto 16px;
+    font-size: 19px;
+    line-height: 1.6;
+    color: var(--quiet);
+  }
+
+  em {
+    color: var(--ink);
+  }
+
+  p.stores {
+    justify-content: center;
+    margin: 32px auto 0;
+  }
+}
+
+// The two store links, drawn as buttons.
+p.stores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 28px 0 0;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 24px;
+    border-radius: 14px;
+    background: var(--ink);
+    color: var(--ground);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+
+    &:hover {
+      transform: translateY(-1px);
+      opacity: 0.88;
+    }
+  }
+}
+
+// Three phone screens, the feed in front and the other two fanned behind it.
+.screens {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 0 72px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 8%;
+    right: 4%;
+    bottom: 4%;
+    left: 4%;
+    background:
+      radial-gradient(closest-side at 30% 38%, var(--glow-a), transparent),
+      radial-gradient(closest-side at 72% 62%, var(--glow-b), transparent),
+      radial-gradient(closest-side at 56% 16%, var(--glow-c), transparent);
+    filter: blur(36px);
+  }
+
+  img {
+    display: block;
+    flex: none;
+    width: 29%;
+    padding: 6px;
+    background: #0A0A0A;
+    border-radius: 34px;
+    box-shadow: var(--phone-shadow);
+  }
+
+  img:nth-child(1) {
+    transform: translate(12%, 48px) rotate(-6deg);
+  }
+
+  img:nth-child(2) {
+    position: relative;
+    z-index: 1;
+    width: 34%;
+  }
+
+  img:nth-child(3) {
+    transform: translate(-12%, 48px) rotate(6deg);
+  }
+}
+
+// What is different
+.features-section {
+  padding-top: 40px;
+  padding-bottom: 56px;
+
+  h2 {
+    margin: 0 0 32px;
+    font-size: clamp(30px, 3.4vw, 40px);
+    letter-spacing: -0.03em;
+  }
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 26px 26px 28px;
+    border-radius: 20px;
+    background: var(--surface);
+    color: var(--quiet);
+    font-size: 16px;
+    line-height: 1.55;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      background: var(--violet);
+    }
+
+    // The mark's four quadrants, clockwise from the top left.
+    &:nth-child(4n+2)::before { background: var(--brick); }
+    &:nth-child(4n+3)::before { background: var(--olive); }
+    &:nth-child(4n+4)::before { background: var(--teal); }
+
+    > strong:first-child {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    em {
+      color: var(--ink);
+    }
+  }
+
+  // An odd card out at the end spans the row rather than standing alone.
+  li:last-child:nth-child(3n+1) {
+    grid-column: 1 / -1;
+  }
+}
+
+.more {
+  margin: 28px 0 0;
+  font-size: 17px;
+}
+
+// The band that asks you to get the app.
+.home > .get {
+  margin: 24px auto 88px;
+  max-width: $wide - 48px;
+  padding: 64px 48px;
+  border-radius: 28px;
+  background:
+    radial-gradient(ellipse at 0% 0%, var(--band-glow-a), transparent 55%),
+    radial-gradient(ellipse at 100% 100%, var(--band-glow-b), transparent 55%),
+    var(--band);
+  color: var(--on-band);
+  text-align: center;
+
+  h2 {
+    margin: 0 0 8px;
+    font-size: clamp(30px, 3.4vw, 40px);
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    max-width: 34em;
+    margin: 0 auto 12px;
+    color: var(--band-quiet);
+    font-size: 16px;
+  }
+
+  em {
+    color: var(--on-band);
+  }
+
+  p.stores {
+    justify-content: center;
+    margin: 28px auto;
+
+    a {
+      background: var(--on-band);
+      color: var(--band);
+    }
+  }
+}
+
+// Who runs it, and anything else that is plain reading.
+.home > .plain {
+  padding-bottom: 88px;
+
+  > * {
+    max-width: 640px;
+  }
+
+  h2 {
+    margin: 0 0 12px;
+    font-size: 24px;
+  }
+
+  p {
+    margin: 0 0 12px;
+    color: var(--quiet);
+  }
+}
+
+@media screen and (max-width: #{$lap}) {
+  .hero {
+    padding-top: 56px;
+
+    > div {
+      margin-bottom: 48px;
+    }
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr;
+
+    li:last-child:nth-child(3n+1) {
+      grid-column: auto;
+    }
+
+    li:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+    }
+  }
+
+  .home > .get {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: #{$palm}) {
+  .home > section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero {
+    padding-top: 36px;
+
+    p {
+      font-size: 17px;
+    }
+  }
+
+  .stores a {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+
+  .screens img {
+    padding: 3px;
+    border-radius: 18px;
+  }
+
+  .screens img:nth-child(1),
+  .screens img:nth-child(3) {
+    width: 36%;
+  }
+
+  .screens img:nth-child(2) {
+    width: 44%;
+  }
+
+  .screens img:nth-child(1) {
+    transform: translate(22%, 24px) rotate(-6deg);
+  }
+
+  .screens img:nth-child(3) {
+    transform: translate(-22%, 24px) rotate(6deg);
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+
+    li:last-child:nth-child(odd) {
+      grid-column: auto;
+    }
+  }
+
+  .home > .get {
+    margin: 8px 16px 64px;
+    padding: 48px 20px;
+    border-radius: 24px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// The guide, the policies and the deletion page
+
+.doc {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+
+.doc-title {
+  margin: 0 0 36px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--rule);
+  font-size: clamp(34px, 4.4vw, 48px);
+  line-height: 1.08;
+  letter-spacing: -0.035em;
+}
+
+.prose {
+  font-size: 17px;
+  line-height: 1.7;
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  h2 {
+    margin: 2.4em 0 0.6em;
+    font-size: 26px;
+    line-height: 1.25;
+  }
+
+  h3 {
+    margin: 2em 0 0.5em;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  h4 {
+    margin: 1.6em 0 0.4em;
+    font-size: 17px;
+  }
+
+  p,
+  ul,
+  ol {
+    margin: 0 0 1.1em;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.4em;
+  }
+
+  li {
+    margin: 0.4em 0;
+  }
+
+  li > p {
+    margin: 0 0 0.6em;
+  }
+
+  blockquote {
+    margin: 0 0 1.6em;
+    padding: 16px 20px;
+    border-left: 3px solid var(--violet);
+    border-radius: 0 14px 14px 0;
+    background: var(--surface);
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  code {
+    padding: 0.12em 0.38em;
+    border-radius: 6px;
+    background: var(--surface);
+    font-family: $mono;
+    font-size: 0.88em;
+  }
+
+  pre {
+    overflow-x: auto;
+    padding: 16px 18px;
+    border-radius: 12px;
+    background: var(--surface);
+
+    code {
+      padding: 0;
+      background: none;
+    }
+  }
+
+  hr {
+    margin: 2.6em 0;
+    border: 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  table {
+    width: 100%;
+    margin: 0 0 1.6em;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+
+  th,
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    text-align: left;
+    vertical-align: top;
+  }
+}
+
+@media screen and (max-width: #{$palm}) {
+  .doc {
+    padding: 40px 20px 72px;
+  }
+
+  .doc-title {
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+  }
+
+  .prose {
+    font-size: 16px;
+
+    h2 {
+      font-size: 22px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// The footer
+
+.site-footer {
+  padding: 48px 0 64px;
+  border-top: 1px solid var(--rule);
+  color: var(--quiet);
+  font-size: 15px;
+
+  a {
+    color: var(--quiet);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--ink);
+    }
+
+    &[aria-current] {
+      color: var(--ink);
+    }
+  }
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 40px;
+}
+
+.footer-about p {
+  margin: 16px 0 0;
+  line-height: 1.7;
+}
+
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 2;
+  column-gap: 40px;
+
+  li {
+    margin: 0 0 12px;
+    break-inside: avoid;
+  }
+}
+
+@media screen and (max-width: #{$palm}) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .footer-links {
+    column-gap: 24px;
   }
 }

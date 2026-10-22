@@ -1,16 +1,10 @@
 ---
-layout: home
+layout: default
 ---
 {%- comment -%}
-  The two home pages, which minima gives its own layout.
-
-  `jekyll-default-layout` is one of Pages' always-on plugins and assigns `home`
-  to an index page and `page` to everything else, so a single `layout: doc`
-  default would have quietly moved the home page from one minima layout to the
-  other. That is a rendering change arriving as a side effect of a language
-  feature, which is not how a change to this site should reach a reader—so the
-  two homes name this layout in their own front matter, and it chains to the
-  layout they already had.
+  The two home pages. Their Markdown is laid out in sections (`<section
+  markdown="1">`), and the stylesheet gives each its own width and ground.
 {%- endcomment -%}
-{% include languages.html %}
-{{ content }}
+<div class="home">
+  {{ content }}
+</div>

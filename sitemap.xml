@@ -3,12 +3,8 @@ layout: null
 permalink: /sitemap.xml
 ---
 {%- comment -%}
-  hreflang lives here rather than in <head>, because reaching <head> means
-  shadowing minima's `_includes/head.html`: a frozen copy of somebody else's
-  eleven lines, with no test, that misses every later change to the original.
-  Google documents the sitemap form as equivalent to the head tags, and a
-  chained layout cannot reach <head> anyway—its output lands in `{{ content }}`,
-  which is inside <body>.
+  hreflang lives here and only here. Google documents the sitemap form as
+  equivalent to the head tags, and one list cannot disagree with another.
 
   RECIPROCITY IS BY CONSTRUCTION, which is the whole reason the family is
   derived from the path rather than declared per page. Google's rule is blunt:
