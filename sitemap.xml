@@ -19,12 +19,15 @@ permalink: /sitemap.xml
   keeps HTML off an XML file. `absolute_url` and `xml_escape` are core Jekyll
   filters, not plugin-provided, so they survive Pages' safe mode; they need the
   `url` and `baseurl` that _config.yml now sets.
+
+  A page that says `sitemap: false` is left out: 404.html, which is the
+  answer to an address with nothing at it and not a page anybody looks for.
 {%- endcomment -%}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {%- for p in site.pages -%}
-{%- unless p.url contains '.xml' or p.url contains '.txt' %}
+{%- unless p.url contains '.xml' or p.url contains '.txt' or p.sitemap == false %}
   <url>
     <loc>{{ p.url | absolute_url | xml_escape }}</loc>
 {%- assign stem = p.path -%}

@@ -1,0 +1,136 @@
+---
+permalink: /404.html
+layout: null
+sitemap: false
+---
+{%- comment -%}
+  The page GitHub Pages serves for every address with nothing at it, which
+  makes it the page a profile link lands on when the app is not installed
+  (DESIGN.md §6). peopleyouk.now/<handle> opens the app where it is
+  installed, because the two files in .well-known/ say it may. Anywhere else
+  the browser asks the site, the site has no such page, and this answers.
+
+  The script tells the two apart by the shape of the address and nothing
+  else: it asks no server, so this page cannot say whether anybody holds the
+  handle, and its words never claim that they do. On an iPhone it goes on to
+  the App Store. On Android it hands the link to the app through pyk://handle,
+  which Chrome opens where the app is installed; where it is not, the page is
+  still in front two seconds later and goes on to Google Play. On a computer it
+  stays, and says to open the link on a phone.
+
+  Without the script, and for any address that is not a handle, it says
+  nothing is here. It picks English or French the way the app does, by the
+  first subtag of the browser's language, and by /fr/ for a missing French
+  page. One language is shown at a time.
+{%- endcomment -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ '/assets/og.png' | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap masthead-row">
+      <a class="site-title" href="{{ '/' | relative_url }}" data-home>{{ site.title }}</a>
+    </div>
+  </header>
+
+  <main id="content" class="home">
+    <section class="hero" data-show="missing" data-lang="en">
+      <div>
+        <h1>Page not found</h1>
+        <p>Nothing is at this address.</p>
+        <p class="stores"><a href="{{ '/' | relative_url }}">Go to the home page</a></p>
+      </div>
+    </section>
+
+    <section class="hero" data-show="missing" data-lang="fr" hidden>
+      <div>
+        <h1>Page introuvable</h1>
+        <p>Il n'y a rien à cette adresse.</p>
+        <p class="stores"><a href="{{ '/fr/' | relative_url }}">Aller à l'accueil</a></p>
+      </div>
+    </section>
+
+    <section class="hero" data-show="handle" data-lang="en" hidden>
+      <div>
+        <h1>Add <span data-handle></span> on people you know</h1>
+        <p>Open this link on your phone. If the app is installed, it asks whether to add <span data-handle></span>.</p>
+        <p>If it is not, get the app, tap <em>create an account</em>, and open this link again.</p>
+        <p class="stores">
+          <a href="https://apps.apple.com/app/id6812890714" data-store="apple">Get it on the App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=app.pyk.android" data-store="google">Get it on Google Play</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="hero" data-show="handle" data-lang="fr" hidden>
+      <div>
+        <h1>Ajoutez <span data-handle></span> sur people you know</h1>
+        <p>Ouvrez ce lien sur votre téléphone. Si l'application est installée, elle vous demande si vous voulez ajouter <span data-handle></span>.</p>
+        <p>Sinon, installez l'application, touchez <em>créer un compte</em>, puis ouvrez ce lien de nouveau.</p>
+        <p class="stores">
+          <a href="https://apps.apple.com/app/id6812890714" data-store="apple">Télécharger dans l'App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=app.pyk.android" data-store="google">Disponible sur Google Play</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      var path = location.pathname;
+      var segment = path.slice(1);
+      try { segment = decodeURIComponent(segment); } catch (notEncoded) {}
+      // A handle is four to thirty-two of these characters (DESIGN.md §6),
+      // and a profile link is one with nothing after it.
+      var handle = /^[A-Za-z0-9_.-]{4,32}$/.test(segment) ? segment.toLowerCase() : null;
+      var spoken = (navigator.languages && navigator.languages[0]) || navigator.language || "";
+      var lang = path.indexOf("/fr/") === 0 || spoken.toLowerCase().split(/[-_]/)[0] === "fr" ? "fr" : "en";
+      var show = handle ? "handle" : "missing";
+
+      document.documentElement.lang = lang;
+      document.querySelectorAll("[data-show]").forEach(function (section) {
+        section.hidden = section.dataset.show !== show || section.dataset.lang !== lang;
+      });
+      if (lang === "fr") document.querySelector("[data-home]").setAttribute("href", "{{ '/fr/' | relative_url }}");
+      if (!handle) return;
+
+      document.querySelectorAll("[data-handle]").forEach(function (word) { word.textContent = handle; });
+      document.title = (lang === "fr" ? "Ajoutez " + handle + " sur " : "Add " + handle + " on ") + "{{ site.title }}";
+
+      var agent = navigator.userAgent;
+      var iPhone = /iPhone|iPad|iPod/.test(agent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      var android = /Android/.test(agent);
+      // An app's own browser on Android is a WebView ("; wv)"), which cannot
+      // follow intent://, so it is sent to the listing straight away.
+      var webView = android && /; wv\)/.test(agent);
+      var listing = document.querySelector("[data-store=google]").href;
+
+      if (iPhone) {
+        location.replace(document.querySelector("[data-store=apple]").href);
+      } else if (webView) {
+        location.replace(listing);
+      } else if (android) {
+        // Chrome opens the app where it is installed, and the page goes to
+        // the background. Where it is not installed nothing happens, so a
+        // page still in front a moment later goes on to the listing.
+        var toTheListing = setTimeout(function () { location.replace(listing); }, 2000);
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) clearTimeout(toTheListing);
+        });
+        location.replace("intent://handle/" + handle + "#Intent;scheme=pyk;package=app.pyk.android;end");
+      }
+    })();
+  </script>
+</body>
+</html>

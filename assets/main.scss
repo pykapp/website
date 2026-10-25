@@ -326,6 +326,12 @@ img {
   }
 }
 
+// A handle in a sentence on the not-found page (404.html) is one word, so a
+// line never breaks at one of its dashes.
+.hero p [data-handle] {
+  white-space: nowrap;
+}
+
 // The two store links, drawn as buttons.
 p.stores {
   display: flex;
