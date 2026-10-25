@@ -5,13 +5,8 @@
         "appIDs": ["L8D2M69MMA.app.pyk.ios"],
         "components": [
           {
-            "/": "/*/*",
-            "exclude": true,
-            "comment": "Every page of the website ends in a slash, so none of them opens the app."
-          },
-          {
-            "/": "/????*",
-            "comment": "A profile link: peopleyouk.now/ and a handle, four characters or more."
+            "/": "/@?*",
+            "comment": "A profile link: peopleyouk.now/@ and a handle. Nothing else on the website opens the app."
           }
         ]
       }
