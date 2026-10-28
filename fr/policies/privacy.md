@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 21 octobre 2026.
+**Dernière mise à jour&#160;:** 28 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -271,7 +271,11 @@ puis&#160;:
 - les sauvegardes de notre base de données sont gardées 35 jours, et la sortie
   de tout ce que nous lançons à la main sur la base est supprimée en moins
   d'une semaine, donc une ligne supprimée aujourd'hui, celle d'un compte
-  supprimé comprise, peut y survivre aussi longtemps et pas plus&#160;;
+  supprimé comprise, peut y survivre aussi longtemps et pas plus. Si nous
+  restaurons un jour la base de données à partir d'une de ces sauvegardes, un
+  compte que vous avez supprimé après le moment de cette sauvegarde est
+  supprimé de nouveau avant que quiconque puisse se servir de
+  l'application&#160;;
 - ce que nous tapons pour lancer quelque chose à la main sur la base, qui peut
   nommer un compte, reste 90 jours dans le registre que notre hébergeur tient
   de ce qui se fait sur notre compte, et nous ne pouvons pas raccourcir ce

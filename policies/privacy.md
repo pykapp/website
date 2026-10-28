@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 21 October 2026.
+**Last updated:** 28 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -227,7 +227,9 @@ We keep what is above for as long as your account exists, and then:
 - backups of our database are kept 35 days, and the output of anything we run
   by hand against the database is deleted within a week, so a row deleted
   today, a deleted account's included, can survive in those for that long and
-  no longer;
+  no longer. If we ever restore the database from one of those backups, an
+  account you deleted after the moment of that backup is deleted again before
+  anybody can use the app;
 - what we type to run something by hand against the database, which can name an
   account, stays for 90 days in our hosting provider's record of what is done
   in our account, and we cannot shorten that;
