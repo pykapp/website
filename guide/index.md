@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works. It starts with the
 five things that work differently from other apps.
 
-**Last updated:** 14 October 2026. This page covers the app on Android and
+**Last updated:** 28 October 2026. This page covers the app on Android and
 iPhone.
 
 ## What works differently
@@ -162,9 +162,11 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
   it sees everything in it.
 - The person who makes an album can also invite somebody by email: tap the row
   with the members' names, then *invite by email*. If they already use people
-  you know, they join right away. If they
-  don't, they get an email, and they join the album when they install the app
-  and sign up with that email address.
+  you know and you're connected, they join right away. If you aren't
+  connected, the invitation appears on their *albums* list, and they join when
+  they tap *join*. If they don't use the app yet, they get an email, and they
+  join the album when they install the app and sign up with that email
+  address.
   You'll see the album on their list once your phone has added them, which
   happens the next time you open the app.
 - The addresses you've invited are listed under *invited* until the person
@@ -274,6 +276,9 @@ The other person is never told about any of these.
 - **Report** with *more → report*. We can't see photos or comments, so tell us
   in words what is wrong. The [moderation policy](/moderation/) says what we
   can do.
+- For somebody you aren't connected to, such as somebody in an album with you
+  or somebody who invited you, tap their name. *more* is on the dialog that
+  opens, with *block* and *report*.
 
 None of these can take back something the other person already saved or
 screenshotted.
