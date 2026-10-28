@@ -6,7 +6,7 @@ permalink: /moderation/
 *people you know* is end-to-end encrypted. This page says what that means
 for moderation, plainly, because it is not what most apps mean.
 
-**Last updated:** 1 October 2026.
+**Last updated:** 28 October 2026.
 
 ## What we cannot do
 
@@ -29,7 +29,9 @@ When you report a post or a person, we receive:
 That last line is the one thing about a report we can read, so please say
 what is wrong in words. We never receive a copy of the content, and we never
 tell the person reported who reported them. If we remove something of theirs,
-it disappears for them as it does for everyone, and the app does not say why.
+it disappears for them as it does for everyone. If it is a post, we email them
+that it was removed after somebody asked, if their account has an email
+address. We never say who asked or what they wrote.
 
 We do know who filed it. Because we cannot check a report against the thing
 it is about, your word is the whole of it, and a report you know to be untrue

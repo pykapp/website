@@ -11,7 +11,7 @@ permalink: /fr/politique-de-moderation/
 dire pour la modération, franchement, parce que ce n'est pas ce que la plupart
 des applications entendent par là.
 
-**Dernière mise à jour&#160;:** 1er octobre 2026.
+**Dernière mise à jour&#160;:** 28 octobre 2026.
 
 ## Ce que nous ne pouvons pas faire
 
@@ -36,7 +36,9 @@ Cette dernière ligne est la seule chose d'un signalement que nous puissions
 lire, alors dites en mots ce qui ne va pas. Nous ne recevons jamais de copie du
 contenu, et nous ne disons jamais à la personne signalée qui l'a signalée. Si
 nous retirons quelque chose qui est à elle, cela disparaît pour elle comme pour
-tout le monde, et l'application ne dit pas pourquoi.
+tout le monde. Si c'est une publication, nous lui écrivons qu'elle a été
+retirée à la demande de quelqu'un, si son compte a une adresse de courriel.
+Nous ne disons jamais qui l'a demandé ni ce qui a été écrit.
 
 Nous savons, nous, qui l'a déposé. Comme nous ne pouvons pas vérifier un
 signalement contre la chose qu'il vise, votre parole en est la totalité, et un

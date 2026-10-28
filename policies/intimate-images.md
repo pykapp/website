@@ -7,7 +7,7 @@ If an intimate photo or video of you is on *people you know* and you did not
 agree to it being shared, we will remove it. You do not need an account to
 ask, and somebody can ask for you.
 
-**Last updated:** 30 September 2026.
+**Last updated:** 28 October 2026.
 
 ## What counts
 
@@ -33,6 +33,10 @@ Email pykapp+safety@proton.me with these four things:
 We remove it within 48 hours of getting a request with those four things.
 Removing a post takes it away from everyone it was shared with, and we also
 remove every reshare of it.
+
+We email the person who shared it, if their account has an email address,
+that one of their posts was removed after somebody asked. We never say who
+asked or what you wrote.
 
 If what you sent is not enough for us to find it, we write back and ask for
 more.

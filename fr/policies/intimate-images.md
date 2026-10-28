@@ -12,7 +12,7 @@ vous n'avez pas accepté qu'elle soit partagée, nous la retirons. Vous n'avez
 pas besoin d'un compte pour le demander, et quelqu'un peut le demander pour
 vous.
 
-**Dernière mise à jour&#160;:** 30 septembre 2026.
+**Dernière mise à jour&#160;:** 28 octobre 2026.
 
 ## Ce qui est visé
 
@@ -39,6 +39,10 @@ consentement de cette personne.
 Nous la retirons dans les 48 heures qui suivent une demande contenant ces
 quatre éléments. Retirer une publication la retire pour tous ceux avec qui
 elle a été partagée, et nous retirons aussi chacun de ses repartages.
+
+Nous écrivons à la personne qui l'a partagée, si son compte a une adresse de
+courriel, qu'une de ses publications a été retirée à la demande de quelqu'un.
+Nous ne disons jamais qui l'a demandé ni ce que vous avez écrit.
 
 Si ce que vous avez envoyé ne suffit pas à la retrouver, nous vous écrivons
 pour vous en demander plus.
