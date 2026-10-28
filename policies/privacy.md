@@ -118,6 +118,9 @@ To deliver a photo to the right people we hold, in the clear:
   it. It is written once and never updated. We use it only to count how many
   people we serve in each country, because some countries' laws start to apply
   once a service has enough users there;
+- the language your app is set to, English or French, so that the notices we
+  email everybody are in your language. Your phone sends it each time the app
+  opens, so it changes when you change the app's language;
 - which of your groups a person is in (never shown to that person);
 - who is in each album you are in;
 - for every post: who made it, when, whether and when it was edited, who it
@@ -173,6 +176,9 @@ We use what we hold for these things and nothing else:
 
 - to make your account, sign you in, and send the one-time codes that sign-in
   uses to your email address or, by text message, to your phone number;
+- to email you, as well as tell you in the app, before a change to the terms
+  or to this policy that matters to you, before the service is sold, and
+  before it closes;
 - to deliver what you post to the people you chose, and what they post to you;
 - to send you the notifications you allowed;
 - to write to you once there is room, if we were full and you asked us to;
@@ -427,8 +433,8 @@ to ask without it:
 - every phone you were signed in on is signed out;
 - if you joined through an invitation to an album, the record of it stops
   naming your account, and what is left of it names nobody;
-- your handle and any email address and phone number are freed, and any key
-  made from a password is deleted.
+- your handle and any email address and phone number are freed, any key made
+  from a password is deleted, and so is the language your app was set to.
 
 Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product

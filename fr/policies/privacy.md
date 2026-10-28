@@ -141,6 +141,10 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   pour compter combien de personnes nous servons dans chaque pays, parce que
   les lois de certains pays commencent à s'appliquer quand un service y a
   assez d'utilisateurs&#160;;
+- la langue de votre application, français ou anglais, pour que les avis que
+  nous envoyons à tout le monde par courriel soient dans votre langue. Votre
+  téléphone l'envoie chaque fois que l'application s'ouvre, donc elle change
+  quand vous changez la langue de l'application&#160;;
 - dans lesquels de vos groupes une personne se trouve (jamais montré à cette
   personne)&#160;;
 - qui est dans chaque album où vous êtes&#160;;
@@ -209,6 +213,9 @@ d'autre&#160;:
 - créer votre compte, vous connecter, et envoyer à votre adresse de courriel,
   ou par texto à votre numéro de téléphone, les codes à usage unique dont la
   connexion se sert&#160;;
+- vous écrire par courriel, en plus de vous le dire dans l'application, avant
+  un changement des conditions ou de cette politique qui vous concerne, avant
+  la vente du service et avant sa fermeture&#160;;
 - livrer ce que vous publiez aux gens que vous avez choisis, et vous livrer ce
   qu'ils publient&#160;;
 - vous envoyer les notifications que vous avez autorisées&#160;;
@@ -511,7 +518,8 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
   arrivée cesse de nommer votre compte, et ce qui en reste ne nomme
   personne&#160;;
 - votre pseudo, toute adresse de courriel et tout numéro de téléphone sont
-  libérés, et toute clé tirée d'un mot de passe est supprimée.
+  libérés, toute clé tirée d'un mot de passe est supprimée, et la langue de
+  votre application aussi.
 
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
