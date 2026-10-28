@@ -7,7 +7,7 @@ permalink: /terms/
 using it. They are short on purpose, and they are a contract: using the app
 means agreeing to them.
 
-**Last updated:** 20 October 2026.
+**Last updated:** 28 October 2026.
 
 ## Who we are
 
@@ -84,12 +84,15 @@ giving notice by something outside our control.
 
 If you sign up or sign in with a phone number, we text that number a one-time
 sign-in code each time you ask for one, and nothing else: no marketing and no
-notifications. You get one message for each code you ask for. Message and data
-rates may apply. Reply STOP to stop all texts to that number; you can still
-sign in with an email address, a password or a passkey. For help, write to the
-address under *Contact*. Your phone number and your agreement to receive our
-texts are never sold, rented or shared with any third party or affiliate, for
-marketing or for any other purpose, except where the law requires it.
+notifications. You get one message for each code you ask for, and we limit how
+many codes one number is sent in a day. Message and data rates may apply. Reply
+STOP to stop all texts to that number; you can still sign in with an email
+address, a password or a passkey. A code you did not ask for means somebody
+else typed your number: reply STOP, and tell us at the address under *Contact*.
+Write to the same address for help, or to get our texts again after replying
+STOP. Your phone number and your agreement to receive our texts are never sold,
+rented or shared with any third party or affiliate, for marketing or for any
+other purpose, except where the law requires it.
 
 ## Changing these terms
 

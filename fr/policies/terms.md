@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
 contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 20 octobre 2026.
+**Dernière mise à jour&#160;:** 28 octobre 2026.
 
 ## Qui nous sommes
 
@@ -97,14 +97,17 @@ sauf si quelque chose hors de notre contrôle nous empêche de prévenir.
 Si vous vous inscrivez ou vous connectez avec un numéro de téléphone, nous
 envoyons à ce numéro un code de connexion à usage unique par texto chaque fois
 que vous en demandez un, et rien d'autre&#160;: ni publicité ni notification.
-Vous recevez un message par code demandé. Des frais de messagerie et de données
+Vous recevez un message par code demandé, et nous limitons le nombre de codes
+envoyés à un même numéro chaque jour. Des frais de messagerie et de données
 peuvent s'appliquer. Répondez STOP pour ne plus recevoir de textos à ce
 numéro&#160;; vous pouvez toujours vous connecter avec une adresse de courriel,
-un mot de passe ou une clé d'accès. Pour de l'aide, écrivez à l'adresse
-indiquée sous *Contact*. Votre numéro de téléphone et votre accord pour
-recevoir nos textos ne sont jamais vendus, loués ni communiqués à un tiers ou à
-une société affiliée, à des fins publicitaires ou à toute autre fin, sauf quand
-la loi l'exige.
+un mot de passe ou une clé d'accès. Un code que vous n'avez pas demandé veut
+dire que quelqu'un d'autre a saisi votre numéro&#160;: répondez STOP, et
+prévenez-nous à l'adresse indiquée sous *Contact*. Écrivez à la même adresse
+pour de l'aide, ou pour recevoir de nouveau nos textos après avoir répondu
+STOP. Votre numéro de téléphone et votre accord pour recevoir nos textos ne
+sont jamais vendus, loués ni communiqués à un tiers ou à une société affiliée,
+à des fins publicitaires ou à toute autre fin, sauf quand la loi l'exige.
 
 ## Modifier ces conditions
 
