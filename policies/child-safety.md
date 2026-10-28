@@ -8,7 +8,7 @@ against child sexual abuse and exploitation, which Google Play requires every
 app in its social category to publish. Ours is short, because most of what
 such a standard usually has to describe cannot happen here by construction.
 
-**Last updated:** 1 October 2026.
+**Last updated:** 28 October 2026.
 
 ## The rule
 
@@ -74,8 +74,9 @@ An account we find to be engaged in child sexual abuse or exploitation is
 deleted, which severs every connection it has and removes its posts and
 comments for everybody at once. Before we delete it, we set aside the records
 we hold about it: its email address, phone number and handle, when it joined,
-the phones it used, who it was connected to, and when it posted and to whom.
-We report it to the National Center for Missing & Exploited Children (NCMEC)
+the phones it used, who it was connected to, when it posted and to whom, and,
+for each album invitation it joined through, when the invitation was sent and
+when it took it up. We report it to the National Center for Missing & Exploited Children (NCMEC)
 and to law enforcement in the jurisdictions that apply to us, and we keep
 those records for a year from our report, as United States law requires, and
 then delete them. We comply with lawful requests from those authorities.

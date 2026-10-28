@@ -127,6 +127,13 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   adresse nous demande d'arrêter de lui envoyer des invitations, nous gardons
   une empreinte de l'adresse (un hachage à sens unique, pas l'adresse
   elle-même), pour ne plus jamais lui en envoyer&#160;;
+- si vous êtes arrivé par une invitation à un album, en vous inscrivant à
+  l'adresse à laquelle elle a été envoyée ou en saisissant son code&#160;: le
+  fait que vous l'avez fait, quand, si c'est cette invitation qui vous a fait
+  venir, et si vous avez utilisé l'application le 30e jour après votre
+  arrivée ou plus tard. Nous nous en servons seulement pour compter
+  combien de personnes les invitations font venir, et combien d'entre elles
+  utilisent encore l'application un mois plus tard&#160;;
 - le pays auquel votre téléphone était réglé quand vous avez créé votre
   compte ou, si vous l'avez créé avant le 22 septembre 2026, la première fois
   que vous avez ouvert l'application après l'avoir mise à jour. Il est écrit une
@@ -157,11 +164,14 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   message pour nous et que nous devons pouvoir le lire&#160;; et, si quelqu'un
   vous signale, le fait qu'il l'a fait, ce qu'il a écrit, ce que nous avons
   décidé et quand, et si votre compte est suspendu&#160;;
-- le texte de tout rapport de problème que vous envoyez, et la seule ligne qui
-  vous est montrée avant l'envoi&#160;: la version de l'application, celle
-  d'Android ou d'iOS et le modèle de votre téléphone. Rien d'autre ne part avec
-  – ni capture d'écran, ni journal, ni fichier – et l'application n'a aucun
-  moyen d'en joindre un&#160;;
+- le texte de tout rapport de problème que vous envoyez, et les lignes qui vous
+  sont montrées avant l'envoi&#160;: la version de l'application, celle
+  d'Android ou d'iOS et le modèle de votre téléphone. Le rapport peut aussi
+  contenir une courte liste des dernières erreurs que l'application n'a pas pu
+  expliquer, montrée sous cette ligne. Cette liste nomme des parties du code de
+  l'application, et jamais rien de ce que vous avez écrit ou publié. Rien
+  d'autre ne part avec – ni capture d'écran, ni fichier – et l'application n'a
+  aucun moyen d'en joindre un&#160;;
 - votre liste d'activité&#160;: ce qui s'est passé, qui l'a fait, sur quelle
   publication, quand, et quand vous l'avez lu. Une entrée est gardée 128
   jours&#160;;
@@ -215,6 +225,9 @@ d'autre&#160;:
   protection des enfants](/fr/protection-des-enfants/)&#160;;
 - apprendre que quelque chose est cassé, grâce aux comptes que votre téléphone
   envoie et aux rapports de problème que vous choisissez d'envoyer&#160;;
+- compter combien de personnes les invitations à un album font venir, et
+  combien d'entre elles utilisent encore l'application un mois plus
+  tard&#160;;
 - faire ce que la loi exige de nous.
 
 Un pseudo, votre date de naissance, et une adresse de courriel, un numéro de
@@ -494,6 +507,9 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
 - les albums que vous avez faits sont fermés, et les gens qui y sont gardent ce
   qu'ils avaient déjà les uns des autres&#160;;
 - chaque téléphone où vous étiez connecté est déconnecté&#160;;
+- si vous êtes arrivé par une invitation à un album, la trace de votre
+  arrivée cesse de nommer votre compte, et ce qui en reste ne nomme
+  personne&#160;;
 - votre pseudo, toute adresse de courriel et tout numéro de téléphone sont
   libérés, et toute clé tirée d'un mot de passe est supprimée.
 
@@ -529,7 +545,9 @@ l'exploitation ou aux abus sexuels concernant des enfants, nous mettons d'abord
 de côté son adresse de courriel, son numéro de téléphone et son pseudo, quand
 il a été créé et a confirmé son âge, chaque téléphone qu'il a utilisé avec son
 jeton d'envoi, quand il s'est connecté, les personnes avec qui il était en
-relation, et quand il a publié et pour qui. Nous gardons cela pour le
+relation, quand il a publié et pour qui, et, pour chaque invitation à un album
+par laquelle il est arrivé, quand l'invitation a été envoyée et quand il s'en
+est servi. Nous gardons cela pour le
 signalement que nous faisons au National Center for Missing & Exploited
 Children, un an à compter du signalement, comme l'exige la loi des États-Unis,
 puis nous le supprimons. Les [normes de protection des

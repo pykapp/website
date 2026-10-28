@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 1er octobre 2026.**
+**Dernière mise à jour&#160;: 28 octobre 2026.**
 
 ## La règle
 
@@ -86,8 +86,9 @@ relations et retire ses publications et ses commentaires pour tout le monde à
 la fois. Avant de le supprimer, nous mettons de côté les registres que nous
 détenons à son sujet&#160;: son adresse de courriel, son numéro de téléphone et
 son pseudo, la date de son inscription, les téléphones qu'il a utilisés, les
-personnes avec qui il était en relation, et quand il a publié et pour qui. Nous
-le signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
+personnes avec qui il était en relation, quand il a publié et pour qui, et,
+pour chaque invitation à un album par laquelle il est arrivé, quand
+l'invitation a été envoyée et quand il s'en est servi. Nous le signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
 qu'aux forces de l'ordre des juridictions qui s'appliquent à nous, et nous
 gardons ces registres un an à compter de notre signalement, comme l'exige la
 loi des États-Unis, puis nous les supprimons. Nous donnons suite aux demandes

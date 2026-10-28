@@ -107,6 +107,12 @@ To deliver a photo to the right people we hold, in the clear:
   an address asks us to stop sending invitations, we keep a fingerprint of the
   address (a one-way hash of it, not the address), so that we never email it
   an invitation again;
+- if you joined through an invitation to an album, by signing up at the
+  address it was sent to or by typing its code: that you did, when, whether
+  it was the invitation that brought you in, and whether you used the app on
+  or after the 30th day after you joined. We use it only to count how many
+  people invitations bring in, and how many of them are still using the app
+  a month later;
 - the country your phone was set to when you made your account or, if you made
   it before 22 September 2026, the first time you opened the app after updating
   it. It is written once and never updated. We use it only to count how many
@@ -131,10 +137,12 @@ To deliver a photo to the right people we hold, in the clear:
   we have to be able to read it; and, if somebody reports you, that they did,
   what they wrote, what we decided and when, and whether your account is
   suspended;
-- the text of any bug report you send, and the one line shown to you before
-  you send it: the version of the app, the version of Android or iOS and the
-  model of your phone. Nothing else goes with it—no screenshot, no log, no
-  file—and the app has no way to attach one;
+- the text of any bug report you send, and the lines shown to you before you
+  send it: the version of the app, the version of Android or iOS and the model
+  of your phone. The report can also carry a short list of the last errors the
+  app could not explain, shown to you under that line. The list names parts of
+  the app's own code, and never anything you wrote or posted. Nothing else goes
+  with it—no screenshot, no file—and the app has no way to attach one;
 - your activity list: what happened, who did it, on which post, when, and
   when you read it. An entry is kept for 128 days;
 - whose posts you have asked to be told about, and the other switches in your
@@ -178,6 +186,8 @@ We use what we hold for these things and nothing else:
   describe;
 - to find out that something is broken, from the counts your phone sends and
   the bug reports you choose to send;
+- to count how many people invitations to an album bring in, and how many of
+  them are still using the app a month later;
 - to do what the law requires of us.
 
 A handle, your date of birth, and an email address, a phone number or a
@@ -415,6 +425,8 @@ to ask without it:
 - albums you made are closed, and the people in them keep what they already
   had from each other;
 - every phone you were signed in on is signed out;
+- if you joined through an invitation to an album, the record of it stops
+  naming your account, and what is left of it names nobody;
 - your handle and any email address and phone number are freed, and any key
   made from a password is deleted.
 
@@ -441,8 +453,10 @@ what you did in other people's activity lists go within 128 days.
 One exception. When we delete an account because it was engaged in child
 sexual abuse or exploitation, we first set aside its email address, phone
 number and handle, when it joined and confirmed its age, each phone it used
-with that phone's push token, when it signed in, who it was connected to, and
-when it posted and to whom. We keep that for the report we make to the
+with that phone's push token, when it signed in, who it was connected to,
+when it posted and to whom, and, for each album invitation it joined through,
+when the invitation was sent and when it took it up. We keep that for the
+report we make to the
 National Center for Missing & Exploited Children, for a year from the report,
 as United States law requires, and then delete it. The [child safety
 standards](/child-safety/) say more.
