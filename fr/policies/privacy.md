@@ -112,6 +112,14 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   comme tout mot de passe enregistré. Un compte garde au moins l'un des trois,
   une adresse de courriel, un numéro de téléphone ou un mot de passe, et peut
   en avoir plusieurs&#160;;
+- pour chaque clé d'accès que vous ajoutez&#160;: sa clé publique,
+  l'identifiant sous lequel votre téléphone la désigne quand vous vous
+  connectez avec elle, le gestionnaire de mots de passe qui l'a créée, si ce
+  gestionnaire peut la copier sur vos autres appareils, un compteur de ses
+  utilisations que certaines clés d'accès tiennent, et quand vous l'avez
+  ajoutée et vous êtes connecté avec elle pour la dernière fois. La moitié
+  privée de la clé d'accès reste dans votre gestionnaire de mots de passe et ne
+  nous parvient jamais&#160;;
 - si nous étions complets quand vous avez essayé de vous inscrire et que vous
   avez demandé à être prévenu quand il y aurait de la place, l'adresse que vous
   avez donnée et le moment de la demande, et rien d'autre, jusqu'à ce que nous
@@ -123,10 +131,13 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 - une adresse de courriel que quelqu'un a saisie pour inviter une personne dans
   un album, ou une adresse de courriel ou un numéro de téléphone que quelqu'un a
   saisi pour inviter une personne dans l'application, et quand, jusqu'à ce que
-  cette personne s'inscrive ou que l'invitation expire. Si la personne à une
-  adresse nous demande d'arrêter de lui envoyer des invitations, nous gardons
-  une empreinte de l'adresse (un hachage à sens unique, pas l'adresse
-  elle-même), pour ne plus jamais lui en envoyer&#160;;
+  cette personne s'inscrive ou que l'invitation expire. Pendant soixante jours
+  après l'envoi d'une invitation par courriel, nous gardons aussi une empreinte
+  de l'adresse (un hachage à sens unique, pas l'adresse elle-même), pour que le
+  lien qui permet d'arrêter les invitations continue de fonctionner une fois
+  l'invitation supprimée. Si la personne à une adresse nous demande d'arrêter
+  de lui envoyer des invitations, nous gardons cette empreinte, pour ne plus
+  jamais lui en envoyer&#160;;
 - si vous êtes arrivé par une invitation à un album, en vous inscrivant à
   l'adresse à laquelle elle a été envoyée ou en saisissant son code&#160;: le
   fait que vous l'avez fait, quand, si c'est cette invitation qui vous a fait
@@ -168,6 +179,10 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   message pour nous et que nous devons pouvoir le lire&#160;; et, si quelqu'un
   vous signale, le fait qu'il l'a fait, ce qu'il a écrit, ce que nous avons
   décidé et quand, et si votre compte est suspendu&#160;;
+- si vous nous écrivez pour nous demander de retirer quelque chose, avec ou
+  sans compte&#160;: le moment où votre courriel est arrivé, et une ligne
+  disant qui a demandé et comment le joindre, que nous gardons avec notre
+  trace de ce que nous avons retiré&#160;;
 - le texte de tout rapport de problème que vous envoyez, et les lignes qui vous
   sont montrées avant l'envoi&#160;: la version de l'application, celle
   d'Android ou d'iOS et le modèle de votre téléphone. Le rapport peut aussi
@@ -184,7 +199,8 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 - si vous vous abonnez, la boutique par laquelle vous avez payé, la référence
   de cet achat chez elle, et la date à laquelle la période payée prend fin.
   C'est la boutique qui sait qui a payé et comment&#160;; nous ne voyons jamais
-  une carte ni un compte bancaire. C'est supprimé avec votre compte&#160;;
+  une carte ni un compte bancaire. C'est supprimé avec votre compte, sauf si
+  nous le mettons de côté comme le décrit *Supprimer votre compte*&#160;;
 - pour chaque téléphone sur lequel vous vous êtes connecté&#160;: son jeton
   d'envoi, s'il s'agit d'un téléphone Android ou d'un iPhone, quelle version
   compilée de l'application il fait tourner, et quand vous vous y êtes connecté
@@ -218,7 +234,9 @@ d'autre&#160;:
   la vente du service et avant sa fermeture&#160;;
 - livrer ce que vous publiez aux gens que vous avez choisis, et vous livrer ce
   qu'ils publient&#160;;
-- vous envoyer les notifications que vous avez autorisées&#160;;
+- envoyer des notifications à vos téléphones&#160;: celles que l'application
+  vous montre, et des envois qui ne montrent rien et disent seulement à
+  l'application d'aller chercher du nouveau&#160;;
 - vous écrire quand il y a de la place, si nous étions complets et que vous
   nous l'avez demandé&#160;;
 - envoyer un courriel à une adresse que quelqu'un a saisie pour inviter une
@@ -248,7 +266,9 @@ sont dans des centres de données aux États-Unis. Les fichiers chiffrés
 eux-mêmes sont dans un stockage d'objets tenu par une société établie aux
 États-Unis, dans sa région nord-américaine&#160;; elle détient du chiffré et
 jamais une clé. Une copie chiffrée de notre base de données, faite chaque nuit,
-y est gardée aussi, et nous seuls pouvons l'ouvrir.
+y est gardée aussi, et nous seuls pouvons l'ouvrir. Les courriels que vous nous
+envoyez sont gardés dans notre boîte de courriel en Suisse, comme le dit *Les
+tiers que nous utilisons*.
 
 **Si vous vivez hors des États-Unis, vos renseignements sont détenus à
 l'extérieur de votre pays**, et tant qu'ils y sont ils relèvent du droit des
@@ -317,7 +337,8 @@ puis&#160;:
   ont été envoyés, et la trace de chaque connexion par mot de passe, avec le pseudo
   qu'elle visait et le nombre de mauvais essais qu'elle a reçus, sont balayés
   après deux jours, ce dont les limites sur les mauvais essais ont besoin pour
-  compter&#160;;
+  compter. Il en va de même pour chaque défi qu'un téléphone signe pour se
+  connecter avec une clé d'accès ou pour en ajouter une&#160;;
 - après la suppression, nous ne gardons que ce qui est décrit sous *Supprimer
   votre compte* plus bas.
 
@@ -450,10 +471,13 @@ envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
 - **Le stockage d'objets** pour les fichiers chiffrés et une copie chiffrée de
   notre base de données. Le prestataire détient du chiffré et jamais une clé.
 - **Les notifications**, par Firebase Cloud Messaging de Google sur Android et
-  le service de notifications d'Apple sur iPhone, quand vous les autorisez. Un
-  envoi porte un type et rien d'autre&#160;: pas de noms, pas de légendes, pas
-  d'identifiants de publication&#160;; les mots que vous voyez sont écrits par
-  votre téléphone.
+  le service de notifications d'Apple sur iPhone. Nous envoyons des
+  notifications à chaque téléphone connecté à votre compte, que vous les y
+  ayez autorisées ou non, et un téléphone n'en affiche une que si vous les
+  avez autorisées. Certains envois n'affichent rien et disent seulement à
+  l'application d'aller chercher du nouveau. Un envoi porte un type et rien
+  d'autre&#160;: pas de noms, pas de légendes, pas d'identifiants de
+  publication&#160;; les mots que vous voyez sont écrits par votre téléphone.
 - **Le courriel**, pour envoyer les codes de connexion à usage unique et les
   invitations. Le prestataire voit l'adresse et le message, et rien
   d'autre à votre sujet.
@@ -463,12 +487,22 @@ envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
   d'autre reçoit votre numéro&#160;: personne.
 - **Google Play et l'App Store**, si vous vous abonnez. Chacun prend le
   paiement, et nous dit si l'abonnement que vous avez acheté pour ce compte est
-  payé et jusqu'à quand.
+  payé et jusqu'à quand. À l'inscription, chacun répond aussi quand
+  l'application lui demande si vous avez moins de 18 ans, comme le décrit *Les
+  enfants* plus bas.
+- **Notre boîte de courriel**, chez Proton, une société établie à Genève, en
+  Suisse. Chaque courriel que vous nous envoyez y arrive&#160;: une question,
+  une demande au sujet de vos renseignements, une demande de suppression d'un
+  compte ou de retrait de quelque chose, et une réponse à un courriel de
+  l'application. Une réponse à un courriel de l'application arrive d'abord
+  chez Porkbun, une société établie aux États-Unis, qui la fait suivre à la
+  boîte de courriel.
 
-Chacun d'eux est une société établie aux États-Unis. Chacun ne reçoit que ce
-dont sa part du service a besoin, et ne s'en sert que pour nous fournir cette
-part. Utiliser l'application veut dire que vos renseignements vont chez eux et
-aux États-Unis, et cette page est l'endroit où nous vous le disons avant votre
+Chacun d'eux, sauf Proton, est une société établie aux États-Unis. Chacun ne
+reçoit que ce dont sa part du service a besoin, et ne s'en sert que pour nous
+fournir cette part. Utiliser l'application veut dire que vos renseignements
+vont chez eux et aux États-Unis, et nous écrire veut dire que votre courriel va
+en Suisse. Cette page est l'endroit où nous vous le disons avant votre
 inscription.
 
 ## Si la société est vendue
@@ -519,7 +553,10 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
   personne&#160;;
 - votre pseudo, toute adresse de courriel et tout numéro de téléphone sont
   libérés, toute clé tirée d'un mot de passe est supprimée, et la langue de
-  votre application aussi.
+  votre application aussi&#160;;
+- ce que nous détenons sur chacune de vos clés d'accès est supprimé. La clé
+  d'accès reste dans votre gestionnaire de mots de passe, où elle n'ouvre plus
+  rien.
 
 Huit jours plus tard, les fichiers chiffrés sont retirés du stockage. Ces huit
 jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
@@ -550,10 +587,13 @@ ce que vous avez fait dans les listes d'activité des autres disparaissent sous
 
 Une exception. Quand nous supprimons un compte parce qu'il participait à
 l'exploitation ou aux abus sexuels concernant des enfants, nous mettons d'abord
-de côté son adresse de courriel, son numéro de téléphone et son pseudo, quand
-il a été créé et a confirmé son âge, chaque téléphone qu'il a utilisé avec son
-jeton d'envoi, quand il s'est connecté, les personnes avec qui il était en
-relation, quand il a publié et pour qui, et, pour chaque invitation à un album
+de côté son adresse de courriel, son numéro de téléphone et son pseudo, ses
+deux clés publiques, quand il a été créé et a confirmé son âge, chaque
+téléphone qu'il a utilisé avec son jeton d'envoi, quand il s'est connecté, les
+personnes avec qui il était en relation, quand il a publié et pour qui, la
+boutique par laquelle son abonnement a été payé avec la référence de cet achat
+chez elle et la date à laquelle la période payée prend fin, et, pour chaque
+invitation à un album
 par laquelle il est arrivé, quand l'invitation a été envoyée et quand il s'en
 est servi. Nous gardons cela pour le
 signalement que nous faisons au National Center for Missing & Exploited
@@ -581,6 +621,16 @@ parce que nous ne pouvons pas les lire.
 Vous devez avoir 18 ans ou plus pour utiliser *people you know*. Nous demandons
 votre date de naissance une fois, à l'inscription, nous la comparons, et nous
 ne gardons que le fait que vous avez passé.
+
+Si la date passe, l'application demande ensuite à la boutique d'applications
+si vous avez moins de 18 ans&#160;: au service Age Signals de Google Play sur
+Android, et au service Declared Age Range d'Apple sur un iPhone sous iOS 26.2
+ou plus récent, là où Apple l'applique. Apple vous montre une fenêtre qui vous
+demande si vous voulez partager votre tranche d'âge. La boutique répond par
+une tranche d'âge, ou ne répond rien. L'application lit la réponse une fois,
+sur votre téléphone, et refuse l'inscription si elle dit que vous avez moins
+de 18 ans. La réponse ne nous est pas envoyée, et l'application ne la garde
+nulle part.
 
 ## Changements
 

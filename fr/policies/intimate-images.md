@@ -44,6 +44,11 @@ Nous écrivons à la personne qui l'a partagée, si son compte a une adresse de
 courriel, qu'une de ses publications a été retirée à la demande de quelqu'un.
 Nous ne disons jamais qui l'a demandé ni ce que vous avez écrit.
 
+Votre courriel reste dans notre boîte de courriel chez Proton, en Suisse. Avec
+notre trace de ce que nous avons retiré, nous gardons le moment où votre
+courriel est arrivé et une ligne disant qui a demandé et comment le joindre. La
+[politique de confidentialité](/fr/politique-de-confidentialite/) en dit plus.
+
 Si ce que vous avez envoyé ne suffit pas à la retrouver, nous vous écrivons
 pour vous en demander plus.
 

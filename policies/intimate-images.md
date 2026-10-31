@@ -38,6 +38,10 @@ We email the person who shared it, if their account has an email address,
 that one of their posts was removed after somebody asked. We never say who
 asked or what you wrote.
 
+Your email stays in our mailbox at Proton, in Switzerland. With our record of
+what we removed, we keep when your email came in and a line saying who asked
+and how to reach them. The [privacy policy](/privacy/) says more.
+
 If what you sent is not enough for us to find it, we write back and ask for
 more.
 

@@ -94,6 +94,12 @@ To deliver a photo to the right people we hold, in the clear:
   guesses at it, as any stored password can. An account keeps at least one of
   the three, an email address, a phone number or a password, and may have more
   than one;
+- for each passkey you add: its public key, the identifier your phone names it
+  by when you sign in with it, which password manager made it, whether that
+  password manager can copy it to your other devices, a count of its uses that
+  some passkeys keep, and when you added it and last signed in with it. The
+  private half of the passkey stays in your password manager and never reaches
+  us;
 - if we were full when you tried to join and you asked to be told when there
   is room, the address you gave and when you asked, and nothing else, until we
   have written to it about a place;
@@ -103,10 +109,12 @@ To deliver a photo to the right people we hold, in the clear:
   told);
 - an email address somebody typed to invite a person into an album, or an
   email address or phone number somebody typed to invite a person to the app,
-  and when, until that person joins or the invitation lapses. If the person at
-  an address asks us to stop sending invitations, we keep a fingerprint of the
-  address (a one-way hash of it, not the address), so that we never email it
-  an invitation again;
+  and when, until that person joins or the invitation lapses. For sixty days
+  after we email an invitation, we also keep a fingerprint of the address (a
+  one-way hash of it, not the address), so that the link in that email to stop
+  invitations keeps working after the invitation is gone. If the person at an
+  address asks us to stop sending invitations, we keep that fingerprint, so
+  that we never email it an invitation again;
 - if you joined through an invitation to an album, by signing up at the
   address it was sent to or by typing its code: that you did, when, whether
   it was the invitation that brought you in, and whether you used the app on
@@ -140,6 +148,9 @@ To deliver a photo to the right people we hold, in the clear:
   we have to be able to read it; and, if somebody reports you, that they did,
   what they wrote, what we decided and when, and whether your account is
   suspended;
+- if you email us asking us to take something down, with or without an
+  account: when your email came in, and a line saying who asked and how to
+  reach them, which we keep with our record of what we removed;
 - the text of any bug report you send, and the lines shown to you before you
   send it: the version of the app, the version of Android or iOS and the model
   of your phone. The report can also carry a short list of the last errors the
@@ -152,7 +163,8 @@ To deliver a photo to the right people we hold, in the clear:
   settings;
 - if you subscribe, which store you paid through, the store's reference for the
   purchase, and when the period you paid for ends. The store holds who paid and
-  how; we never see a card or a bank account. It is deleted with your account;
+  how; we never see a card or a bank account. It is deleted with your account,
+  unless we set it aside as *Deleting your account* describes;
 - for each phone you have signed in on: its push token, whether it is an
   Android phone or an iPhone, which build of the app it runs, and when you
   signed in there and last used it;
@@ -180,7 +192,8 @@ We use what we hold for these things and nothing else:
   or to this policy that matters to you, before the service is sold, and
   before it closes;
 - to deliver what you post to the people you chose, and what they post to you;
-- to send you the notifications you allowed;
+- to send pushes to your phones: the notifications the app shows you, and
+  pushes that show nothing and only tell the app to fetch something new;
 - to write to you once there is room, if we were full and you asked us to;
 - to send one email to an address somebody typed to invite a person into an
   album or to the app, and to stop when that person asks us to. We send nothing
@@ -206,7 +219,8 @@ Our servers, our database and the second copy of the encrypted files are in
 data centres in the United States. The encrypted files themselves are in object
 storage run by a company based in the United States, in its North American
 region; it holds ciphertext and never a key. An encrypted copy of our database,
-made every night, is kept there too, and only we can open it.
+made every night, is kept there too, and only we can open it. Emails you send
+us are kept in our mailbox in Switzerland, as *Third parties we use* says.
 
 **If you live outside the United States, your information is held outside your
 country**, and while it is there it is subject to United States law, including
@@ -261,7 +275,8 @@ We keep what is above for as long as your account exists, and then:
 - one-time sign-in codes, with the address or number they were sent to, and the record
   of each password sign-in, with the handle it was for and how many wrong
   guesses it drew, are swept after two days, which is what the limits on wrong
-  guesses need to read;
+  guesses need to read. So is each challenge a phone signs to sign in with a
+  passkey or to add one;
 - after deletion we keep only the record described under *Deleting your
   account* below.
 
@@ -377,9 +392,12 @@ the number only to deliver it.
 - **Object storage** for the encrypted files and an encrypted copy of our
   database. The provider holds ciphertext and never a key.
 - **Push notifications**, through Google's Firebase Cloud Messaging on
-  Android and Apple's Push Notification service on iPhone, when you allow
-  them. A push carries a type and nothing else: no names, no captions, no
-  post identifiers; the words you see are written by your phone.
+  Android and Apple's Push Notification service on iPhone. We send pushes to
+  every phone signed in to your account, whether or not you have allowed
+  notifications on it, and a phone shows one only if you have. Some pushes
+  show nothing and only tell the app to fetch something new. A push carries a
+  type and nothing else: no names, no captions, no post identifiers; the words
+  you see are written by your phone.
 - **Email**, to send one-time sign-in codes and invitations. The
   provider sees the address and the message, and nothing else about you.
 - **Text messages**, through Amazon Web Services, to send one-time sign-in
@@ -388,12 +406,19 @@ the number only to deliver it.
   nobody.
 - **Google Play and the App Store**, if you subscribe. Each takes the payment,
   and tells us whether the subscription you bought for this account is paid up
-  and until when.
+  and until when. At signup, each also answers the app's question about
+  whether you are under 18, as *Children* below describes.
+- **Our mailbox**, at Proton, a company in Geneva, Switzerland. Every email you
+  send us arrives there: a question, a request about your information, a
+  request to delete an account or to take something down, and a reply to an
+  email from the app. A reply to an email from the app first reaches Porkbun,
+  a company based in the United States, which forwards it to the mailbox.
 
-Each of them is a company based in the United States. Each receives only what
-its part of the service needs, and uses it only to provide that part to us.
-Using the app means your information goes to them and to the United States,
-and this page is where we tell you so before you sign up.
+Each of them but Proton is a company based in the United States. Each receives
+only what its part of the service needs, and uses it only to provide that part
+to us. Using the app means your information goes to them and to the United
+States, and writing to us means your email goes to Switzerland. This page is
+where we tell you so before you sign up.
 
 ## If the company is sold
 
@@ -434,7 +459,9 @@ to ask without it:
 - if you joined through an invitation to an album, the record of it stops
   naming your account, and what is left of it names nobody;
 - your handle and any email address and phone number are freed, any key made
-  from a password is deleted, and so is the language your app was set to.
+  from a password is deleted, and so is the language your app was set to;
+- what we hold about each of your passkeys is deleted. The passkey stays in
+  your password manager, where it no longer opens anything.
 
 Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product
@@ -458,11 +485,12 @@ what you did in other people's activity lists go within 128 days.
 
 One exception. When we delete an account because it was engaged in child
 sexual abuse or exploitation, we first set aside its email address, phone
-number and handle, when it joined and confirmed its age, each phone it used
-with that phone's push token, when it signed in, who it was connected to,
-when it posted and to whom, and, for each album invitation it joined through,
-when the invitation was sent and when it took it up. We keep that for the
-report we make to the
+number and handle, its two public keys, when it joined and confirmed its age,
+each phone it used with that phone's push token, when it signed in, who it was
+connected to, when it posted and to whom, which store its subscription was
+paid through with the store's reference for it and when the period paid for
+ends, and, for each album invitation it joined through, when the invitation
+was sent and when it took it up. We keep that for the report we make to the
 National Center for Missing & Exploited Children, for a year from the report,
 as United States law requires, and then delete it. The [child safety
 standards](/child-safety/) say more.
@@ -484,6 +512,14 @@ cannot send readable photographs, because we cannot read them.
 
 You must be 18 or older to use *people you know*. We ask for your date of
 birth once, at signup, compare it, and keep only the fact that you passed.
+
+If the date passes, the app then asks the app store whether you are under 18:
+Google Play's Age Signals service on Android, and Apple's Declared Age Range
+service on an iPhone with iOS 26.2 or later, where Apple applies it. Apple
+shows you a sheet asking whether to share your age range. The store answers
+with an age range, or with nothing. The app reads the answer once, on your
+phone, and refuses signup if it says you are under 18. The answer is not sent
+to us, and the app keeps it nowhere.
 
 ## Changes
 

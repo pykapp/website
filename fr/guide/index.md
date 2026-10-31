@@ -290,8 +290,9 @@ publié depuis longtemps&#160;».
 
 Une notification ne contient aucun nom et aucun mot tiré d'une publication.
 Elle dit seulement quel genre de chose s'est passé, et c'est votre téléphone
-qui ajoute le nom. Ni nous, ni Google, ni Apple ne pouvons donc voir qui a
-fait quoi.
+qui ajoute le nom. Google et Apple ne peuvent donc pas voir qui a fait quoi.
+Nous, nous le pouvons&#160;: le serveur garde votre liste d'activité, qui dit ce
+qui s'est passé, qui l'a fait et sur quelle publication.
 
 ## Masquer, retirer et bloquer
 

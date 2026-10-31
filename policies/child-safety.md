@@ -74,8 +74,9 @@ An account we find to be engaged in child sexual abuse or exploitation is
 deleted, which severs every connection it has and removes its posts and
 comments for everybody at once. Before we delete it, we set aside the records
 we hold about it: its email address, phone number and handle, when it joined,
-the phones it used, who it was connected to, when it posted and to whom, and,
-for each album invitation it joined through, when the invitation was sent and
+the phones it used, who it was connected to, when it posted and to whom, the
+subscription it paid through, by the store's reference to it, and, for each
+album invitation it joined through, when the invitation was sent and
 when it took it up. We report it to the National Center for Missing & Exploited Children (NCMEC)
 and to law enforcement in the jurisdictions that apply to us, and we keep
 those records for a year from our report, as United States law requires, and

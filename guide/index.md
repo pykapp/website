@@ -256,7 +256,8 @@ There are no reminders, streaks or "you haven't posted in a while".
 
 A notification contains no names and no words from anyone's post. It only says
 what kind of thing happened, and your phone fills in the name itself. So
-neither we nor Google nor Apple can see who did what.
+Google and Apple cannot see who did what. We can: the server keeps your
+activity list, which says what happened, who did it and on which post.
 
 ## Muting, removing and blocking
 
