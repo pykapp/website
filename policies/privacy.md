@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 28 October 2026.
+**Last updated:** 31 October 2026.
 
 ## Who is responsible, and where this applies
 
@@ -54,6 +54,9 @@ only your phone and the phones of the people you share with can use:
 - the names of your groups. A name given to a group before this version of the
   policy stays readable to us until you open the app after updating it; the
   app then seals the name.
+- the place you add to a post: the words you typed for it, and which place on
+  Google Maps they open. Everybody who gets the post sees them, and a tap on
+  them sends both to Google, as *Third parties we use* says.
 
 We store these as ciphertext. We cannot open them, and neither can anybody
 who obtains a copy of our servers. If you lose your recovery phrase and every
@@ -172,9 +175,10 @@ To deliver a photo to the right people we hold, in the clear:
   posts are signed with. Both are the halves that are meant to be handed out.
   We also keep when the first was published;
 - the moment you confirmed you were 18 or older (never your date of birth);
-- counts of what your phone could and could not open, and of whether it
-  showed each notification we sent it, added to a total the moment they
-  arrive and not kept against your account.
+- counts of what your phone could and could not open, of whether it showed
+  each notification we sent it, and of whether Google answered its searches
+  for a place, added to a total the moment they arrive and not kept against
+  your account.
 
 This is the honest boundary of the claim. It is metadata, and metadata
 reveals who talks to whom. We keep it because the app cannot work without it,
@@ -367,8 +371,10 @@ more than any other way of sending a photo can.
   crashed and where in our code; that report is theirs and contains none of
   your content.
 - Your phone tells us how many photographs, captions, comments and album
-  names it could or could not open since it last told us, and which version
-  of the app and of Android or iOS it runs. Never which ones, and never whose. This
+  names it could or could not open since it last told us, how many of its
+  searches for a place Google answered or refused, and which version of the
+  app and of Android or iOS it runs. Never which ones, never what was
+  searched for, and never whose. This
   is how we find out that something is broken before you would think to
   write to us, and it is on for everybody because it carries nothing that
   could be turned off.
@@ -404,6 +410,14 @@ the number only to deliver it.
   codes to a phone number. The provider uses the number and the message only
   to deliver the text. *Text messages* above says who else gets your number:
   nobody.
+- **Google Maps**, if you add a place to a post. While you search, your phone
+  sends Google what you type, with your phone's internet address. When anybody
+  taps the place on a post, their phone opens Google Maps with the words the
+  poster typed and the place's Google Maps id, and Google sees that phone's
+  internet address and the Google account it is signed in to, if any. Google
+  never receives the post itself, and we never see what anybody searches for.
+  Google may keep what it receives and use it for its own services, under the
+  [Google Privacy Policy](https://policies.google.com/privacy).
 - **Google Play and the App Store**, if you subscribe. Each takes the payment,
   and tells us whether the subscription you bought for this account is paid up
   and until when. At signup, each also answers the app's question about
@@ -415,10 +429,11 @@ the number only to deliver it.
   a company based in the United States, which forwards it to the mailbox.
 
 Each of them but Proton is a company based in the United States. Each receives
-only what its part of the service needs, and uses it only to provide that part
-to us. Using the app means your information goes to them and to the United
-States, and writing to us means your email goes to Switzerland. This page is
-where we tell you so before you sign up.
+only what its part of the service needs. All but Google Maps use it only to
+provide that part to us; Google Maps uses it as the Google Privacy Policy says.
+Using the app means your information goes to them and to the United States,
+and writing to us means your email goes to Switzerland. This page is where we
+tell you so before you sign up.
 
 ## If the company is sold
 

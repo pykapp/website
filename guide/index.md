@@ -103,6 +103,9 @@ Good to know:
 - **Your location is removed.** Location and camera details are removed from
   photos and videos before they leave your phone. The date a photo was taken
   is kept, encrypted.
+- **A place goes through Google Maps.** If you add a place under *where*, what
+  you type is sent to Google to find it. Everybody who gets the post sees the
+  place, and tapping it opens Google Maps.
 - **There are no drafts.** If you leave before posting, what you chose is lost.
   The app asks first. If the app closes while a post is sending, the post waits
   on your profile with *try again*.

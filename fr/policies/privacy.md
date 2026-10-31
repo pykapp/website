@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 28 octobre 2026.
+**Dernière mise à jour&#160;:** 31 octobre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -64,6 +64,10 @@ se servir&#160;:
 - les noms de vos groupes. Un nom donné à un groupe avant cette version de la
   politique reste lisible pour nous jusqu'à ce que vous ouvriez l'application
   après l'avoir mise à jour&#160;; l'application scelle alors ce nom.
+- le lieu que vous ajoutez à une publication&#160;: les mots que vous avez
+  tapés, et le lieu sur Google Maps qu'ils ouvrent. Tous ceux qui reçoivent la
+  publication les voient, et un toucher dessus les envoie à Google, comme le
+  dit *Les tiers que nous utilisons*.
 
 Nous les stockons chiffrés. Nous ne pouvons pas les ouvrir, et personne qui
 obtiendrait une copie de nos serveurs ne le pourrait non plus. Si vous perdez
@@ -210,9 +214,10 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   gardons aussi le moment où la première a été publiée&#160;;
 - le moment où vous avez confirmé avoir 18 ans ou plus (jamais votre date de
   naissance)&#160;;
-- des comptes de ce que votre téléphone a pu et n'a pas pu ouvrir, et de s'il a
-  affiché chaque notification que nous lui avons envoyée, ajoutés à un total
-  dès leur arrivée et non conservés à côté de votre compte.
+- des comptes de ce que votre téléphone a pu et n'a pas pu ouvrir, de s'il a
+  affiché chaque notification que nous lui avons envoyée, et de si Google a
+  répondu à ses recherches de lieu, ajoutés à un total dès leur arrivée et non
+  conservés à côté de votre compte.
 
 C'est la limite honnête de ce que nous affirmons. Ce sont des métadonnées, et
 les métadonnées révèlent qui parle à qui. Nous les gardons parce que
@@ -445,8 +450,10 @@ autre façon d'envoyer une photo.
   votre contenu.
 - Votre téléphone nous dit combien de photos, de légendes, de commentaires et
   de noms d'album il a pu ou n'a pas pu ouvrir depuis la dernière fois qu'il
-  nous l'a dit, et quelle version de l'application et d'Android ou d'iOS il
-  fait tourner. Jamais lesquels, et jamais ceux de qui. C'est ainsi que nous
+  nous l'a dit, combien de ses recherches de lieu Google a acceptées ou
+  refusées, et quelle version de l'application et d'Android ou d'iOS il fait
+  tourner. Jamais lesquels, jamais ce qui a été cherché, et jamais ceux de
+  qui. C'est ainsi que nous
   découvrons que quelque chose est cassé avant que vous pensiez à nous écrire,
   et c'est actif pour tout le monde parce que cela ne porte rien qui pourrait
   être désactivé.
@@ -485,6 +492,16 @@ envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
   à usage unique à un numéro de téléphone. Le prestataire ne se sert du numéro
   et du message que pour livrer le texto. *Les textos* plus haut dit qui
   d'autre reçoit votre numéro&#160;: personne.
+- **Google Maps**, si vous ajoutez un lieu à une publication. Pendant votre
+  recherche, votre téléphone envoie à Google ce que vous tapez, avec l'adresse
+  internet de votre téléphone. Quand quelqu'un touche le lieu d'une
+  publication, son téléphone ouvre Google Maps avec les mots tapés par
+  l'auteur et l'identifiant du lieu dans Google Maps, et Google voit l'adresse
+  internet de ce téléphone et le compte Google auquel il est connecté, s'il y
+  en a un. Google ne reçoit jamais la publication elle-même, et nous ne voyons
+  jamais ce que les gens cherchent. Google peut garder ce qu'il reçoit et s'en
+  servir pour ses propres services, selon les [Règles de confidentialité de
+  Google](https://policies.google.com/privacy?hl=fr).
 - **Google Play et l'App Store**, si vous vous abonnez. Chacun prend le
   paiement, et nous dit si l'abonnement que vous avez acheté pour ce compte est
   payé et jusqu'à quand. À l'inscription, chacun répond aussi quand
@@ -499,10 +516,12 @@ envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
   boîte de courriel.
 
 Chacun d'eux, sauf Proton, est une société établie aux États-Unis. Chacun ne
-reçoit que ce dont sa part du service a besoin, et ne s'en sert que pour nous
-fournir cette part. Utiliser l'application veut dire que vos renseignements
-vont chez eux et aux États-Unis, et nous écrire veut dire que votre courriel va
-en Suisse. Cette page est l'endroit où nous vous le disons avant votre
+reçoit que ce dont sa part du service a besoin. Tous sauf Google Maps ne s'en
+servent que pour nous fournir cette part&#160;; Google Maps s'en sert comme le
+disent les Règles de confidentialité de Google. Utiliser l'application veut
+dire que vos renseignements vont chez eux et aux États-Unis, et nous écrire
+veut dire que votre courriel va en Suisse. Cette page est l'endroit où nous
+vous le disons avant votre
 inscription.
 
 ## Si la société est vendue

@@ -112,6 +112,9 @@ Bon à savoir&#160;:
 - **Votre position est retirée.** La position et les détails de l'appareil
   sont retirés des photos et des vidéos avant qu'elles quittent votre
   téléphone. La date de la prise de vue est gardée, chiffrée.
+- **Un lieu passe par Google Maps.** Si vous ajoutez un lieu sous *où*, ce que
+  vous tapez est envoyé à Google pour le trouver. Tous ceux qui reçoivent la
+  publication voient le lieu, et le toucher ouvre Google Maps.
 - **Il n'y a pas de brouillons.** Si vous quittez avant de publier, ce que vous
   avez choisi est perdu. L'application vous le demande d'abord. Si
   l'application se ferme pendant l'envoi, la publication vous attend sur votre

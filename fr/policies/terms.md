@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
 contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 28 octobre 2026.
+**Dernière mise à jour&#160;:** 31 octobre 2026.
 
 ## Qui nous sommes
 
@@ -108,6 +108,17 @@ pour de l'aide, ou pour recevoir de nouveau nos textos après avoir répondu
 STOP. Votre numéro de téléphone et votre accord pour recevoir nos textos ne
 sont jamais vendus, loués ni communiqués à un tiers ou à une société affiliée,
 à des fins publicitaires ou à toute autre fin, sauf quand la loi l'exige.
+
+## Google Maps
+
+L'application comprend des fonctionnalités et du contenu de Google Maps. Vous
+pouvez chercher dans Google Maps un lieu à ajouter à une publication, et un
+toucher sur le lieu d'une publication l'ouvre dans Google Maps. Leur
+utilisation est soumise aux [Conditions d'utilisation supplémentaires de Google
+Maps](https://maps.google.com/help/terms_maps/?hl=fr) et aux [Règles de
+confidentialité de Google](https://policies.google.com/privacy?hl=fr). La
+[politique de confidentialité](/fr/politique-de-confidentialite/) dit ce que
+votre téléphone envoie à Google.
 
 ## Modifier ces conditions
 

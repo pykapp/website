@@ -7,7 +7,7 @@ permalink: /terms/
 using it. They are short on purpose, and they are a contract: using the app
 means agreeing to them.
 
-**Last updated:** 28 October 2026.
+**Last updated:** 31 October 2026.
 
 ## Who we are
 
@@ -93,6 +93,15 @@ Write to the same address for help, or to get our texts again after replying
 STOP. Your phone number and your agreement to receive our texts are never sold,
 rented or shared with any third party or affiliate, for marketing or for any
 other purpose, except where the law requires it.
+
+## Google Maps
+
+The app includes Google Maps features and content. You can search Google Maps
+for a place to add to a post, and a tap on a post's place opens it in Google
+Maps. Your use of them is subject to the [Google Maps Additional Terms of
+Service](https://maps.google.com/help/terms_maps/) and the [Google Privacy
+Policy](https://policies.google.com/privacy). The [privacy policy](/privacy/)
+says what your phone sends Google.
 
 ## Changing these terms
 
