@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 28 octobre 2026.**
+**Dernière mise à jour&#160;: 31 octobre 2026.**
 
 ## La règle
 
@@ -35,8 +35,8 @@ concerne des inconnus qui atteignent des enfants. Cette application ne donne
 presque rien à un inconnu pour atteindre qui que ce soit&#160;:
 
 - Il n'y a pas de profils publics, pas d'annuaire et pas de recherche par nom.
-  On ne peut vous trouver qu'en tapant votre pseudonyme exact ou votre adresse
-  courriel exacte.
+  On ne peut vous trouver qu'en tapant votre pseudonyme exact, votre adresse
+  courriel exacte ou votre numéro de téléphone exact.
 - Une personne qui vous trouve ainsi peut demander à se connecter, et c'est
   tout. Une demande ne contient aucun message, et rien n'est partagé avant que
   vous acceptiez. Dans les paramètres, vous pouvez limiter les demandes aux

@@ -11,7 +11,7 @@ permalink: /fr/politique-de-moderation/
 dire pour la modération, franchement, parce que ce n'est pas ce que la plupart
 des applications entendent par là.
 
-**Dernière mise à jour&#160;:** 28 octobre 2026.
+**Dernière mise à jour&#160;:** 31 octobre 2026.
 
 ## Ce que nous ne pouvons pas faire
 
@@ -104,8 +104,9 @@ après nous&#160;:
 - **Supprimer** un commentaire que quelqu'un a laissé sur votre publication.
 
 Comme il n'y a pas de profils publics et pas de découverte, on ne peut vous
-atteindre qu'en tapant exactement votre pseudo ou votre adresse de courriel, et
-la façon d'arrêter quelqu'un est de le retirer ou de le bloquer.
+atteindre qu'en tapant exactement votre pseudo, votre adresse de courriel ou
+votre numéro de téléphone, et la façon d'arrêter quelqu'un est de le retirer ou
+de le bloquer.
 
 ## Limites
 

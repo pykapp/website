@@ -370,7 +370,6 @@ account](/delete-account/) has its own page.
   its audience.
 - No ads.
 - No text posts or links.
-- No sign-in by text message.
 
 The [privacy policy](/privacy/) lists what we keep, the [terms](/terms/) say
 what you agree to, and the [moderation policy](/moderation/) says what we can

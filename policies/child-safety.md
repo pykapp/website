@@ -8,7 +8,7 @@ against child sexual abuse and exploitation, which Google Play requires every
 app in its social category to publish. Ours is short, because most of what
 such a standard usually has to describe cannot happen here by construction.
 
-**Last updated:** 28 October 2026.
+**Last updated:** 31 October 2026.
 
 ## The rule
 
@@ -31,7 +31,8 @@ Most child safety work on a social app is about strangers reaching children.
 This app gives a stranger almost nothing to reach anybody with:
 
 - There are no public profiles, no directory, and no search by name. Somebody
-  can find you only by typing your exact handle or email address.
+  can find you only by typing your exact handle, email address or phone
+  number.
 - Somebody who finds you that way can ask to connect, and that is all. A
   request carries no message, and nothing is shared until you accept. In
   settings you can limit requests to people who share a mutual connection

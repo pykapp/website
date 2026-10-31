@@ -429,7 +429,6 @@ suite, et ses fichiers sont effacés de nos serveurs en moins de six semaines.
   publication normale, avec une seule personne dans son audience.
 - Pas de publicité.
 - Pas de publications en texte seul ni de liens.
-- Pas de connexion par SMS.
 
 La [politique de confidentialité](/fr/politique-de-confidentialite/) liste ce
 que nous gardons, les [conditions d'utilisation](/fr/conditions/) disent ce que
