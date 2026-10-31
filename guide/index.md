@@ -62,8 +62,8 @@ to your *mutuals*.
   name finds nobody, and the app never suggests people. You can search 32
   times an hour.
 - **Asking.** Tap *add*. By default, anybody who knows your handle, email
-  address or phone number can ask to add you. To limit requests to people who have a mutual in
-  common with you, turn off *settings → requests from anyone*.
+  address or phone number can ask to add you. To limit requests to people you invite or share a
+  mutual with, turn off *settings → requests from anyone*.
 - **Answering.** Requests to you appear at the top of your profile, with the
   person's name, photo and the people you both know. Tap *accept* or
   *decline*. If you decline, they are not told. A request you don't answer

@@ -68,8 +68,8 @@ appelle ces personnes vos *relations*.
 - **Demander.** Touchez *ajouter*. Par défaut, toute personne qui connaît votre
   pseudo, votre adresse de courriel ou votre numéro de téléphone peut vous
   envoyer une demande. Pour
-  limiter les demandes aux personnes qui ont une relation en commun avec vous,
-  désactivez *paramètres → demandes de n'importe qui*.
+  limiter les demandes aux personnes que vous invitez ou qui ont une relation en
+  commun avec vous, désactivez *paramètres → demandes de n'importe qui*.
 - **Répondre.** Les demandes que vous recevez s'affichent en haut de votre
   profil, avec le nom, la photo de la personne et les relations que vous avez
   en commun. Touchez *accepter* ou *refuser*. Si vous refusez, la personne

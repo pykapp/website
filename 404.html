@@ -17,7 +17,8 @@ sitemap: false
   the App Store. On Android it hands the same link to the app by its package,
   which Chrome opens where the app is installed; where it is not, the page is
   still in front two seconds later and goes on to Google Play. On a computer it
-  stays, and says to open the link on a phone.
+  stays, and says to open the link on a phone. An invitation's link ends with
+  the sender's code in the fragment, which goes on to Android as a query.
 
   Without the script, and for any address that is not a handle, it says
   nothing is here. It picks English or French the way the app does, by the
@@ -95,6 +96,11 @@ sitemap: false
       // characters (DESIGN.md §6).
       var linked = /^\/@([A-Za-z0-9_.-]{4,32})\/?$/.exec(path);
       var handle = linked ? linked[1].toLowerCase() : null;
+      // An invitation's link ends with a code in the fragment, which no
+      // server is sent. It goes on to the app as a query, because an
+      // intent:// address keeps its fragment for itself.
+      var invited = /(?:^#|&)i=([a-z0-9]{1,32})(?:&|$)/.exec(location.hash.toLowerCase());
+      var invitation = invited ? "?i=" + invited[1] : "";
       var spoken = (navigator.languages && navigator.languages[0]) || navigator.language || "";
       var lang = path.indexOf("/fr/") === 0 || spoken.toLowerCase().split(/[-_]/)[0] === "fr" ? "fr" : "en";
       var show = handle ? "handle" : "missing";
@@ -129,7 +135,7 @@ sitemap: false
         document.addEventListener("visibilitychange", function () {
           if (document.hidden) clearTimeout(toTheListing);
         });
-        location.replace("intent://peopleyouk.now/@" + handle + "#Intent;scheme=https;package=app.pyk.android;end");
+        location.replace("intent://peopleyouk.now/@" + handle + invitation + "#Intent;scheme=https;package=app.pyk.android;end");
       }
     })();
   </script>
