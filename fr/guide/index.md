@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne. Elle commence par les cinq choses qui fonctionnent
 autrement que dans les autres applications.
 
-**Dernière mise à jour&#160;:** 28 octobre 2026. Cette page décrit l'application
+**Dernière mise à jour&#160;:** 31 octobre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 ## Ce qui fonctionne autrement
@@ -186,14 +186,16 @@ créer un.
 - La personne qui crée un album peut aussi inviter quelqu'un par courriel :
   touchez la rangée qui affiche les noms des membres, puis *inviter par
   courriel*. Si cette personne utilise déjà people you know et que vous êtes
-  en lien, elle rejoint l'album tout de suite. Si vous n'êtes pas en lien,
-  l'invitation apparaît dans sa liste *albums*, et elle rejoint l'album en
-  touchant *rejoindre*. Si elle n'utilise pas encore l'application, elle
-  reçoit un courriel et rejoint l'album en installant l'application et en
-  s'inscrivant avec cette adresse.
-  L'album apparaîtra sur sa liste dès que
-  votre téléphone l'aura ajoutée, ce qui se produit à votre prochaine ouverture
-  de l'application.
+  en lien, votre téléphone vous demande tout de suite s'il faut l'ajouter. Si
+  vous n'êtes pas en lien, l'invitation apparaît dans sa liste *albums*, et
+  elle l'accepte en touchant *rejoindre*. Si elle n'utilise pas encore
+  l'application, elle reçoit un courriel et l'accepte en installant
+  l'application et en s'inscrivant avec cette adresse.
+  Une fois l'invitation acceptée, votre téléphone vous montre son compte et
+  l'adresse invitée, et vous demande s'il faut l'ajouter : *ajouter* la met
+  dans l'album, et *pas maintenant* retire l'invitation. Si vous n'étiez pas
+  dans l'application à ce moment, la question vous est posée à votre
+  prochaine ouverture de l'application.
 - Les adresses que vous avez invitées sont affichées sous *invitées* jusqu'à
   ce que la personne rejoigne l'album. Pour retirer une invitation, touchez
   *retirer* à côté de l'adresse. Le code reçu par courriel cesse de

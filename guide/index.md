@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works. It starts with the
 five things that work differently from other apps.
 
-**Last updated:** 28 October 2026. This page covers the app on Android and
+**Last updated:** 31 October 2026. This page covers the app on Android and
 iPhone.
 
 ## What works differently
@@ -165,13 +165,15 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
   it sees everything in it.
 - The person who makes an album can also invite somebody by email: tap the row
   with the members' names, then *invite by email*. If they already use people
-  you know and you're connected, they join right away. If you aren't
-  connected, the invitation appears on their *albums* list, and they join when
-  they tap *join*. If they don't use the app yet, they get an email, and they
-  join the album when they install the app and sign up with that email
-  address.
-  You'll see the album on their list once your phone has added them, which
-  happens the next time you open the app.
+  you know and you're connected, your phone asks you right away whether to add
+  them. If you aren't connected, the invitation appears on their *albums*
+  list, and they accept it by tapping *join*. If they don't use the app yet,
+  they get an email, and they accept it by installing the app and signing up
+  with that email address.
+  Once they've accepted, your phone shows you their account and the address
+  you invited, and asks whether to add them: *add* puts them in the album, and
+  *not now* takes the invitation back. If you weren't in the app when they
+  accepted, you're asked the next time you open it.
 - The addresses you've invited are listed under *invited* until the person
   joins. To take an invitation back, tap *remove* beside the address. The code
   in their email stops working, and they won't be added to the album. If you
