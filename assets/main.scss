@@ -54,6 +54,15 @@ $lockup-width: 247px; // $lockup-height x the SVG's 514.56:100
 $lockup-narrow-height: 40px;
 $lockup-narrow-width: 206px; // $lockup-narrow-height x the SVG's 514.56:100
 
+// A screen at one pixel per CSS pixel gets a PNG the renderer drew for that
+// box's pixels, and every other screen gets the SVG (§12 2660). The renderer
+// writes `<box>-1x.png` and `<box>-dark-1x.png` for each box above.
+@mixin lockup($svg, $png) {
+  background-image: url($svg);
+  background-image: -webkit-image-set(url($png) 1x, url($svg) 2x);
+  background-image: image-set(url($png) 1x, url($svg) 2x);
+}
+
 $wide: 1120px;
 $palm: 600px;
 $lap: 900px;
@@ -207,7 +216,8 @@ img {
   min-width: 0;
   width: $lockup-width;
   height: $lockup-height;
-  background: url("/assets/lockup.svg") no-repeat left center;
+  background: no-repeat left center;
+  @include lockup("/assets/lockup.svg", "/assets/lockup-1x.png");
   background-size: contain;
   text-indent: 100%;
   white-space: nowrap;
@@ -216,7 +226,7 @@ img {
 
 @media (prefers-color-scheme: dark) {
   .site-title {
-    background-image: url("/assets/lockup-dark.svg");
+    @include lockup("/assets/lockup-dark.svg", "/assets/lockup-dark-1x.png");
   }
 }
 
@@ -224,6 +234,13 @@ img {
   .site-title {
     width: $lockup-narrow-width;
     height: $lockup-narrow-height;
+    @include lockup("/assets/lockup.svg", "/assets/lockup-narrow-1x.png");
+  }
+}
+
+@media screen and (max-width: #{$lap}) and (prefers-color-scheme: dark) {
+  .site-title {
+    @include lockup("/assets/lockup-dark.svg", "/assets/lockup-narrow-dark-1x.png");
   }
 }
 
