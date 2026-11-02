@@ -75,12 +75,3 @@ The app is offered in the United States, Canada, New Zealand, Singapore and
 Japan.
 
 </section>
-
-<section class="plain" markdown="1">
-
-## Who runs it
-
-*people you know* is run by people you know llc, a Texas limited liability
-company.
-
-</section>

@@ -562,25 +562,6 @@ p.stores {
   }
 }
 
-// Who runs it, and anything else that is plain reading.
-.home > .plain {
-  padding-bottom: 88px;
-
-  > * {
-    max-width: 640px;
-  }
-
-  h2 {
-    margin: 0 0 12px;
-    font-size: 24px;
-  }
-
-  p {
-    margin: 0 0 12px;
-    color: var(--quiet);
-  }
-}
-
 @media screen and (max-width: #{$lap}) {
   .hero {
     padding-top: 56px;

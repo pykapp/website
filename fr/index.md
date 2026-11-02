@@ -82,16 +82,3 @@ L'application est proposée aux États-Unis, au Canada, en Nouvelle-Zélande, à
 Singapour et au Japon.
 
 </section>
-
-<section class="plain" markdown="1">
-
-## Qui l'exploite
-
-L'application est exploitée par people you know llc, une société à
-responsabilité limitée du Texas.
-
-Si vous êtes un consommateur au Québec, ce sont les
-[conditions d'utilisation en français](/fr/conditions/) qui vous lient, et
-c'est vers elles que l'application vous renvoie quand elle est en français.
-
-</section>
