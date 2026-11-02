@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne. Elle commence par les cinq choses qui fonctionnent
 autrement que dans les autres applications.
 
-**Dernière mise à jour&#160;:** 31 octobre 2026. Cette page décrit l'application
+**Dernière mise à jour&#160;:** 2 novembre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 ## Ce qui fonctionne autrement
@@ -326,6 +326,11 @@ L'autre personne n'est jamais prévenue.
 
 Rien de tout cela ne reprend ce que l'autre personne a déjà enregistré ou
 capturé à l'écran.
+
+Si quelqu'un a partagé une photo ou une vidéo intime de vous sans votre
+consentement, la page sur le [retrait d'images intimes](/fr/images-intimes/)
+explique comment nous demander de la retirer. Vous n'avez pas besoin d'un
+compte pour le demander.
 
 ## Confidentialité et phrase de récupération
 

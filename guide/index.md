@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works. It starts with the
 five things that work differently from other apps.
 
-**Last updated:** 31 October 2026. This page covers the app on Android and
+**Last updated:** 2 November 2026. This page covers the app on Android and
 iPhone.
 
 ## What works differently
@@ -288,6 +288,10 @@ The other person is never told about any of these.
 
 None of these can take back something the other person already saved or
 screenshotted.
+
+If somebody shared an intimate photo or video of you without your consent,
+the page on [removing intimate images](/intimate-images/) says how to ask us to
+take it down. You don't need an account to ask.
 
 ## Privacy and your recovery phrase
 
