@@ -401,14 +401,24 @@ p.stores {
   }
 }
 
-// Three phone screens, the feed in front and the other two fanned behind it.
-.screens {
+// Three phone screens side by side, each 360 pixels wide, so the app's 16-point
+// body text comes out at 12.7 pixels. A narrower window wraps them to two and
+// then one a row rather than shrinking them. §12 2700.
+$screen: 360px;
+$screen-gap: 24px;
+
+.home > .hero {
+  max-width: 3 * $screen + 2 * $screen-gap + 48px;
+}
+
+.hero .screens {
   position: relative;
   isolation: isolate;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  max-width: 860px;
+  gap: 32px $screen-gap;
+  max-width: none;
   margin: 0 auto;
   padding: 0 0 72px;
 
@@ -430,25 +440,12 @@ p.stores {
   img {
     display: block;
     flex: none;
-    width: 29%;
+    width: $screen;
+    max-width: 100%;
     padding: 6px;
     background: #0A0A0A;
     border-radius: 34px;
     box-shadow: var(--phone-shadow);
-  }
-
-  img:nth-child(1) {
-    transform: translate(12%, 48px) rotate(-6deg);
-  }
-
-  img:nth-child(2) {
-    position: relative;
-    z-index: 1;
-    width: 34%;
-  }
-
-  img:nth-child(3) {
-    transform: translate(-12%, 48px) rotate(6deg);
   }
 }
 
@@ -608,26 +605,9 @@ p.stores {
     justify-content: center;
   }
 
-  .screens img {
+  .hero .screens img {
     padding: 3px;
-    border-radius: 18px;
-  }
-
-  .screens img:nth-child(1),
-  .screens img:nth-child(3) {
-    width: 36%;
-  }
-
-  .screens img:nth-child(2) {
-    width: 44%;
-  }
-
-  .screens img:nth-child(1) {
-    transform: translate(22%, 24px) rotate(-6deg);
-  }
-
-  .screens img:nth-child(3) {
-    transform: translate(-22%, 24px) rotate(6deg);
+    border-radius: 24px;
   }
 
   .features {
