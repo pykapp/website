@@ -69,8 +69,7 @@ people 18 or older.
 {: .stores}
 
 Install it and tap *create an account*. You sign up with your email address.
-You must be 18 or older. If the app is full, it lets you
-*ask to be told when there is room*.
+You must be 18 or older.
 
 The app is offered in the United States, Canada, New Zealand, Singapore and
 Japan.
@@ -82,7 +81,6 @@ Japan.
 ## Who runs it
 
 *people you know* is run by people you know llc, a Texas limited liability
-company. You can write to us at
-[pykapp+hello@proton.me](mailto:pykapp+hello@proton.me).
+company.
 
 </section>

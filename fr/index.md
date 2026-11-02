@@ -76,9 +76,7 @@ l'application.
 {: .stores}
 
 Installez-la et touchez *créer un compte*. Vous vous inscrivez avec votre
-adresse de courriel. Vous devez avoir 18 ans ou plus. Si l'application est
-complète, elle vous permet de
-*demander à être prévenu quand il y aura de la place*.
+adresse de courriel. Vous devez avoir 18 ans ou plus.
 
 L'application est proposée aux États-Unis, au Canada, en Nouvelle-Zélande, à
 Singapour et au Japon.
@@ -90,8 +88,7 @@ Singapour et au Japon.
 ## Qui l'exploite
 
 L'application est exploitée par people you know llc, une société à
-responsabilité limitée du Texas. Vous pouvez nous écrire à
-[pykapp+hello@proton.me](mailto:pykapp+hello@proton.me).
+responsabilité limitée du Texas.
 
 Si vous êtes un consommateur au Québec, ce sont les
 [conditions d'utilisation en français](/fr/conditions/) qui vous lient, et
