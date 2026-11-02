@@ -21,6 +21,10 @@ pas les lire.
 [Disponible sur Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
 {: .stores}
 
+Proposée aux États-Unis, au Canada, en Nouvelle-Zélande, à Singapour et au
+Japon, aux personnes de 18 ans ou plus.
+{: .offered}
+
 </div>
 
 ![Choisir qui voit une nouvelle publication, tout le monde ou seulement les personnes choisies](/screens/who.jpg)

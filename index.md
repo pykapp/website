@@ -19,6 +19,10 @@ with keys we never see, so we can't read them.
 [Get it on Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
 {: .stores}
 
+Offered in the United States, Canada, New Zealand, Singapore and Japan, to
+people 18 or older.
+{: .offered}
+
 </div>
 
 ![Choosing who sees a new post: everybody, or only the people you pick](/screens/who.jpg)

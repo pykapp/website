@@ -341,6 +341,14 @@ img {
     justify-content: center;
     margin: 32px auto 0;
   }
+
+  // Where the app is offered and to whom, under the buttons it qualifies.
+  p.offered {
+    margin: 16px auto 0;
+    font-size: 15px;
+    line-height: 1.5;
+    text-wrap: balance;
+  }
 }
 
 // A handle in a sentence on the not-found page (404.html) is one word, so a
