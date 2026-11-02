@@ -42,9 +42,17 @@ $dark-teal: #55A1AE;
 // The masthead's lockup, which is the app's mark and its name in the app's
 // cursive, drawn by scripts/render-site-lockup.swift. The box is stated in two
 // numbers because CSS cannot size a box from an image's aspect; the check
-// script reads `viewBox` out of lockup.svg and holds this ratio to it.
-$lockup-height: 40px;
-$lockup-width: 170px; // $lockup-height x the SVG's 425.99:100
+// script reads `viewBox` out of lockup.svg and holds every pair to it.
+//
+// 48 in a wide window, where a screen may draw one pixel per CSS pixel and the
+// name's stems need the size to be 1.6 pixels wide. 40 up to $lap: a phone's
+// screen draws two or three device pixels per CSS pixel, 48 would not fit
+// beside the language row at 360 wide, and the French masthead needs 633
+// pixels at 48.
+$lockup-height: 48px;
+$lockup-width: 247px; // $lockup-height x the SVG's 514.56:100
+$lockup-narrow-height: 40px;
+$lockup-narrow-width: 206px; // $lockup-narrow-height x the SVG's 514.56:100
 
 $wide: 1120px;
 $palm: 600px;
@@ -192,9 +200,11 @@ img {
   height: 68px;
 }
 
+// It shrinks rather than overflowing below 360 wide, and `contain` keeps its shape.
 .site-title {
   display: block;
-  flex: none;
+  flex: 0 1 auto;
+  min-width: 0;
   width: $lockup-width;
   height: $lockup-height;
   background: url("/assets/lockup.svg") no-repeat left center;
@@ -207,6 +217,13 @@ img {
 @media (prefers-color-scheme: dark) {
   .site-title {
     background-image: url("/assets/lockup-dark.svg");
+  }
+}
+
+@media screen and (max-width: #{$lap}) {
+  .site-title {
+    width: $lockup-narrow-width;
+    height: $lockup-narrow-height;
   }
 }
 
