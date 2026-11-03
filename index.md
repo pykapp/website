@@ -9,10 +9,17 @@ layout: home-doc
 
 # Photos and short videos with the people you actually know, and nobody else.
 
-*people you know* is for the photos and short videos you wouldn't post
-publicly but still want certain people to see: your friends from real life as
-much as your family. Your photos, captions, comments and names are encrypted
-on your phone with keys we never see, so we can't read them.
+You joined social media to see your friends' and family's photos. Then the
+feed filled up with ads, influencers, strangers arguing in the comments, and
+videos that never end. Apps paid for by advertisers earn more the longer you
+scroll, so they're built to keep you there: friends' posts buried under
+suggested ones, notifications designed to pull you back, follower and view
+counts to chase, and controversy and division pushed to the top because they
+get the most comments. And somewhere along the way, posting anything personal
+stopped feeling safe.
+
+Introducing *people you know*. Nothing you post is public, and you choose who
+sees each post.
 
 [Get it on the App Store](https://apps.apple.com/app/id6812890714)
 [Get it on Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
@@ -48,9 +55,11 @@ people 18 or older.
 - **Shared albums.** For trips, weddings, birthdays and more. Everybody in an
   album can add photos, and everybody in it sees them. The person who makes an
   album can *invite by email*, even somebody who isn't on the app yet.
-- **End-to-end encryption, with quantum-safe keys.** The
-  [privacy policy](privacy/#what-we-cannot-see) lists what is encrypted. Every
-  new account gets encryption keys built to hold up against quantum computers.
+- **End-to-end encryption, with quantum-safe keys.** Your photos, captions,
+  comments and names are encrypted on your phone with keys we never see, so
+  we can't read them. The [privacy policy](privacy/#what-we-cannot-see) lists
+  what is encrypted. Every new account gets encryption keys built to hold up
+  against quantum computers.
 - **No ads, no tracking, and nothing about you is sold.** Settings has
   *export my data* and *delete my account*.
 

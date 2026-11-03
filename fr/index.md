@@ -9,12 +9,19 @@ layout: home-doc
 
 # Des photos et de courtes vidéos avec les gens que vous connaissez vraiment, et personne d'autre.
 
-*people you know*, c'est pour les photos et les courtes vidéos que vous ne
-publieriez pas publiquement, mais que vous voulez quand même montrer à
-certaines personnes, vos amis dans la vraie vie autant que votre famille.
-Vos photos, vos légendes, vos commentaires et vos noms sont chiffrés sur votre
-téléphone avec des clés que nous ne voyons jamais, si bien que nous ne pouvons
-pas les lire.
+Les réseaux sociaux, c'était pour voir les photos de vos amis et de votre
+famille. Puis le fil s'est rempli de publicités, d'influenceurs, d'inconnus
+qui se disputent dans les commentaires et de vidéos qui ne finissent jamais.
+Les applications financées par la publicité gagnent d'autant plus d'argent que
+vous faites défiler longtemps, alors elles sont conçues pour vous retenir :
+les publications de vos amis enfouies sous celles qu'on vous suggère, des
+notifications pensées pour vous faire revenir, des compteurs d'abonnés et de
+vues à faire grimper, et la controverse et la division mises en avant parce
+que ce sont elles qui récoltent le plus de commentaires. Et peu à peu, publier
+quoi que ce soit de personnel n'a plus semblé sûr.
+
+Voici *people you know*. Rien de ce que vous publiez n'est public, et vous
+choisissez qui voit chaque publication.
 
 [Télécharger dans l'App Store](https://apps.apple.com/app/id6812890714)
 [Disponible sur Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
@@ -53,7 +60,10 @@ Japon, aux personnes de 18 ans ou plus.
   plus encore. Tous les membres d'un album peuvent y ajouter des photos, et
   tous les voient. La personne qui crée un album peut *inviter par courriel*,
   même quelqu'un qui n'utilise pas encore l'application.
-- **Chiffrement de bout en bout, avec des clés post-quantiques.** La
+- **Chiffrement de bout en bout, avec des clés post-quantiques.** Vos photos,
+  vos légendes, vos commentaires et vos noms sont chiffrés sur votre téléphone
+  avec des clés que nous ne voyons jamais, si bien que nous ne pouvons pas les
+  lire. La
   [politique de confidentialité](/fr/politique-de-confidentialite/#ce-que-nous-ne-pouvons-pas-voir)
   indique ce qui est chiffré. Chaque nouveau compte reçoit des clés de
   chiffrement conçues pour résister aux ordinateurs quantiques.
