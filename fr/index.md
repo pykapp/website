@@ -9,10 +9,9 @@ layout: home-doc
 
 # Des photos et de courtes vidéos avec les gens que vous connaissez vraiment, et personne d'autre.
 
-*people you know* est une solution de rechange à Instagram pour les gens que
-vous connaissez vraiment, vos amis dans la vraie vie autant que votre famille.
-C'est pour les photos et les courtes vidéos que vous ne publieriez pas
-publiquement, mais que vous voulez quand même montrer à certaines personnes.
+*people you know*, c'est pour les photos et les courtes vidéos que vous ne
+publieriez pas publiquement, mais que vous voulez quand même montrer à
+certaines personnes, vos amis dans la vraie vie autant que votre famille.
 Vos photos, vos légendes, vos commentaires et vos noms sont chiffrés sur votre
 téléphone avec des clés que nous ne voyons jamais, si bien que nous ne pouvons
 pas les lire.

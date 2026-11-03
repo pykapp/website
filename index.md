@@ -9,11 +9,10 @@ layout: home-doc
 
 # Photos and short videos with the people you actually know, and nobody else.
 
-*people you know* is an alternative to Instagram for the people you actually
-know: your friends from real life as much as your family. It is for the photos
-and short videos you wouldn't post publicly but still want certain people to
-see. Your photos, captions, comments and names are encrypted on your phone
-with keys we never see, so we can't read them.
+*people you know* is for the photos and short videos you wouldn't post
+publicly but still want certain people to see: your friends from real life as
+much as your family. Your photos, captions, comments and names are encrypted
+on your phone with keys we never see, so we can't read them.
 
 [Get it on the App Store](https://apps.apple.com/app/id6812890714)
 [Get it on Google Play](https://play.google.com/store/apps/details?id=app.pyk.android)
