@@ -27,7 +27,7 @@ people 18 or older.
 
 ![The feed, with a photo a friend shared with you and two others](/screens/feed.jpg)
 ![Choosing who sees a new post: everybody, or only the people you pick](/screens/who.jpg)
-![Shared albums, with a photo from each](/screens/albums.jpg)
+![Shared albums for a trip, a day out and a birthday, each with the faces of the people in it](/screens/albums.jpg)
 {: .screens}
 
 </section>

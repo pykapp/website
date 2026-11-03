@@ -29,7 +29,7 @@ Japon, aux personnes de 18 ans ou plus.
 
 ![Le fil, avec une photo qu'un ami a partagée avec vous et deux autres personnes](/screens/feed.jpg)
 ![Choisir qui voit une nouvelle publication, tout le monde ou seulement les personnes choisies](/screens/who.jpg)
-![Des albums partagés, avec une photo de chacun](/screens/albums.jpg)
+![Des albums partagés pour un voyage, une sortie et un anniversaire, chacun avec les visages des personnes qui en font partie](/screens/albums.jpg)
 {: .screens}
 
 </section>

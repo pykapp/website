@@ -31,14 +31,14 @@ sur Android et sur iPhone.
 
 ## Se repérer
 
-La barre en bas de l'application contient *accueil*, *activité*, *albums*, votre
+La barre en bas de l'application contient *accueil*, *activité*, *albums partagés*, votre
 *profil*, et le plus qui sert à publier. Les paramètres sont sous la roue dentée
 en haut de votre profil.
 
 - [Ajouter des relations](#ajouter-des-relations)
 - [Publier](#publier)
 - [Groupes](#groupes)
-- [Albums](#albums)
+- [Albums partagés](#albums-partagés)
 - [L'accueil](#laccueil)
 - [Commentaires et réactions](#commentaires-et-réactions)
 - [Notifications](#notifications)
@@ -166,17 +166,19 @@ groupes*.
 - Un nouveau compte commence avec quelques groupes que vous pouvez renommer ou
   supprimer. Vous pouvez en avoir jusqu'à 32.
 
-## Albums
+## Albums partagés
 
-Un album est un espace partagé où plusieurs personnes ajoutent des photos. Vos
-albums sont sous *albums*, dans la barre en bas. Touchez *nouvel album* pour en
-créer un.
+Un album partagé rassemble en un seul endroit les photos de chacun, d'un voyage,
+d'un événement ou de toute autre chose que plusieurs personnes partagent. Seules
+les personnes qui en font partie voient ce qu'il contient. Vos albums sont sous
+*albums partagés*, dans la barre en bas. Touchez *nouvel album* pour en créer
+un.
 
 - Les nouvelles publications de vos albums apparaissent aussi dans l'accueil.
   Pour garder celles d'un album hors de l'accueil, ouvrez l'album, touchez la
   rangée qui affiche les noms des membres, puis désactivez *afficher dans
   l'accueil*. Elles restent dans l'album.
-- *albums* dans la barre affiche un point tant qu'un album contient une
+- *albums partagés* dans la barre affiche un point tant qu'un album contient une
   publication que vous n'avez pas vue. Il disparaît une fois que vous l'avez
   vue, dans l'accueil ou dans l'album.
 
@@ -187,7 +189,8 @@ créer un.
   touchez la rangée qui affiche les noms des membres, puis *inviter par
   courriel*. Si cette personne utilise déjà people you know et que vous êtes
   en lien, votre téléphone vous demande tout de suite s'il faut l'ajouter. Si
-  vous n'êtes pas en lien, l'invitation apparaît dans sa liste *albums*, et
+  vous n'êtes pas en lien, l'invitation apparaît dans sa liste *albums
+  partagés*, et
   elle l'accepte en touchant *rejoindre*. Si elle n'utilise pas encore
   l'application, elle reçoit un courriel et l'accepte en installant
   l'application et en s'inscrivant avec cette adresse.
@@ -203,7 +206,7 @@ créer un.
   la même adresse de nouveau, elle reçoit un nouveau courriel avec un nouveau
   code.
 - Si vous utilisez déjà people you know et que quelqu'un vous invite par
-  courriel, vous n'avez pas à vous réinscrire : ouvrez *albums* et touchez
+  courriel, vous n'avez pas à vous réinscrire : ouvrez *albums partagés* et touchez
   *rejoindre avec un code*, puis saisissez le code reçu.
 - Tous les membres d'un album voient qui d'autre en fait partie. Leurs noms
   sont sur la première rangée de l'album, et toucher cette rangée affiche la

@@ -28,14 +28,14 @@ iPhone.
 
 ## Finding your way around
 
-The bar at the bottom of the app has *home*, *activity*, *albums*, your
+The bar at the bottom of the app has *home*, *activity*, *shared albums*, your
 *profile*, and the plus that makes a post. Settings is the gear at the top of
 your profile.
 
 - [Connecting with people](#connecting-with-people)
 - [Posting](#posting)
 - [Groups](#groups)
-- [Albums](#albums)
+- [Shared albums](#shared-albums)
 - [The feed](#the-feed)
 - [Comments and reactions](#comments-and-reactions)
 - [Notifications](#notifications)
@@ -149,15 +149,17 @@ Your groups are under *profile → groups*.
 - A new account starts with a few groups you can rename or delete. You can
   have up to 32.
 
-## Albums
+## Shared albums
 
-An album is a shared place that several people add photos to. Your albums are
-under *albums* in the bar at the bottom. Tap *new album* to make one.
+A shared album is one place for everybody's photos from a trip, an event or
+anything else several people share. Only the people in it see what is in it.
+Your albums are under *shared albums* in the bar at the bottom. Tap *new album*
+to make one.
 
 - New posts in your albums also show on home. To keep one album's posts off
   home, open the album, tap the row with the members' names, and turn off
   *show on home*. They still show in the album.
-- *albums* in the bar shows a dot while an album has a post you haven't seen.
+- *shared albums* in the bar shows a dot while an album has a post you haven't seen.
   It goes away once you've seen it, on home or in the album.
 
 - The person who makes an album can add their mutuals to it. Everybody in it
@@ -166,8 +168,8 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
 - The person who makes an album can also invite somebody by email: tap the row
   with the members' names, then *invite by email*. If they already use people
   you know and you're connected, your phone asks you right away whether to add
-  them. If you aren't connected, the invitation appears on their *albums*
-  list, and they accept it by tapping *join*. If they don't use the app yet,
+  them. If you aren't connected, the invitation appears on their *shared
+  albums* list, and they accept it by tapping *join*. If they don't use the app yet,
   they get an email, and they accept it by installing the app and signing up
   with that email address.
   Once they've accepted, your phone shows you their account and the address
@@ -179,7 +181,7 @@ under *albums* in the bar at the bottom. Tap *new album* to make one.
   in their email stops working, and they won't be added to the album. If you
   invite the same address again, they get a new email with a new code.
 - If you already use people you know and somebody invites you by email, you
-  don't have to sign up again: open *albums* and tap *join with a code*, then
+  don't have to sign up again: open *shared albums* and tap *join with a code*, then
   type the code from the email.
 - Everybody in an album can see who else is in it. Their names are on the
   first row of the album, and tapping that row shows the whole list. Some of
