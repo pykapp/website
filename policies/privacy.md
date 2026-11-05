@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 31 October 2026.
+**Last updated:** 5 November 2026.
 
 ## Who is responsible, and where this applies
 
@@ -103,9 +103,6 @@ To deliver a photo to the right people we hold, in the clear:
   some passkeys keep, and when you added it and last signed in with it. The
   private half of the passkey stays in your password manager and never reaches
   us;
-- if we were full when you tried to join and you asked to be told when there
-  is room, the address you gave and when you asked, and nothing else, until we
-  have written to it about a place;
 - who you are connected to, and when you connected;
 - add requests you send and receive, blocks you place, and anybody whose
   posts you have muted (a mute is yours alone; the other person is never
@@ -198,7 +195,6 @@ We use what we hold for these things and nothing else:
 - to deliver what you post to the people you chose, and what they post to you;
 - to send pushes to your phones: the notifications the app shows you, and
   pushes that show nothing and only tell the app to fetch something new;
-- to write to you once there is room, if we were full and you asked us to;
 - to send one email to an address somebody typed to invite a person into an
   album or to the app, and to stop when that person asks us to. We send nothing
   to a phone number typed to invite somebody: the person inviting texts it from

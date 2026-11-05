@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 31 octobre 2026.
+**Dernière mise à jour&#160;:** 5 novembre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -124,10 +124,6 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   ajoutée et vous êtes connecté avec elle pour la dernière fois. La moitié
   privée de la clé d'accès reste dans votre gestionnaire de mots de passe et ne
   nous parvient jamais&#160;;
-- si nous étions complets quand vous avez essayé de vous inscrire et que vous
-  avez demandé à être prévenu quand il y aurait de la place, l'adresse que vous
-  avez donnée et le moment de la demande, et rien d'autre, jusqu'à ce que nous
-  lui ayons écrit au sujet d'une place&#160;;
 - avec qui vous êtes en relation, et depuis quand&#160;;
 - les demandes d'ajout que vous envoyez et recevez, les blocages que vous
   posez, et toute personne dont vous avez masqué les publications (un masquage
@@ -242,8 +238,6 @@ d'autre&#160;:
 - envoyer des notifications à vos téléphones&#160;: celles que l'application
   vous montre, et des envois qui ne montrent rien et disent seulement à
   l'application d'aller chercher du nouveau&#160;;
-- vous écrire quand il y a de la place, si nous étions complets et que vous
-  nous l'avez demandé&#160;;
 - envoyer un courriel à une adresse que quelqu'un a saisie pour inviter une
   personne dans un album ou dans l'application, et arrêter quand cette personne
   nous le demande. Nous n'envoyons rien à un numéro de téléphone saisi pour
