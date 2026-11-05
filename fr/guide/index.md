@@ -175,20 +175,21 @@ les personnes qui en font partie voient ce qu'il contient. Vos albums sont sous
 un.
 
 - Les nouvelles publications de vos albums apparaissent aussi dans l'accueil.
-  Pour garder celles d'un album hors de l'accueil, ouvrez l'album, touchez la
-  rangée qui affiche les noms des membres, puis désactivez *afficher dans
-  l'accueil*. Elles restent dans l'album.
+  Pour garder celles d'un album hors de l'accueil, ouvrez l'album, touchez
+  *options* en haut à droite, puis désactivez *afficher dans l'accueil*.
+  Elles restent dans l'album.
 - *albums partagés* dans la barre affiche un point tant qu'un album contient une
   publication que vous n'avez pas vue. Il disparaît une fois que vous l'avez
   vue, dans l'accueil ou dans l'album.
 
-- La personne qui crée un album peut y ajouter ses relations. Tous les
-  membres peuvent ajouter des photos avec *ajouter des photos*, en haut de
-  l'album, et tous voient tout ce qu'il contient.
+- La personne qui crée un album peut y ajouter ses relations&#160;: touchez
+  les visages en haut de l'album, puis *ajouter des personnes*. Tous les
+  membres peuvent ajouter des photos avec le plus en haut à droite de l'album,
+  et tous voient tout ce qu'il contient.
 - La personne qui crée un album peut aussi inviter quelqu'un par courriel :
-  touchez la rangée qui affiche les noms des membres, puis *inviter par
-  courriel*. Si cette personne utilise déjà people you know et que vous êtes
-  en lien, votre téléphone vous demande tout de suite s'il faut l'ajouter. Si
+  touchez les visages, puis *inviter par courriel*. Si cette personne utilise
+  déjà people you know et que vous êtes en lien, votre téléphone vous demande
+  tout de suite s'il faut l'ajouter. Si
   vous n'êtes pas en lien, l'invitation apparaît dans sa liste *albums
   partagés*, et
   elle l'accepte en touchant *rejoindre*. Si elle n'utilise pas encore
@@ -208,21 +209,23 @@ un.
 - Si vous utilisez déjà people you know et que quelqu'un vous invite par
   courriel, vous n'avez pas à vous réinscrire : ouvrez *albums partagés* et touchez
   *rejoindre avec un code*, puis saisissez le code reçu.
-- Tous les membres d'un album voient qui d'autre en fait partie. Leurs noms
-  sont sur la première rangée de l'album, et toucher cette rangée affiche la
-  liste complète. Certains peuvent être des gens avec qui vous n'êtes pas en
+- Tous les membres d'un album voient qui d'autre en fait partie. Ils sont
+  affichés sur la première rangée de l'album, et toucher cette rangée affiche
+  la liste complète. Certains peuvent être des gens avec qui vous n'êtes pas en
   lien.
 - Dans un album, tout le monde voit tous les commentaires.
 - Les photos d'un album ne peuvent pas être repartagées.
 - Quand vous rejoignez un album, vous voyez les photos qui y étaient déjà.
   Elles apparaissent dans l'album, pas dans votre accueil.
-- Tout le monde sauf la personne qui l'a créé peut *quitter* un album. Ce que
-  vous y avez ajouté reste.
-- Un album ne peut pas être supprimé. La personne qui l'a créé peut le
-  *fermer*&#160;: on ne peut plus rien y ajouter, et chacun garde ce qui s'y
-  trouve.
-- Pour recevoir une notification quand il y a de nouvelles photos, activez *me
-  prévenir quand quelqu'un publie dans…* sur l'écran de l'album.
+- La personne qui a créé un album peut le renommer&#160;: touchez *options*
+  en haut à droite de l'album, puis *renommer*.
+- Tout le monde sauf la personne qui l'a créé peut quitter un album&#160;:
+  touchez *options*, puis *quitter l'album*. Ce que vous y avez ajouté reste.
+- Un album ne peut pas être supprimé. La personne qui l'a créé peut le fermer
+  avec *fermer l'album*, dans *options*&#160;: on ne peut plus rien y
+  ajouter, et chacun garde ce qui s'y trouve.
+- Pour recevoir une notification quand il y a de nouvelles photos, touchez
+  *options* et activez *me prévenir des nouvelles publications*.
 
 ## L'accueil
 
@@ -290,8 +293,8 @@ L'application peut vous prévenir quand&#160;:
   quand quelqu'un commente ma publication*.
 - une personne en particulier publie. Activez *me prévenir quand … publie* sur
   son profil.
-- quelqu'un ajoute des photos à un album. Activez-le depuis l'écran de
-  l'album.
+- quelqu'un ajoute des photos à un album. Activez-le dans *options* en haut
+  à droite de l'album.
 
 Il n'y a pas de rappels, pas de séries à tenir, pas de «&#160;vous n'avez rien
 publié depuis longtemps&#160;».

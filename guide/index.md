@@ -157,16 +157,17 @@ Your albums are under *shared albums* in the bar at the bottom. Tap *new album*
 to make one.
 
 - New posts in your albums also show on home. To keep one album's posts off
-  home, open the album, tap the row with the members' names, and turn off
-  *show on home*. They still show in the album.
+  home, open the album, tap *more* at the top right, and turn off *show on
+  home*. They still show in the album.
 - *shared albums* in the bar shows a dot while an album has a post you haven't seen.
   It goes away once you've seen it, on home or in the album.
 
-- The person who makes an album can add their mutuals to it. Everybody in it
-  can add photos with *add photos*, at the top of the album, and everybody in
-  it sees everything in it.
-- The person who makes an album can also invite somebody by email: tap the row
-  with the members' names, then *invite by email*. If they already use people
+- The person who makes an album can add their mutuals to it: tap the faces at
+  the top of the album, then *add people*. Everybody in it can add photos with
+  the plus at the top right of the album, and everybody in it sees everything
+  in it.
+- The person who makes an album can also invite somebody by email: tap the
+  faces, then *invite by email*. If they already use people
   you know and you're connected, your phone asks you right away whether to add
   them. If you aren't connected, the invitation appears on their *shared
   albums* list, and they accept it by tapping *join*. If they don't use the app yet,
@@ -183,18 +184,22 @@ to make one.
 - If you already use people you know and somebody invites you by email, you
   don't have to sign up again: open *shared albums* and tap *join with a code*, then
   type the code from the email.
-- Everybody in an album can see who else is in it. Their names are on the
-  first row of the album, and tapping that row shows the whole list. Some of
+- Everybody in an album can see who else is in it. They're shown on the first
+  row of the album, and tapping that row shows the whole list. Some of
   them may be people you aren't connected to.
 - In an album, everybody sees every comment.
 - Photos in an album can't be reshared.
 - When you join an album, you can see the photos that were already in it. They
-  appear in the album, not in your feed.
-- Anyone except the person who made it can *leave*. What you added stays.
-- An album can't be deleted. The person who made it can *close* it: nothing
-  more can be added, and everybody keeps what is there.
-- To be notified about new photos, turn on *tell me when somebody adds to…* on
-  the album's screen.
+  appear in the album, not on home.
+- The person who made an album can rename it: tap *more* at the top right of
+  the album, then *rename*.
+- Anyone except the person who made it can leave: tap *more*, then *leave
+  album*. What you added stays.
+- An album can't be deleted. The person who made it can close it with *close
+  album*, in *more*: nothing more can be added, and everybody keeps what is
+  there.
+- To be notified about new photos, tap *more* and turn on *tell me about new
+  posts*.
 
 ## The feed
 
@@ -257,7 +262,8 @@ The app can notify you when:
 - somebody comments on your post or replies to you. Turn on *settings → when
   somebody comments on my post*.
 - a particular person posts. Turn on *tell me when … posts* on their profile.
-- somebody adds photos to an album. Turn it on from the album's screen.
+- somebody adds photos to an album. Turn it on in *more* at the top right of
+  the album.
 
 There are no reminders, streaks or "you haven't posted in a while".
 
