@@ -56,10 +56,9 @@ people 18 or older.
   album can add photos, and everybody in it sees them. The person who makes an
   album can *invite by email*, even somebody who isn't on the app yet.
 - **End-to-end encryption, with quantum-safe keys.** Your photos, captions,
-  comments and names are encrypted on your phone with keys we never see, so
-  we can't read them. The [privacy policy](privacy/#what-we-cannot-see) lists
-  what is encrypted. Every new account gets encryption keys built to hold up
-  against quantum computers.
+  comments and names are encrypted on your phone with keys we never see, built
+  to hold up against quantum computers, so we can't read them. The
+  [privacy policy](privacy/#what-we-cannot-see) lists what is encrypted.
 - **No ads, no tracking, and nothing about you is sold.** Settings has
   *export my data* and *delete my account*.
 

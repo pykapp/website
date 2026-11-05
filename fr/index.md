@@ -62,11 +62,10 @@ Japon, aux personnes de 18 ans ou plus.
   même quelqu'un qui n'utilise pas encore l'application.
 - **Chiffrement de bout en bout, avec des clés post-quantiques.** Vos photos,
   vos légendes, vos commentaires et vos noms sont chiffrés sur votre téléphone
-  avec des clés que nous ne voyons jamais, si bien que nous ne pouvons pas les
-  lire. La
+  avec des clés que nous ne voyons jamais, conçues pour résister aux
+  ordinateurs quantiques, si bien que nous ne pouvons pas les lire. La
   [politique de confidentialité](/fr/politique-de-confidentialite/#ce-que-nous-ne-pouvons-pas-voir)
-  indique ce qui est chiffré. Chaque nouveau compte reçoit des clés de
-  chiffrement conçues pour résister aux ordinateurs quantiques.
+  indique ce qui est chiffré.
 - **Pas de publicité, pas de pistage, et rien sur vous n'est vendu.** Les
   paramètres contiennent *exporter mes données* et *supprimer mon compte*.
 
