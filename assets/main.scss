@@ -15,15 +15,15 @@
 //   ground   #FCFCFC / #121212   `background` in ui/Theme.kt
 //   ink      #1B1B1B / #E6E6E6   `onBackground` in ui/Theme.kt
 //   quiet    #474747 / #C9C9C9   `onSurfaceVariant` in ui/Theme.kt
-//   violet   #6750A4 / #A287E1   `violet` in LightQuadrants / DarkQuadrants
+//   blue     #4E56AB / #8B8DE9   `blue` in LightQuadrants / DarkQuadrants
 //   brick, olive, teal           the mark's other three quadrants, same place
 //
-// The dark violet is the one number here that is a decision rather than a
+// The dark blue is the one number here that is a decision rather than a
 // copy, argued in design/90-decisions-on-record. The surface under a card and
 // the hairline rules are the site's own: they are the ground moved a few steps
 // toward the ink, and nothing in the app draws them.
 
-$brand-color: #6750A4;
+$brand-color: #4E56AB;
 $text-color: #1B1B1B;
 $background-color: #FCFCFC;
 $quiet-color: #474747;
@@ -31,7 +31,7 @@ $brick: #A43C31;
 $olive: #40690E;
 $teal: #096875;
 
-$dark-violet: #A287E1;
+$dark-blue: #8B8DE9;
 $dark-ink: #E6E6E6;
 $dark-ground: #121212;
 $dark-quiet: #C9C9C9;
@@ -74,14 +74,14 @@ $mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --ground: #{$background-color};
   --ink: #{$text-color};
   --quiet: #{$quiet-color};
-  --violet: #{$brand-color};
+  --blue: #{$brand-color};
   --brick: #{$brick};
   --olive: #{$olive};
   --teal: #{$teal};
   --surface: #F2F2F2;
   --rule: #E3E3E3;
   --glass: #{rgba($background-color, 0.82)};
-  --phone-shadow: 0 40px 80px -30px rgba(27, 20, 48, 0.45), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  --phone-shadow: 0 40px 80px -30px rgba(19, 22, 50, 0.45), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
   --glow-a: #{rgba($brand-color, 0.5)};
   --glow-b: #{rgba($teal, 0.4)};
   --glow-c: #{rgba($brick, 0.28)};
@@ -89,7 +89,7 @@ $mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --band: #{$text-color};
   --on-band: #{$background-color};
   --band-quiet: #{rgba($background-color, 0.72)};
-  --band-glow-a: #{rgba($dark-violet, 0.38)};
+  --band-glow-a: #{rgba($dark-blue, 0.38)};
   --band-glow-b: #{rgba($dark-teal, 0.26)};
 }
 
@@ -98,7 +98,7 @@ $mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     --ground: #{$dark-ground};
     --ink: #{$dark-ink};
     --quiet: #{$dark-quiet};
-    --violet: #{$dark-violet};
+    --blue: #{$dark-blue};
     --brick: #{$dark-brick};
     --olive: #{$dark-olive};
     --teal: #{$dark-teal};
@@ -106,13 +106,13 @@ $mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     --rule: #2B2B2B;
     --glass: #{rgba($dark-ground, 0.82)};
     --phone-shadow: 0 40px 80px -30px rgba(0, 0, 0, 0.8);
-    --glow-a: #{rgba($dark-violet, 0.30)};
+    --glow-a: #{rgba($dark-blue, 0.30)};
     --glow-b: #{rgba($dark-teal, 0.22)};
     --glow-c: #{rgba($dark-brick, 0.14)};
     --band: #1B1B1B;
     --on-band: #{$dark-ink};
     --band-quiet: #{$dark-quiet};
-    --band-glow-a: #{rgba($dark-violet, 0.22)};
+    --band-glow-a: #{rgba($dark-blue, 0.22)};
     --band-glow-b: #{rgba($dark-teal, 0.16)};
   }
 }
@@ -154,7 +154,7 @@ h4 {
 }
 
 a {
-  color: var(--violet);
+  color: var(--blue);
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -165,7 +165,7 @@ a {
 }
 
 a:focus-visible {
-  outline: 2px solid var(--violet);
+  outline: 2px solid var(--blue);
   outline-offset: 3px;
   border-radius: 4px;
 }
@@ -257,11 +257,11 @@ img {
   text-decoration: none;
 
   &:hover {
-    color: var(--violet);
+    color: var(--blue);
   }
 
   &[aria-current] {
-    color: var(--violet);
+    color: var(--blue);
   }
 }
 
@@ -485,7 +485,7 @@ $screen-gap: 24px;
       height: 12px;
       margin-bottom: 20px;
       border-radius: 50%;
-      background: var(--violet);
+      background: var(--blue);
     }
 
     // The mark's four quadrants, clockwise from the top left.
@@ -690,7 +690,7 @@ $screen-gap: 24px;
   blockquote {
     margin: 0 0 1.6em;
     padding: 16px 20px;
-    border-left: 3px solid var(--violet);
+    border-left: 3px solid var(--blue);
     border-radius: 0 14px 14px 0;
     background: var(--surface);
 

@@ -7,14 +7,14 @@
   sha256 of what it was drawn from:
   ic_launcher_background.xml f5136ac48fc6795a2419f86c1f51841088ccabb0bc353ec2d98266d4b77594b7
   ic_launcher_foreground.xml d1fc52a280807e05301c62a1b73ed2398d7cd68212866ce26b7690cf91abc15d
-  colors.xml 502b9a638c020a97eb2f42278d05e828efbdedf42eeffed80c1ec3665a4cfabe
-  Theme.kt bf70f72cf65b3ae6d0d6773d16033c6384ac707c1befe72d115a5003bebea180
+  colors.xml da4da7479da340a0d82642d9c1b57f72a82946a314e7b8603d0768a56775c8f5
+  Theme.kt 0834e19b1d3907978a391515789543ed8fccb7149329382beaef42a244aa7b1f
   victor_mono_italic.ttf 44e41f0cae54e700410276a0501a3153254ee5aa843d6035f7fe057cf36964e8
 -->
 <defs><clipPath id="disc"><circle cx="50" cy="50" r="50"/></clipPath></defs>
 <g clip-path="url(#disc)">
 <g transform="translate(0 0) scale(1.389) translate(-18 -18)">
-<path d="M0,0 L54,0 L54,54 L0,54 Z" fill="#6750A4"/>
+<path d="M0,0 L54,0 L54,54 L0,54 Z" fill="#4E56AB"/>
 <path d="M54,0 L108,0 L108,54 L54,54 Z" fill="#A43C31"/>
 <path d="M0,54 L54,54 L54,108 L0,108 Z" fill="#096875"/>
 <path d="M54,54 L108,54 L108,108 L54,108 Z" fill="#40690E"/>
