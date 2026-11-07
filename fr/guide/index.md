@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne. Elle commence par les cinq choses qui fonctionnent
 autrement que dans les autres applications.
 
-**Dernière mise à jour&#160;:** 2 novembre 2026. Cette page décrit l'application
+**Dernière mise à jour&#160;:** 7 novembre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 ## Ce qui fonctionne autrement
@@ -313,9 +313,13 @@ L'autre personne n'est jamais prévenue.
   plus dans votre accueil. Rien d'autre ne change, et vous voyez toujours ses
   publications sur son profil.
 - **Retirer**, avec *options → retirer* sur son profil. Vous n'êtes plus en
-  lien. Aucun de vous deux ne peut plus ouvrir les publications de l'autre, et
-  elle sort de vos groupes et des albums que vous avez créés. Vous pourrez vous
-  ajouter de nouveau plus tard.
+  lien, et aucun de vous deux ne voit les publications de l'autre hors des
+  albums. Vous quittez les albums que cette personne a créés, et elle est
+  retirée des albums que vous avez créés et de vos groupes. Ce que chacun de
+  vous a publié dans un album y reste, et les personnes qui y sont encore
+  continuent de le voir. Dans l'album de quelqu'un d'autre, vous continuez tous
+  les deux de voir les publications de l'autre. Vous pourrez vous ajouter de
+  nouveau plus tard.
 - **Bloquer**, avec *options → bloquer*. Cela la retire, et en plus&#160;: elle
   ne peut plus vous trouver ni vous redemander&#160;; plus rien ne passe entre
   vous, même dans l'album de quelqu'un d'autre&#160;; et vos commentaires et

@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works. It starts with the
 five things that work differently from other apps.
 
-**Last updated:** 2 November 2026. This page covers the app on Android and
+**Last updated:** 7 November 2026. This page covers the app on Android and
 iPhone.
 
 ## What works differently
@@ -280,8 +280,11 @@ The other person is never told about any of these.
   feed. Nothing else changes, and you can still see their posts on their
   profile.
 - **Remove** with *more → remove* on their profile. You are no longer
-  connected. Neither of you can open the other's posts any more, and they come
-  out of your groups and the albums you made. You can connect again later.
+  connected, and neither of you sees the other's posts outside albums. You
+  leave the albums they made, and they are taken out of the albums you made and
+  out of your groups. What either of you posted in an album stays there, and
+  the people still in it still see it. In an album somebody else made, you both
+  still see each other's posts. You can connect again later.
 - **Block** with *more → block*. This removes them, and also: they can't find
   you or ask to add you again; nothing passes between you, even in somebody
   else's album; and your comments and reactions on each other's posts are
