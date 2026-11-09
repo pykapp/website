@@ -8,10 +8,23 @@ than only a screen in the app because you may not have the app any more: an
 uninstalled app, a lost phone or an address you can no longer read are all
 reasons to be asking, and none of them should stand in the way.
 
-**Last updated:** 10 October 2026.
+**Last updated:** 7 November 2026.
 
 If you only want to delete one photograph, or one comment, [that is further
 down](#deleting-a-post-a-comment-or-a-picture) and it does not need us at all.
+
+## If you pay for a subscription
+
+Deleting your account does not cancel your subscription. If you have not
+cancelled it in the store you pay through, that store keeps charging you. You
+can cancel it before or after you delete the account:
+
+- Google Play: your
+  [subscriptions on Google Play](https://play.google.com/store/account/subscriptions).
+- App Store: your
+  [subscriptions in the App Store](https://apps.apple.com/account/subscriptions),
+  from an iPhone, iPad or Mac. From a Windows computer,
+  [Apple's help page](https://support.apple.com/118428) explains how.
 
 ## In the app
 

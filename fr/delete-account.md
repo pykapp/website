@@ -13,11 +13,24 @@ peut-être plus l'application&#160;: une application désinstallée, un téléph
 perdu ou une adresse que vous ne pouvez plus lire sont autant de raisons de
 poser la question, et aucune ne doit y faire obstacle.
 
-**Dernière mise à jour&#160;:** 10 octobre 2026.
+**Dernière mise à jour&#160;:** 7 novembre 2026.
 
 Si vous voulez seulement supprimer une photo, ou un commentaire, [c'est plus
 bas](#supprimer-une-publication-un-commentaire-ou-une-photo) et cela ne passe
 pas du tout par nous.
+
+## Si vous payez un abonnement
+
+Supprimer votre compte n'annule pas votre abonnement. Si vous ne l'avez pas
+annulé dans la boutique où vous le payez, il continue de vous être facturé.
+Vous pouvez l'annuler avant ou après la suppression du compte&#160;:
+
+- Google Play&#160;: vos
+  [abonnements Google Play](https://play.google.com/store/account/subscriptions).
+- App Store&#160;: vos
+  [abonnements dans l'App Store](https://apps.apple.com/account/subscriptions),
+  depuis un iPhone, un iPad ou un Mac. Depuis un ordinateur Windows,
+  l'[aide d'Apple](https://support.apple.com/fr-ca/118428) explique comment faire.
 
 ## Dans l'application
 
