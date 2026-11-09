@@ -37,6 +37,15 @@ Vous pouvez l'annuler avant ou après la suppression du compte&#160;:
 *paramètres → supprimer mon compte*. Elle demande une fois, et puis c'est fait.
 La suppression est immédiate et elle n'est pas réversible.
 
+Si vous avez d'abord exporté vos données, vérifiez où se trouve le fichier
+avant de supprimer l'application. Sur Android, il est dans Téléchargements, et
+il reste quand l'application est supprimée. Sur un iPhone, il est dans
+l'application Fichiers, dans *Sur mon iPhone → people you know*, à moins que
+vous ne l'ayez déplacé, et supprimer l'application supprime ce dossier avec le
+fichier. Sortez d'abord le fichier de ce dossier, vers iCloud Drive par
+exemple. Si vous avez déjà supprimé l'application, un fichier laissé là a été
+supprimé avec elle.
+
 ## Si vous ne pouvez pas entrer dans l'application
 
 Écrivez à **pykapp+privacy@proton.me** depuis l'adresse de courriel du compte

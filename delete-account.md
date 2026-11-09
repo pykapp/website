@@ -31,6 +31,13 @@ can cancel it before or after you delete the account:
 *settings → delete my account*. It asks once, and then it is done. Deleting is
 immediate and it is not reversible.
 
+If you exported your data first, check where the file is before you delete the
+app. On Android it is in Downloads, and it stays when the app is deleted. On an
+iPhone it is in the Files app, in *On My iPhone → people you know*, unless you
+moved it, and deleting the app deletes that folder with the file in it. Move
+the file out of that folder first, to iCloud Drive for example. If you already
+deleted the app, a file left there was deleted with it.
+
 ## If you cannot get into the app
 
 Write to **pykapp+privacy@proton.me** from the email address on the account and
