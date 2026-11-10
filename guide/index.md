@@ -7,7 +7,7 @@ permalink: /how-it-works/
 know in real life. This page explains how the app works. It starts with the
 five things that work differently from other apps.
 
-**Last updated:** 7 November 2026. This page covers the app on Android and
+**Last updated:** 10 November 2026. This page covers the app on Android and
 iPhone.
 
 ## What works differently
@@ -209,8 +209,8 @@ The feed shows every post people have sent you.
   that says *all caught up*, and under it *everything else*: the posts you have
   seen, newest first, and older posts people shared with you when you
   connected.
-- **The line moves as you read.** A post counts as read once its first photo has
-  been fully on screen for a second and a half, or once you open it. Nothing
+- **The line moves as you read.** A post counts as read once most of its first
+  photo has been on screen for a second and a half, or once you open it. Nothing
   moves on the screen when that happens. The next time you open the app, the
   post is below the line.
 - **Everything stays.** Keep scrolling past the line and you can go back through

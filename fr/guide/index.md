@@ -8,7 +8,7 @@ que vous connaissez dans la vraie vie. Cette page explique comment
 l'application fonctionne. Elle commence par les cinq choses qui fonctionnent
 autrement que dans les autres applications.
 
-**Dernière mise à jour&#160;:** 7 novembre 2026. Cette page décrit l'application
+**Dernière mise à jour&#160;:** 10 novembre 2026. Cette page décrit l'application
 sur Android et sur iPhone.
 
 ## Ce qui fonctionne autrement
@@ -237,7 +237,7 @@ L'accueil montre toutes les publications qu'on vous a envoyées.
   d'abord, et les anciennes publications qu'on vous a partagées quand vous vous
   êtes connectés.
 - **La ligne bouge à mesure que vous lisez.** Une publication compte comme lue
-  quand sa première photo est restée entièrement à l'écran une seconde et
+  quand sa première photo est restée en grande partie à l'écran une seconde et
   demie, ou quand vous l'ouvrez. Rien ne bouge à l'écran à ce moment-là. À
   votre prochaine visite, elle est sous la ligne.
 - **Tout reste.** Continuez à faire défiler sous la ligne pour revoir tout ce
