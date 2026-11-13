@@ -113,7 +113,11 @@ To deliver a photo to the right people we hold, in the clear:
   told);
 - an email address somebody typed to invite a person into an album, or an
   email address or phone number somebody typed to invite a person to the app,
-  and when, until that person joins or the invitation lapses. For sixty days
+  and when, until that person joins or the invitation lapses. If, before the
+  invitation lapses, we delete the account that sent it because that account
+  was engaged in child sexual abuse or exploitation, we keep the address or
+  number until a year after our report about that account, as *Deleting your
+  account* describes. For sixty days
   after we email an invitation, we also keep a fingerprint of the address (a
   one-way hash of it, not the address), so that the link in that email to stop
   invitations keeps working after the invitation is gone. If the person at an
@@ -523,6 +527,11 @@ about it:
   store's reference for it and when the period paid for ends;
 - for each emailed invitation to an album that it accepted, when the
   invitation was sent and when it accepted it;
+- each invitation to an album or to the app that the account had sent and
+  that had not yet expired: the email address or phone number it was for, when
+  the account sent it, and when we emailed it, if we did;
+- for each of those invitations, the account that has that address or number,
+  or that used the invitation's code, if there is one;
 - what the report we acted on said or, for a report by email, our note of that
   email.
 

@@ -137,7 +137,12 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 - une adresse de courriel que quelqu'un a saisie pour inviter une personne dans
   un album, ou une adresse de courriel ou un numéro de téléphone que quelqu'un a
   saisi pour inviter une personne dans l'application, et quand, jusqu'à ce que
-  cette personne s'inscrive ou que l'invitation expire. Pendant soixante jours
+  cette personne s'inscrive ou que l'invitation expire. Si, avant que
+  l'invitation expire, nous supprimons le compte qui l'a envoyée parce que ce
+  compte participait à l'exploitation ou aux abus sexuels concernant des
+  enfants, nous gardons l'adresse ou le numéro jusqu'à un an après notre
+  signalement au sujet de ce compte, comme le décrit *Supprimer votre compte*.
+  Pendant soixante jours
   après l'envoi d'une invitation par courriel, nous gardons aussi une empreinte
   de l'adresse (un hachage à sens unique, pas l'adresse elle-même), pour que le
   lien qui permet d'arrêter les invitations continue de fonctionner une fois
@@ -638,6 +643,12 @@ une copie des données suivantes à son sujet&#160;:
   prend fin&#160;;
 - pour chaque invitation à un album reçue par courriel et acceptée, quand
   l'invitation a été envoyée et quand il l'a acceptée&#160;;
+- chaque invitation à un album ou à l'application que le compte avait envoyée
+  et qui n'avait pas encore expiré&#160;: l'adresse de courriel ou le numéro de
+  téléphone auquel elle était destinée, quand le compte l'a envoyée, et quand
+  nous l'avons envoyée par courriel, le cas échéant&#160;;
+- pour chacune de ces invitations, le compte qui a cette adresse ou ce numéro,
+  ou qui s'est servi du code de l'invitation, s'il y en a un&#160;;
 - ce que disait le signalement auquel nous avons donné suite ou, pour un
   signalement par courriel, notre note sur ce courriel.
 

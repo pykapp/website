@@ -126,6 +126,12 @@ détenons à son sujet&#160;:
   fin&#160;;
 - pour chaque invitation à un album reçue par courriel et acceptée, quand
   l'invitation a été envoyée et quand il l'a acceptée&#160;;
+- chaque invitation à un album ou à l'application que le compte avait envoyée
+  et qui n'avait pas encore expiré&#160;: l'adresse de courriel ou le numéro de
+  téléphone auquel elle était destinée, quand le compte l'a envoyée, et quand
+  nous l'avons envoyée par courriel, le cas échéant&#160;;
+- pour chacune de ces invitations, le compte qui a cette adresse ou ce numéro,
+  ou qui s'est servi du code de l'invitation, s'il y en a un&#160;;
 - ce que disait le signalement auquel nous avons donné suite ou, pour un
   signalement par courriel, notre note à son sujet.
 

@@ -108,6 +108,11 @@ records we hold about it:
   and when the period paid for ends;
 - for each emailed invitation to an album that it accepted, when the
   invitation was sent and when it accepted;
+- each invitation to an album or to the app that the account had sent and
+  that had not yet expired: the email address or phone number it was for, when
+  the account sent it, and when we emailed it, if we did;
+- for each of those invitations, the account that has that address or number,
+  or that used the invitation's code, if there is one;
 - what the report we acted on said or, for a report by email, our note of it.
 
 We report it to the National Center for Missing & Exploited Children (NCMEC)
