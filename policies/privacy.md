@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 11 November 2026.
+**Last updated:** 12 November 2026.
 
 ## Who is responsible, and where this applies
 
@@ -91,6 +91,10 @@ number, and when each was last saved.
 To deliver a photo to the right people we hold, in the clear:
 
 - your handle, and your email address and phone number if you gave us either;
+- every handle you choose, with when you chose it and, if you have changed it
+  since, when you stopped using it. If somebody emails us to report an account
+  or to ask us to take something down, and names the account by its handle,
+  this is how we tell which account had that handle when the email came in;
 - if you set a password, a public key your phone made from it and the settings
   your phone needs to make that key again. We never receive the password
   itself. The key cannot be turned back into it, though it can be used to test
@@ -147,7 +151,7 @@ To deliver a photo to the right people we hold, in the clear:
 - the text of any report you file, because a report is a message to us and
   we have to be able to read it; and, if somebody reports you, that they did,
   what they wrote, what we decided and when, and whether your account is
-  suspended;
+  suspended and since when;
 - if you email us asking us to take something down, with or without an
   account: when your email came in, and a line saying who asked and how to
   reach them, which we keep with our record of what we removed;
@@ -165,9 +169,10 @@ To deliver a photo to the right people we hold, in the clear:
   purchase, and when the period you paid for ends. The store holds who paid and
   how; we never see a card or a bank account. It is deleted with your account,
   unless we set it aside as *Deleting your account* describes;
-- for each phone you have signed in on: its push token, whether it is an
-  Android phone or an iPhone, which build of the app it runs, and when you
-  signed in there and last used it;
+- each time you signed in on a phone: when you did, when you last used the app
+  there, and when you signed out. While you are signed in there, we also hold
+  that phone's push token, whether it is an Android phone or an iPhone, and
+  which version of the app it runs;
 - your two public keys, the one your photos are locked to and the one your
   posts are signed with. Both are the halves that are meant to be handed out.
   We also keep when the first was published;
@@ -472,6 +477,7 @@ to ask without it:
   naming your account, and what is left of it names nobody;
 - your handle and any email address and phone number are freed, any key made
   from a password is deleted, and so is the language your app was set to;
+- the list of the handles you chose, with their dates, is deleted;
 - what we hold about each of your passkeys is deleted. The passkey stays in
   your password manager, where it no longer opens anything.
 
@@ -491,23 +497,39 @@ name, handle, address or key: that the account existed, when it was made, when
 it confirmed its age and when it was deleted; blocks you placed or that were
 placed against you; reports you filed or that were filed about you, and bug
 reports you sent; the country written for your account; the add requests you sent and received, marked cancelled;
-when you signed in on each phone and last used it; and the rows of your posts
+each time you signed in on a phone, with when you last used the app there and
+when that sign-in ended; and the rows of your posts
 and comments, marked deleted, which still say when each was made and, for a
 post, who it was addressed to. A deleted comment's sealed text stays in its row
 until the post it was on is removed, and we serve it to nobody. Entries about
 what you did in other people's activity lists go within 128 days.
 
 One exception. When we delete an account because it was engaged in child
-sexual abuse or exploitation, we first set aside its email address, phone
-number and handle, its two public keys, when it joined and confirmed its age,
-each phone it used with that phone's push token, when it signed in, who it was
-connected to, when it posted and to whom, which store its subscription was
-paid through with the store's reference for it and when the period paid for
-ends, and, for each album invitation it joined through, when the invitation
-was sent and when it took it up. We keep that for the report we make to the
-National Center for Missing & Exploited Children, for a year from the report,
-as United States law requires, and then delete it. The [child safety
-standards](/child-safety/) say more.
+sexual abuse or exploitation, we first keep a copy of the following records
+about it:
+
+- its email address and phone number, if it had them;
+- each handle it chose, and when it had each one;
+- its two public keys;
+- when it joined, and when it confirmed it was 18 or older;
+- when we suspended it, if it was suspended at the time;
+- each phone it was still signed in on, with that phone's push token and the
+  version of the app on it;
+- each time it signed in on a phone: when, when it last used the app there,
+  and when it signed out;
+- who it was connected to, and since when;
+- when it posted, how many photos and videos each post held, and to whom;
+- which store its subscription was paid through, if it had one, with the
+  store's reference for it and when the period paid for ends;
+- for each emailed invitation to an album that it accepted, when the
+  invitation was sent and when it accepted it;
+- what the report we acted on said or, for a report by email, our note of that
+  email.
+
+We use that copy to report the account to the National Center for Missing &
+Exploited Children, which receives these reports in the United States. We keep
+the copy for a year from that report, as United States law requires, and then
+delete it. The [child safety standards](/child-safety/) say more.
 
 ## Exporting your data
 

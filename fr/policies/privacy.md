@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 11 novembre 2026.
+**Dernière mise à jour&#160;:** 12 novembre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -109,6 +109,12 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 
 - votre pseudo, et votre adresse de courriel et votre numéro de téléphone si
   vous nous en avez donné&#160;;
+- chaque pseudo que vous choisissez, avec le moment où vous l'avez choisi et,
+  si vous en avez changé depuis, le moment où vous avez cessé de l'utiliser.
+  Si quelqu'un nous écrit pour signaler un compte ou nous demander de retirer
+  quelque chose, et désigne le compte par son pseudo, c'est ce qui nous permet
+  de savoir quel compte avait ce pseudo au moment où le courriel est
+  arrivé&#160;;
 - si vous avez défini un mot de passe, une clé publique que votre téléphone en
   a tirée et les réglages dont votre téléphone a besoin pour refaire cette clé.
   Nous ne recevons jamais le mot de passe lui-même. On ne peut pas le retrouver
@@ -178,7 +184,7 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 - le texte de tout signalement que vous déposez, parce qu'un signalement est un
   message pour nous et que nous devons pouvoir le lire&#160;; et, si quelqu'un
   vous signale, le fait qu'il l'a fait, ce qu'il a écrit, ce que nous avons
-  décidé et quand, et si votre compte est suspendu&#160;;
+  décidé et quand, et si votre compte est suspendu et depuis quand&#160;;
 - si vous nous écrivez pour nous demander de retirer quelque chose, avec ou
   sans compte&#160;: le moment où votre courriel est arrivé, et une ligne
   disant qui a demandé et comment le joindre, que nous gardons avec notre
@@ -201,10 +207,11 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   C'est la boutique qui sait qui a payé et comment&#160;; nous ne voyons jamais
   une carte ni un compte bancaire. C'est supprimé avec votre compte, sauf si
   nous le mettons de côté comme le décrit *Supprimer votre compte*&#160;;
-- pour chaque téléphone sur lequel vous vous êtes connecté&#160;: son jeton
-  d'envoi, s'il s'agit d'un téléphone Android ou d'un iPhone, quelle version
-  compilée de l'application il fait tourner, et quand vous vous y êtes connecté
-  et l'avez utilisé pour la dernière fois&#160;;
+- chaque session que vous avez ouverte sur un téléphone&#160;: le moment où
+  vous l'avez ouverte, celui où elle a servi pour la dernière fois, et celui où
+  vous l'avez fermée. Tant que la session est ouverte, nous détenons aussi le
+  jeton d'envoi de ce téléphone, s'il s'agit d'un téléphone Android ou d'un
+  iPhone, et quelle version de l'application y est installée&#160;;
 - vos deux clés publiques, celle qui verrouille vos photos et celle qui signe
   vos publications. Ce sont les moitiés faites pour être distribuées. Nous
   gardons aussi le moment où la première a été publiée&#160;;
@@ -569,6 +576,8 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
 - votre pseudo, toute adresse de courriel et tout numéro de téléphone sont
   libérés, toute clé tirée d'un mot de passe est supprimée, et la langue de
   votre application aussi&#160;;
+- la liste des pseudos que vous avez choisis, avec leurs dates, est
+  supprimée&#160;;
 - ce que nous détenons sur chacune de vos clés d'accès est supprimé. La clé
   d'accès reste dans votre gestionnaire de mots de passe, où elle n'ouvre plus
   rien.
@@ -594,8 +603,9 @@ vous&#160;; les signalements que vous avez déposés ou qui ont été déposés 
 votre sujet, et les rapports de problème que vous avez envoyés&#160;; le pays
 écrit pour votre compte&#160;; les
 demandes d'ajout que vous avez envoyées et reçues,
-marquées annulées&#160;; quand vous vous êtes connecté sur chaque téléphone et
-l'avez utilisé pour la dernière fois&#160;; et les lignes de vos publications
+marquées annulées&#160;; chaque session que vous avez ouverte sur un
+téléphone, avec le moment où elle a servi pour la dernière fois et celui où
+elle a pris fin&#160;; et les lignes de vos publications
 et de vos commentaires, marquées supprimées, qui disent encore quand chacun a
 été fait et, pour une publication, à qui elle était adressée. Le texte scellé
 d'un commentaire supprimé reste dans sa ligne jusqu'à ce que la publication où
@@ -604,19 +614,37 @@ ce que vous avez fait dans les listes d'activité des autres disparaissent sous
 128 jours.
 
 Une exception. Quand nous supprimons un compte parce qu'il participait à
-l'exploitation ou aux abus sexuels concernant des enfants, nous mettons d'abord
-de côté son adresse de courriel, son numéro de téléphone et son pseudo, ses
-deux clés publiques, quand il a été créé et a confirmé son âge, chaque
-téléphone qu'il a utilisé avec son jeton d'envoi, quand il s'est connecté, les
-personnes avec qui il était en relation, quand il a publié et pour qui, la
-boutique par laquelle son abonnement a été payé avec la référence de cet achat
-chez elle et la date à laquelle la période payée prend fin, et, pour chaque
-invitation à un album
-par laquelle il est arrivé, quand l'invitation a été envoyée et quand il s'en
-est servi. Nous gardons cela pour le
-signalement que nous faisons au National Center for Missing & Exploited
-Children, un an à compter du signalement, comme l'exige la loi des États-Unis,
-puis nous le supprimons. Les [normes de protection des
+l'exploitation ou aux abus sexuels concernant des enfants, nous gardons d'abord
+une copie des données suivantes à son sujet&#160;:
+
+- son adresse de courriel et son numéro de téléphone, s'il en avait&#160;;
+- chaque pseudo qu'il a choisi, et la période pendant laquelle il a porté
+  chacun d'eux&#160;;
+- ses deux clés publiques&#160;;
+- la date de son inscription, et le moment où il a confirmé avoir 18 ans ou
+  plus&#160;;
+- le moment où nous l'avons suspendu, s'il était suspendu à ce
+  moment-là&#160;;
+- chaque téléphone où sa session était encore ouverte, avec le jeton d'envoi
+  de ce téléphone et la version de l'application qui y était installée&#160;;
+- chaque session qu'il a ouverte sur un téléphone&#160;: le moment où il l'a
+  ouverte, celui où elle a servi pour la dernière fois, et celui où il l'a
+  fermée&#160;;
+- les personnes avec qui il était en relation, et depuis quand&#160;;
+- quand il a publié, combien de photos et de vidéos contenait chaque
+  publication, et pour qui&#160;;
+- la boutique par laquelle son abonnement a été payé, s'il en avait un, avec
+  la référence de cet achat chez elle et la date à laquelle la période payée
+  prend fin&#160;;
+- pour chaque invitation à un album reçue par courriel et acceptée, quand
+  l'invitation a été envoyée et quand il l'a acceptée&#160;;
+- ce que disait le signalement auquel nous avons donné suite ou, pour un
+  signalement par courriel, notre note sur ce courriel.
+
+Nous nous servons de cette copie pour signaler le compte au National Center
+for Missing & Exploited Children, l'organisme qui reçoit ces signalements aux
+États-Unis. Nous la gardons un an à compter de ce signalement, comme l'exige la
+loi des États-Unis, puis nous la supprimons. Les [normes de protection des
 enfants](/fr/protection-des-enfants/) en disent plus.
 
 ## Exporter vos données
