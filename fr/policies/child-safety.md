@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 31 octobre 2026.**
+**Dernière mise à jour&#160;: 12 novembre 2026.**
 
 ## La règle
 
@@ -28,7 +28,7 @@ vérifiée pour rien – et un compte qui n'atteste pas de dix-huit ans n'est ja
 créé. Nous conservons le moment où la vérification a été franchie, et non la
 date saisie.
 
-## Il n'y a aucune entrée depuis l'extérieur
+## Les inconnus n'ont presque aucune entrée
 
 L'essentiel du travail de protection de l'enfance sur une application sociale
 concerne des inconnus qui atteignent des enfants. Cette application ne donne
@@ -37,16 +37,26 @@ presque rien à un inconnu pour atteindre qui que ce soit&#160;:
 - Il n'y a pas de profils publics, pas d'annuaire et pas de recherche par nom.
   On ne peut vous trouver qu'en tapant votre pseudonyme exact, votre adresse
   courriel exacte ou votre numéro de téléphone exact.
-- Une personne qui vous trouve ainsi peut demander à se connecter, et c'est
-  tout. Une demande ne contient aucun message, et rien n'est partagé avant que
-  vous acceptiez. Dans les paramètres, vous pouvez limiter les demandes aux
-  personnes qui ont une relation en commun avec vous.
+- Une personne qui vous trouve ainsi peut vous envoyer une demande pour être
+  en relation avec vous. Une personne qui connaît votre adresse courriel peut
+  aussi vous inviter dans un album partagé qu'elle a créé. Une demande ne
+  contient aucun message, et rien n'est partagé avant que vous l'acceptiez.
+  Dans les paramètres, vous pouvez limiter les demandes aux personnes qui ont
+  une relation en commun avec vous.
 - Chaque relation est mutuelle, les deux personnes y consentent, et vous pouvez
   en avoir cent vingt-huit au plus. Il n'y a pas d'abonnés et aucune audience à
   bâtir.
-- Rien n'est recommandé, suggéré, classé ni inséré dans votre fil. Il n'existe
-  aucune surface sur laquelle un adulte inconnu peut apparaître devant qui que
-  ce soit.
+- Rien n'est recommandé, suggéré, classé ni inséré dans votre fil.
+- Il n'y a pas de messages privés. Seules les personnes avec qui vous êtes en
+  relation peuvent vous adresser une publication, et seules elles peuvent
+  écrire un commentaire que vous verrez. La seule exception est un album
+  partagé. La personne qui crée un album peut y mettre les personnes avec qui
+  elle est en relation sans le leur demander, et y inviter n'importe qui par
+  courriel. Chaque membre d'un album voit ce que les autres y publient, et peut
+  commenter, réagir et mentionner les autres, y compris des personnes avec qui
+  il n'est pas en relation. Vous pouvez quitter un album à tout moment. Pour
+  bloquer quelqu'un qui en fait partie, touchez son nom, puis **options** et
+  **bloquer**.
 
 ## Ce que nous pouvons voir, et ce que nous ne pouvons pas
 
@@ -64,13 +74,24 @@ plutôt qu'à détecter dans les contenus.
 
 ## Signaler
 
-**Dans l'application.** **signaler** se trouve sous **options** sur une
-publication, sur le profil d'une personne et sur une demande qu'on vous envoie.
-Un commentaire n'a pas de **signaler** à lui, alors signalez la publication sous
-laquelle il se trouve ou la personne qui l'a écrit. Le signalement indique ce qu'il vise et à quel
-compte cela appartient, et ce que vous écrivez dans la boîte nous parvient en
-clair, contrairement à tout le reste. La personne signalée n'apprend jamais
-qu'un signalement existe, ni qui l'a déposé.
+**Dans l'application.** Touchez **options**, puis **signaler**, sur une
+publication, sur le profil d'une personne ou sur une demande qu'on vous envoie.
+Pour une personne avec qui vous n'êtes pas en relation, par exemple un membre
+d'un album partagé dont vous faites partie, touchez son nom, puis **options**
+et **signaler** dans la fenêtre qui s'ouvre. Un commentaire ne se signale pas à
+part&#160;: signalez la publication où il se trouve en précisant lequel, ou
+touchez le nom de la personne qui l'a écrit. Le signalement nous indique la
+publication ou la personne qu'il vise et, pour une publication, à qui elle
+appartient. Contrairement à vos publications, à vos légendes et à vos
+commentaires, ce que vous écrivez dans le signalement n'est pas chiffré de
+bout en bout, et nous pouvons donc le lire.
+
+La personne signalée n'apprend jamais qui a déposé le signalement ni ce qu'il
+disait. Si nous retirons une de ses publications et que son compte a une
+adresse de courriel, nous lui écrivons que cette publication a été retirée à
+la demande de quelqu'un. Le courriel ne dit ni qui l'a
+demandé ni pourquoi. Nous n'envoyons rien à un compte que nous supprimons pour
+exploitation ou abus sexuels concernant des enfants.
 
 **Par courriel**, s'il faut une personne plutôt qu'un bouton, ou si vous
 n'utilisez pas l'application&#160;: pykapp+safety@proton.me.
@@ -83,16 +104,35 @@ pas. C'est la seule partie d'un signalement que nous pouvons lire.
 Un compte dont nous constatons qu'il participe à l'exploitation ou aux abus
 sexuels concernant des enfants est supprimé, ce qui rompt chacune de ses
 relations et retire ses publications et ses commentaires pour tout le monde à
-la fois. Avant de le supprimer, nous mettons de côté les registres que nous
-détenons à son sujet&#160;: son adresse de courriel, son numéro de téléphone et
-son pseudo, la date de son inscription, les téléphones qu'il a utilisés, les
-personnes avec qui il était en relation, quand il a publié et pour qui,
-l'abonnement par lequel il a payé, par la référence de la boutique, et, pour
-chaque invitation à un album par laquelle il est arrivé, quand
-l'invitation a été envoyée et quand il s'en est servi. Nous le signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
-qu'aux forces de l'ordre des juridictions qui s'appliquent à nous, et nous
-gardons ces registres un an à compter de notre signalement, comme l'exige la
-loi des États-Unis, puis nous les supprimons. Nous donnons suite aux demandes
+la fois. Avant de le supprimer, nous gardons une copie des données que nous
+détenons à son sujet&#160;:
+
+- son adresse de courriel et son numéro de téléphone, s'il en avait&#160;;
+- chaque pseudonyme que nous avons enregistré pour lui, et quand il a utilisé
+  chacun&#160;;
+- ses deux clés publiques&#160;;
+- la date de son inscription, et le moment où il a déclaré avoir dix-huit ans
+  ou plus&#160;;
+- le moment où nous l'avons suspendu, s'il l'était déjà pour autre chose&#160;;
+- chaque téléphone où sa session était ouverte, avec le jeton d'envoi de ce
+  téléphone et la version de l'application qui y était installée&#160;;
+- chaque fois qu'il a ouvert une session, quand cette session a servi pour la
+  dernière fois, et quand il l'a fermée&#160;;
+- les personnes avec qui il était en relation, et depuis quand&#160;;
+- quand il a publié, combien de photos et de vidéos contenait chaque
+  publication, et pour qui&#160;;
+- l'abonnement par lequel il a payé, s'il y en avait un, avec la référence
+  que la boutique lui donne, et la date à laquelle la période payée prend
+  fin&#160;;
+- pour chaque invitation à un album reçue par courriel et acceptée, quand
+  l'invitation a été envoyée et quand il l'a acceptée&#160;;
+- ce que disait le signalement auquel nous avons donné suite ou, pour un
+  signalement par courriel, notre note à son sujet.
+
+Nous le signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
+qu'aux forces de l'ordre des juridictions qui s'appliquent à nous. Nous
+gardons ces données un an à compter de notre signalement, comme l'exige la loi
+des États-Unis, puis nous les supprimons. Nous donnons suite aux demandes
 légales de ces autorités.
 
 ## Nous joindre

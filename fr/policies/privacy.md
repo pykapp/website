@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 5 novembre 2026.
+**Dernière mise à jour&#160;:** 11 novembre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -315,10 +315,12 @@ puis&#160;:
   compte que vous avez supprimé après le moment de cette sauvegarde est
   supprimé de nouveau avant que quiconque puisse se servir de
   l'application&#160;;
-- ce que nous tapons pour lancer quelque chose à la main sur la base, qui peut
-  nommer un compte, reste 90 jours dans le registre que notre hébergeur tient
-  de ce qui se fait sur notre compte, et nous ne pouvons pas raccourcir ce
-  délai&#160;;
+- ce que nous tapons quand nous lançons quelque chose à la main sur la base
+  peut contenir le pseudo ou l'adresse de courriel d'un compte. Notre hébergeur
+  le garde dans le journal où il consigne tout ce que nous faisons sur ses
+  serveurs, pour que nous puissions savoir ce qui s'est passé si quelqu'un s'y
+  introduit, et ce texte est supprimé moins d'un an après avoir été
+  tapé&#160;;
 - chaque copie chiffrée de notre base de données chez la société de stockage
   est supprimée au plus tard 35 jours après avoir été faite, et n'est gardée
   plus longtemps que pendant que nous nous en servons pour rétablir la base
@@ -576,7 +578,10 @@ jours ne sont pas un retour en arrière&#160;: les clés ont été détruites au
 moment de la touche et rien dans le produit ne peut les restaurer. Une ligne
 supprimée peut survivre à la touche jusqu'à 35 jours dans une sauvegarde de
 notre base de données, et jusqu'à une semaine dans la sortie de quelque chose
-que nous avons lancé à la main. La deuxième copie des fichiers chiffrés garde
+que nous avons lancé à la main. Ce que nous avons tapé à la main et qui
+contenait votre pseudo ou votre adresse de courriel reste dans le journal où
+notre hébergeur consigne ce que nous faisons sur ses serveurs, jusqu'à un an
+après avoir été tapé. La deuxième copie des fichiers chiffrés garde
 chaque fichier 30 jours après qu'il a quitté le stockage, donc le dernier en
 est parti moins de six semaines après la touche. Se connecter pendant ce temps
 avec la même adresse crée un nouveau compte, vide.

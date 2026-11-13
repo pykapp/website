@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 5 November 2026.
+**Last updated:** 11 November 2026.
 
 ## Who is responsible, and where this applies
 
@@ -260,9 +260,10 @@ We keep what is above for as long as your account exists, and then:
   no longer. If we ever restore the database from one of those backups, an
   account you deleted after the moment of that backup is deleted again before
   anybody can use the app;
-- what we type to run something by hand against the database, which can name an
-  account, stays for 90 days in our hosting provider's record of what is done
-  in our account, and we cannot shorten that;
+- what we type when we run something by hand against the database can hold an
+  account's handle or email address. Our hosting provider keeps it in its record
+  of everything we do on its servers, so that we can find out what happened if
+  somebody breaks into them, and it is deleted within a year of being typed;
 - each encrypted copy of our database at the storage company is deleted
   within 35 days of being made, and kept longer only while we are using it to
   recover from losing the database;
@@ -478,7 +479,9 @@ Eight days later the encrypted files are removed from storage. Those eight days
 are not an undo: the keys were destroyed at the tap and nothing in the product
 can restore them. A deleted row can outlive the tap for up to 35 days in a
 backup of our database, and for up to a week in the output of something we ran
-by hand. The second copy of the encrypted files keeps each file for 30 days
+by hand. Anything we typed by hand that held your handle or email address stays
+in our hosting provider's record of what we do on its servers for up to a year
+after it was typed. The second copy of the encrypted files keeps each file for 30 days
 after it leaves storage, so the last of them is gone within six weeks of the
 tap. Signing in during that time with the same address starts a new, empty
 account.
