@@ -43,6 +43,9 @@ presque rien à un inconnu pour atteindre qui que ce soit&#160;:
   contient aucun message, et rien n'est partagé avant que vous l'acceptiez.
   Dans les paramètres, vous pouvez limiter les demandes aux personnes qui ont
   une relation en commun avec vous.
+- Une invitation par courriel ne peut venir que d'un compte dont l'adresse
+  courriel ou le numéro de téléphone a été vérifié, pour que nous ayons un
+  moyen de joindre la personne qui l'a envoyée.
 - Chaque relation est mutuelle, les deux personnes y consentent, et vous pouvez
   en avoir cent vingt-huit au plus. Il n'y a pas d'abonnés et aucune audience à
   bâtir.

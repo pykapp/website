@@ -167,7 +167,9 @@ to make one.
   the plus at the top right of the album, and everybody in it sees everything
   in it.
 - The person who makes an album can also invite somebody by email: tap the
-  faces, then *invite by email*. If they already use people
+  faces, then *invite by email*. Your account needs an email address or a
+  phone number to do this. If it has neither, add an email address in
+  *settings → your email*; the person you invite won't see it. If they already use people
   you know and you're connected, your phone asks you right away whether to add
   them. If you aren't connected, the invitation appears on their *shared
   albums* list, and they accept it by tapping *join*. If they don't use the app yet,

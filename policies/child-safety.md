@@ -37,6 +37,8 @@ This app gives a stranger almost nothing to reach anybody with:
   email address can also invite you to a shared album they made. A request
   carries no message, and nothing is shared until you accept it. In settings
   you can limit requests to people who share a mutual connection with you.
+- An invitation by email can only come from an account with a verified email
+  address or phone number, so we have a way to contact whoever sent it.
 - Every connection is mutual, both people agree to it, and you can have a
   hundred and twenty-eight at most. There are no followers and no audience to
   build.

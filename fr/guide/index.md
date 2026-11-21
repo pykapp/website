@@ -187,7 +187,10 @@ un.
   membres peuvent ajouter des photos avec le plus en haut à droite de l'album,
   et tous voient tout ce qu'il contient.
 - La personne qui crée un album peut aussi inviter quelqu'un par courriel :
-  touchez les visages, puis *inviter par courriel*. Si cette personne utilise
+  touchez les visages, puis *inviter par courriel*. Votre compte doit avoir
+  une adresse de courriel ou un numéro de téléphone pour le faire. S'il n'a ni
+  l'un ni l'autre, ajoutez une adresse dans *paramètres → votre courriel*&#160;;
+  la personne invitée ne la verra pas. Si cette personne utilise
   déjà people you know et que vous êtes en lien, votre téléphone vous demande
   tout de suite s'il faut l'ajouter. Si
   vous n'êtes pas en lien, l'invitation apparaît dans sa liste *albums
