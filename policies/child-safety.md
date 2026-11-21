@@ -8,7 +8,7 @@ against child sexual abuse and exploitation, which Google Play requires every
 app in its social category to publish. Ours is short, because most of what
 such a standard usually has to describe cannot happen here by construction.
 
-**Last updated:** 12 November 2026.
+**Last updated:** 14 November 2026.
 
 ## The rule
 
@@ -121,6 +121,10 @@ We report it to the National Center for Missing & Exploited Children (NCMEC)
 and to law enforcement in the jurisdictions that apply to us. We keep those
 records for a year from our report, as United States law requires, and then
 we delete them. We comply with lawful requests from those authorities.
+
+If we find we were wrong about the account, we make no report and delete
+those records. Without a report, they are deleted no later than a year after
+we deleted the account.
 
 ## Contact
 

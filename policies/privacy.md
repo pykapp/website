@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 12 November 2026.
+**Last updated:** 14 November 2026.
 
 ## Who is responsible, and where this applies
 
@@ -116,7 +116,8 @@ To deliver a photo to the right people we hold, in the clear:
   and when, until that person joins or the invitation lapses. If, before the
   invitation lapses, we delete the account that sent it because that account
   was engaged in child sexual abuse or exploitation, we keep the address or
-  number until a year after our report about that account, as *Deleting your
+  number until a year after our report about that account or, without a
+  report, no later than a year after we deleted it, as *Deleting your
   account* describes. For sixty days
   after we email an invitation, we also keep a fingerprint of the address (a
   one-way hash of it, not the address), so that the link in that email to stop
@@ -538,7 +539,10 @@ about it:
 We use that copy to report the account to the National Center for Missing &
 Exploited Children, which receives these reports in the United States. We keep
 the copy for a year from that report, as United States law requires, and then
-delete it. The [child safety standards](/child-safety/) say more.
+delete it. If we find we were wrong about the account, we make no report and
+delete the copy. Without a report, the copy is deleted no later than a year
+after we deleted the account. The [child safety standards](/child-safety/) say
+more.
 
 ## Exporting your data
 

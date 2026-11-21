@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 12 novembre 2026.
+**Dernière mise à jour&#160;:** 14 novembre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -141,7 +141,9 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   l'invitation expire, nous supprimons le compte qui l'a envoyée parce que ce
   compte participait à l'exploitation ou aux abus sexuels concernant des
   enfants, nous gardons l'adresse ou le numéro jusqu'à un an après notre
-  signalement au sujet de ce compte, comme le décrit *Supprimer votre compte*.
+  signalement au sujet de ce compte ou, sans signalement de notre part, au
+  plus tard un an après la suppression du compte, comme le décrit *Supprimer
+  votre compte*.
   Pendant soixante jours
   après l'envoi d'une invitation par courriel, nous gardons aussi une empreinte
   de l'adresse (un hachage à sens unique, pas l'adresse elle-même), pour que le
@@ -655,7 +657,10 @@ une copie des données suivantes à son sujet&#160;:
 Nous nous servons de cette copie pour signaler le compte au National Center
 for Missing & Exploited Children, l'organisme qui reçoit ces signalements aux
 États-Unis. Nous la gardons un an à compter de ce signalement, comme l'exige la
-loi des États-Unis, puis nous la supprimons. Les [normes de protection des
+loi des États-Unis, puis nous la supprimons. Si nous constatons que nous nous
+sommes trompés au sujet du compte, nous ne le signalons pas et nous supprimons
+la copie. Sans signalement de notre part, la copie est supprimée au plus tard
+un an après la suppression du compte. Les [normes de protection des
 enfants](/fr/protection-des-enfants/) en disent plus.
 
 ## Exporter vos données

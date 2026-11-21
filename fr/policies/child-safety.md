@@ -9,7 +9,7 @@ enfants, que Google Play exige de toute application de sa catégorie sociale.
 La nôtre est brève, parce que l'essentiel de ce qu'une telle norme doit
 habituellement décrire ne peut pas se produire ici, par construction.
 
-**Dernière mise à jour&#160;: 12 novembre 2026.**
+**Dernière mise à jour&#160;: 14 novembre 2026.**
 
 ## La règle
 
@@ -143,6 +143,10 @@ qu'aux forces de l'ordre des juridictions qui s'appliquent à nous. Nous
 gardons ces données un an à compter de notre signalement, comme l'exige la loi
 des États-Unis, puis nous les supprimons. Nous donnons suite aux demandes
 légales de ces autorités.
+
+Si nous constatons que nous nous sommes trompés au sujet du compte, nous ne le
+signalons pas et nous supprimons ces données. Sans signalement de notre part,
+elles sont supprimées au plus tard un an après la suppression du compte.
 
 ## Nous joindre
 
