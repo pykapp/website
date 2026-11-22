@@ -9,7 +9,7 @@ app, lost your phone or can no longer read your email, [there are other
 ways](#if-you-cannot-get-into-the-app), including asking us by email, even if
 you can no longer use the email address on the account.
 
-**Last updated:** 10 November 2026.
+**Last updated:** 14 November 2026.
 
 If you only want to delete a post, a comment or your profile picture, [that is
 further down](#deleting-a-post-a-comment-or-your-profile-picture), and you do
@@ -113,11 +113,26 @@ app.
 Some records stay after the account is deleted, kept under a number that no
 longer leads to your name, handle, email address or keys. They include that
 the account existed; blocks and reports, by you or about you; the country set
-in your phone's settings; the add requests you sent and received; when you
+in your phone's settings; when you
 signed in; and a record of each of your posts and comments, saying when it was
 made and, for a post, who it was shared with. The [privacy policy](/privacy/)
 lists them all. The text of your comments stays too, encrypted and shown to
 nobody, for as long as the posts they are on exist.
+
+A record of each connection you made stays as well. Two people are connected
+when one accepts the other's add request, and we keep each request that was
+accepted, whether you sent it or received it, including for people you later
+removed. It holds the number your deleted account is kept under, the other
+person's account and the date the request was accepted. The other person's
+account still has its handle, so the record shows that somebody who deleted
+their account was connected to that person since that date. It does not say
+who that somebody was. Only we can read it, and nobody sees it in the app. We
+have not set a date for deleting these records.
+
+An add request that was not accepted is not kept. One still waiting when you
+delete is cancelled at once, and the other person stops seeing it. It is
+deleted about sixteen days after it was sent, like every request that was
+declined, withdrawn or never answered.
 
 ## Deleting a post, a comment or your profile picture
 

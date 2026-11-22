@@ -266,6 +266,8 @@ d'autre&#160;:
 - compter combien de personnes les invitations à un album font venir, et
   combien d'entre elles utilisent encore l'application un mois plus
   tard&#160;;
+- compter avec combien de personnes les nouveaux comptes entrent en relation,
+  à partir des demandes d'ajout qui ont été acceptées&#160;;
 - faire ce que la loi exige de nous.
 
 Un pseudo, votre date de naissance, et une adresse de courriel, un numéro de
@@ -354,6 +356,8 @@ puis&#160;:
   après deux jours, ce dont les limites sur les mauvais essais ont besoin pour
   compter. Il en va de même pour chaque défi qu'un téléphone signe pour se
   connecter avec une clé d'accès ou pour en ajouter une&#160;;
+- une demande d'ajout qui n'a pas été acceptée est supprimée environ seize
+  jours après son envoi, que vous supprimiez votre compte ou non&#160;;
 - après la suppression, nous ne gardons que ce qui est décrit sous *Supprimer
   votre compte* plus bas.
 
@@ -658,9 +662,7 @@ existé, quand il a été créé, quand il a confirmé son âge et quand il a é
 supprimé&#160;; les blocages que vous avez posés ou qui ont été posés contre
 vous&#160;; les signalements que vous avez déposés ou qui ont été déposés à
 votre sujet, et les rapports de problème que vous avez envoyés&#160;; le pays
-écrit pour votre compte&#160;; les
-demandes d'ajout que vous avez envoyées et reçues,
-marquées annulées&#160;; chaque session que vous avez ouverte sur un
+écrit pour votre compte&#160;; chaque session que vous avez ouverte sur un
 téléphone, avec le moment où elle a servi pour la dernière fois et celui où
 elle a pris fin&#160;; et les lignes de vos publications
 et de vos commentaires, marquées supprimées, qui disent encore quand chacun a
@@ -669,6 +671,24 @@ d'un commentaire supprimé reste dans sa ligne jusqu'à ce que la publication o�
 il se trouvait soit retirée, et nous ne le servons à personne. Les entrées sur
 ce que vous avez fait dans les listes d'activité des autres disparaissent sous
 128 jours.
+
+Nous gardons aussi une trace de chaque relation que vous avez eue. Vos
+relations prennent fin à l'instant où vous supprimez votre compte. Ce qui
+reste, pour chacune, est la demande d'ajout qui a été acceptée, que vous
+l'ayez envoyée ou reçue, y compris pour les personnes que vous avez retirées
+par la suite. Elle contient l'identifiant de votre compte supprimé, le compte
+de l'autre personne et la date à laquelle la demande a été acceptée. Le compte
+de l'autre personne a toujours son pseudo&#160;: la trace montre donc que
+quelqu'un qui a supprimé son compte était en relation avec cette personne
+depuis cette date. Elle ne dit pas qui était ce quelqu'un. Nous seuls pouvons
+la lire, et personne ne la voit dans l'application. Nous gardons ces demandes
+pour compter avec combien de personnes les nouveaux comptes entrent en
+relation, et nous n'avons pas fixé de date pour leur suppression.
+
+Une demande d'ajout qui n'a pas été acceptée n'est pas gardée. Celle qui
+attendait encore quand vous supprimez votre compte est annulée aussitôt, et
+l'autre personne ne la voit plus. Elle est supprimée environ seize jours après
+son envoi, comme toute demande refusée, retirée ou restée sans réponse.
 
 Une exception. Quand nous supprimons un compte parce qu'il participait à
 l'exploitation ou aux abus sexuels concernant des enfants, nous gardons d'abord

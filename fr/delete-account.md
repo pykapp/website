@@ -14,7 +14,7 @@ ne pouvez plus lire vos courriels, [il existe d'autres
 moyens](#si-vous-ne-pouvez-pas-accéder-à-lapplication), dont celui de nous
 écrire, même si vous ne pouvez plus utiliser l'adresse de courriel du compte.
 
-**Dernière mise à jour&#160;:** 10 novembre 2026.
+**Dernière mise à jour&#160;:** 14 novembre 2026.
 
 Si vous voulez seulement supprimer une publication, un commentaire ou votre
 photo de profil, [c'est expliqué plus
@@ -137,13 +137,30 @@ Certaines données restent après la suppression du compte, conservées sous un
 numéro qui ne permet plus de remonter à votre nom, à votre pseudo, à votre
 adresse de courriel ni à vos clés. On y trouve le fait que le compte a existé,
 les blocages et les signalements, faits par vous ou à votre sujet, le pays
-choisi dans les paramètres de votre téléphone, les demandes d'ajout que vous
-avez envoyées et reçues, la date de vos connexions, et une trace de chacune de
-vos publications et de chacun de vos commentaires, avec sa date et, pour une
-publication, les personnes avec qui elle a été partagée. La [politique de
+choisi dans les paramètres de votre téléphone, la date de vos connexions, et
+une trace de chacune de vos publications et de chacun de vos commentaires,
+avec sa date et, pour une publication, les personnes avec qui elle a été
+partagée. La [politique de
 confidentialité](/fr/politique-de-confidentialite/) les énumère toutes. Le
 texte de vos commentaires reste aussi, chiffré et sans que personne puisse le
 lire, tant que les publications où ils se trouvent existent.
+
+Une trace de chaque relation que vous avez eue reste aussi. Deux personnes
+sont en relation quand l'une accepte la demande d'ajout de l'autre, et nous
+gardons chaque demande qui a été acceptée, que vous l'ayez envoyée ou reçue, y
+compris pour les personnes que vous avez retirées par la suite. Elle contient
+le numéro sous lequel votre compte supprimé est conservé, le compte de l'autre
+personne et la date à laquelle la demande a été acceptée. Le compte de l'autre
+personne a toujours son pseudo&#160;: la trace montre donc que quelqu'un qui a
+supprimé son compte était en relation avec cette personne depuis cette date.
+Elle ne dit pas qui était ce quelqu'un. Nous seuls pouvons la lire, et
+personne ne la voit dans l'application. Nous n'avons pas fixé de date pour la
+suppression de ces traces.
+
+Une demande d'ajout qui n'a pas été acceptée n'est pas gardée. Celle qui
+attendait encore quand vous supprimez votre compte est annulée aussitôt, et
+l'autre personne ne la voit plus. Elle est supprimée environ seize jours après
+son envoi, comme toute demande refusée, retirée ou restée sans réponse.
 
 ## Supprimer une publication, un commentaire ou votre photo de profil
 

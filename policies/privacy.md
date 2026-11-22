@@ -217,6 +217,8 @@ We use what we hold for these things and nothing else:
   the bug reports you choose to send;
 - to count how many people invitations to an album bring in, and how many of
   them are still using the app a month later;
+- to count how many people new accounts connect with, from the add requests
+  that were accepted;
 - to do what the law requires of us.
 
 A handle, your date of birth, and an email address, a phone number or a
@@ -288,6 +290,8 @@ We keep what is above for as long as your account exists, and then:
   guesses it drew, are swept after two days, which is what the limits on wrong
   guesses need to read. So is each challenge a phone signs to sign in with a
   passkey or to add one;
+- an add request that was not accepted is deleted about sixteen days after
+  it was sent, whether or not you delete your account;
 - after deletion we keep only the record described under *Deleting your
   account* below.
 
@@ -540,13 +544,29 @@ What we keep afterwards is kept under an identifier that no longer carries your
 name, handle, address or key: that the account existed, when it was made, when
 it confirmed its age and when it was deleted; blocks you placed or that were
 placed against you; reports you filed or that were filed about you, and bug
-reports you sent; the country written for your account; the add requests you sent and received, marked cancelled;
+reports you sent; the country written for your account;
 each time you signed in on a phone, with when you last used the app there and
 when that sign-in ended; and the rows of your posts
 and comments, marked deleted, which still say when each was made and, for a
 post, who it was addressed to. A deleted comment's sealed text stays in its row
 until the post it was on is removed, and we serve it to nobody. Entries about
 what you did in other people's activity lists go within 128 days.
+
+We also keep a record of each connection you made. Your connections end the
+moment you delete. What stays, for each one, is the add request that was
+accepted, whether you sent it or received it, including for people you later
+removed. It holds the identifier of your deleted account, the other person's
+account and the date the request was accepted. The other person's account
+still has its handle, so the record shows that somebody who deleted their
+account was connected to that person since that date. It does not say who that
+somebody was. Only we can read it, and nobody sees it in the app. We keep
+these requests to count how many people new accounts connect with, and we have
+not set a date for deleting them.
+
+An add request that was not accepted is not kept. One still waiting when you
+delete is cancelled at once, and the other person stops seeing it. It is
+deleted about sixteen days after it was sent, like every request that was
+declined, withdrawn or never answered.
 
 One exception. When we delete an account because it was engaged in child
 sexual abuse or exploitation, we first keep a copy of the following records
