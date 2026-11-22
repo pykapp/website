@@ -398,11 +398,13 @@ puis&#160;:
 
 ## Ce que vous pouvez demander
 
-- **Le voir.** *paramètres → exporter mes données* écrit vos publications, vos
-  légendes, vos commentaires et les pseudos de vos relations sur votre
-  téléphone, déchiffrés là parce que nous ne détenons rien de lisible à vous
-  donner. Si vous n'avez plus le téléphone, écrivez-nous et nous enverrons ce
-  que nous détenons.
+- **Le voir.** *paramètres → exporter mes données* écrit sur votre téléphone
+  vos publications, vos légendes, les commentaires sur vos publications et les
+  pseudos de vos relations. Votre téléphone les déchiffre, parce que nous ne
+  pouvons pas les lire. Pour une copie de ce que nous pouvons lire au sujet de
+  votre compte, écrivez-nous et nous l'enverrons sous quatre semaines.
+  *Exporter vos données* dit ce que contient le dossier, ce que contient la
+  copie que nous envoyons, et ce que cette copie laisse de côté.
 - **Le corriger.** Votre pseudo et votre nom affiché sont à vous de changer
   dans l'application. Il n'y a pas grand-chose d'autre que nous détenions et
   que vous pourriez corriger, parce que nous détenons très peu.
@@ -739,14 +741,47 @@ enfants](/fr/protection-des-enfants/) en disent plus.
 contenant vos publications en pleine taille, vos légendes, les commentaires sur
 vos publications, et les pseudos des gens avec qui vous étiez en relation.
 C'est déchiffré sur votre téléphone, parce que nous ne pourrions pas le
-produire&#160;: nous ne détenons rien de lisible à vous donner.
+produire&#160;: nous ne pouvons lire ni vos photos, ni vos légendes, ni vos
+commentaires.
 
-Si vous n'avez plus le téléphone, écrivez à pykapp+privacy@proton.me depuis
-l'adresse du compte, ou avec votre pseudo s'il n'a pas d'adresse, et nous
-enverrons ce que nous détenons sous quatre semaines&#160;: votre fiche de
-compte, les pseudos de vos relations, et les fichiers chiffrés et les clés
-verrouillées si vous les voulez. Nous ne pouvons pas envoyer de photos lisibles,
-parce que nous ne pouvons pas les lire.
+Certaines choses ne sont pas dans le dossier. Les commentaires que vous avez
+laissés sur les publications des autres n'y sont pas, et nous ne pouvons pas
+les envoyer, parce que nous ne pouvons pas les lire&#160;; vous pouvez toujours
+les lire dans l'application, sous ces publications. Votre nom affiché, votre
+bio, votre photo de profil et les noms de vos albums et de vos groupes n'y
+sont pas non plus.
+
+Le dossier ne contient pas ce que nous pouvons lire au sujet de votre compte,
+qu'énumère *Ce que nous pouvons voir*. Pour en obtenir une copie, écrivez à
+pykapp+privacy@proton.me depuis l'adresse de votre compte. Si votre compte n'a
+pas d'adresse, écrivez depuis n'importe quelle adresse en donnant votre
+pseudo, et nous vous demanderons quelque chose que seul le titulaire du compte
+peut savoir. Nous l'enverrons sous quatre semaines, en un seul fichier JSON.
+C'est du texte, que n'importe quel éditeur de texte ou navigateur web ouvre.
+Dans ce fichier&#160;:
+
+- les autres personnes sont désignées par leur pseudo&#160;;
+- trois choses n'y sont pas, sauf si vous les demandez&#160;: le jeton qui nous
+  sert à envoyer des notifications à chacun de vos téléphones, la clé publique
+  de chaque clé d'accès, et la clé tirée de votre mot de passe. Les
+  notifications et la connexion reposent sur elles, elles ne disent rien de
+  vous, et le fichier voyage par courriel. Dites dans votre courriel que vous
+  les voulez et nous les enverrons&#160;;
+- quatre choses n'y sont pas, et nous ne les envoyons pas, même sur
+  demande&#160;: tout signalement à votre sujet, avec qui l'a fait et ce que
+  cette personne a écrit&#160;; qui vous a bloqué ou a masqué vos
+  publications&#160;; les groupes où d'autres personnes vous ont mis&#160;; et
+  quand chaque personne a vu vos publications pour la première fois. Chacune
+  vous dirait ce qu'une autre personne a fait, et la loi canadienne sur la vie
+  privée nous demande de ne pas le révéler. Le fichier dit bien si votre
+  compte est suspendu, et depuis quand.
+
+Si vous n'avez plus le téléphone, connectez-vous sur un autre avec votre
+phrase de récupération. Elle lui rend votre clé, et l'exportation y
+fonctionne. Nous ne pouvons pas envoyer de photos lisibles, parce que nous ne
+pouvons pas les lire. Si vous voulez les fichiers chiffrés et les clés
+verrouillées que nous détenons, demandez-les et nous les enverrons. Ils ne
+s'ouvrent qu'avec votre clé.
 
 ## Les enfants
 

@@ -328,10 +328,12 @@ We keep what is above for as long as your account exists, and then:
 
 ## What you can ask for
 
-- **See it.** *settings → export my data* writes your posts, captions,
-  comments and the handles of your connections to your phone, decrypted there
-  because we hold nothing readable to give you. If you no longer have the
-  phone, write to us and we will send what we hold.
+- **See it.** *settings → export my data* writes to your phone your posts,
+  your captions, the comments on your posts and the handles of your
+  connections. Your phone decrypts them, because we cannot read them. For a
+  copy of what we can read about your account, write to us and we will send
+  it within four weeks. *Exporting your data* says what is in the folder, what
+  is in the copy we send, and what that copy leaves out.
 - **Correct it.** Your handle and your display name are yours to change in the
   app. There is very little else we hold that you could correct, because we
   hold very little.
@@ -608,13 +610,39 @@ more.
 *settings → export my data* writes a folder to your phone containing your
 posts at full size, your captions, the comments on your posts, and the
 handles of the people you were connected to. It is decrypted on your phone,
-because we could not produce it: we hold nothing readable to give you.
+because we could not produce it: we cannot read your photographs, captions
+or comments.
 
-If you no longer have the phone, write to pykapp+privacy@proton.me from the
-address on your account, or with your handle if it has no address, and we will
-send what we hold within four weeks: your account record, the handles of your
-connections, and the encrypted files and the locked keys if you want them. We
-cannot send readable photographs, because we cannot read them.
+Some things are not in the folder. The comments you left on other people's
+posts are not, and we cannot send them, because we cannot read them; you can
+still read them in the app, on those posts. Your display name, your bio, your
+profile picture and the names of your albums and groups are not in it either.
+
+The folder does not hold what we can read about your account, which *What we
+can see* lists. For a copy of that, write to pykapp+privacy@proton.me from the
+address on your account. If your account has no address, write from any
+address and give your handle, and we will ask you for something only the
+account's owner could know. We will send it within four weeks, as one JSON
+file. That is plain text, and any text editor or web browser opens it. In it:
+
+- other people are named by their handles;
+- three things are left out unless you ask for them: the token we use to send
+  notifications to each of your phones, the public key of each passkey, and
+  the key made from your password. Notifications and sign-in run on them, they
+  say nothing about you, and the file travels by email. Say in your email that
+  you want them and we will send them;
+- four things are left out, and we do not send them even if you ask: any
+  report about you, with who made it and what they wrote; who blocked or
+  muted you; which groups other people have put you in; and when each person
+  first saw your posts. Each would tell you what another person did, and
+  Canada's privacy law tells us not to reveal that. The file does say whether
+  your account is suspended, and since when.
+
+If you no longer have the phone, sign in on another one with your recovery
+phrase. That gets your key back, and the export works there. We cannot send
+readable photographs, because we cannot read them. If you want the encrypted
+files and the locked keys we hold, ask and we will send them. They open only
+with your key.
 
 ## Children
 
