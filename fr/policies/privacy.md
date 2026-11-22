@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 14 novembre 2026.
+**Dernière mise à jour&#160;:** 21 novembre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -369,6 +369,26 @@ puis&#160;:
 - Seules les personnes qui font tourner le service peuvent atteindre nos
   serveurs et notre base de données, et la personne nommée en haut de cette
   page répond de la façon dont elles le font.
+- Notre hébergeur, la société qui nous loue nos serveurs, surveille le compte
+  que nous avons chez lui pour y repérer les signes d'une intrusion, et nous
+  avertit de ce qu'il trouve. Pour cela, il lit trois choses&#160;: le journal
+  où il consigne tout ce que nous faisons sur ses serveurs&#160;; ses relevés
+  des machines avec lesquelles nos serveurs échangent des données, et du moment
+  où ils le font, sans rien de ce qui est envoyé&#160;; et ses relevés de chaque
+  fois qu'un fichier de la deuxième copie des fichiers chiffrés est enregistré,
+  téléchargé ou supprimé. Ces trois choses contiennent des adresses internet.
+  Ce sont les nôtres, celles de nos serveurs, et celles de tout ce qui se sert
+  de ce compte ou échange des données directement avec nos serveurs. Votre
+  téléphone ne fait ni l'un ni l'autre&#160;: il atteint nos serveurs en passant
+  par un équipement que l'hébergeur place devant eux, et son adresse n'est donc
+  dans aucune des trois. Si jamais la société de stockage ne peut plus fournir
+  les fichiers, les téléphones vont les chercher dans la deuxième copie, et le
+  relevé de chaque téléchargement contient alors l'adresse de ce téléphone.
+  L'hébergeur garde le journal jusqu'à un an, comme le dit *Où c'est détenu, et
+  pour combien de temps*. Il ne garde pas les deux autres&#160;: il les lit, en
+  retient ce qui est habituel dans ce compte, puis les supprime. Il garde
+  chacune de ses alertes 90 jours, et une alerte peut nommer l'adresse internet
+  d'où venait l'activité qu'il a vue, ou vers laquelle elle allait.
 - Nous gardons aussi peu que ce dont l'application a besoin, et nous le
   supprimons selon le calendrier ci-dessus.
 

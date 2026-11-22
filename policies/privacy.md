@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 14 November 2026.
+**Last updated:** 21 November 2026.
 
 ## Who is responsible, and where this applies
 
@@ -302,6 +302,23 @@ We keep what is above for as long as your account exists, and then:
 - Only the people who run the service can reach our servers and our database,
   and the person named at the top of this page is responsible for how they
   do.
+- Our hosting provider, the company we rent our servers from, watches the
+  account we have with it for signs of a break-in, and warns us of what it
+  finds. To do that it reads three records: the record of everything we do on
+  its servers; its records of which machines our servers exchange data with
+  and when, which hold nothing of what was sent; and its records of each time
+  a file in the second copy of the encrypted files is saved, fetched or
+  deleted. Those records hold internet addresses. They are our own, our
+  servers', and those of whatever else uses that account or exchanges data
+  directly with our servers. Your phone does neither: it reaches our servers
+  through equipment the provider puts in front of them, so its address is not
+  in these records. If the storage company ever cannot serve the files, phones
+  fetch them from the second copy instead, and the record of each fetch then
+  holds that phone's address. The provider keeps the first record for up to a
+  year, as *Where it is held, and for how long* says. It does not keep the
+  other two: it reads them, learns from them what is usual in that account,
+  and deletes them. It keeps each warning for 90 days, and a warning can name
+  the internet address the activity it saw came from or went to.
 - We keep as little as the app can work with, and delete it on the schedule
   above.
 
