@@ -11,7 +11,7 @@ permalink: /fr/conditions/
 conditions pour l'utiliser. Elles sont courtes exprès, et ce sont un
 contrat&#160;: utiliser l'application, c'est les accepter.
 
-**Dernière mise à jour&#160;:** 31 octobre 2026.
+**Dernière mise à jour&#160;:** 14 novembre 2026.
 
 ## Qui nous sommes
 
@@ -100,14 +100,25 @@ que vous en demandez un, et rien d'autre&#160;: ni publicité ni notification.
 Vous recevez un message par code demandé, et nous limitons le nombre de codes
 envoyés à un même numéro chaque jour. Des frais de messagerie et de données
 peuvent s'appliquer. Répondez STOP pour ne plus recevoir de textos à ce
-numéro&#160;; vous pouvez toujours vous connecter avec une adresse de courriel,
-un mot de passe ou une clé d'accès. Un code que vous n'avez pas demandé veut
-dire que quelqu'un d'autre a saisi votre numéro&#160;: répondez STOP, et
-prévenez-nous à l'adresse indiquée sous *Contact*. Écrivez à la même adresse
-pour de l'aide, ou pour recevoir de nouveau nos textos après avoir répondu
-STOP. Votre numéro de téléphone et votre accord pour recevoir nos textos ne
-sont jamais vendus, loués ni communiqués à un tiers ou à une société affiliée,
-à des fins publicitaires ou à toute autre fin, sauf quand la loi l'exige.
+numéro. Pour les recevoir de nouveau, répondez UNSTOP à l'un de nos textos.
+Une fois que vous avez répondu STOP, nous ne pouvons plus vous envoyer de code
+de connexion par texto. Vous pouvez encore vous connecter si vous avez ajouté
+un autre moyen à votre compte&#160;: un code envoyé à une adresse de courriel,
+votre pseudo et un mot de passe, ou une clé d'accès, qui vous connecte avec
+votre visage, votre empreinte ou le verrouillage de l'écran. Si le code par
+texto est votre seul moyen de vous connecter, répondre STOP vous empêche de
+vous connecter jusqu'à ce que vous répondiez UNSTOP&#160;: avant de répondre
+STOP, ajoutez une adresse de courriel, un mot de passe ou une clé d'accès dans
+les paramètres de l'application. Un code que vous n'avez pas demandé veut dire
+que quelqu'un d'autre a saisi votre numéro. Vous pouvez l'ignorer&#160;:
+personne ne peut se connecter avec votre numéro sans ce code, alors ne le
+donnez à personne. Si vous n'avez pas de compte chez nous, ou si vous avez un
+autre moyen de vous connecter, répondez STOP pour ne plus recevoir ces textos.
+Si les codes continuent d'arriver, prévenez-nous à l'adresse indiquée sous
+*Contact*. Écrivez à la même adresse si vous avez besoin d'aide. Votre numéro
+de téléphone et votre accord pour recevoir nos textos ne sont jamais vendus,
+loués ni communiqués à un tiers ou à une société affiliée, à des fins
+publicitaires ou à toute autre fin, sauf quand la loi l'exige.
 
 ## Google Maps
 

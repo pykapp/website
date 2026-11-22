@@ -7,7 +7,7 @@ permalink: /terms/
 using it. They are short on purpose, and they are a contract: using the app
 means agreeing to them.
 
-**Last updated:** 31 October 2026.
+**Last updated:** 14 November 2026.
 
 ## Who we are
 
@@ -86,13 +86,21 @@ If you sign up or sign in with a phone number, we text that number a one-time
 sign-in code each time you ask for one, and nothing else: no marketing and no
 notifications. You get one message for each code you ask for, and we limit how
 many codes one number is sent in a day. Message and data rates may apply. Reply
-STOP to stop all texts to that number; you can still sign in with an email
-address, a password or a passkey. A code you did not ask for means somebody
-else typed your number: reply STOP, and tell us at the address under *Contact*.
-Write to the same address for help, or to get our texts again after replying
-STOP. Your phone number and your agreement to receive our texts are never sold,
-rented or shared with any third party or affiliate, for marketing or for any
-other purpose, except where the law requires it.
+STOP to stop all texts to that number. To get them again, reply UNSTOP to one
+of our texts. After you reply STOP we cannot text you a sign-in code. You can
+still sign in if you have added another way to your account: a code sent to an
+email address, your handle and a password, or a passkey, which signs you in
+with your face, fingerprint or screen lock. If a texted code is the only way
+you sign in, replying STOP locks you out until you reply UNSTOP, so before you
+reply STOP, add an email address, a password or a passkey in the app's
+settings. A code you did not ask for means somebody else typed your number. You
+can ignore it: nobody can sign in with your number without the code, so do not
+give it to anybody. If you have no account with us, or you have another way to
+sign in, reply STOP to stop the texts. If the codes keep coming, tell us at the
+address under *Contact*. Write to the same address for help. Your phone number
+and your agreement to receive our texts are never sold, rented or shared with
+any third party or affiliate, for marketing or for any other purpose, except
+where the law requires it.
 
 ## Google Maps
 
