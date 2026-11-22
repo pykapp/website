@@ -351,23 +351,41 @@ lists.
 
 ## Who else sees anything
 
-Nobody, unless you share it with them. Only people you have both agreed to
-connect with can see what you post, and only the people you address a post
-to receive it. The exception is an album: what you put in one is seen by
-everybody in it, including people you are not connected to, and the album
-lists who they are. There is no public profile, no search by name, no
-suggestions, and no way for a stranger to find you unless they already know
-your exact handle, email address or phone number. Somebody who knows one can ask to connect,
-unless you have limited requests to people with a mutual in common, and sees
-nothing of yours until you accept.
+Nobody but the people you share it with, and those listed at the end of this
+section. Only people you have both agreed to connect with can see what you
+post, and only the people you address a post to receive it. The exception is
+an album: what you put in one is seen by everybody in it, including people you
+are not connected to, and the album lists who they are. There is no public
+profile, no search by name, no suggestions, and no way for a stranger to find
+you unless they already know your exact handle, email address or phone number.
+Somebody who knows one can ask to connect, unless you have limited requests to
+people with a mutual in common, and sees nothing of yours until you accept.
 
 What you share with someone, they can keep. The app does not stop screenshots
 and cannot recall a photo from a phone that has already downloaded it, any
 more than any other way of sending a photo can.
 
+Outside the app, only these receive anything about you:
+
+- anybody you invite by email, whose invitation carries your display name
+  and, for an album, the album's name;
+- the companies under *Third parties we use*, each as that section describes;
+- Google or Apple, if your phone is set to share usage and diagnostics with
+  them: they get a report when the app crashes, as *What we do not do* says;
+- whoever runs the service next, if it is sold, as *If the company is sold*
+  describes;
+- the National Center for Missing & Exploited Children, about an account we
+  delete for child sexual abuse or exploitation. The law requires us to report
+  the account, and *Deleting your account* says what we keep for that report.
+  The center makes the reports it receives available to law enforcement;
+- authorities that make a lawful request. *Where it is held, and for how long*
+  says what such a request could reach.
+
 ## What we do not do
 
-- We do not sell, rent or share your data with anybody.
+- We do not sell or rent your data to anybody. If the company itself is sold,
+  your data goes with the service, as *If the company is sold* describes.
+  Only those listed under *Who else sees anything* receive it.
 - We do not show advertising and do not build profiles for it.
 - We do not scan content, because we cannot see it.
 - We do not send you engagement notifications: there is no "you haven't
@@ -416,7 +434,7 @@ the number only to deliver it.
 - **Text messages**, through Amazon Web Services, to send one-time sign-in
   codes to a phone number. The provider uses the number and the message only
   to deliver the text. *Text messages* above says who else gets your number:
-  nobody.
+  nobody, unless the law requires it.
 - **Google Maps**, if you add a place to a post. While you search, your phone
   sends Google what you type, with your phone's internet address. When anybody
   taps the place on a post, their phone opens Google Maps with the words the
@@ -441,6 +459,10 @@ provide that part to us; Google Maps uses it as the Google Privacy Policy says.
 Using the app means your information goes to them and to the United States,
 and writing to us means your email goes to Switzerland. This page is where we
 tell you so before you sign up.
+
+The National Center for Missing & Exploited Children is not a company we use.
+It receives only a report about an account we delete for child sexual abuse
+or exploitation, as *Deleting your account* describes.
 
 ## If the company is sold
 
@@ -517,7 +539,7 @@ about it:
 - each handle it chose, and when it had each one;
 - its two public keys;
 - when it joined, and when it confirmed it was 18 or older;
-- when we suspended it, if it was suspended at the time;
+- whether it was suspended for any reason when we deleted it, and since when;
 - each phone it was still signed in on, with that phone's push token and the
   version of the app on it;
 - each time it signed in on a phone: when, when it last used the app there,

@@ -426,7 +426,8 @@ servir, et les métadonnées que cette page énumère.
 
 ## Qui d'autre voit quelque chose
 
-Personne, sauf si vous le partagez avec lui. Seules les personnes avec qui vous
+Personne, sauf ceux avec qui vous le partagez et ceux que nomme la fin de
+cette section. Seules les personnes avec qui vous
 avez toutes deux accepté d'être en relation peuvent voir ce que vous publiez,
 et seuls les destinataires d'une publication la reçoivent. L'exception est un
 album&#160;: ce que vous y mettez est vu par tous ceux qui s'y trouvent, y
@@ -443,9 +444,33 @@ L'application n'empêche pas les captures d'écran et ne peut pas rappeler une
 photo d'un téléphone qui l'a déjà téléchargée, pas plus que n'importe quelle
 autre façon d'envoyer une photo.
 
+En dehors de l'application, seuls ceux-ci reçoivent quoi que ce soit à votre
+sujet&#160;:
+
+- toute personne que vous invitez par courriel, dont l'invitation porte votre
+  nom affiché et, pour un album, le nom de l'album&#160;;
+- les sociétés décrites sous *Les tiers que nous utilisons*, chacune comme le
+  décrit cette section&#160;;
+- Google ou Apple, si votre téléphone est réglé pour partager l'usage et les
+  diagnostics avec eux&#160;: ils reçoivent un rapport quand l'application
+  plante, comme le dit *Ce que nous ne faisons pas*&#160;;
+- quiconque exploite le service ensuite, si la société est vendue, comme le
+  décrit *Si la société est vendue*&#160;;
+- le National Center for Missing & Exploited Children, au sujet d'un compte
+  que nous supprimons parce qu'il participait à l'exploitation ou aux abus
+  sexuels concernant des enfants. La loi nous oblige à signaler ce compte, et
+  *Supprimer votre compte* dit ce que nous gardons pour ce signalement. Le
+  centre met les signalements qu'il reçoit à la disposition des forces de
+  l'ordre&#160;;
+- les autorités qui nous font une demande légale. *Où c'est détenu, et pour
+  combien de temps* dit ce qu'une telle demande pourrait atteindre.
+
 ## Ce que nous ne faisons pas
 
-- Nous ne vendons, ne louons et ne partageons vos données avec personne.
+- Nous ne vendons ni ne louons vos données à personne. Si la société
+  elle-même est vendue, vos données suivent le service, comme le décrit *Si
+  la société est vendue*. Seuls ceux que nomme *Qui d'autre voit quelque
+  chose* les reçoivent.
 - Nous n'affichons pas de publicité et ne construisons pas de profils pour en
   afficher.
 - Nous ne scannons pas le contenu, parce que nous ne pouvons pas le voir.
@@ -501,7 +526,7 @@ envoie chaque texto pour nous et ne se sert du numéro que pour le livrer.
 - **Les textos**, par Amazon Web Services, pour envoyer les codes de connexion
   à usage unique à un numéro de téléphone. Le prestataire ne se sert du numéro
   et du message que pour livrer le texto. *Les textos* plus haut dit qui
-  d'autre reçoit votre numéro&#160;: personne.
+  d'autre reçoit votre numéro&#160;: personne, sauf quand la loi l'exige.
 - **Google Maps**, si vous ajoutez un lieu à une publication. Pendant votre
   recherche, votre téléphone envoie à Google ce que vous tapez, avec l'adresse
   internet de votre téléphone. Quand quelqu'un touche le lieu d'une
@@ -533,6 +558,11 @@ dire que vos renseignements vont chez eux et aux États-Unis, et nous écrire
 veut dire que votre courriel va en Suisse. Cette page est l'endroit où nous
 vous le disons avant votre
 inscription.
+
+Le National Center for Missing & Exploited Children n'est pas une société que
+nous utilisons. Il ne reçoit qu'un signalement au sujet d'un compte que nous
+supprimons parce qu'il participait à l'exploitation ou aux abus sexuels
+concernant des enfants, comme le décrit *Supprimer votre compte*.
 
 ## Si la société est vendue
 
@@ -630,8 +660,8 @@ une copie des données suivantes à son sujet&#160;:
 - ses deux clés publiques&#160;;
 - la date de son inscription, et le moment où il a confirmé avoir 18 ans ou
   plus&#160;;
-- le moment où nous l'avons suspendu, s'il était suspendu à ce
-  moment-là&#160;;
+- s'il était suspendu, pour quelque raison que ce soit, quand nous l'avons
+  supprimé, et depuis quand&#160;;
 - chaque téléphone où sa session était encore ouverte, avec le jeton d'envoi
   de ce téléphone et la version de l'application qui y était installée&#160;;
 - chaque session qu'il a ouverte sur un téléphone&#160;: le moment où il l'a

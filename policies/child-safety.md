@@ -99,7 +99,7 @@ records we hold about it:
 - each handle we have recorded for it, and when it had each one;
 - its two public keys;
 - when it joined, and when it said it was eighteen or over;
-- when we suspended it, if it was already suspended for something else;
+- whether it was suspended for any reason when we deleted it, and since when;
 - each phone it was signed in on, with that phone's push token and the
   version of the app on it;
 - each time it signed in, when that sign-in was last used, and when it signed
@@ -117,10 +117,10 @@ records we hold about it:
   or that used the invitation's code, if there is one;
 - what the report we acted on said or, for a report by email, our note of it.
 
-We report it to the National Center for Missing & Exploited Children (NCMEC)
-and to law enforcement in the jurisdictions that apply to us. We keep those
+We report it to the National Center for Missing & Exploited Children (NCMEC),
+which makes the reports it receives available to law enforcement. We keep those
 records for a year from our report, as United States law requires, and then
-we delete them. We comply with lawful requests from those authorities.
+we delete them. We comply with lawful requests from law enforcement.
 
 If we find we were wrong about the account, we make no report and delete
 those records. Without a report, they are deleted no later than a year after

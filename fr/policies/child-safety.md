@@ -116,7 +116,8 @@ détenons à son sujet&#160;:
 - ses deux clés publiques&#160;;
 - la date de son inscription, et le moment où il a déclaré avoir dix-huit ans
   ou plus&#160;;
-- le moment où nous l'avons suspendu, s'il l'était déjà pour autre chose&#160;;
+- s'il était suspendu, pour quelque raison que ce soit, quand nous l'avons
+  supprimé, et depuis quand&#160;;
 - chaque téléphone où sa session était ouverte, avec le jeton d'envoi de ce
   téléphone et la version de l'application qui y était installée&#160;;
 - chaque fois qu'il a ouvert une session, quand cette session a servi pour la
@@ -138,11 +139,11 @@ détenons à son sujet&#160;:
 - ce que disait le signalement auquel nous avons donné suite ou, pour un
   signalement par courriel, notre note à son sujet.
 
-Nous le signalons au National Center for Missing & Exploited Children (NCMEC) ainsi
-qu'aux forces de l'ordre des juridictions qui s'appliquent à nous. Nous
-gardons ces données un an à compter de notre signalement, comme l'exige la loi
-des États-Unis, puis nous les supprimons. Nous donnons suite aux demandes
-légales de ces autorités.
+Nous le signalons au National Center for Missing & Exploited Children (NCMEC),
+qui met les signalements qu'il reçoit à la disposition des forces de l'ordre.
+Nous gardons ces données un an à compter de notre signalement, comme l'exige
+la loi des États-Unis, puis nous les supprimons. Nous donnons suite aux
+demandes légales des forces de l'ordre.
 
 Si nous constatons que nous nous sommes trompés au sujet du compte, nous ne le
 signalons pas et nous supprimons ces données. Sans signalement de notre part,
