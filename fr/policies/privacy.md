@@ -109,6 +109,13 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
 
 - votre pseudo, et votre adresse de courriel et votre numéro de téléphone si
   vous nous en avez donné&#160;;
+- le moment où vous avez changé d'adresse de courriel pour la dernière fois, et
+  celui où vous avez changé de numéro de téléphone pour la dernière fois.
+  Pendant trois jours après un changement, un code envoyé à la nouvelle adresse
+  ou au nouveau numéro ne peut pas servir à définir un mot de passe, et la
+  nouvelle adresse ou le nouveau numéro ne peut pas être retiré du compte.
+  C'est pour que quelqu'un qui prend votre téléphone déverrouillé ne puisse pas
+  changer votre adresse et s'en servir aussitôt pour vous prendre le compte&#160;;
 - chaque pseudo que vous choisissez, avec le moment où vous l'avez choisi et,
   si vous en avez changé depuis, le moment où vous avez cessé de l'utiliser.
   Si quelqu'un nous écrit pour signaler un compte ou nous demander de retirer
@@ -158,6 +165,12 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   arrivée ou plus tard. Nous nous en servons seulement pour compter
   combien de personnes les invitations font venir, et combien d'entre elles
   utilisent encore l'application un mois plus tard&#160;;
+- le moment de chaque invitation que vous avez faite au cours des dernières 24
+  heures, à l'application ou à un album. Cette liste est distincte des
+  invitations elles-mêmes, décrites plus haut&#160;: elle ne contient que des
+  moments, et jamais qui a été invité. Nous nous en servons seulement pour
+  limiter le nombre de personnes qu'un compte peut inviter en un jour, et
+  chaque moment est supprimé au plus tard 25 heures après l'invitation&#160;;
 - le pays auquel votre téléphone était réglé quand vous avez créé votre
   compte ou, si vous l'avez créé avant le 22 septembre 2026, la première fois
   que vous avez ouvert l'application après l'avoir mise à jour. Il est écrit une
@@ -169,6 +182,14 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   nous envoyons à tout le monde par courriel soient dans votre langue. Votre
   téléphone l'envoie chaque fois que l'application s'ouvre, donc elle change
   quand vous changez la langue de l'application&#160;;
+- pour chaque avis que nous publions dans l'application pour tout le
+  monde&#160;: le moment où l'application vous l'a montré pour la première fois,
+  celui où vous l'avez fermé, et celui où nous vous l'avons envoyé par
+  courriel&#160;;
+- le nom de tout changement à l'application que nous avons activé pour votre
+  compte avant de l'activer pour tout le monde. Un changement à l'application
+  peut être activé pour quelques comptes avant de l'être pour tout le monde, et
+  ce nom est ce qui dit à l'application de vous le montrer&#160;;
 - dans lesquels de vos groupes une personne se trouve (jamais montré à cette
   personne)&#160;;
 - qui est dans chaque album où vous êtes&#160;;
@@ -183,6 +204,16 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   moment par personne et par publication&#160;; rien n'enregistre quelles
   photos quelqu'un a regardées, et ce moment n'est jamais montré à
   personne&#160;;
+- pour chaque fichier chiffré que votre téléphone demande à téléverser&#160;: le nom
+  sous lequel il est stocké, un nom tiré au hasard qui ne dit rien du fichier,
+  sa taille, le moment où nous avons autorisé le téléversement, celui où cette
+  autorisation a pris fin, et celui où le fichier est devenu une partie d'une
+  publication ou votre photo de profil. Nous nous en servons pour limiter ce
+  qu'un compte peut téléverser en une heure, et pour qu'un fichier ne puisse
+  être mis que dans une seule publication, et seulement par le compte qui l'a
+  téléversé. Si le fichier n'a jamais servi, cette trace est supprimée avec
+  lui. S'il a servi, nous gardons la trace sans date de fin, même après la
+  suppression de la publication&#160;;
 - pour chaque commentaire&#160;: qui l'a écrit, sur quelle publication, quand,
   et à quel commentaire il répond&#160;;
 - les réactions, qui sont un émoji chacune et sont stockées en clair parce
@@ -218,10 +249,34 @@ Pour livrer une photo aux bonnes personnes, nous détenons, en clair&#160;:
   vous l'avez ouverte, celui où elle a servi pour la dernière fois, et celui où
   vous l'avez fermée. Tant que la session est ouverte, nous détenons aussi le
   jeton d'envoi de ce téléphone, s'il s'agit d'un téléphone Android ou d'un
-  iPhone, et quelle version de l'application y est installée&#160;;
+  iPhone, quelle version de l'application y est installée et, pour un iPhone,
+  les notifications dont cette version de l'application contient le texte,
+  pour que l'iPhone puisse les afficher sans ouvrir l'application.
+  C'est la même chose pour tous les iPhone qui ont cette version, et cela ne
+  dit rien des notifications que vous avez autorisées&#160;;
 - vos deux clés publiques, celle qui verrouille vos photos et celle qui signe
-  vos publications. Ce sont les moitiés faites pour être distribuées. Nous
-  gardons aussi le moment où la première a été publiée&#160;;
+  vos publications. Ce sont les moitiés faites pour être distribuées. Pour la
+  clé qui verrouille vos photos, nous gardons aussi le moment où vous avez
+  commencé à l'utiliser. Si vous l'avez remplacée, par exemple avec *créer
+  une nouvelle clé* dans les paramètres, nous gardons aussi chaque clé que
+  vous aviez avant, avec le moment où vous avez commencé à l'utiliser et
+  celui où vous l'avez remplacée&#160;;
+- l'adresse internet de votre téléphone, qui nous parvient avec chaque requête,
+  comme sur tout service internet. Nous ne l'enregistrons jamais&#160;: elle n'est
+  ni dans notre base de données ni dans nos journaux. Le pare-feu de notre
+  hébergeur compte les requêtes de chaque adresse internet sur cinq minutes, et
+  refuse celle qui en envoie trop. Nos serveurs la retiennent peu de temps sans
+  l'enregistrer, si bien qu'un redémarrage l'efface&#160;: jusqu'à deux heures après
+  une demande de code de connexion ou le début d'une autre sorte de connexion,
+  et jusqu'à 25 heures après un mauvais mot de passe, avec le pseudo auquel ce
+  mot de passe était destiné. Nous nous en servons seulement pour limiter le
+  nombre de codes de connexion et de mauvais mots de passe qui peuvent venir
+  d'une même adresse internet. La trace des connexions par mot de passe que
+  décrit *Où c'est détenu, et pour combien de temps* en est une autre, et ne
+  contient aucune adresse internet. La société qui stocke les fichiers chiffrés
+  voit votre adresse internet chaque fois que votre téléphone en téléverse un
+  ou va en chercher un, parce que votre téléphone le fait directement auprès
+  d'elle&#160;;
 - le moment où vous avez confirmé avoir 18 ans ou plus (jamais votre date de
   naissance)&#160;;
 - des comptes de ce que votre téléphone a pu et n'a pas pu ouvrir, de s'il a
@@ -268,6 +323,19 @@ d'autre&#160;:
   tard&#160;;
 - compter avec combien de personnes les nouveaux comptes entrent en relation,
   à partir des demandes d'ajout qui ont été acceptées&#160;;
+- compter, à partir de ce que nous détenons déjà, combien de comptes sont créés
+  chaque semaine et chaque mois, combien d'entre eux publient et à quelle
+  fréquence, combien de photos les gens reçoivent en une semaine et avec
+  combien de personnes ils sont en relation. Chacun de ces chiffres est un
+  nombre de comptes, sans nom, pseudo ni identifiant, et nous nous en servons
+  pour décider combien dépenser en publicité pour faire connaître
+  l'application. L'application elle-même n'affiche aucune publicité&#160;;
+- limiter le nombre de codes de connexion demandés et de mauvais mots de passe
+  donnés, depuis une même adresse internet ou pour un même compte, et le nombre
+  de fois qu'un compte peut chercher quelqu'un par son pseudo, son adresse de
+  courriel ou son numéro de téléphone, inviter ou téléverser&#160;;
+- activer un changement à l'application pour quelques comptes avant tout le
+  monde&#160;;
 - faire ce que la loi exige de nous.
 
 Un pseudo, votre date de naissance, et une adresse de courriel, un numéro de
@@ -641,6 +709,11 @@ page](/fr/supprimer-votre-compte/) explique comment demander sans elle&#160;:
   votre application aussi&#160;;
 - la liste des pseudos que vous avez choisis, avec leurs dates, est
   supprimée&#160;;
+- les clés publiques que vous aviez avant, avec leurs dates, sont
+  supprimées&#160;;
+- la trace des avis que vous avez vus et reçus par courriel est supprimée,
+  ainsi que les moments de vos invitations des dernières 24 heures et les noms
+  des changements activés pour votre compte&#160;;
 - ce que nous détenons sur chacune de vos clés d'accès est supprimé. La clé
   d'accès reste dans votre gestionnaire de mots de passe, où elle n'ouvre plus
   rien.
@@ -661,7 +734,11 @@ avec la même adresse crée un nouveau compte, vide.
 Ce que nous gardons ensuite l'est sous un identifiant qui ne porte plus votre
 nom, votre pseudo, votre adresse ni votre clé&#160;: le fait que le compte a
 existé, quand il a été créé, quand il a confirmé son âge et quand il a été
-supprimé&#160;; les blocages que vous avez posés ou qui ont été posés contre
+supprimé&#160;; le moment où vous avez changé d'adresse de courriel pour la
+dernière fois et celui où vous avez changé de numéro de téléphone pour la
+dernière fois, mais ni l'adresse ni le numéro&#160;; la trace de chaque fichier
+chiffré que vous avez téléversé et qui a servi, avec le nom sous lequel il
+était stocké, sa taille et ses dates&#160;; les blocages que vous avez posés ou qui ont été posés contre
 vous&#160;; les signalements que vous avez déposés ou qui ont été déposés à
 votre sujet, et les rapports de problème que vous avez envoyés&#160;; le pays
 écrit pour votre compte&#160;; chaque session que vous avez ouverte sur un

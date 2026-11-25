@@ -91,6 +91,12 @@ number, and when each was last saved.
 To deliver a photo to the right people we hold, in the clear:
 
 - your handle, and your email address and phone number if you gave us either;
+- when you last changed your email address, and when you last changed your
+  phone number. For three days after a change, a code sent to the new address
+  or number cannot be used to set a password, and the new one cannot be removed
+  from the account. That is so that somebody who picks up your unlocked phone
+  cannot change your address and use it straight away to take the account from
+  you;
 - every handle you choose, with when you chose it and, if you have changed it
   since, when you stopped using it. If somebody emails us to report an account
   or to ask us to take something down, and names the account by its handle,
@@ -130,6 +136,11 @@ To deliver a photo to the right people we hold, in the clear:
   or after the 30th day after you joined. We use it only to count how many
   people invitations bring in, and how many of them are still using the app
   a month later;
+- the time of each invitation you made in the last 24 hours, to the app or into
+  an album. This list is apart from the invitations themselves, described
+  above: it holds times only, and never who was invited. We use it only to
+  limit how many people one account can invite in a day, and each time is
+  deleted at most 25 hours after the invitation;
 - the country your phone was set to when you made your account or, if you made
   it before 22 September 2026, the first time you opened the app after updating
   it. It is written once and never updated. We use it only to count how many
@@ -138,6 +149,12 @@ To deliver a photo to the right people we hold, in the clear:
 - the language your app is set to, English or French, so that the notices we
   email everybody are in your language. Your phone sends it each time the app
   opens, so it changes when you change the app's language;
+- for each notice we post in the app for everybody: when the app first showed
+  it to you, when you dismissed it, and when we emailed it to you;
+- the name of any change to the app that we switched on for your account before
+  switching it on for everybody. A change to the app can be switched on for a
+  few accounts before it is switched on for everybody, and the name is what
+  tells the app to show it to you;
 - which of your groups a person is in (never shown to that person);
 - who is in each album you are in;
 - for every post: who made it, when, whether and when it was edited, who it
@@ -149,6 +166,14 @@ To deliver a photo to the right people we hold, in the clear:
   recipient has seen it and when they first did. That is one moment per person
   per post; nothing records which photographs anybody looked at, and nobody is
   ever shown it;
+- for each encrypted file your phone asks to upload: the name it is stored
+  under, which is a random name that says nothing about the file, its size,
+  when we allowed the upload, when that permission ran out, and when the file
+  became part of a post or your profile picture. We use it to limit how much
+  one account can upload in an hour, and so that a file can be put in one post
+  only, and only by the account that uploaded it. If the file was never used,
+  this record is deleted with the file. If it was used, we keep the record with
+  no end date, even after the post is deleted;
 - for every comment: who wrote it, on which post, when, and which comment it
   answers;
 - reactions, which are one emoji each and are stored in the clear because a
@@ -176,11 +201,32 @@ To deliver a photo to the right people we hold, in the clear:
   unless we set it aside as *Deleting your account* describes;
 - each time you signed in on a phone: when you did, when you last used the app
   there, and when you signed out. While you are signed in there, we also hold
-  that phone's push token, whether it is an Android phone or an iPhone, and
-  which version of the app it runs;
+  that phone's push token, whether it is an Android phone or an iPhone,
+  which version of the app it runs and, for an iPhone, which of our
+  notifications that version of the app holds the words for, so that the
+  iPhone can show them without opening the app. That is the same for every
+  iPhone on that version, and says nothing about the notifications you
+  allowed;
 - your two public keys, the one your photos are locked to and the one your
   posts are signed with. Both are the halves that are meant to be handed out.
-  We also keep when the first was published;
+  For the key your photos are locked to, we also keep when you started using
+  it. If you have replaced it, for example with *make a new key* in settings,
+  we also keep each key you had before, with when you started using it and
+  when you replaced it;
+- your phone's internet address, which reaches us with every request, as it
+  does on any internet service. We never save it: it is not in our database and
+  not in our logs. Our hosting provider's firewall counts the requests from
+  each internet address over five minutes, and refuses one that sends too many.
+  Our servers remember it for a short time without saving it, so a restart
+  forgets it: for up to two hours after a request for a sign-in code or the
+  start of another kind of sign-in, and for up to 25 hours after a wrong
+  password, together with the handle that password was for. We use it only to
+  limit how many sign-in codes and how many wrong passwords can come from one
+  internet address. The record of password sign-ins that *Where it is held, and
+  for how long* describes is a different one, and holds no internet address.
+  The company that stores the encrypted files sees your internet address each
+  time your phone uploads or fetches one, because your phone does that with
+  that company directly;
 - the moment you confirmed you were 18 or older (never your date of birth);
 - counts of what your phone could and could not open, of whether it showed
   each notification we sent it, and of whether Google answered its searches
@@ -219,6 +265,17 @@ We use what we hold for these things and nothing else:
   them are still using the app a month later;
 - to count how many people new accounts connect with, from the add requests
   that were accepted;
+- to count, from what we already hold, how many accounts are made each week and
+  each month, how many of them post and how often, how many photos reach people
+  in a week and how many people they are connected to. Each figure is a number
+  of accounts, with no name, handle or identifier in it, and we use them to
+  decide how much to spend on advertising the app. The app itself shows no
+  advertising;
+- to limit how many sign-in codes can be asked for and how many wrong passwords
+  given, from one internet address or for one account, and how often one
+  account can look somebody up by their handle, email address or phone number,
+  invite or upload;
+- to switch a change to the app on for a few accounts before everybody;
 - to do what the law requires of us.
 
 A handle, your date of birth, and an email address, a phone number or a
@@ -528,6 +585,10 @@ to ask without it:
 - your handle and any email address and phone number are freed, any key made
   from a password is deleted, and so is the language your app was set to;
 - the list of the handles you chose, with their dates, is deleted;
+- the public keys you had before, with their dates, are deleted;
+- the record of the notices you saw and were emailed is deleted, and so are the
+  times of your invitations in the last 24 hours and the names of the changes
+  switched on for your account;
 - what we hold about each of your passkeys is deleted. The passkey stays in
   your password manager, where it no longer opens anything.
 
@@ -544,7 +605,11 @@ account.
 
 What we keep afterwards is kept under an identifier that no longer carries your
 name, handle, address or key: that the account existed, when it was made, when
-it confirmed its age and when it was deleted; blocks you placed or that were
+it confirmed its age and when it was deleted; when you last changed your
+email address and when you last changed your phone number, but not the
+address or the number;
+the record of each encrypted file you uploaded that was used, with the name
+it was stored under, its size and its dates; blocks you placed or that were
 placed against you; reports you filed or that were filed about you, and bug
 reports you sent; the country written for your account;
 each time you signed in on a phone, with when you last used the app there and
