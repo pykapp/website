@@ -13,7 +13,7 @@ sujet, ce que nous ne pouvons pas voir, et ce qui se passe quand vous partez.
 Elle est écrite pour être lue, pas survolée&#160;; elle est courte parce qu'il
 n'y a pas grand-chose à dire.
 
-**Dernière mise à jour&#160;:** 21 novembre 2026.
+**Dernière mise à jour&#160;:** 24 novembre 2026.
 
 ## Qui est responsable, et où ceci s'applique
 
@@ -338,8 +338,8 @@ d'autre&#160;:
   monde&#160;;
 - faire ce que la loi exige de nous.
 
-Un pseudo, votre date de naissance, et une adresse de courriel, un numéro de
-téléphone ou un mot de passe sont ce dont un compte a besoin&#160;: sans eux, nous ne pouvons pas en
+Un pseudo, votre date de naissance (que nous vérifions sans la garder), et une
+adresse de courriel, un numéro de téléphone ou un mot de passe sont ce dont un compte a besoin&#160;: sans eux, nous ne pouvons pas en
 créer un. Tout le reste, vous le donnez ou non.
 
 ## Où c'est détenu, et pour combien de temps
@@ -728,8 +728,9 @@ contenait votre pseudo ou votre adresse de courriel reste dans le journal où
 notre hébergeur consigne ce que nous faisons sur ses serveurs, jusqu'à un an
 après avoir été tapé. La deuxième copie des fichiers chiffrés garde
 chaque fichier 30 jours après qu'il a quitté le stockage, donc le dernier en
-est parti moins de six semaines après la touche. Se connecter pendant ce temps
-avec la même adresse crée un nouveau compte, vide.
+est parti moins de six semaines après la touche. S'inscrire de nouveau pendant
+ce temps avec la même adresse crée un nouveau compte, vide. L'ancien ne revient
+pas.
 
 Ce que nous gardons ensuite l'est sous un identifiant qui ne porte plus votre
 nom, votre pseudo, votre adresse ni votre clé&#160;: le fait que le compte a

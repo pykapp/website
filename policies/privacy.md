@@ -8,7 +8,7 @@ know. This page says what we hold about you, what we cannot see, and what
 happens when you leave. It is written to be read, not skimmed; it is short
 because there is not much to say.
 
-**Last updated:** 21 November 2026.
+**Last updated:** 24 November 2026.
 
 ## Who is responsible, and where this applies
 
@@ -278,8 +278,8 @@ We use what we hold for these things and nothing else:
 - to switch a change to the app on for a few accounts before everybody;
 - to do what the law requires of us.
 
-A handle, your date of birth, and an email address, a phone number or a
-password are what an account needs: without them we cannot make one. Everything else is yours to
+A handle, your date of birth (which we check and do not keep), and an email
+address, a phone number or a password are what an account needs: without them we cannot make one. Everything else is yours to
 give or not.
 
 ## Where it is held, and for how long
@@ -600,8 +600,8 @@ by hand. Anything we typed by hand that held your handle or email address stays
 in our hosting provider's record of what we do on its servers for up to a year
 after it was typed. The second copy of the encrypted files keeps each file for 30 days
 after it leaves storage, so the last of them is gone within six weeks of the
-tap. Signing in during that time with the same address starts a new, empty
-account.
+tap. Signing up again during that time with the same address makes a new,
+empty account. It does not bring back the old one.
 
 What we keep afterwards is kept under an identifier that no longer carries your
 name, handle, address or key: that the account existed, when it was made, when
