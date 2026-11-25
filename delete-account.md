@@ -86,6 +86,12 @@ phrase to anybody, us included.
   account can be used for a new one.
 - If you used a password to sign in, what we kept to check it is deleted. We
   never had the password itself.
+- If you signed in with a passkey, what we kept to check it is deleted. The
+  passkey itself stays in your password manager, which is where your phone
+  saves passwords. It no longer signs in to anything, and you can delete it
+  there.
+- The list of the handles you have had is deleted, and so is our note of the
+  language your app was set to.
 
 Your photos and videos are stored on our servers as encrypted files. After the
 account is deleted, they are removed in two steps:
@@ -112,12 +118,23 @@ app.
 
 Some records stay after the account is deleted, kept under a number that no
 longer leads to your name, handle, email address or keys. They include that
-the account existed; blocks and reports, by you or about you; the country set
-in your phone's settings; when you
-signed in; and a record of each of your posts and comments, saying when it was
-made and, for a post, who it was shared with. The [privacy policy](/privacy/)
-lists them all. The text of your comments stays too, encrypted and shown to
-nobody, for as long as the posts they are on exist.
+the account existed, when it was made, when you confirmed your age and when
+it was deleted; blocks and reports, by you or about you; the bug reports you
+sent, with what you wrote in them; the country set in your phone's settings;
+when you signed in; and a record of each of your posts and comments, saying
+when it was made and, for a post, who it was shared with. The
+[privacy policy](/privacy/) lists them all. The text of your comments stays
+too, encrypted and shown to nobody, for as long as the posts they are on
+exist.
+
+If you joined through an invitation to an album, we keep that the invitation
+was used, when, and whether the app was still being used a month later, to
+count how many people invitations bring in. Nothing in that record says it was
+you.
+
+Your comments and reactions are gone, but a line in somebody else's activity
+tab about something you did, such as commenting on their post, can stay until
+it is 128 days old. It no longer shows your name, handle or profile picture.
 
 A record of each connection you made stays as well. Two people are connected
 when one accepts the other's add request, and we keep each request that was

@@ -105,6 +105,13 @@ même à nous.
   numéro de téléphone du compte peut servir à créer un nouveau compte.
 - Si vous vous connectiez avec un mot de passe, les données qui servaient à le
   vérifier sont supprimées. Nous n'avons jamais eu le mot de passe lui-même.
+- Si vous vous connectiez avec une clé d'accès, les données qui servaient à la
+  vérifier sont supprimées. La clé d'accès elle-même reste dans votre
+  gestionnaire de mots de passe, là où votre téléphone enregistre vos mots de
+  passe. Elle ne permet plus de se connecter à quoi que ce soit, et vous
+  pouvez l'y supprimer.
+- La liste des pseudos que vous avez eus est supprimée, ainsi que la langue de
+  votre application, que nous avions notée.
 
 Vos photos et vos vidéos sont conservées sur nos serveurs sous forme de
 fichiers chiffrés. Après la suppression du compte, elles en sont retirées en
@@ -136,14 +143,27 @@ utiliser l'application.
 Certaines données restent après la suppression du compte, conservées sous un
 numéro qui ne permet plus de remonter à votre nom, à votre pseudo, à votre
 adresse de courriel ni à vos clés. On y trouve le fait que le compte a existé,
-les blocages et les signalements, faits par vous ou à votre sujet, le pays
-choisi dans les paramètres de votre téléphone, la date de vos connexions, et
-une trace de chacune de vos publications et de chacun de vos commentaires,
-avec sa date et, pour une publication, les personnes avec qui elle a été
-partagée. La [politique de
+la date à laquelle il a été créé, celle à laquelle vous avez confirmé votre
+âge et celle à laquelle il a été supprimé, les blocages et les signalements,
+faits par vous ou à votre sujet, les problèmes de l'application que vous nous
+avez signalés, avec ce que vous y avez écrit, le pays choisi dans les
+paramètres de votre téléphone, la date de vos connexions, et une trace de
+chacune de vos publications et de chacun de vos commentaires, avec sa date et,
+pour une publication, les personnes avec qui elle a été partagée. La
+[politique de
 confidentialité](/fr/politique-de-confidentialite/) les énumère toutes. Le
 texte de vos commentaires reste aussi, chiffré et sans que personne puisse le
 lire, tant que les publications où ils se trouvent existent.
+
+Si vous avez rejoint l'application par une invitation à un album, nous gardons
+le fait que l'invitation a servi, la date, et si l'application était encore
+utilisée un mois plus tard, pour compter combien de personnes les invitations
+amènent. Plus rien dans cette trace n'indique que c'était vous.
+
+Vos commentaires et vos réactions ont disparu, mais dans l'onglet activité
+d'une autre personne, une ligne sur ce que vous avez fait, par exemple un
+commentaire sur sa publication, peut rester jusqu'à ce qu'elle ait 128 jours.
+Elle n'affiche plus votre nom, votre pseudo ni votre photo de profil.
 
 Une trace de chaque relation que vous avez eue reste aussi. Deux personnes
 sont en relation quand l'une accepte la demande d'ajout de l'autre, et nous
